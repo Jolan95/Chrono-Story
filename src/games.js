@@ -5,7 +5,6 @@ import Heart from './heart';
 import Modal from './modal';
 
 function Games(props) {
-    
   	const [questionAvailable, setQuestionAvailable] = useState(props.datas)
   	const [life, setLife] = useState(3);
   	const [score, setScore] = useState(0);
@@ -15,6 +14,26 @@ function Games(props) {
 	const [basicModal, setBasicModal] = useState(false);
 	const [basicModalWin, setBasicModalWin] = useState(false);
 
+	useEffect (() =>{
+		let user = JSON.parse(localStorage.getItem("user"));
+		let id = user._id
+		var myInit = { 
+			method: 'POST',
+			mode: 'cors',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({id : id, score : score,  game : props.name})
+		}
+		fetch("http://localhost:3000/api/auth/highscore",myInit)
+		.then(res => res.json())
+		.then(
+		  (response) => {
+				console.log(response)
+		  },
+		  (error) => {
+			console.log(error)
+		  }
+		)
+	},[score, setScore])
 
   	useEffect(()=> {
 		if(questionAvailable.length > 0){
@@ -71,7 +90,7 @@ function Games(props) {
 		setBasicModalWin(false)
 	}
 
-	console.log(questionAvailable)
+
 	const toggleShow = () => setBasicModal(!basicModal);
 	const toggleShowWin = () => setBasicModalWin(!basicModalWin);
 
@@ -91,8 +110,8 @@ function Games(props) {
   	    	{questionAnswered.map((data, index)=> {
   	    	 	return <Box datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index}></Box>
   	    	})}
-			<Modal actionReset={trim}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score = {score}  >Oops...Vous n'avez plus de vies</Modal>
-			<Modal actionReset={trim} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score = {score} >Bravo !!!</Modal>
+			<Modal actionReset={trim}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Oops...Vous n'avez plus de vies</Modal>
+			<Modal actionReset={trim} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Bravo !!!</Modal>
   	    </header>
   	  </div>
   	);

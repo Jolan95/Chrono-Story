@@ -26,11 +26,11 @@
     {"id" : 25, "question" : "Plan Leproux", "date" : 2010, "answer" : null},
     {"id" : 26, "question" : "Signature de Makélélé", "date" : 2008, "answer" : null},
     {"id" : 27, "question" : "Amara Diané sauve le PSG de la relégation", "date" : 2008, "answer" : null},
-    {"id" : 28, "question" : "1er titre de champion de l’ère QSI", "date" : 2011, "answer" : null},
-    {"id" : 29, "question" : "Lyon 4-4 PSG", "date" : 2012, "answer" : null}
-    {"id" : 30, "question" : "Signature de Mustahpa Dahleb", "date" : 1974, "answer" : null}
-    {"id" : 30, "question" : "Signature de Safet Susic", "date" : 1982, "answer" : null}
-    {"id" : 30, "question" : "Signature de Raí", "date" : 1993, "answer" : null}
-    {"id" : 30, "question" : "Signature de  George Weah", "date" : 1992, "answer" : null}
+    {"id" : 28, "question" : "1er titre de champion de l’ère QSI", "date" : 2013, "answer" : null},
+    {"id" : 29, "question" : "Lyon 4-4 PSG", "date" : 2012, "answer" : null},
+    {"id" : 30, "question" : "Signature de Mustahpa Dahleb", "date" : 1974, "answer" : null},
+    {"id" : 30, "question" : "Signature de Safet Susic", "date" : 1982, "answer" : null},
+    {"id" : 30, "question" : "Signature de Raí", "date" : 1993, "answer" : null},
+    {"id" : 30, "question" : "Signature de  George Weah", "date" : 1992, "answer" : null},
     {"id" : 30, "question" : "Signature de  Verratti et Thiago Silva", "date" : 2012, "answer" : null}
 ]

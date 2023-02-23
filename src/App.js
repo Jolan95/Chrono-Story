@@ -1,5 +1,6 @@
 import './App.css';
 import Games from "./games.js"
+import React,{ useState } from 'react';
 import {  BrowserRouter,  Routes,  Route} from "react-router-dom";
 import datas1789 from './datas/1789.json'
 import datasMiddleAge from "./datas/middleAge.json"
@@ -14,11 +15,30 @@ import datasUSAPresident from "./datas/USAPresident.json"
 import datasFrancePresident from "./datas/FrancePresident.json"
 import datasOM from "./datas/om.json"
 import datasOL from "./datas/ol.json"
-import datasPSG from "./datas/ol.json"
+import datasPSG from "./datas/psg.json"
 import datasNBA from "./datas/nba.json"
 import datasFranceRois from "./datas/FranceRois.json"
+import Login from "./login"
+import Signup from './signup';
+
 
 function App() {
+	const getToken = () => {
+		const tokenString = localStorage.getItem('token');
+		if(tokenString !== undefined){
+			const userToken = JSON.parse(tokenString);
+			return userToken?.token
+		}
+		return ""
+	  };
+	  const [token, setToken] = useState(getToken() || "");
+	  const loginRoute = ()=>{
+		const tokenString = localStorage.getItem('token')
+		if(!tokenString){
+			return <Route path="/login" element={<Login setToken={setToken} token={token} getToken={getToken}/>}/>
+		}
+	  }
+
 	datas1789.sort((a, b) => 0.5 - Math.random());
 	let picked1789 = datas1789.shift()
 	datasMiddleAge.sort((a, b) => 0.5 - Math.random());
@@ -54,21 +74,23 @@ function App() {
 		<BrowserRouter>
 		<Routes>
 		  <Route index element={<Home/>} />
-		  <Route path="/middle-age" element={<Games datas={datasMiddleAge} picked={pickedMiddleAge}/>} />
-		  <Route path="/from-1789" element={<Games datas={datas1789} picked={picked1789}/>}/>
-		  <Route path="/humanity" element={<Games datas={datasHuman} picked={pickedHuman}/>}/>
-		  <Route path="/renaissance" element={<Games datas={datasRenaissance} picked={pickedRenaissance}/>}/>
-		  <Route path="/XXèmeSiecle" element={<Games datas={datasXX} picked={pickedXX}/>}/>
-		  <Route path="/XXIèmeSiecle" element={<Games datas={datasXXI} picked={pickedXXI}/>}/>
-		  <Route path="/sport" element={<Games datas={datasSport} picked={pickedSport}/>}/>
-		  <Route path="/guerre-froide" element={<Games datas={datasColdWar} picked={pickedColdWar}/>}/>
-		  <Route path="/presidents-americains" element={<Games datas={datasUSAPresident} picked={pickedUSAPresident}/>}/>
-		  <Route path="/presidents-français" element={<Games datas={datasFrancePresident} picked={pickedFrancePresident}/>}/>
-		  <Route path="/ol" element={<Games datas={datasOL} picked={pickedOL}/>}/>
-		  <Route path="/psg" element={<Games datas={datasPSG} picked={pickedPSG}/>}/>
-		  <Route path="/om" element={<Games datas={datasOM} picked={pickedOM}/>}/>
-		  <Route path="/nba" element={<Games datas={datasNBA} picked={pickedNBA}/>}/>
-		  <Route path="/rois-de-france" element={<Games datas={datasFranceRois} picked={pickedFranceRois}/>}/>
+		  <Route path="/middle-age" element={<Games datas={datasMiddleAge} picked={pickedMiddleAge} name={"middleAge"}/>} />
+		  <Route path="/from-1789" element={<Games datas={datas1789} picked={picked1789} name={"sinceFrenchRevolution"}/>}/>
+		  <Route path="/humanity" element={<Games datas={datasHuman} picked={pickedHuman} name={"humanity"}/>}/>
+		  <Route path="/renaissance" element={<Games datas={datasRenaissance} picked={pickedRenaissance} name={"renaissance"}/>}/>
+		  <Route path="/XXèmeSiecle" element={<Games datas={datasXX} picked={pickedXX} name={"centuryXX"}/>}/>
+		  <Route path="/XXIèmeSiecle" element={<Games datas={datasXXI} picked={pickedXXI} name={"centuryXXI"}/>}/>
+		  <Route path="/sport" element={<Games datas={datasSport} picked={pickedSport} name={"sport"}/>}/>
+		  <Route path="/guerre-froide" element={<Games datas={datasColdWar} picked={pickedColdWar} name={"coldWar"}/>}/>
+		  <Route path="/presidents-americains" element={<Games datas={datasUSAPresident} picked={pickedUSAPresident} name={"americansPresidents"}/>}/>
+		  <Route path="/presidents-français" element={<Games datas={datasFrancePresident} picked={pickedFrancePresident} name={"frenchsPresidents"}/>}/>
+		  <Route path="/ol" element={<Games datas={datasOL} picked={pickedOL} name={"ol"}/>}/>
+		  <Route path="/psg" element={<Games datas={datasPSG} picked={pickedPSG} name={"psg"}/>}/>
+		  <Route path="/om" element={<Games datas={datasOM} picked={pickedOM} name={"om"}/>}/>
+		  <Route path="/nba" element={<Games datas={datasNBA} picked={pickedNBA} name={"nba"}/>}/>
+		  <Route path="/rois-de-france" element={<Games datas={datasFranceRois} picked={pickedFranceRois} name={"frenchsKings"}/>}/>
+		  <Route path="/signup" element={<Signup></Signup>}/>
+		  {loginRoute()}
 		</Routes>
 	  	</BrowserRouter>
 		);

@@ -2,12 +2,20 @@ import React from 'react'
 import BoxQuiz from "./box-quiz.js"
 import Separator from './separator.js'
 
-const componentName = () => {
+const componentName = (props) => {
+
+    const displayUser = ()=> {
+        if(localStorage.getItem('user') !== null){
+            let user = JSON.parse(localStorage.getItem('user'))
+            return user.firstname+" "+user.lastname
+        }
+    }
     return (
         <div className='App-header'>
             <h1 className="text-center pb-5">Chrono-date</h1>
             <div className='container'>
                 <div className='row'>
+                    {displayUser()}                    
                     <Separator>Histoire</Separator>
                     <BoxQuiz image={"https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/evolution-wiki_ver_1.png"} to={"/humanity"} text={"Les grandes dates de l'histoire de l'Humanité"}>Histoire de l'Humanité</BoxQuiz>
                     <BoxQuiz image={"https://blog.artsper.com/wp-content/uploads/2022/04/New-Featured-Image-1200-x-675-6.jpg"} to={"/renaissance"} text={"Les grandes dates de la Renaissance"}>La Renaissance</BoxQuiz>

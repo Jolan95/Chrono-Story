@@ -14,7 +14,7 @@
     {"id" : 12, "question" : "Signature du pacte sino-soviétique", "date" : 1950, "answer" : null},
     {"id" : 13, "question" : "Début de la guerre de Corée", "date" : 1950, "answer" : null},
     {"id" : 14, "question" : "Eisenhower devient président des USA.", "date" : 1953, "answer" : null},
-    {"id" : 15, "question" : "Décès de Staline", "date" : 1853, "answer" : null},
+    {"id" : 15, "question" : "Décès de Staline", "date" : 1953, "answer" : null},
     {"id" : 16, "question" : "Nikita Khrouchtchev devient premier secrétaire du Parti communiste de l'Union soviétique", "date" : 1953, "answer" : null},
     {"id" : 17, "question" : "Signature du pacte de Bagdad", "date" : 1955, "answer" : null},
     {"id" : 18, "question" : "Signature du pacte de Varsovie", "date" : 1955, "answer" : null},

@@ -1,9 +1,8 @@
 [
     {"id" : 0, "question" : "Premiers outils taillés par l'Homme", "date" : -2700000, "answer" : null},
     {"id" : 1, "question" : "Maitrise du feu", "date" : -400000, "answer" : null},
-    {"id" : 2, "question" : "Premiers hommes de Néandertal", "date" : -350000, "answer" : null},
+    {"id" : 2, "question" : "Premiers hommes de Néandertal", "date" : -400000, "answer" : null},
     {"id" : 3, "question" : "Développement de la poterie céramique", "date" : -6000, "answer" : null},
-    {"id" : 4, "question" : "Apparition du fer en Europe", "date" : -850, "answer" : null},
     {"id" : 5, "question" : "Premiers Homo Erectus", "date" : -1800000, "answer" : null},
     {"id" : 6, "question" : "Plus anciennes peintures d’art pariétal", "date" : -30000, "answer" : null},
     {"id" : 7, "question" : "Naissance du Christ", "date" : -4, "answer" : null},
