@@ -13,27 +13,24 @@ function Games(props) {
   	const [firstDate, setFirstDate] = useState(questionAnswered[0].date) 
 	const [basicModal, setBasicModal] = useState(false);
 	const [basicModalWin, setBasicModalWin] = useState(false);
+	const [record, setRecord] = useState("")
 
 	useEffect (() =>{
-		let user = JSON.parse(localStorage.getItem("user"));
-		let id = user._id
-		var myInit = { 
+		if(localStorage.getItem("user") !== null){
+			let user = JSON.parse(localStorage.getItem("user"));
+			console.log(user)
+			let id = user._id
+			var myInit = { 
 			method: 'POST',
 			mode: 'cors',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({id : id, score : score,  game : props.name})
 		}
-		fetch("http://localhost:3000/api/auth/highscore",myInit)
-		.then(res => res.json())
-		.then(
-		  (response) => {
-				console.log(response)
-		  },
-		  (error) => {
-			console.log(error)
-		  }
-		)
-	},[score, setScore])
+			fetch("http://localhost:3000/api/auth/highscore",myInit)
+			.then(res => res.json())
+			.catch(error => console.log(error.message))
+		}
+	},[score])
 
   	useEffect(()=> {
 		if(questionAvailable.length > 0){
@@ -47,6 +44,30 @@ function Games(props) {
 			setBasicModalWin(true)
 		}
 	}, [setQuestionAnswered, questionAnswered])
+
+	useEffect(() => {
+		const token = localStorage.getItem("token")
+		if(token !== null){
+		  	let user = JSON.parse(localStorage.getItem("user"));
+		  	let id = user._id
+		  	var myInit = { 
+		  	method: 'POST',
+		  	mode: 'cors',
+		  	headers: { 'Content-Type': 'application/json' },
+		  	body: JSON.stringify({id : id, game : props.name})
+		  	}
+		  	fetch("http://localhost:3000/api/auth/record",myInit)
+		  	.then(res => res.json())
+		  	.then(
+				(response) => {
+					setRecord(response.record)
+				},
+				(error) => {
+					setRecord(0)
+			}
+		  	)
+	  	}
+	}, [])
 
   	const handleTiret= (e)=> {   
 		let min = e.target.getAttribute("data-min");
@@ -77,11 +98,25 @@ function Games(props) {
   	  	}
 		return rows;
   	}
-	const trim = () => {
+  	const displayRecord = () => {
+		const token = localStorage.getItem("token")
+		if(token !== null){
+			if(record !== undefined && record !== ""){
+			  return "Record : "+record
+			}
+			return "Record : /"
+		}
+	    return ""
+  	}
+
+	const reset = () => {
 		let newStateQuestion = [...questionAnswered, ...questionAvailable, picked]
 		let newStateAnswered = newStateQuestion.shift();
 		newStateAnswered.answer = null;
 		newStateQuestion.forEach((element) => element.answer = null)
+		if(score > record) {
+			setRecord(score)
+		}
 		setQuestionAvailable(newStateQuestion)
 		setQuestionAnswered([newStateAnswered]);
 		setLife(3)
@@ -98,9 +133,15 @@ function Games(props) {
   	  <div className="App">
   	    <header className="App-header">
 			<div className='sticky'>
-				<div className='text-center d-lg-none'>{displayLife()}</div>
+				<div className='text-center d-lg-none'>
+					{displayLife()}
+					{displayRecord()}
+				</div>
 				<div className='text-center d-lg-none'>score : {score}</div>
-  	   	 		<div className='wrapper-score d-lg-block d-none'>Score : {score}</div>
+  	   	 		<div className='wrapper-score d-lg-block d-none'>
+				<div>{displayRecord()}</div>
+				Score : {score}
+				</div>
   	   	 		<div className='wrapper-heart d-lg-block d-none'>{displayLife()}</div>
   	   	 		<h1 className="text-center question ">{picked.question}</h1>
 			</div>
@@ -110,8 +151,8 @@ function Games(props) {
   	    	{questionAnswered.map((data, index)=> {
   	    	 	return <Box datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index}></Box>
   	    	})}
-			<Modal actionReset={trim}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Oops...Vous n'avez plus de vies</Modal>
-			<Modal actionReset={trim} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Bravo !!!</Modal>
+			<Modal actionReset={reset}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Oops...Vous n'avez plus de vies</Modal>
+			<Modal actionReset={reset} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Bravo !!!</Modal>
   	    </header>
   	  </div>
   	);

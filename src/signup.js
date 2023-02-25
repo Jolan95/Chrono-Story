@@ -1,11 +1,13 @@
 import React, {useState} from 'react'
+import {Link } from "react-router-dom";
+
 
 const Signup = () => {
     const [lastname, setLastname]= useState("")
     const [firstname, setFirstname]= useState("")
     const [email, setEmail]= useState("")
     const [password, setPassword] = useState("")
-    const [messageServer, setMessageServer] = useState("");
+    const [message, setMessage] = useState("");
 
     const handleSubmit = (e)=> {
         e.preventDefault()
@@ -24,40 +26,46 @@ const Signup = () => {
                     })
                 })
                 .then(res => res.json())
-                .then(result => setMessageServer(result.message))
+                .then(result => setMessage(result.message))
                 .catch(error => {
-                    setMessageServer("Une erreur s'est produite, veuillez réessayer plus tard.");
+                    setMessage("Une erreur s'est produite, veuillez réessayer plus tard.");
                 })
             } else {
-                setMessageServer("Votre mot de passe doit contenir au moins 8 caractères")
+                setMessage("Votre mot de passe doit contenir au moins 8 caractères")
             }
         } else {
-           setMessageServer("Veuillez remplir tous les champs")
+           setMessage("Veuillez remplir tous les champs")
         }
     }
     
     return (
-        <div>
-            Signup
-            <form  onSubmit={handleSubmit}>
-            {messageServer}
-            <div>
-              <input type="text"  onChange={e => setLastname(e.target.value)} placeholder="Nom"/>
+        <div className="App-header pt-3">
+            <div className='content-center'>
+                <div className='wrapper-form'>
+                    <form  onSubmit={handleSubmit}>
+                    <h2 className='mb-4 text-center'>Créez votre compte</h2>
+                    <div className='pb-2'>{message}</div>
+                    <div>
+                      <input type="text" className='mt-'  onChange={e => setLastname(e.target.value)} placeholder="Nom"/>
+                    </div>
+                    <div>
+                      <input type="text" className='mt-2'  onChange={e => setFirstname(e.target.value)} placeholder="Prénom"/>
+                    </div>
+                    <div>
+                      <input type="email" name="email"className='mt-2' onChange={e => setEmail(e.target.value)} placeholder="Email"/>
+                    </div>
+                    <div>
+                      <input type="password" name="password" className='mt-2' onChange={e => setPassword(e.target.value)}  placeholder="Mot de passe"/>
+                    </div>
+                    <div>
+                      <button type="submit" className='btn btn-success my-3'>Submit</button>
+                    </div>
+                    <div>
+                    J'ai déjà un compte, connexion <Link to={"/login"}>ici</Link>
+                    </div>
+                    </form>
+                </div>
             </div>
-            <div>
-              <input type="text"  onChange={e => setFirstname(e.target.value)} placeholder="Prénom"/>
-            </div>
-            <div>
-              <input type="email" name="email" onChange={e => setEmail(e.target.value)} placeholder="Email"/>
-            </div>
-            <div>
-              <input type="password" name="password" onChange={e => setPassword(e.target.value)}  placeholder="Mot de passe"/>
-            </div>
-            <div>
-              <button type="submit">Submit</button>
-            </div>
-            </form>
-            
         </div>
     )
 }

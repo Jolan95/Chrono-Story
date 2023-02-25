@@ -15,7 +15,7 @@
     {"id" : 14, "question" : "Kim Jong-un succède à Kim Jung-il", "date" : 2011, "answer" : null},
     {"id" : 15, "question" : "Curiosity est déployé sur Mars", "date" : 2012, "answer" : null},
     {"id" : 16, "question" : "Décès de Nelson Mandela", "date" : 2013, "answer" : null},
-    {"id" : 17, "question" : "le coronavirus SARS-CoV-2 débute à Wuhan,", "date" : 2019, "answer" : null},
+    {"id" : 17, "question" : "le coronavirus SARS-CoV-2 débute à Wuhan", "date" : 2019, "answer" : null},
     {"id" : 18, "question" : "Le monde entier est confiné à cause du coronavirus SARS-CoV-2", "date" : 2020, "answer" : null},
     {"id" : 19, "question" : "La Russie envahie l'Ukraine", "date" : 2022, "answer" : null},
     {"id" : 20, "question" : "Mort en hélicoptère de Kobe Bryant", "date" : 2019, "answer" : null},

@@ -13,7 +13,7 @@
     {"id" : 12, "question" : "Affaire Dreyfus", "date" : 1898, "answer" : null},
     {"id" : 13, "question" : "Début de la Seconde Guerre mondiale", "date" : 1939, "answer" : null},
     {"id" : 14, "question" : "Krash boursier de Wall Street", "date" : 1929, "answer" : null},
-    {"id" : 15, "question" : "Inauguration du canal de Suez", "date" : 1969, "answer" : null},
+    {"id" : 15, "question" : "Inauguration du canal de Suez", "date" : 1869, "answer" : null},
     {"id" : 16, "question" : "Création de la CEE", "date" : 1957, "answer" : null},
     {"id" : 17, "question" : "Apparition de l'Euro", "date" : 2002, "answer" : null},
     {"id" : 18, "question" : "Pasteur invente le vaccin contre la rage", "date" : 1885, "answer" : null},

@@ -1,59 +1,69 @@
 import React, { useState, useEffect } from 'react'
-import { redirect } from "react-router-dom";
+import { redirect, Link } from "react-router-dom";
 
 
 async function loginUser(credentials) {
     return fetch('http://localhost:3000/api/auth/login', {
         method: 'POST',
-      headers: {
+        headers: {
         'Content-Type': 'application/json'
     },
     body: JSON.stringify(credentials)
     })
       .then(data => data.json())
    }
-   
+
 
 const Login = (props) => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const [message, setMessage] = useState("")
 
+    
+       
     const handleSubmit = async e => {
         e.preventDefault();
         const response = await loginUser({
           email,
           password
         });
-        localStorage.setItem('token', JSON.stringify(response.token));
-        localStorage.setItem('user', JSON.stringify(response.user))
-        props.setToken(props.getToken())
-        window.location.href = "http://localhost:3001/"
+        if(response.token !== undefined){
+            localStorage.setItem('token', JSON.stringify(response.token));
+            localStorage.setItem('user', JSON.stringify(response.user))
+            window.location.href = "http://localhost:3001/"
+            props.setToken(props.getToken())
+        } else {
+            setMessage(response.message)
+        }
     };
-    
     useEffect(() => {
         if (props.token){
             return redirect("/");
         }
     },[props.token, props.setToken]);
 
-      
-
     return (
-        <div>
-            Login
-            <form onSubmit={handleSubmit}>
-        <label>
-          <p>Username</p>
-          <input type="text" onChange={e => setEmail(e.target.value)}/>
-        </label>
-        <label>
-          <p>Password</p>
-          <input type="password" onChange={e => setPassword(e.target.value)}/>
-        </label>
-        <div>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
+        <div className="App-header pt-5">
+            <div className='content-center '>
+                <div className="wrapper-form">
+                    <form onSubmit={handleSubmit}>
+                        <h2 className='text-center mb-4'>Authentification</h2>
+                        <div className='pb-2'>{message}</div>
+                        <div>
+                            <input type="email" className='mt-2' placeholder='E-mail' onChange={e => setEmail(e.target.value)}/>
+                        </div>
+                        <div>  
+                            <input type="password" className='my-2' placeholder='Mot de passe' onChange={e => setPassword(e.target.value)}/>
+                        </div>
+                        <div>
+                            <button className='btn btn-success mt-3' type="submit">Submit</button>
+                        </div>
+                        <div className="pt-3">
+                            Je n'ai pas encore de compte?<Link to={"/signup"}> Inscription</Link>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     )
 }

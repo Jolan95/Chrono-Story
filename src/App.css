@@ -114,3 +114,36 @@ a:hover, a:link, a:visited{
   padding : 10px;
   width :100%;
 }
+.content-center{
+  display : flex;
+  justify-content: center;
+}
+
+/* Form */
+.wrapper-form{
+  display : flex;
+  justify-content: center;
+  border: 1px solid white;
+  width : 350px;
+  border-radius: 12px;
+  padding : 15px 0 
+}
+.wrapper-form input {
+  width: 100%;
+  height : 40px;
+  border-radius : 10px;
+  padding-left: 5px;
+}
+form{
+  width : 100%;
+  padding :  20px;
+}
+.wrapper-form input:placeholder-shown{
+  font-weight: 600;
+}
+form a:visited, form a:link{
+  color : rgb(84, 84, 225);
+}
+form a:hover{
+  text-decoration: underline ;
+}
