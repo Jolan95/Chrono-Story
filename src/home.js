@@ -1,6 +1,7 @@
 import React from 'react'
 import BoxQuiz from "./box-quiz.js"
 import Separator from './separator.js'
+import Header from './components/header.js'
 
 const componentName = (props) => {
 
@@ -10,11 +11,12 @@ const componentName = (props) => {
             return user.firstname+" "+user.lastname
         }
     }
+
     return (
         <div className='App-header'>
-            <h1 className="text-center pb-5">Chrono-date</h1>
             <div className='container'>
                 <div className='row'>
+                    <Header/>
                     {displayUser()}                    
                     <Separator>Histoire</Separator>
                     <BoxQuiz image={"https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/evolution-wiki_ver_1.png"} to={"/humanity"} text={"Les grandes dates de l'histoire de l'Humanité"}>Histoire de l'Humanité</BoxQuiz>

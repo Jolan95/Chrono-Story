@@ -4,6 +4,16 @@
   height : 100%;
   color: white;
 }
+.logo{
+  height : 120px;
+}
+.btn-trans{
+  padding : 14px;
+  border: 1px solid white;
+  background-color: transparent;
+  color : white;
+  border-radius : 10px;
+}
 .wrapper-box{
   border : 1px solid white;
   border-radius : 10px;
