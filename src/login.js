@@ -3,7 +3,8 @@ import { redirect, Link } from "react-router-dom";
 
 
 async function loginUser(credentials) {
-    return fetch('http://localhost:3000/api/auth/login', {
+    // return fetch('https://chrono-back.herokuapp.com/api/auth/login', {
+    return fetch('http://localhost:5000/api/auth/login', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
@@ -31,6 +32,7 @@ const Login = (props) => {
             localStorage.setItem('token', JSON.stringify(response.token));
             localStorage.setItem('user', JSON.stringify(response.user))
             window.location.href = "http://localhost:3001/"
+            // window.location.href = "https://chrono-story.netlify.app/"
             props.setToken(props.getToken())
         } else {
             setMessage(response.message)

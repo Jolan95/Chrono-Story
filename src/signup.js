@@ -13,7 +13,8 @@ const Signup = () => {
         e.preventDefault()
         if(lastname && firstname && email && password){
             if(password.length >= 8){
-                return fetch('http://localhost:3000/api/auth/signup', {
+                // return fetch('https://chrono-back.herokuapp.com/api/auth/signup', {
+                return fetch('http://localhost:5000/api/auth/signup', {
                     method: 'POST',
                     headers: {
                     'Content-Type': 'application/json'

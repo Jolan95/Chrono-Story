@@ -18,7 +18,6 @@ function Games(props) {
 	useEffect (() =>{
 		if(localStorage.getItem("user") !== null){
 			let user = JSON.parse(localStorage.getItem("user"));
-			console.log(user)
 			let id = user._id
 			var myInit = { 
 			method: 'POST',
@@ -26,9 +25,9 @@ function Games(props) {
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({id : id, score : score,  game : props.name})
 		}
-			fetch("http://localhost:3000/api/auth/highscore",myInit)
+			fetch("http://localhost:5000/api/auth/highscore",myInit)
+			// fetch("https://chrono-back.herokuapp.com/api/auth/highscore",myInit)
 			.then(res => res.json())
-			.catch(error => console.log(error.message))
 		}
 	},[score])
 
@@ -56,7 +55,8 @@ function Games(props) {
 		  	headers: { 'Content-Type': 'application/json' },
 		  	body: JSON.stringify({id : id, game : props.name})
 		  	}
-		  	fetch("http://localhost:3000/api/auth/record",myInit)
+		  	// fetch("https://chrono-back.herokuapp.com/api/auth/record",myInit)
+		  	fetch("http://localhost:5000/api/auth/record",myInit)
 		  	.then(res => res.json())
 		  	.then(
 				(response) => {
@@ -104,7 +104,7 @@ function Games(props) {
 			if(record !== undefined && record !== ""){
 			  return "Record : "+record
 			}
-			return "Record : /"
+			return "Record : 0"
 		}
 	    return ""
   	}

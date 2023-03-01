@@ -5,19 +5,11 @@ import Header from './components/header.js'
 
 const componentName = (props) => {
 
-    const displayUser = ()=> {
-        if(localStorage.getItem('user') !== null){
-            let user = JSON.parse(localStorage.getItem('user'))
-            return user.firstname+" "+user.lastname
-        }
-    }
-
     return (
         <div className='App-header'>
             <div className='container'>
                 <div className='row'>
-                    <Header/>
-                    {displayUser()}                    
+                    <Header/>                
                     <Separator>Histoire</Separator>
                     <BoxQuiz image={"https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/evolution-wiki_ver_1.png"} to={"/humanity"} text={"Les grandes dates de l'histoire de l'Humanité"}>Histoire de l'Humanité</BoxQuiz>
                     <BoxQuiz image={"https://blog.artsper.com/wp-content/uploads/2022/04/New-Featured-Image-1200-x-675-6.jpg"} to={"/renaissance"} text={"Les grandes dates de la Renaissance"}>La Renaissance</BoxQuiz>

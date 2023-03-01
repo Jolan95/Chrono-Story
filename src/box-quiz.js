@@ -9,7 +9,7 @@ const BoxQuiz = (props) => {
                 <div className='box-quiz' style={{backgroundImage : "url("+ props.image +")"}}>
                     <div className='filter-on-image'>
                     <h3 className='text-center bold'>{props.children}</h3>
-                    <p className='text-center bold'>{props.text}</p>
+                    <p className='text-center bold description-box-quiz'>{props.text}</p>
                     </div>
                 </div>
             </Link>
