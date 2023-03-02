@@ -213,7 +213,8 @@
             {"id" : 15, "question" : "Invention de la pêche", "date" : -300000, "answer" : null},
             {"id" : 16, "question" : "Fondation de Rome", "date" : -753, "answer" : null},
             {"id" : 17, "question" : "Invention de la domestication des animaux", "date" : -13000, "answer" : null},
-            {"id" : 18, "question" : "Apparition des premières sépultures", "date" : -120000, "answer" : null}
+            {"id" : 18, "question" : "Apparition des premières sépultures", "date" : -120000, "answer" : null},
+            {"id" : 19, "question" : "Premières migrations humaines en Europes", "date" : -50000, "answer" : null}
         ],
         "picked" : {}
     },

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { redirect, Link } from "react-router-dom";
+import Alert from './components/alert';
 
 
 async function loginUser(credentials) {
@@ -19,8 +20,8 @@ const Login = (props) => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [message, setMessage] = useState("")
+    const [display, setDisplay] = useState("none")
 
-    
        
     const handleSubmit = async e => {
         e.preventDefault();
@@ -35,7 +36,15 @@ const Login = (props) => {
             // window.location.href = "https://chrono-story.netlify.app/"
             props.setToken(props.getToken())
         } else {
-            setMessage(response.message)
+            if(response.needValidation){
+                const msg = <div>{response.message}<div><Link to="/verificationEmail">Renvoyer l'email de vérification</Link></div></div>
+                setMessage(msg)
+                setDisplay("block")
+                
+            }else{
+                setMessage(response.message)
+                setDisplay("block")
+            }
         }
     };
     useEffect(() => {
@@ -50,7 +59,7 @@ const Login = (props) => {
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>
                         <h2 className='text-center mb-4'>Authentification</h2>
-                        <div className='pb-2'>{message}</div>
+                        <Alert style="danger" display={display} >{message}</Alert>
                         <div>
                             <input type="email" className='mt-2' placeholder='E-mail' onChange={e => setEmail(e.target.value)}/>
                         </div>
