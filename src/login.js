@@ -1,28 +1,36 @@
 import React, { useState, useEffect } from 'react'
-import { redirect, Link } from "react-router-dom";
+import {redirect,  Navigate , Link } from "react-router-dom";
 import Alert from './components/alert';
 
 
+
 async function loginUser(credentials) {
-    // return fetch('https://chrono-back.herokuapp.com/api/auth/login', {
-    return fetch('http://localhost:5000/api/auth/login', {
+    return fetch(process.env.REACT_APP_URL_BACK+'api/auth/login', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
     },
     body: JSON.stringify(credentials)
-    })
-      .then(data => data.json())
-   }
+})
+.then(data => data.json())
+}
 
 
 const Login = (props) => {
+
+    console.log(process.env)
+
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [message, setMessage] = useState("")
     const [display, setDisplay] = useState("none")
 
-       
+    // console.log(localStorage.getItem("token"))
+    // if(localStorage.getItem("token") != undefined){
+    //     return <Navigate to='/'/>
+    // }
+
+    
     const handleSubmit = async e => {
         e.preventDefault();
         const response = await loginUser({
@@ -32,8 +40,7 @@ const Login = (props) => {
         if(response.token !== undefined){
             localStorage.setItem('token', JSON.stringify(response.token));
             localStorage.setItem('user', JSON.stringify(response.user))
-            window.location.href = "http://localhost:3001/"
-            // window.location.href = "https://chrono-story.netlify.app/"
+            window.location.href = process.env.REACT_APP_URL
             props.setToken(props.getToken())
         } else {
             if(response.needValidation){
@@ -53,6 +60,7 @@ const Login = (props) => {
         }
     },[props.token, props.setToken]);
 
+    
     return (
         <div className="App-header pt-5">
             <div className='content-center '>

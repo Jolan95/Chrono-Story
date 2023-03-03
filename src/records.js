@@ -15,17 +15,16 @@ export default function Records() {
 		  	headers: { 'Content-Type': 'application/json' },
 		  	body: JSON.stringify({id : id})
 		  	}
-		  	// fetch("https://chrono-back.herokuapp.com/api/auth/record",myInit)
-            let records = fetch("http://localhost:5000/records/personal",myInit)
+		  	fetch(process.env.REACT_APP_URL_BACK+"api/auth/record",myInit)
 		  	.then(res => res.json())
 		  	.then((response) => {
-                      setHighscore({highscore : response.highScore})
-                      return response;
-                    },
-                    (error) => {
-                        return error
-                    }
-                    )
+                  setHighscore({highscore : response.highScore})
+                  return response;
+                },
+                (error) => {
+                    return error
+                }
+			)
 	  	} 
 	}, [])
     

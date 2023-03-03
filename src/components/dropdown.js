@@ -13,7 +13,7 @@ export default function Dropdown() {
 <div className="dropdown">
   <div className="btn-trans no-radius">{name}</div>
   <div className="dropdown-content">
-    <Link to="/records">Records</Link>
+    {/* <Link to="/records">Records</Link> */}
     <div onClick={handleLogout}>Déconnexion</div>
   </div>
 </div>

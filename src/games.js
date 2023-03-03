@@ -25,8 +25,7 @@ function Games(props) {
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({id : id, score : score,  game : props.name})
 		}
-			fetch("http://localhost:5000/api/auth/highscore",myInit)
-			// fetch("https://chrono-back.herokuapp.com/api/auth/highscore",myInit)
+			fetch(process.env.REACT_APP_URL_BACK+"api/auth/highscore",myInit)
 			.then(res => res.json())
 		}
 	},[score])
@@ -55,8 +54,7 @@ function Games(props) {
 		  	headers: { 'Content-Type': 'application/json' },
 		  	body: JSON.stringify({id : id, game : props.name})
 		  	}
-		  	// fetch("https://chrono-back.herokuapp.com/api/auth/record",myInit)
-		  	fetch("http://localhost:5000/api/auth/record",myInit)
+		  	fetch(process.env.REACT_APP_URL_BACK+"api/auth/record",myInit)
 		  	.then(res => res.json())
 		  	.then(
 				(response) => {
@@ -149,7 +147,7 @@ function Games(props) {
 				<div className="tiret" data-min="-30000000" data-max={firstDate} ></div>
   	    	</div>
   	    	{questionAnswered.map((data, index)=> {
-  	    	 	return <Box datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index}></Box>
+  	    	 	return <Box datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
   	    	})}
 			<Modal actionReset={reset}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Oops...Vous n'avez plus de vies</Modal>
 			<Modal actionReset={reset} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Bravo !!!</Modal>

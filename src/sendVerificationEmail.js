@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import { redirect, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import Alert from './components/alert';
+import  { Navigate  } from 'react-router-dom'
 
 
-async function loginUser(credentials) {
-    // return fetch('https://chrono-back.herokuapp.com/api/auth/login', {
-    return fetch('http://localhost:5000/verifyToken/emailVerification', {
+async function verificationEmail(credentials) {
+
+    
+    return fetch(process.env.REACT_APP_URL_BACK+'verifyToken/emailVerification', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
@@ -16,16 +18,17 @@ async function loginUser(credentials) {
       .catch((error) => console.log(error))
    }
 
-
-const VerificationEmail = (props) => {
-    const [email, setEmail] = useState("")
-    const [message, setMessage] = useState("")
-    const [display, setDisplay] = useState("none")
-    const [style, setStyle] = useState("")
+   
+   const VerificationEmail = (props) => {
        
-    const handleSubmit = async e => {
-        e.preventDefault();
-        const response = await loginUser({
+       const [email, setEmail] = useState("")
+       const [message, setMessage] = useState("")
+       const [display, setDisplay] = useState("none")
+       const [style, setStyle] = useState("")
+       
+       const handleSubmit = async e => {
+           e.preventDefault();
+        const response = await verificationEmail({
           email
         });
         setDisplay("block")
@@ -37,6 +40,10 @@ const VerificationEmail = (props) => {
             setMessage(response.message)
         }
     };
+           if(localStorage.getItem("token") != undefined){
+               return <Navigate to='/'/>
+           }
+ 
 
     return (
         <div className="App-header pt-5">

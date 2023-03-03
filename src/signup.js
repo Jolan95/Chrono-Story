@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {Link } from "react-router-dom";
 import Alert from './components/alert';
+import  { Navigate  } from 'react-router-dom'
 
 
 const Signup = () => {
@@ -14,11 +15,12 @@ const Signup = () => {
 
 
     const handleSubmit = (e)=> {
+
+        
         e.preventDefault()
         if(lastname && firstname && email && password){
             if(password.length >= 8){
-                // return fetch('https://chrono-back.herokuapp.com/api/auth/signup', {
-                return fetch('http://localhost:5000/api/auth/signup', {
+                return fetch(process.env.REACT_APP_URL_BACK+'api/auth/signup', {
                     method: 'POST',
                     headers: {
                     'Content-Type': 'application/json'
@@ -58,6 +60,10 @@ const Signup = () => {
             setDisplay("block")
            setMessage("Veuillez remplir tous les champs")
         }
+    }
+
+    if(localStorage.getItem("token") != undefined){
+        return <Navigate to='/'  />
     }
     
     return (
