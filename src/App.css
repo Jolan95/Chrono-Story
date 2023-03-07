@@ -37,14 +37,27 @@
   height : 3px;
   max-width : 300px;
   width : 70%;
-  display : none;
+  display : block;
 }
+
 .question{
  font-size : 1.2rem;
+ padding : 10px;
+ border: 4px solid rgb(68, 158, 163);
+
 }
+.heart {
+  height: 25px;
+  width : 25px;
+} 
 @media (min-width:500px){
   .question {
     font-size : 1.7rem;
+    padding : 25px;
+  }
+  .heart{
+    height : 40px;
+    width : 40px;
   }
 }
 .area-answer{
@@ -54,7 +67,7 @@
   justify-content: center;
 }
 .area-answer:hover .tiret{
-  display : block
+  background-color : rgb(68, 158, 163)
 }
 .text-center{
   display : flex;
@@ -68,7 +81,7 @@ h1{
 }
 .wrapper-heart{
   position: absolute;
-  right : 0
+  right : 10px
 }
 .wrapper-score{
   position: absolute;
@@ -92,13 +105,42 @@ h1{
   position: sticky;
   top: 0;
   background-color: #282c34;
+  color: white;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 4px;
+  font-size : 1.6rem;
+   background-color: #282c34;
+   width : 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ;
+}
+@media all and (min-width : 992px){
+  .footer{
+    width : auto;
+  }
+
+}
+
 .button-restart{
   border-radius: 8px;
   border: none;
   background-color: blanchedalmond;
   padding : 10px 6px;
   
+}
+.svg-restart{
+  /* margin-right : 10px; */
+  color : white;
+  cursor: pointer;
+  position: absolute;
+  right : 10px
 }
 h1{
   font-size : 2rem;
@@ -131,7 +173,6 @@ a:hover, a:link, a:visited{
   display : flex;
   justify-content: center;
 }
-
 /* Form */
 .wrapper-form{
   display : flex;
@@ -160,8 +201,6 @@ form a:visited, form a:link{
 form a:hover{
   text-decoration: underline ;
 }
-
-
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -170,18 +209,16 @@ form a:hover{
   border: none;
   cursor: pointer;
 }
-
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  right : 0;
+  /* min-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -207,7 +244,6 @@ form a:hover{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
@@ -216,7 +252,7 @@ form a:hover{
 }
 
 
-@media (max-width : 600px) {
+@media (max-width : 500px) {
   .description-box-quiz{
     display : none
   }

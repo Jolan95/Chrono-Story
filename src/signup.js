@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {Link } from "react-router-dom";
 import Alert from './components/alert';
 import  { Navigate  } from 'react-router-dom'
+import Header from './components/header';
 
 
 const Signup = () => {
@@ -13,10 +14,7 @@ const Signup = () => {
     const [message, setMessage] = useState("");
     const [style, setStyle] = useState("");
 
-
     const handleSubmit = (e)=> {
-
-        
         e.preventDefault()
         if(lastname && firstname && email && password){
             if(password.length >= 8){
@@ -47,7 +45,7 @@ const Signup = () => {
                         }
                     },
                     (error) => {
-                        console.log(error)
+                        
                     }
                 )
             } else {
@@ -67,7 +65,8 @@ const Signup = () => {
     }
     
     return (
-        <div className="App-header pt-3">
+        <div className="App-header">
+        <Header></Header>
             <div className='content-center'>
                 <div className='wrapper-form'>
                     <form onSubmit={handleSubmit}>

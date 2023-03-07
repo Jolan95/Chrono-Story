@@ -3,6 +3,7 @@
         "name" : "1789",
         "db" : "sinceFrenchRevolution",
         "url" : "/from-1789",
+        "category" : "histoire",
         "active" : true,
         "data" : [
             {"id" : 0, "question" : "Abolition de l'esclavage", "date" : 1848, "answer" : null},
@@ -37,6 +38,7 @@
         "name" : "Guerre Froide",
         "db" : "coldWar",
         "url" : "/guerre-froide",
+        "category" : "histoire",
         "active" : true,
         "data" : [
             {"id" : 0, "question" : "Conférence de Yalta", "date" : 1945, "answer" : null},
@@ -86,6 +88,7 @@
         "name" : "Présidents Français",
         "db" : "frenchsPresidents",
         "url" : "/presidents-français",
+        "category" : "histoire",
         "active" : true,
         "data" : [    
             {"id" : 0, "question" : "Louis-Napoléon Bonaparte", "date" : 1848, "answer" : null},
@@ -120,6 +123,7 @@
         "name" : "Rois de France",
         "db" : "frenchsKings",
         "url" : "/rois-de-france",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [
@@ -193,6 +197,7 @@
         "name" : "Humanité",
         "db" : "humanity",
         "url" : "/humanity",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [
@@ -222,6 +227,7 @@
         "name" : "Moyen-Age",
         "db" : "middleAge",
         "url": "/middle-age",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [
@@ -255,6 +261,7 @@
         "db" : "nba",
         "url" : "/nba",
         "active" : true,
+        "category" : "sport",
         "data" : 
         [
             {"id" : 1, "question" : "Premier match de l'histoire de la NBA", "date" : 1946, "answer" : null},
@@ -308,6 +315,7 @@
         "name" : "Olympique Lyonnais",
         "db" : "ol",
         "url" :  "/ol",
+        "category" : "sport",
         "active" : true,
         "data" : 
         [
@@ -351,6 +359,7 @@
         "name" : "Olympique de Marseille",
         "db" : "om",
         "url" :  "/om",
+        "category" : "sport",
         "active" : true,
         "data" : 
         [
@@ -387,6 +396,7 @@
         "name" : "Paris Saint Germain",
         "db" : "psg",
         "url" :  "/psg",
+        "category" : "sport",
         "active" : true,
         "data" :
         [
@@ -431,6 +441,7 @@
         "name" : "Renaissance",
         "db" : "renaissance",
         "url" :  "/renaissance",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [
@@ -463,6 +474,7 @@
         "name" : "Sport",
         "db" : "sport",
         "url" :  "/sport",
+        "category" : "sport",
         "active" : true,
         "data" : 
         [
@@ -502,6 +514,7 @@
         "name" : "Présidents Americains",
         "db" : "americansPresidents",
         "url" :  "/presidents-americains",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [
@@ -558,6 +571,7 @@
         "name" : "20ème siècle",
         "db" : "centuryXX",
         "url" : "/XXèmeSiecle",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [
@@ -600,6 +614,7 @@
         "name" : "21ème siècle",
         "db" : "centuryXXI",
         "url" : "/XXIèmeSiecle",
+        "category" : "histoire",
         "active" : true,
         "data" : 
         [ 
@@ -637,6 +652,179 @@
             {"id" : 32, "question" : "Explosion du port de Beyrouth", "date" : 2020, "answer" : null},
             {"id" : 33, "question" : "Incendie de Notre-Dame de Paris", "date" : 2019, "answer" : null},
             {"id" : 34, "question" : "Lancement de Facebook", "date" : 2004, "answer" : null}
+        ],
+        "picked" : {}
+    },  
+    {
+        "name" : "Classiques cinématographiques",
+        "db" : "classiquesCinema",
+        "url" : "/cinema",
+        "category" : "culture",
+        "active" : true,
+        "data" : 
+        [ 
+            {"id" : 1, "question" : "Le parrain", "date" : 1972, "answer" : null},
+            {"id" : 2, "question" : "Star Wars : L'Empire contre-attaque", "date" : 1980, "answer" : null},
+            {"id" : 3, "question" : "The Dark Knight", "date" : 2008, "answer" : null},
+            {"id" : 4, "question" : "Les évadés", "date" : 1994, "answer" : null},
+            {"id" : 5, "question" : "Pulp Fiction", "date" : 1994, "answer" : null},
+            {"id" : 6, "question" : "Les Affranchis", "date" : 1990, "answer" : null},
+            {"id" : 7, "question" : "Les Aventuriers de l'arche perdue", "date" : 1981, "answer" : null},
+            {"id" : 8, "question" : "Les Dents de la mer", "date" : 1975, "answer" : null},
+            {"id" : 9, "question" : "Star Wars : Un nouveau espoir", "date" : 1977, "answer" : null},
+            {"id" : 10, "question" : "Le Seigneur des anneaux : La Communauté de l'anneau", "date" : 2001, "answer" : null},
+            {"id" : 11, "question" : "Retour vers le futur", "date" : 1985, "answer" : null},
+            {"id" : 12, "question" : "Le Parrain 2", "date" : 1974, "answer" : null},
+            {"id" : 13, "question" : "Blade Runner", "date" : 1982, "answer" : null},
+            {"id" : 14, "question" : "Alien", "date" : 1979, "answer" : null},
+            {"id" : 15, "question" : "Aliens", "date" : 1986, "answer" : null},
+            {"id" : 16, "question" : "Le Seigneur des anneaux: Le Retour du roi", "date" : 2003, "answer" : null},
+            {"id" : 17, "question" : "Fight Club de David Finchern", "date" : 1999, "answer" : null},
+            {"id" : 18, "question" : "Inception", "date" : 2010, "answer" : null},
+            {"id" : 19, "question" : "Jurrasic Park", "date" : 1993, "answer" : null},
+            {"id" : 20, "question" : "Die Hard, Piège de cristal", "date" : 1988, "answer" : null},
+            {"id" : 21, "question" : "2001: l'Odyssée de l'espace", "date" : 1968, "answer" : null},
+            {"id" : 22, "question" : "Apocalypse Now", "date" : 1979, "answer" : null},
+            {"id" : 23, "question" : "Le Seigneur des anneaux", "date" : 2002, "answer" : null},
+            {"id" : 24, "question" : "Matrix", "date" : 1999, "answer" : null},
+            {"id" : 25, "question" : "Terminator 2: Le Jugement dernier", "date" : 1991, "answer" : null},
+            {"id" : 26, "question" : "Heat", "date" : 1996, "answer" : null},
+            {"id" : 27, "question" : "Le Bon, la Brute et le Truand", "date" : 1968, "answer" : null},
+            {"id" : 28, "question" : "Casablanca", "date" : 1947, "answer" : null},
+            {"id" : 29, "question" : "The Big Lebowski", "date" : 1998, "answer" : null},
+            {"id" : 30, "question" : "Seven", "date" : 1996, "answer" : null},
+            {"id" : 31, "question" : "Taxi Driver", "date" : 1976, "answer" : null},
+            {"id" : 32, "question" : "Usual Suspects", "date" : 1995, "answer" : null},
+            {"id" : 33, "question" : "La Liste de Schindler", "date" : 1994, "answer" : null},
+            {"id" : 34, "question" : "Les Gardiens de la Galaxie", "date" : 2014, "answer" : null},
+            {"id" : 35, "question" : "Shining ", "date" : 1980, "answer" : null},
+            {"id" : 36, "question" : "Les Infiltrés", "date" : 2006, "answer" : null},
+            {"id" : 37, "question" : "The Thing", "date" : 1982, "answer" : null},
+            {"id" : 38, "question" : "Mad Max: Fury Road", "date" : 2015, "answer" : null},
+            {"id" : 39, "question" : "Il faut sauver le soldat Ryan", "date" : 1998, "answer" : null},
+            {"id" : 40, "question" : "12 hommes en colère", "date" :1957 , "answer" : null},
+            {"id" : 41, "question" : "Eternal Sunshine of the Spotless Mind", "date" : 2004, "answer" : null},
+            {"id" : 42, "question" : "Vol au-dessus d'un nid de coucou", "date" : 1976, "answer" : null},
+            {"id" : 43, "question" : "Gladiator", "date" : 2000, "answer" : null},
+            {"id" : 44, "question" : "Drive", "date" : 2011, "answer" : null},
+            {"id" : 45, "question" : "Citizen Kane", "date" :1946 , "answer" : null},
+            {"id" : 46, "question" : "Interstellar", "date" : 2014, "answer" : null},
+            {"id" : 47, "question" : "Le Silence des Agneaux", "date" :1991 , "answer" : null},
+            {"id" : 48, "question" : "Trainspotting", "date" : 1996, "answer" : null},
+            {"id" : 49, "question" : "Lawrence d'Arabie", "date" : 1963, "answer" : null},
+            {"id" : 50, "question" : "La vie est belle", "date" : 1948, "answer" : null},
+            {"id" : 51, "question" : "Il était une fois dans l'Ouest", "date" : 1969, "answer" : null},
+            {"id" : 52, "question" : "Psychose", "date" : 1960, "answer" : null},
+            {"id" : 53, "question" : "Sueurs Froides", "date" : 1958, "answer" : null},
+            {"id" : 54, "question" : "Le Labyrinthe de Pan", "date" : 2006, "answer" : null},
+            {"id" : 55, "question" : "Reservoir Dogs", "date" : 1992, "answer" : null},
+            {"id" : 56, "question" : "Inglourious Basterds ", "date" :2009 , "answer" : null},
+            {"id" : 57, "question" : "E.T.", "date" :1982 , "answer":  null},
+            {"id" : 58, "question" : "American Beauty", "date" : 2000, "answer" : null},
+            {"id" : 59, "question" : "Forrest Gump", "date" : 1994, "answer" : null},
+            {"id" : 60, "question" : "La La Land", "date" : 2017, "answer" : null},
+            {"id" : 61, "question" : "Avengers", "date" : 2012, "answer" : null},
+            {"id" : 62, "question" : "Star Wars, épisode VI: Le Retour du Jedi", "date" : 1983, "answer" : null},
+            {"id" : 63, "question" : "Ghostbusters", "date" :1984 , "answer" : null},
+            {"id" : 64, "question" : "Le Roi Lion", "date" : 1994, "answer" : null},
+            {"id" : 65, "question" : "Donnie Darko", "date" :2002 , "answer" : null},
+            {"id" : 66, "question" : "Les Sept Samouraïs", "date" :1955 , "answer" : null},
+            {"id" : 67, "question" : "Fargo", "date" : 1996, "answer" : null},
+            {"id" : 68, "question" : "Orange Mécanique", "date" :1972 , "answer" : null},
+            {"id" : 69, "question" : "Titanic", "date" : 1998, "answer" : null},
+            {"id" : 70, "question" : "Terminator", "date" : 1985, "answer" : null},
+            {"id" : 71, "question" : "L'Exorciste", "date" : 1974, "answer" : null},
+            {"id" : 72, "question" : "Predator", "date" :1987 , "answer" : null},
+            {"id" : 73, "question" : "Indiana Jones et la Dernière Croisade", "date" : 1989, "answer" : null},
+            {"id" : 74, "question" : "Léon", "date" : 1994, "answer" : null},
+            {"id" : 75, "question" : "Rocky", "date" : 1976, "answer" : null},
+            {"id" : 76, "question" : "The Social Network", "date" : 2010, "answer" : null},
+            {"id" : 77, "question" : "La grande Vadrouille", "date" : 1966, "answer" : null},
+            {"id" : 78, "question" : "Avatar", "date" : 2009, "answer" : null}
+        ],
+        "picked" : {}
+    },   
+    {
+        "name" : "21ème siècle",
+        "db" : "centuryXXI",
+        "url" : "/XXIèmeSiecle",
+        "category" : "histoire",
+        "active" : true,
+        "data" : 
+        [ 
+            {"id" : 1, "question" : "Steve Jobs présente le premier Ipod", "date" : 2001, "answer" : null},
+            {"id" : 2, "question" : "Attentat sur les tours jumelles du World Trade Center", "date" : 2001, "answer" : null},
+            {"id" : 3, "question" : "Début de la guerre en Irak", "date" : 2003, "answer" : null},
+            {"id" : 4, "question" : "Séisme de magnitude 9,1 dans l'Océan Indien", "date" : 2004, "answer" : null},
+            {"id" : 5, "question" : "Crise des subprimes", "date" : 2007, "answer" : null},
+            {"id" : 6, "question" : "Raul Castro succède à Fidel à la tête de Cuba", "date" : 2008, "answer" : null},
+            {"id" : 7, "question" : "Barack Obama devient président des USA", "date" : 2008, "answer" : null},
+            {"id" : 8, "question" : "Séisme à Haïti", "date" : 2010, "answer" : null},
+            {"id" : 9, "question" : "Séisme et tsunami provoque l'accident nucléaire à Fukushima", "date" : 2011, "answer" : null},
+            {"id" : 10, "question" : "Début du printemps arabe", "date" : 2010, "answer" : null},
+            {"id" : 11, "question" : "Début guerre civile en Syrie", "date" : 2011, "answer" : null},
+            {"id" : 12, "question" : "Mort d'Oussama Ben Laden", "date" : 2011, "answer" : null},
+            {"id" : 13, "question" : "Indépendance du Soudan du Sud", "date" : 2011, "answer" : null},
+            {"id" : 14, "question" : "Kim Jong-un succède à Kim Jung-il", "date" : 2011, "answer" : null},
+            {"id" : 15, "question" : "Curiosity est déployé sur Mars", "date" : 2012, "answer" : null},
+            {"id" : 16, "question" : "Décès de Nelson Mandela", "date" : 2013, "answer" : null},
+            {"id" : 17, "question" : "le coronavirus SARS-CoV-2 débute à Wuhan", "date" : 2019, "answer" : null},
+            {"id" : 18, "question" : "Le monde entier est confiné à cause du coronavirus SARS-CoV-2", "date" : 2020, "answer" : null},
+            {"id" : 19, "question" : "La Russie envahie l'Ukraine", "date" : 2022, "answer" : null},
+            {"id" : 20, "question" : "Mort en hélicoptère de Kobe Bryant", "date" : 2019, "answer" : null},
+            {"id" : 21, "question" : "Capture de Sadaam Hussein", "date" : 2003, "answer" : null},
+            {"id" : 22, "question" : "Attentat du train à Madrid", "date" : 2004, "answer" : null},
+            {"id" : 23, "question" : "Explosion de quatre bombes dans les transport de Londres", "date" : 2005, "answer" : null},
+            {"id" : 24, "question" : "Coup de boule de Zidane", "date" : 2006, "answer" : null},
+            {"id" : 25, "question" : "Usain Bolt bat le record du 100m en 9s58", "date" : 2009, "answer" : null},
+            {"id" : 26, "question" : "33 mineurs chiliens coincés dans une mine pendant 69 jours", "date" : 2010, "answer" : null},
+            {"id" : 27, "question" : "Attentats terroristes d’Anders Breivik en Norvège", "date" : 2011, "answer" : null},
+            {"id" : 28, "question" : "Légalisation du mariage gay en France", "date" : 2013, "answer" : null},
+            {"id" : 29, "question" : "Révolution ukrainienne", "date" : 2014, "answer" : null},
+            {"id" : 30, "question" : "Attaque terroriste contre Charlie Hebdo", "date" : 2015, "answer" : null},
+            {"id" : 31, "question" : "Les Britanniques votent en faveur du Brexit", "date" : 2016, "answer" : null},
+            {"id" : 32, "question" : "Explosion du port de Beyrouth", "date" : 2020, "answer" : null},
+            {"id" : 33, "question" : "Incendie de Notre-Dame de Paris", "date" : 2019, "answer" : null},
+            {"id" : 34, "question" : "Lancement de Facebook", "date" : 2004, "answer" : null}
+        ],
+        "picked" : {}
+    },  
+    {
+        "name" : "Informatique",
+        "db" : "informatique",
+        "url" : "/informatique",
+        "category" : "autres",
+        "active" : true,
+        "data" : 
+        [ 
+            {"id" : 1, "question" : "Blaise Pascal invente la machine à calculer mécanique", "date" : 1645, "answer" : null},
+            {"id" : 2, "question" : "Basile Bouchon invente le métier à tisser programmé", "date" : 1925, "answer" : null},
+            {"id" : 3, "question" : "L'arithmétique binaire par Leibniz", "date" : 1925, "answer" : null},
+            {"id" : 4, "question" : "Première machine à calculer automatique de Charles Babbage", "date" : 1725, "answer" : null},
+            {"id" : 5, "question" : "Algèbre de Boole", "date" : 1847, "answer" : null},
+            {"id" : 6, "question" : "Piano logique de Jevons", "date" :1869 , "answer" : null},
+            {"id" : 7, "question" : "Analyseur différentiel de James Tomson", "date" : 1876, "answer" : null},
+            {"id" : 8, "question" : "Carte perforée de Herman Hollerith", "date" : 1890, "answer" : null},
+            {"id" : 9, "question" : "Algorithme MinMax par Von Neumann", "date" : 1928, "answer" : null},
+            {"id" : 10, "question" : "Le théorème d'incomplétude de Gödel", "date" :1931, "answer" : null},
+            {"id" : 11, "question" : "Décryptage de l'Enigma par Alan Turing", "date" :1942, "answer" : null},
+            {"id" : 11, "question" : "Microprocesseur de Marcian Hoff ", "date" :1971, "answer" : null},
+            {"id" : 12, "question" : "Premier CD", "date" :1980, "answer" : null},
+            {"id" : 13, "question" : "Apple : sortie du Macintosh", "date" :1984, "answer" : null},
+            {"id" : 14, "question" : "Invention du World Wide Web par Tim Berners-Lee", "date" :1989, "answer" : null},
+            {"id" : 15, "question" : "Début Internet TCP/IP", "date" :1900, "answer" : null},
+            {"id" : 16, "question" : "Mosaic, le premier navigateur web", "date" :1993, "answer" : null},
+            {"id" : 17, "question" : "Le DVD", "date" :1995, "answer" : null},
+            {"id" : 18, "question" : "sortie de l'IMac", "date" :1998, "answer" : null},
+            {"id" : 19, "question" : "création de Google", "date" :1998, "answer" : null},
+            {"id" : 20, "question" : "Wikipédia", "date" :2001, "answer" : null},
+            {"id" : 21, "question" : "Facebook", "date" :2004, "answer" : null},
+            {"id" : 22, "question" : "Premier Iphone", "date" :2007, "answer" : null},
+            {"id" : 23, "question" : "Cloud Computing", "date" :2010, "answer" : null},
+            {"id" : 24, "question" : "Impression 3D", "date" :2015, "answer" : null},
+            {"id" : 25, "question" : "Clé USB", "date" :2001, "answer" : null},
+            {"id" : 26, "question" : "Raspberry Pi", "date" :2012, "answer" : null},
+            {"id" : 27, "question" : "Chat GPT", "date" :2022, "answer" : null}
         ],
         "picked" : {}
     }    

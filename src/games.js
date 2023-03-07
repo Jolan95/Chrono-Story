@@ -1,10 +1,14 @@
 import {useEffect, useState} from 'react'
-import Box from "./box";
+import Box from "./components/box";
 import './App.css';
-import Heart from './heart';
-import Modal from './modal';
+import Heart from './components/heart';
+import Modal from './components/modal';
+import Header from './components/header';
+import Record from './components/record';
+import Restart from './components/restart';
 
 function Games(props) {
+	const [isPlaying, setIsPlaying] = useState(true)
   	const [questionAvailable, setQuestionAvailable] = useState(props.datas)
   	const [life, setLife] = useState(3);
   	const [score, setScore] = useState(0);
@@ -15,6 +19,7 @@ function Games(props) {
 	const [basicModalWin, setBasicModalWin] = useState(false);
 	const [record, setRecord] = useState("")
 
+	let token = localStorage.getItem("user")
 	useEffect (() =>{
 		if(localStorage.getItem("user") !== null){
 			let user = JSON.parse(localStorage.getItem("user"));
@@ -44,7 +49,6 @@ function Games(props) {
 	}, [setQuestionAnswered, questionAnswered])
 
 	useEffect(() => {
-		const token = localStorage.getItem("token")
 		if(token !== null){
 		  	let user = JSON.parse(localStorage.getItem("user"));
 		  	let id = user._id
@@ -79,6 +83,7 @@ function Games(props) {
 					setLife(life - 1)
 					picked.answer = "red";
 					setBasicModal(true)
+					setIsPlaying(false)
 				}else{
 					setLife(life - 1)
 					picked.answer = "red";
@@ -96,16 +101,6 @@ function Games(props) {
   	  	}
 		return rows;
   	}
-  	const displayRecord = () => {
-		const token = localStorage.getItem("token")
-		if(token !== null){
-			if(record !== undefined && record !== ""){
-			  return "Record : "+record
-			}
-			return "Record : 0"
-		}
-	    return ""
-  	}
 
 	const reset = () => {
 		let newStateQuestion = [...questionAnswered, ...questionAvailable, picked]
@@ -115,6 +110,7 @@ function Games(props) {
 		if(score > record) {
 			setRecord(score)
 		}
+		setIsPlaying(true)
 		setQuestionAvailable(newStateQuestion)
 		setQuestionAnswered([newStateAnswered]);
 		setLife(3)
@@ -123,35 +119,48 @@ function Games(props) {
 		setBasicModalWin(false)
 	}
 
-
 	const toggleShow = () => setBasicModal(!basicModal);
 	const toggleShowWin = () => setBasicModalWin(!basicModalWin);
 
   	return (
   	  <div className="App">
-  	    <header className="App-header">
+  	    <div className="App-header">
+		<Header></Header>
 			<div className='sticky'>
-				<div className='text-center d-lg-none'>
-					{displayLife()}
-					{displayRecord()}
+				<div className='px-2 mb-2 d-flex justify-content-between align-items-center d-lg-none'>
+					<Record record={record} token={token}></Record>
+					<div>{displayLife()}</div>
+					 <Restart isDisplay={!isPlaying ? true : false } action={reset}></Restart> 
 				</div>
-				<div className='text-center d-lg-none'>score : {score}</div>
   	   	 		<div className='wrapper-score d-lg-block d-none'>
-				<div>{displayRecord()}</div>
-				Score : {score}
+					<Record record={record} token={token}></Record>
 				</div>
-  	   	 		<div className='wrapper-heart d-lg-block d-none'>{displayLife()}</div>
-  	   	 		<h1 className="text-center question ">{picked.question}</h1>
+				<div className='d-lg-block d-none'>
+  	   	 		<div className='wrapper-heart'>
+					{displayLife()}
+				</div>
+					 <Restart isDisplay={!isPlaying ? true : false} action={reset}></Restart> 
+
+				</div>
+					
+  	   	 		<div className="text-center box-question"><h1 className="text-center question ">{picked.question}</h1></div>
 			</div>
   	    	<div className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
-				<div className="tiret" data-min="-30000000" data-max={firstDate} ></div>
+				<div className={isPlaying ? "tiret" : "" } data-min="-30000000" data-max={firstDate} ></div>
   	    	</div>
+			<div className='mb-5 mb-lg-0'>
   	    	{questionAnswered.map((data, index)=> {
-  	    	 	return <Box datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
+  	    	 	return <Box animation={isPlaying} datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
   	    	})}
+			</div>
 			<Modal actionReset={reset}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Oops...Vous n'avez plus de vies</Modal>
 			<Modal actionReset={reset} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Bravo !!!</Modal>
-  	    </header>
+  	    </div>
+			<div className='footer'>
+			<div className='text-center'>
+			Score : {score}
+			</div>
+			</div>
   	  </div>
   	);
 }	

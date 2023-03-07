@@ -25,8 +25,8 @@ import {
                     </MDBModalHeader>
                     <MDBModalBody>Score : {props.score}</MDBModalBody>
                     <MDBModalFooter>
-                            <Link to={"/"}><button className='btn btn-danger'>Back to Menu</button></Link>
-                            <button onClick={props.actionReset} className='btn btn-success'>Restart</button>
+                            <Link to={"/"}><button className='btn btn-danger'>Retour au menu</button></Link>
+                            <button onClick={props.actionReset} className='btn btn-success'>Rejouer</button>
                     </MDBModalFooter>
                 </MDBModalContent>
             </MDBModalDialog>

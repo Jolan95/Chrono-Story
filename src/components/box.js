@@ -36,7 +36,7 @@ function Box(props) {
         </div>
         </div>
         <div className="area-answer"  data-min={props.datas.date} data-max={dateMax} onClick={props.handleTiret}>
-            <div className="tiret" data-min={props.datas.date} data-max={dateMax}></div>
+            <div className={props.animation ? "tiret" : "" } data-min={props.datas.date} data-max={dateMax}></div>
         </div>
         </>
     );

@@ -6,9 +6,9 @@ import Home from "./home.js"
 import datas from "./datas/data.json"
 import Login from "./login"
 import Signup from './signup';
-import Records from './records';
 import VerificationEmail from './sendVerificationEmail';
-
+import PasswordForgot from './passwordForgot';
+import PasswordReset from "./passwordReset"
 
 
 function App() {
@@ -26,19 +26,20 @@ function App() {
 	return (
 		<BrowserRouter>
 		<Routes>
-		  <Route index element={<Home/>} />
-		  <Route path="/records" element={<Records></Records>}/>
-					<Route path="/login" element={<Login setToken={setToken} token={token} getToken={getToken}/>}/>
-					<Route path="/verificationEmail" element={<VerificationEmail></VerificationEmail>}/>
-					<Route path="/signup" element={<Signup></Signup>}/>
-		  {/* create route for every game in the data file */}
-		  {	datas.map((data, index)=> {
-			if(data.active){
-			data.data.sort((a, b) => 0.5 - Math.random());
-			data.picked = data.data.shift()
-			return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db}/>}/>
-			}
-		})}
+		  	<Route index element={<Home/>} />
+			<Route path="/login" element={<Login setToken={setToken} token={token} getToken={getToken}/>}/>
+			<Route path="/verificationEmail" element={<VerificationEmail></VerificationEmail>}/>
+			<Route path="/signup" element={<Signup></Signup>}/>
+			<Route path="/passwordForgot" element={<PasswordForgot></PasswordForgot>}/>
+			<Route path="/passwordReset" element={<PasswordReset></PasswordReset>}/>
+		  	{/* create route for every game in the data file */}
+		  	{datas.map((data, index)=> {
+				if(data.active){
+				data.data.sort((a, b) => 0.5 - Math.random());
+				data.picked = data.data.shift()
+				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db}/>}/>
+				}
+			})}
 		</Routes>
 	  	</BrowserRouter>
 		);

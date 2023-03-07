@@ -15,7 +15,6 @@ async function verificationEmail(credentials) {
     body: JSON.stringify(credentials)
     })
       .then(data => data.json())
-      .catch((error) => console.log(error))
    }
 
    
@@ -25,6 +24,7 @@ async function verificationEmail(credentials) {
        const [message, setMessage] = useState("")
        const [display, setDisplay] = useState("none")
        const [style, setStyle] = useState("")
+       
        
        const handleSubmit = async e => {
            e.preventDefault();
@@ -50,7 +50,7 @@ async function verificationEmail(credentials) {
             <div className='content-center '>
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>
-                        <h2 className='text-center mb-4'>Envoi mail de vérifiaction</h2>
+                        <h2 className='text-center mb-4'>Envoi mail de vérification</h2>
                         <Alert style={style} display={display} >{message}</Alert>
                         <div>
                             <input type="email" className='mt-2' placeholder='E-mail' onChange={e => setEmail(e.target.value)}/>

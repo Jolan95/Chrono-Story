@@ -1,6 +1,6 @@
 import React from 'react'
-import BoxQuiz from "./box-quiz.js"
-import Separator from './separator.js'
+import BoxQuiz from "./components/box-quiz.js"
+import Separator from './components/separator.js'
 import Header from './components/header.js'
 
 const componentName = (props) => {
@@ -27,6 +27,9 @@ const componentName = (props) => {
                     <BoxQuiz image={"https://upload.wikimedia.org/wikipedia/fr/thumb/a/a5/Logo_Olympique_Lyonnais_-_2022.svg/1200px-Logo_Olympique_Lyonnais_-_2022.svg.png"} to={"/ol"} text={"Les grandes dates de l'Olympique Lyonnais"}>Olympique Lyonnais</BoxQuiz>
                     <BoxQuiz image={"https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/2048px-Paris_Saint-Germain_Logo.svg.png"} to={"/psg"} text={"Les grandes dates du Paris Saint Germain"}>Paris Saint Germain</BoxQuiz>
                     <BoxQuiz image={"https://upload.wikimedia.org/wikipedia/fr/archive/4/43/20200407190016%21Logo_Olympique_de_Marseille.svg"} to={"/om"} text={"Les grandes dates de l'Olympique de Marseille"}>Olympique de Marseille </BoxQuiz>
+                    <Separator>Culture</Separator>
+                    <BoxQuiz image={"https://vodkaster.telerama.fr/image-provider/article/8/4/0/4/840492_inline12_scale_1000xauto.jpg"} to={"/cinema"} text={"Chronologie des classiques du cinéma"}>Cinéma</BoxQuiz>
+                    <BoxQuiz image={"https://www.iclub-informatique.fr/wp-content/uploads/2020/07/iclub-informatique-slider-scaled.jpg"} to={"/informatique"} text={"Les grandes dates de l'informatique"}>Informatique</BoxQuiz>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import {redirect,  Navigate , Link } from "react-router-dom";
+import {redirect, Link } from "react-router-dom";
 import Alert from './components/alert';
+import Header from './components/header';
 
 
 
@@ -18,8 +19,7 @@ async function loginUser(credentials) {
 
 const Login = (props) => {
 
-    console.log(process.env)
-
+ 
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [message, setMessage] = useState("")
@@ -62,7 +62,8 @@ const Login = (props) => {
 
     
     return (
-        <div className="App-header pt-5">
+        <div className="App-header">
+            <Header></Header>
             <div className='content-center '>
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>
@@ -79,6 +80,7 @@ const Login = (props) => {
                         </div>
                         <div className="pt-3">
                             Je n'ai pas encore de compte?<Link to={"/signup"}> Inscription</Link>
+                            <Link to={"/passwordForgot"}> Mot de passe oublié ?</Link>
                         </div>
                     </form>
                 </div>
