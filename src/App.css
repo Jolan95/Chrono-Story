@@ -50,6 +50,9 @@
   height: 25px;
   width : 25px;
 } 
+.bi-info-circle {
+  color : white
+}
 @media (min-width:500px){
   .question {
     font-size : 1.7rem;
@@ -127,6 +130,9 @@ h1{
   }
 
 }
+.rules h2, .rules h3{
+  text-decoration : underline
+} 
 
 .button-restart{
   border-radius: 8px;
@@ -257,4 +263,3 @@ form a:hover{
     display : none
   }
 }
-

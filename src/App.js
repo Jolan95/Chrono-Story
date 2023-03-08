@@ -9,6 +9,7 @@ import Signup from './signup';
 import VerificationEmail from './sendVerificationEmail';
 import PasswordForgot from './passwordForgot';
 import PasswordReset from "./passwordReset"
+import Rules from "./rules"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 			<Route path="/signup" element={<Signup></Signup>}/>
 			<Route path="/passwordForgot" element={<PasswordForgot></PasswordForgot>}/>
 			<Route path="/passwordReset" element={<PasswordReset></PasswordReset>}/>
+			<Route path="/rules" element={<Rules></Rules>}/>
 		  	{/* create route for every game in the data file */}
 		  	{datas.map((data, index)=> {
 				if(data.active){
