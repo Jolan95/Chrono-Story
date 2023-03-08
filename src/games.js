@@ -77,16 +77,16 @@ function Games(props) {
 		if(min !== null && max !== null ){
 		 	if(life > 0 && !questionAnswered.includes(picked)){
 				if(picked.date >= min && picked.date <= max){
-					picked.answer = "green";
+					picked.answer = "#49944c";
 					setScore( score + 1 )
 				}else if((picked.date < min || picked.date > max) && life === 1){
 					setLife(life - 1)
-					picked.answer = "red";
+					picked.answer = "rgb(135, 7, 7)";
 					setBasicModal(true)
 					setIsPlaying(false)
 				}else{
 					setLife(life - 1)
-					picked.answer = "red";
+					picked.answer = "rgb(135, 7, 7)";
 				}
 				let copyQuestionAnswered = [...questionAnswered, picked]
 				copyQuestionAnswered.sort((a, b) => (a.date > b.date ? 1 : -1))
@@ -140,10 +140,8 @@ function Games(props) {
 					{displayLife()}
 				</div>
 					 <Restart isDisplay={!isPlaying ? true : false} action={reset}></Restart> 
-
-				</div>
-					
-  	   	 		<div className="text-center box-question"><h1 className="text-center question ">{picked.question}</h1></div>
+				</div>	
+  	   	 		<div className="text-center box-question" ><h1  style={isPlaying ? { display: `block` } : {display : "none"} } className="text-center question ">{picked.question}</h1></div>
 			</div>
   	    	<div className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
 				<div className={isPlaying ? "tiret" : "" } data-min="-30000000" data-max={firstDate} ></div>

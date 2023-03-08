@@ -7,7 +7,6 @@ function Box(props) {
         if((props.index + 1) < props.questionAnswered.length  ) {
             let DateSup = props.questionAnswered[props.index + 1].date 
             setDateMax(DateSup)
-
         } else{
             setDateMax(new Date().getFullYear())
         }
