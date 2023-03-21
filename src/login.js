@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import {redirect, Link } from "react-router-dom";
+import {redirect, Link, Navigate } from "react-router-dom";
 import Alert from './components/alert';
 import Header from './components/header';
-
-
+import Input from './components/input';
+import ButtonSubmit from './components/buttonSubmit';
 
 async function loginUser(credentials) {
     return fetch(process.env.REACT_APP_URL_BACK+'api/auth/login', {
@@ -19,17 +19,13 @@ async function loginUser(credentials) {
 
 const Login = (props) => {
 
- 
+    
+    
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [message, setMessage] = useState("")
     const [display, setDisplay] = useState("none")
-
-    // console.log(localStorage.getItem("token"))
-    // if(localStorage.getItem("token") != undefined){
-    //     return <Navigate to='/'/>
-    // }
-
+    
     
     const handleSubmit = async e => {
         e.preventDefault();
@@ -59,28 +55,26 @@ const Login = (props) => {
             return redirect("/");
         }
     },[props.token, props.setToken]);
-
+    
+    
+    if(localStorage.getItem("token") != undefined){
+        return <Navigate to='/'  />
+    }
     
     return (
-        <div className="App-header">
+        <div>
             <Header></Header>
             <div className='content-center '>
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>
                         <h2 className='text-center mb-4'>Authentification</h2>
                         <Alert style="danger" display={display} >{message}</Alert>
-                        <div>
-                            <input type="email" className='mt-2' placeholder='E-mail' onChange={e => setEmail(e.target.value)}/>
-                        </div>
-                        <div>  
-                            <input type="password" className='my-2' placeholder='Mot de passe' onChange={e => setPassword(e.target.value)}/>
-                        </div>
-                        <div>
-                            <button className='btn btn-success mt-3' type="submit">Submit</button>
-                        </div>
+                        <Input type="email" name="email" action={setEmail} placeholder="Email"></Input>
+                        <Input type="password" name="password" action={setPassword} placeholder="Mot de passe"></Input>
+                        <ButtonSubmit>Connexion</ButtonSubmit>   
                         <div className="pt-3">
-                            Je n'ai pas encore de compte?<Link to={"/signup"}> Inscription</Link>
-                            <Link to={"/passwordForgot"}> Mot de passe oublié ?</Link>
+                            Je n'ai pas de compte?<Link to={"/signup"}> Inscription</Link>
+                            <div><Link to={"/passwordForgot"}> Mot de passe oublié ?</Link></div>
                         </div>
                     </form>
                 </div>

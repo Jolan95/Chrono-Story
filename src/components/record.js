@@ -5,7 +5,7 @@ export default function Record(props) {
     let record = props.record
     if(token !== null){
         if(props.record !== undefined && record !== ""){
-            return <div>Record : {record}</div>
+            return <div className='px-1'>Record : {record}</div>
         }
         return <div>Record : 0</div>
     }

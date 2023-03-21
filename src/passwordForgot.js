@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import {  Link } from "react-router-dom";
 import Alert from './components/alert';
 import  { Navigate  } from 'react-router-dom'
+import Input from './components/input';
+import ButtonSubmit from './components/buttonSubmit';
 
 
 async function passwordForgot(email) {
@@ -38,24 +40,19 @@ export default function PasswordForgot() {
  };
 
     return (
-    <div className="App-header pt-5">
-    <div className='content-center '>
+    <div className='content-center pt-5'>
         <div className="wrapper-form">
             <form onSubmit={handleSubmit}>
                 <h2 className='text-center mb-4'>Envoi mail de vérifiaction</h2>
                 <Alert style={style} display={display} >{message}</Alert>
-                <div>
-                    <input type="email" className='mt-2' placeholder='E-mail' onChange={e => setEmail(e.target.value)}/>
-                </div>
-                <div>
-                    <button className='btn btn-success mt-3' type="submit">Submit</button>
-                </div>  
+                <Input type="email" name="email" action={setEmail} placeholder="Email"></Input>
+                <ButtonSubmit>Réintialiser le mot de passe</ButtonSubmit>   
                 <div className='pt-4'>
                     <Link  to="/login">Connexion</Link>
                 </div>
             </form>
         </div>
     </div>
-    </div>
+
   )
 }

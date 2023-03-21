@@ -48,7 +48,7 @@ function Games(props) {
 		}
 	}, [setQuestionAnswered, questionAnswered])
 
-	useEffect(() => {
+	useEffect( () => {
 		if(token !== null){
 		  	let user = JSON.parse(localStorage.getItem("user"));
 		  	let id = user._id
@@ -66,7 +66,7 @@ function Games(props) {
 				},
 				(error) => {
 					setRecord(0)
-			}
+				}
 		  	)
 	  	}
 	}, [])
@@ -123,43 +123,41 @@ function Games(props) {
 	const toggleShowWin = () => setBasicModalWin(!basicModalWin);
 
   	return (
-  	  <div className="App">
-  	    <div className="App-header">
+	<div>
 		<Header></Header>
-			<div className='sticky'>
-				<div className='px-2 mb-2 d-flex justify-content-between align-items-center d-lg-none'>
-					<Record record={record} token={token}></Record>
-					<div>{displayLife()}</div>
-					 <Restart isDisplay={!isPlaying ? true : false } action={reset}></Restart> 
-				</div>
-  	   	 		<div className='wrapper-score d-lg-block d-none'>
-					<Record record={record} token={token}></Record>
-				</div>
-				<div className='d-lg-block d-none'>
+		<div className='sticky'>
+			<div className='px-2 mb-2 d-flex justify-content-between align-items-center d-lg-none'>
+				<Record record={record} token={token}></Record>
+				<div>{displayLife()}</div>
+				 <Restart isDisplay={!isPlaying ? true : false } action={reset}></Restart> 
+			</div>
+  	   	 	<div className='wrapper-score d-lg-block d-none'>
+				<Record record={record} token={token}></Record>
+			</div>
+			<div className='d-lg-block d-none'>
   	   	 		<div className='wrapper-heart'>
 					{displayLife()}
 				</div>
-					 <Restart isDisplay={!isPlaying ? true : false} action={reset}></Restart> 
-				</div>	
-  	   	 		<div className="text-center box-question" ><h1  style={isPlaying ? { display: `block` } : {display : "none"} } className="text-center question ">{picked.question}</h1></div>
-			</div>
-  	    	<div className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
-				<div className={isPlaying ? "tiret" : "" } data-min="-30000000" data-max={firstDate} ></div>
-  	    	</div>
-			<div className='mb-5 mb-lg-0'>
+				 <Restart isDisplay={!isPlaying ? true : false} action={reset}></Restart> 
+			</div>	
+  	   	 	<div className="text-center box-question" ><h1  style={isPlaying ? { display: `block` } : {display : "none"} } className="text-center question ">{picked.question}</h1></div>
+		</div> 
+  	    <div className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
+			<div className={isPlaying ? "tiret" : "" } data-min="-30000000" data-max={firstDate} ></div>
+  	    </div>
+		<div className='mb-5 mb-lg-0'>
   	    	{questionAnswered.map((data, index)=> {
   	    	 	return <Box animation={isPlaying} datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
   	    	})}
-			</div>
-			<Modal actionReset={reset}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Oops...Vous n'avez plus de vies</Modal>
-			<Modal actionReset={reset} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Bravo !!!</Modal>
-  	    </div>
-			<div className='footer'>
+		</div>
+		<Modal actionReset={reset}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Vous n'avez plus de vies !</Modal>
+		<Modal actionReset={reset} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Vous êtes arrivés au bout des questions !</Modal>
+		<div className='footer'>
 			<div className='text-center'>
 			Score : {score}
 			</div>
-			</div>
-  	  </div>
+		</div>
+	</div>
   	);
 }	
 

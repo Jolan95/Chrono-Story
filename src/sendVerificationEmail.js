@@ -46,8 +46,7 @@ async function verificationEmail(credentials) {
  
 
     return (
-        <div className="App-header pt-5">
-            <div className='content-center '>
+            <div className='content-center pt-5'>
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>
                         <h2 className='text-center mb-4'>Envoi mail de vérification</h2>
@@ -64,7 +63,6 @@ async function verificationEmail(credentials) {
                     </form>
                 </div>
             </div>
-        </div>
     )
 }
 export default VerificationEmail;

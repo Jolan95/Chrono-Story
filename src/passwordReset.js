@@ -2,6 +2,8 @@ import React, {useState, useEffect} from 'react'
 import Alert from './components/alert'
 import {Link ,redirect} from "react-router-dom"
 import Header from './components/header'
+import Input from './components/input'
+import ButtonSubmit from './components/buttonSubmit'
 
 
 async function updatePassword(credentials) {
@@ -19,8 +21,6 @@ export default function PasswordReset() {
     
     const queryParameters = new URLSearchParams(window.location.search)
     const token = queryParameters.get("tokenPassword")
-    
-
     const [style, setStyle]= useState("danger")
     const [message, setMessage] = useState("")
     const [display, setDisplay] = useState("none")
@@ -89,27 +89,26 @@ export default function PasswordReset() {
     }
 
     if (error) {
-        return <div>Error: {error.message}</div>;
+        return <div>Erreur: {error.message}</div>;
       } else if (!isLoaded) {
-        return <div>Loading...</div>;
+        return <div>
+            <Header></Header>
+            <div className="d-flex justify-content-center">
+            <div className="lds-dual-ring"></div>
+            </div>
+        </div>;
       } else {
           return (
-          <div className="App-header">
+          <div>
             <Header></Header>
-            <div className='content-center '>
+            <div className='content-center'>
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>
                         <h2 className='text-center mb-4'>Réinitialiser le mot de passe</h2>
                         <Alert style={style} display={display} >{message}</Alert>
-                        <div>
-                            <input type="password" className='mt-2' placeholder='Mot de passe' onChange={e => setPassword1(e.target.value)}/>
-                        </div>
-                        <div>
-                            <input type="password" className='mt-2' placeholder='Confirmez le mot de passe' onChange={e => setPassword2(e.target.value)}/>
-                        </div>
-                        <div>
-                            <button className='btn btn-success mt-3' disabled={disable} type="submit">Submit</button>
-                        </div>  
+                        <Input type="password" name="password" action={setPassword1} placeholder="Mot de passe"></Input>
+                        <Input type="password" name="password2" action={setPassword2} placeholder="Confirmez votre mot de passe"></Input>
+                        <ButtonSubmit disabled={disable}>Changer le mot de passe</ButtonSubmit>  
                         <div className="pt-2">
                             <Link to="/login">Connexion</Link>
                         </div>

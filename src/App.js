@@ -10,7 +10,7 @@ import VerificationEmail from './sendVerificationEmail';
 import PasswordForgot from './passwordForgot';
 import PasswordReset from "./passwordReset"
 import Rules from "./rules"
-
+import Record from './record';
 
 function App() {
 	const getToken = () => {
@@ -20,7 +20,7 @@ function App() {
 			return userToken?.token
 		}
 		return ""
-	  };
+	};
 	  const [token, setToken] = useState(getToken() || "");
 
 	  
@@ -34,7 +34,7 @@ function App() {
 			<Route path="/passwordForgot" element={<PasswordForgot></PasswordForgot>}/>
 			<Route path="/passwordReset" element={<PasswordReset></PasswordReset>}/>
 			<Route path="/rules" element={<Rules></Rules>}/>
-		  	{/* create route for every game in the data file */}
+			<Route path="/records" element={<Record></Record>}/>
 		  	{datas.map((data, index)=> {
 				if(data.active){
 				data.data.sort((a, b) => 0.5 - Math.random());

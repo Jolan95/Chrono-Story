@@ -6,7 +6,6 @@ import Header from './components/header.js'
 const componentName = (props) => {
 
     return (
-        <div className='App-header'>
             <div className='container'>
                 <div className='row'>
                     <Header/>                
@@ -32,7 +31,7 @@ const componentName = (props) => {
                     <BoxQuiz image={"https://www.iclub-informatique.fr/wp-content/uploads/2020/07/iclub-informatique-slider-scaled.jpg"} to={"/informatique"} text={"Les grandes dates de l'informatique"}>Informatique</BoxQuiz>
                 </div>
             </div>
-        </div>
+
     )
 }
 

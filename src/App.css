@@ -1,8 +1,13 @@
-.App-header {
+body {
   background-color: #282c34;
   min-height : 100vh;
   height : 100%;
   color: white;
+}
+.full-center{
+  display : flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo{
   height : 120px;
@@ -52,6 +57,9 @@
 } 
 .white {
   color : white
+}
+.modal-footer{
+  justify-content: space-between;
 }
 @media (min-width:500px){
   .question {
@@ -182,6 +190,45 @@ a:hover, a:link, a:visited{
 .radius90 {
   border-radius: 90px;
 }
+.line-record{
+  border-radius : 10px;
+  color : white;
+  /* border : 1px solid white; */
+  min-width : 260px;
+  max-width : 400px;
+  width : 100vw;
+  padding: 10px;
+  background-color: rgb(25, 27, 28);
+}
+.percent-area{
+  width : 50px;
+  height : 30px
+}
+.line-record:hover{
+  opacity : 0.9
+}
+.background-grey{
+  background-color: grey;
+}
+.background-green{
+  background-color: green;
+}
+.background-green-plus{
+  background-color: rgb(136, 213, 21);
+}
+.background-orange{
+  background-color: orange;
+}
+.background-yellow{
+  background-color: rgb(178, 178, 40);
+}
+.background-disable{
+  background-color: rgb(33, 30, 29);
+}
+.background-blue{
+  background-color: rgb(30, 129, 146);
+}
+
 /* Form */
 .wrapper-form{
   display : flex;
@@ -217,6 +264,7 @@ form a:hover{
   font-size: 16px;
   border: none;
   cursor: pointer;
+ 
 }
 .dropdown {
   position: relative;
@@ -227,7 +275,7 @@ form a:hover{
   position: absolute;
   background-color: #f9f9f9;
   right : 0;
-  /* min-width: 160px; */
+  min-width : 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -261,8 +309,53 @@ form a:hover{
 }
 
 
-@media (max-width : 500px) {
+@media (max-width : 767px) {
   .description-box-quiz{
     display : none
   }
+  .dropdown{
+    min-width: 53px;
+  }
+  .dropdown-content {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .dropdown-content a, .dropdown-content div {
+    border-radius: 90px;
+    min-width: none;
+    margin: 6px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropdown-content a {
+    background-color : white
+  }
+  
 }
+
+  /* loading */
+  .lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
