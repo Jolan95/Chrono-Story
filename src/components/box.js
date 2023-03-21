@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import ButtonInfo from './buttonInfo';
 
 function Box(props) {
     const [dateMax, setDateMax] = useState();
@@ -29,13 +30,15 @@ function Box(props) {
         <>
         <div className="center">
 
-        <div className="wrapper-box" style={mystyle}>
-            <div className="x-bold text-center">{convertDate(props.datas.date)}</div>
+        <div className="wrapper-box " style={mystyle}>
+           
+                <div className="x-bold text-center">{convertDate(props.datas.date)}</div>
+                <ButtonInfo description={props.datas.description}></ButtonInfo>
             <div className=' text-center'>{props.datas.question}</div>
         </div>
         </div>
         <div className="area-answer"  data-min={props.datas.date} data-max={dateMax} onClick={props.handleTiret}>
-            <div className={props.animation ? "tiret" : "" } data-min={props.datas.date} data-max={dateMax}></div>
+            <div className={props.animation ? "tiret" : ""} data-min={props.datas.date} data-max={dateMax}></div>
         </div>
         </>
     );

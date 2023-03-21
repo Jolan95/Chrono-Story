@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import Box from "./components/box";
 import './App.css';
 import Heart from './components/heart';
-import Modal from './components/modal';
+import Modal from './components/modalEndGame';
 import Header from './components/header';
 import Record from './components/record';
 import Restart from './components/restart';
@@ -34,7 +34,7 @@ function Games(props) {
 			.then(res => res.json())
 		}
 	},[score])
-
+	
   	useEffect(()=> {
 		if(questionAvailable.length > 0){
 			questionAvailable.sort((a, b) => 0.5 - Math.random());
@@ -48,7 +48,7 @@ function Games(props) {
 		}
 	}, [setQuestionAnswered, questionAnswered])
 
-	useEffect( () => {
+	useEffect(() => {
 		if(token !== null){
 		  	let user = JSON.parse(localStorage.getItem("user"));
 		  	let id = user._id
@@ -66,7 +66,7 @@ function Games(props) {
 				},
 				(error) => {
 					setRecord(0)
-				}
+			}
 		  	)
 	  	}
 	}, [])

@@ -25,7 +25,8 @@ body {
   padding : 10px;
   min-width : 250px;
   width : 500px;
-  max-width : 90%
+  max-width : 90%;
+  position : relative
 }
 .no-radius{
   border-radius : 0px
@@ -172,6 +173,11 @@ a:hover, a:link, a:visited{
   background-position: center;
   background-size: 100%;
   margin-bottom: 30px;;
+}
+.absolute-info{
+  position: absolute;
+  top: 0;
+  right :5px
 }
 .box-quiz:hover{
   transform: scale(1.04);
