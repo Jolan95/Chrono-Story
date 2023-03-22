@@ -30,11 +30,11 @@ function Games(props) {
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({id : id, score : score,  game : props.name})
 		}
-			fetch(process.env.REACT_APP_URL_BACK+"api/auth/highscore",myInit)
+			fetch(process.env.REACT_APP_URL_BACK+"record/highscore",myInit)
 			.then(res => res.json())
 		}
 	},[score])
-	
+
   	useEffect(()=> {
 		if(questionAvailable.length > 0){
 			questionAvailable.sort((a, b) => 0.5 - Math.random());
@@ -58,7 +58,7 @@ function Games(props) {
 		  	headers: { 'Content-Type': 'application/json' },
 		  	body: JSON.stringify({id : id, game : props.name})
 		  	}
-		  	fetch(process.env.REACT_APP_URL_BACK+"api/auth/record",myInit)
+		  	fetch(process.env.REACT_APP_URL_BACK+"record",myInit)
 		  	.then(res => res.json())
 		  	.then(
 				(response) => {

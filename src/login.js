@@ -6,7 +6,7 @@ import Input from './components/input';
 import ButtonSubmit from './components/buttonSubmit';
 
 async function loginUser(credentials) {
-    return fetch(process.env.REACT_APP_URL_BACK+'api/auth/login', {
+    return fetch(process.env.REACT_APP_URL_BACK+'auth/login', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'

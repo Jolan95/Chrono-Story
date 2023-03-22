@@ -20,7 +20,7 @@ const Signup = () => {
         e.preventDefault()
         if(lastname && firstname && email && password){
             if(password.length >= 8){
-                return fetch(process.env.REACT_APP_URL_BACK+'api/auth/signup', {
+                return fetch(process.env.REACT_APP_URL_BACK+'auth/signup', {
                     method: 'POST',
                     headers: {
                     'Content-Type': 'application/json'

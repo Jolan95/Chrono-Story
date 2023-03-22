@@ -7,7 +7,7 @@ import ButtonSubmit from './components/buttonSubmit';
 
 
 async function passwordForgot(email) {
-    return fetch(process.env.REACT_APP_URL_BACK+'api/auth/password-forgot', {
+    return fetch(process.env.REACT_APP_URL_BACK+'password/forgot', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'

@@ -1,7 +1,7 @@
 import './App.css';
 import Games from "./games.js"
 import React,{ useState } from 'react';
-import {  BrowserRouter,  Routes,  Route} from "react-router-dom";
+import {  BrowserRouter,  Routes,  Route, useParams} from "react-router-dom";
 import Home from "./home.js"
 import datas from "./datas/data.json"
 import Login from "./login"
@@ -11,6 +11,8 @@ import PasswordForgot from './passwordForgot';
 import PasswordReset from "./passwordReset"
 import Rules from "./rules"
 import Record from './record';
+import Users from './users';
+import User from './user';
 
 function App() {
 	const getToken = () => {
@@ -42,6 +44,8 @@ function App() {
 				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db}/>}/>
 				}
 			})}
+			<Route path="/users" element={<Users></Users>}/>
+			<Route path="/user/:userId" element={<User></User>}/>
 		</Routes>
 	  	</BrowserRouter>
 		);

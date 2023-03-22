@@ -14,7 +14,7 @@ export default function Record() {
 		  	headers: { 'Content-Type': 'application/json' },
 		  	body: JSON.stringify({id})
 		  	}
-		  	fetch(process.env.REACT_APP_URL_BACK+"records/personal/",myInit)
+		  	fetch(process.env.REACT_APP_URL_BACK+"record/all",myInit)
 		  	.then(res => res.json())
 		  	.then(
 				(response) => {

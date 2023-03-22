@@ -262,210 +262,210 @@
             {
                 "id" : 10, 
                 "question" : "Naissance de la République populaire de Chine", 
-                "description" : "",
+                "description" : "La République populaire de Chine a été fondée le 1er octobre 1949, après des décennies de conflits politiques et militaires. Le Parti communiste chinois, dirigé par Mao Zedong, a vaincu les forces nationalistes dirigées par Chiang Kai-shek, mettant fin à une longue guerre civile. La naissance de la République populaire de Chine a été un événement majeur dans l'histoire du pays, marquant la fin de l'ère impériale et le début d'une nouvelle ère de gouvernance communiste.",
                 "date" : 1949, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Création de la RDA", 
-                "description" : "",
+                "description" : "La naissance de la République démocratique allemande (RDA) en 1949 fut le résultat de la division de l'Allemagne à la fin de la Seconde Guerre mondiale. La RDA était un État socialiste dirigé par le Parti socialiste unifié d'Allemagne (SED) sous l'influence de l'Union soviétique. La division de l'Allemagne a conduit à une tension persistante entre les puissances occidentales et l'Union soviétique pendant la guerre froide.",
                 "date" : 1949, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Signature du pacte sino-soviétique", 
-                "description" : "",
+                "description" : "Le pacte sino-soviétique, signé en 1950, était un traité d'amitié, d'alliance et d'assistance mutuelle entre la République populaire de Chine et l'Union soviétique. Cet accord a renforcé les relations entre les deux pays socialistes, mais a également aggravé les tensions entre l'Union soviétique et les États-Unis, qui considéraient la Chine comme un pays communiste hostile.",
                 "date" : 1950, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Début de la guerre de Corée", 
-                "description" : "",
+                "description" : "La guerre de Corée a commencé en 1950 lorsque les forces communistes nord-coréennes ont envahi la Corée du Sud. Les États-Unis et leurs alliés ont soutenu la Corée du Sud, tandis que la Chine et l'Union soviétique ont soutenu la Corée du Nord. La guerre a été l'un des conflits les plus importants et les plus coûteux de la guerre froide, qui a eu des conséquences importantes sur la politique mondiale de l'époque.",
                 "date" : 1950, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Eisenhower devient président des USA.",
-                "description" : "", 
+                "description" : "En 1953, Dwight D. Eisenhower est élu président des États-Unis, succédant à Harry S. Truman. Ancien commandant en chef des forces alliées en Europe pendant la Seconde Guerre mondiale, Eisenhower a été un héros de guerre populaire qui a promis de maintenir la sécurité nationale et la prospérité économique. Son mandat a été marqué par la Guerre froide avec l'Union soviétique et la poursuite de la politique de containment. Il a également supervisé la création de l'Agence pour les projets de recherche avancée de défense (ARPA), qui a jeté les bases d'Internet.", 
                 "date" : 1953, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Décès de Staline", 
-                "description" : "",
+                "description" : "En 1953, la mort de Joseph Staline a entraîné une période de transition en Union soviétique. Staline était le dictateur incontesté du pays depuis la fin des années 1920 et son décès a créé une vacance de pouvoir. Les conséquences de sa mort ont été multiples, avec des purges politiques massives, l'élaboration d'une nouvelle constitution et la poursuite des ambitions impériales de l'Union soviétique. Les méfaits du régime stalinien ont été réévalués par les successeurs de Staline, bien que sa mémoire soit toujours célébrée par certains en Russie aujourd'hui.",
                 "date" : 1953, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Nikita Khrouchtchev devient premier secrétaire du Parti communiste de l'Union soviétique", 
-                "description" : "",
+                "description" : "En 1953, Nikita Khrouchtchev est devenu premier secrétaire du Parti communiste de l'Union soviétique, succédant à Georgi Malenkov. Khrouchtchev était un membre du Politburo qui avait joué un rôle clé dans l'arrestation et l'exécution de Lavrentiy Beria, l'ancien chef de la police secrète de Staline. Sous la direction de Khrouchtchev, l'Union soviétique a entrepris des réformes économiques importantes, notamment la collectivisation agricole et la déstalinisation. Il a également supervisé la construction du mur de Berlin et a été impliqué dans la crise des missiles de Cuba en 1962.",
                 "date" : 1953, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Signature du pacte de Bagdad", 
-                "description" : "",
+                "description" : "La signature du pacte de Bagdad en 1955 a créé une alliance militaire entre la Turquie, l'Irak, l'Iran, le Pakistan et la Grande-Bretagne. Le pacte était une réponse à la crainte de l'expansionnisme soviétique dans la région et a été vu comme un moyen pour les pays membres de renforcer leur sécurité mutuelle.",
                 "date" : 1955, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Signature du pacte de Varsovie", 
-                "description" : "",
+                "description" : "Le pacte de Varsovie a été signé en 1955 entre l'Union soviétique et les pays d'Europe de l'Est, créant une alliance militaire pour contrer l'OTAN. Il était vu comme une réponse à la formation de l'OTAN et a renforcé l'influence soviétique dans la région.",
                 "date" : 1955, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Sommet de Genève", 
-                "description" : "",
+                "description" : "Le sommet de Genève en 1955 était une réunion entre les États-Unis, l'Union soviétique, la Grande-Bretagne et la France pour discuter de la sécurité et du désarmement. Bien qu'il n'y ait pas eu d'accord majeur, il a été considéré comme une étape importante dans la détente entre les deux superpuissances.",
                 "date" : 1955, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Nationalisation du canal de Suez par Nasser",
-                "description" : "", 
+                "description" : "La nationalisation du canal de Suez par Nasser en 1956 a provoqué une crise internationale majeure. La Grande-Bretagne, la France et Israël ont envahi l'Égypte en réponse, mais ont été forcés de se retirer sous la pression internationale. Cela a marqué la fin de l'influence coloniale britannique en Égypte et a renforcé le rôle des États-Unis en tant que médiateur dans les affaires internationales.", 
                 "date" : 1956, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Lancement de Spoutnik 1", 
-                "description" : "",
+                "description" : "Le lancement de Spoutnik en 1957 a marqué le début de la course à l'espace entre les États-Unis et l'Union soviétique. Cet événement a été un coup dur pour la fierté nationale américaine et a conduit à une augmentation des dépenses dans la recherche spatiale et la technologie.",
                 "date" : 1957, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Visite de Nikita Khrouchtchev aux États-Unis", 
-                "description" : "",
+                "description" : "La visite de Nikita Khrouchtchev aux États-Unis en 1959 a été une tentative de réduire les tensions de la guerre froide entre les deux superpuissances. Bien que la visite ait été largement médiatisée, elle n'a pas réussi à résoudre les tensions entre les deux pays.",
                 "date" : 1959, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Rupture sino-soviétique", 
-                "description" : "",
+                "description" : "La rupture sino-soviétique en 1960 a été le résultat de différences idéologiques entre l'Union soviétique et la Chine communiste. Cette rupture a eu un impact significatif sur l'équilibre de pouvoir en Asie et a contribué à la fragmentation du mouvement communiste mondial.",
                 "date" : 1960, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Kennedy devient président des USA", 
-                "description" : "",
+                "description" : "L'élection de John F. Kennedy en 1960 a marqué un tournant dans la politique américaine. Sa jeunesse et son charisme ont inspiré une génération de jeunes Américains à s'engager dans la politique et à lutter pour le changement social. Kennedy a également pris des initiatives pour renforcer la sécurité nationale et les relations internationales des États-Unis.",
                 "date" : 1961, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Gagarine, premier homme dans l’espace",
-                "description" : "", 
+                "description" : "En 1961, Youri Gagarine devient le premier humain à voyager dans l'espace à bord de la capsule spatiale Vostok 1, réalisant ainsi un exploit historique pour l'Union soviétique. Sa mission a marqué un tournant dans la course à l'espace entre les États-Unis et l'URSS pendant la guerre froide.", 
                 "date" : 1961, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Construction du mur de Berlin", 
-                "description" : "",
+                "description" : "La construction du mur de Berlin a été un événement clé de la guerre froide, marquant la division entre les deux blocs, l'Occident et le bloc soviétique. La construction du mur en 1961 a été précédée de tensions croissantes entre les deux parties, et a été déclenchée par une augmentation du nombre de réfugiés de Berlin-Est vers l'Ouest.",
                 "date" : 1961, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Débarquement de la baie des Cochons", 
-                "description" : "",
+                "description" : "Le débarquement de la baie des Cochons en 1961 a été une tentative ratée de la CIA pour renverser le régime communiste de Fidel Castro à Cuba. L'opération était mal planifiée et mal exécutée, et les forces de débarquement ont été rapidement vaincues par les forces cubaines. Cela a été une humiliation pour les États-Unis et a renforcé la position de Castro.",
                 "date" : 1961, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Crise des missiles de Cuba", 
-                "description" : "",
+                "description" : "La crise des missiles de Cuba en 1962 a été un moment de grande tension entre les États-Unis et l'Union soviétique, qui a failli déclencher une guerre nucléaire. Les États-Unis ont découvert que l'Union soviétique avait installé des missiles nucléaires à Cuba, menaçant directement la sécurité nationale américaine. Après des semaines de négociations tendues, les deux parties ont finalement convenu d'un compromis, où les missiles seraient retirés de Cuba en échange de la promesse des États-Unis de ne pas envahir Cuba et de retirer leurs missiles de Turquie.",
                 "date" : 1962, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "Guerre des Six jours", 
-                "description" : "",
+                "description" : "La guerre des Six jours en 1967 a opposé Israël aux pays arabes voisins, l'Égypte, la Jordanie et la Syrie. Israël a lancé une attaque préventive et a réussi à détruire la plupart des forces aériennes arabes en un seul jour. La guerre a été une victoire écrasante pour Israël, qui a élargi son territoire et a pris le contrôle de la Cisjordanie, de la bande de Gaza, du plateau du Golan et de Jérusalem-Est. La guerre a eu des conséquences durables pour la région et a contribué à alimenter les tensions entre Israël et les pays arabes.",
                 "date" : 1967, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Écrasement du Printemps de Prague", 
-                "description" : "",
+                "description" : "L'écrasement du Printemps de Prague en 1968 est une période sombre de l'histoire de la Tchécoslovaquie. Le mouvement de libéralisation mené par Alexander Dubček a été réprimé par les forces soviétiques qui ont envahi le pays. Cette invasion a mis fin aux espoirs de réforme et a renforcé le contrôle du bloc de l'Est sur la Tchécoslovaquie.",
                 "date" : 1968, 
                 "answer" : null
             },
             {
                 "id" : 31, 
-                "question" : "Premier pas sur la lune", 
-                "description" : "",
+                "question" : "Premiers pas sur la lune", 
+                "description" : "Le premier pas sur la lune en 1969 a marqué un moment historique dans l'histoire de l'humanité. La mission Apollo 11 de la NASA, dirigée par Neil Armstrong et Buzz Aldrin, a atterri sur la lune, faisant de l'Amérique le premier pays à envoyer des hommes sur une autre planète. Cet événement a inspiré des générations de scientifiques et a renforcé la position des États-Unis dans la course à l'espace.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Guerre de Kippour", 
-                "description" : "",
+                "description" : "La guerre de Kippour en 1973 a été un conflit majeur entre Israël et ses voisins arabes, l'Égypte et la Syrie. L'Égypte a lancé une attaque surprise contre Israël pendant le jour de Kippour, une journée sacrée juive. Bien que les forces israéliennes aient finalement repoussé l'attaque, la guerre a été coûteuse en vies humaines et a entraîné des changements dans la politique de la région.",
                 "date" : 1973, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "Ford devient président des USA", 
-                "description" : "",
+                "description" : "L'accession de Gerald Ford à la présidence des États-Unis en 1974 a été le résultat d'un ensemble d'événements inhabituels. Après la démission du président Nixon, Ford, qui était vice-président à l'époque, a prêté serment en tant que président. Il a travaillé pour panser les plaies de la nation après le scandale du Watergate et pour redresser l'économie américaine. Sa présidence a été de courte durée mais a laissé une marque durable sur l'histoire américaine.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 34, 
                 "question" : "Intervention soviétique en Afghanistan", 
-                "description" : "",
+                "description" : "L'intervention soviétique en Afghanistan a eu lieu de 1979 à 1989 et a été motivée par la volonté de soutenir un gouvernement communiste pro-soviétique face à une insurrection islamiste. Cette intervention a été coûteuse pour l'Union soviétique, tant en termes de pertes humaines que de ressources financières, et a contribué à l'isolement international de l'Union soviétique.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 35, 
                 "question" : "Reagan président des USA", 
-                "description" : "",
+                "description" : "Ronald Reagan a été élu président des États-Unis en 1980 et a servi deux mandats jusqu'en 1989. Son mandat a été marqué par une politique étrangère agressive, notamment envers l'Union soviétique, qu'il considérait comme l'ennemi principal des États-Unis. Reagan a également promu des politiques économiques conservatrices, telles que la déréglementation et la baisse des impôts.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 36, 
                 "question" : "Mikhaïl Gorbatchev devient premier secrétaire du Parti communiste de l'Union soviétique", 
-                "description" : "",
+                "description" : "Mikhaïl Gorbatchev est devenu le premier secrétaire du Parti communiste de l'Union soviétique en 1985. Son arrivée au pouvoir a marqué le début d'une période de réformes économiques et politiques en Union soviétique, connue sous le nom de perestroïka et de glasnost. Ces réformes ont conduit à une plus grande ouverture politique et économique, mais ont également mis en évidence les faiblesses du système soviétique.",
                 "date" : 1985, 
                 "answer" : null
             },
             {
                 "id" : 37, 
                 "question" : "Chute du mur de Berlin", 
-                "description" : "",
+                "description" : "La chute du mur de Berlin est survenue le 9 novembre 1989 et a marqué la fin de la guerre froide et de la division de l'Allemagne. La chute du mur a été le résultat d'une combinaison de facteurs, notamment les pressions économiques et politiques exercées sur l'Union soviétique, les réformes de Gorbatchev, la pression populaire pour la liberté et l'unification de l'Allemagne. La chute du mur a ouvert la voie à la fin de l'Union soviétique et à l'émergence d'un nouvel ordre mondial.",
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 38, 
                 "question" : "Ouverture du rideau de fer entre l'Autriche et la Hongrie", 
-                "description" : "",
+                "description" : "L'ouverture du rideau de fer entre l'Autriche et la Hongrie en 1989 a marqué la fin de la Guerre froide et de l'ère communiste en Europe de l'Est. Ce moment historique a permis la libre circulation des personnes et des idées entre les deux pays et a préparé le terrain pour la réunification de l'Allemagne et la chute du Mur de Berlin.",
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 39, 
                 "question" : "Fin de l'URSS",
-                "description" : "", 
+                "description" : "La fin de l'Union soviétique en 1991 a marqué la fin d'une ère de guerre froide et de tensions géopolitiques mondiales. Cette période a été marquée par des réformes économiques et politiques radicales qui ont entraîné la chute du régime communiste en Union soviétique et dans les pays satellites de l'Europe de l'Est. La fin de l'URSS a entraîné des changements importants dans la politique et l'économie mondiales", 
                 "date" : 1991, 
                 "answer" : null
             }
@@ -482,175 +482,175 @@
             {
                 "id" : 0, 
                 "question" : "Louis-Napoléon Bonaparte", 
-                "description" : "",
+                "description" : "Louis-Napoléon Bonaparte a été le premier président de la République française, élu en 1848. Il a mené un coup d'État en 1851 et a établi un régime autoritaire qui a duré jusqu'en 1870, année où il a été renversé pendant la guerre franco-allemande. Pendant son règne, il a modernisé l'économie française, construit des chemins de fer et des ports, et a lancé des réformes sociales.",
                 "date" : 1848, 
                 "answer" : null
             },
             {
                 "id" : 1, 
                 "question" : "Adolphe Thiers", 
-                "description" : "",
+                "description" : "Adolphe Thier a été élu président de la République française en 1871, peu après la fin de la guerre franco-allemande. Thiers a été chargé de négocier le traité de paix avec l'Allemagne et de gérer la crise politique et sociale qui a suivi la chute de l'Empire français. Il a également joué un rôle clé dans la suppression de la Commune de Paris en 1871.",
                 "date" : 1871, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Patrice de Mac Mahon", 
-                "description" : "",
+                "description" : "Mac Mahon a été le premier président de la Troisième République à être élu par les députés, plutôt que par les citoyens. Son mandat a été marqué par des tensions entre les monarchistes et les républicains, ainsi que par une série de lois restrictives contre les partis socialistes.",
                 "date" : 1873, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Jules Grévy", 
-                "description" : "",
+                "description" : "Jules Grévy a été élu à l'âge de 70 ans et a poursuivi la stabilisation de la Troisième République, tout en réformant le système électoral pour le rendre plus juste et plus transparent.",
                 "date" : 1879, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Sadi Carnot", 
-                "description" : "",
+                "description" : "Sadi Carnot a poursuivi les réformes entreprises par ses prédécesseurs et a mis en place une politique étrangère ambitieuse, notamment en renforçant les alliances avec la Russie et l'Italie.",
                 "date" : 1887, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Jean Casimir-Perier", 
-                "description" : "",
+                "description" : "Félix Faure a poursuivi les politiques économiques de son prédécesseur, mais a été surtout connu pour sa mort soudaine au Palais de l'Élysée, où il a succombé à une crise cardiaque en compagnie de sa maîtresse. Cet événement a entraîné une période de scandales et de controverses autour de la vie privée des dirigeants français.",
                 "date" : 1894, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Félix Faure", 
-                "description" : "",
+                "description" : "Félix Faure a poursuivi les politiques économiques de son prédécesseur, mais a été surtout connu pour sa mort soudaine au Palais de l'Élysée, où il a succombé à une crise cardiaque en compagnie de sa maîtresse. Cet événement a entraîné une période de scandales et de controverses autour de la vie privée des dirigeants français.",
                 "date" : 1895, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Emile Loubet", 
-                "description" : "",
+                "description" : "Émile Loubet a été le premier président de la République à effectuer une visite officielle en Angleterre, ce qui a marqué une amélioration significative des relations franco-britanniques. Il a également été impliqué dans une affaire de corruption politique, connue sous le nom de scandale de Panama, qui a ébranlé la confiance du public dans les institutions politiques françaises.",
                 "date" : 1899, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Armand Fallières", 
-                "description" : "",
+                "description" : "Armand Fallières a présidé pendant une période de forte croissance économique et a été particulièrement actif dans la promotion de la paix et de la coopération internationale. Il a été l'un des principaux architectes de la diplomatie française avant la Première Guerre mondiale.",
                 "date" : 1906, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Raymond Poincaré", 
-                "description" : "",
+                "description" : "Raymond Poincaré a dirigé la France pendant la Première Guerre mondiale et a été l'un des principaux responsables de la victoire alliée. Après la guerre, il a joué un rôle important dans la reconstruction économique et politique de la France, notamment en tant que Premier ministre.",
                 "date" : 1913, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Paul Deschanel", 
-                "description" : "",
+                "description" : "Paul Deschanel a été président de la République pendant seulement quelques mois, avant de démissionner en raison de problèmes de santé mentale. Son mandat n'a pas eu un grand impact sur l'histoire de la France, mais il est surtout connu pour son comportement erratique et ses épisodes de folie.",
                 "date" : 1920, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Alexandre Millerand", 
-                "description" : "",
+                "description" : "Alexandre Millerand a été le premier président socialiste de la République française et a contribué à la consolidation de la Troisième République. Il a notamment œuvré pour l'amélioration des conditions de travail et la mise en place de politiques sociales en faveur des travailleurs.",
                 "date" : 1920, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Gaston Doumergue", 
-                "description" : "",
+                "description" : "Gaston Doumergue a été président à deux reprises et a joué un rôle important dans la stabilisation politique de la France au lendemain de la Première Guerre mondiale. Il a également participé à la modernisation de l'État français, notamment en ce qui concerne la législation sociale.",
                 "date" : 1924, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Paul Doumer", 
-                "description" : "",
+                "description" : "Paul Doumer a été un président très actif dans la modernisation de l'économie française, notamment en matière de développement des transports et de l'industrie. Il a également contribué à l'amélioration des conditions de vie des Français, en particulier par la construction de logements sociaux.",
                 "date" : 1931, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Albert Lebrun", 
-                "description" : "",
+                "description" : "Albert Lebrun a été le dernier président de la Troisième République et a dû faire face à la montée du nazisme en Europe. Bien que critiqué pour sa passivité face à la crise, il a su jouer un rôle important dans la transition vers la Quatrième République.",
                 "date" : 1939, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Vincent Auriol", 
-                "description" : "",
+                "description" : "Vincent Auriol a été un président de la Quatrième République très impliqué dans les réformes sociales et économiques du pays. Il a notamment œuvré pour l'amélioration des conditions de vie des Français, la nationalisation de certaines industries et la création de la sécurité sociale.",
                 "date" : 1947, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "René Coty", 
-                "description" : "",
+                "description" : "René Coty a été le dernier président de la Quatrième République et a été confronté à une crise politique majeure avec la guerre d'Algérie. Malgré des critiques sur son manque de leadership, il a su jouer un rôle important dans la transition vers la Cinquième République.",
                 "date" : 1954, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Charles de Gaulle", 
-                "description" : "",
+                "description" : "Charles de Gaulle a été le fondateur de la Cinquième République et a joué un rôle majeur dans l'histoire de la France. Il a notamment rétabli l'autorité de l'État, modernisé les institutions politiques et économiques du pays, et conduit la France à travers des périodes difficiles telles que la guerre d'Algérie et la crise de Mai 68. Sa stature de chef d'État est restée forte même après son départ du pouvoir, faisant de lui l'une des figures les plus emblématiques de l'histoire de la France.",
                 "date" : 1959, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Georges Pompidou", 
-                "description" : "",
+                "description" : "Georges Pompidou a été président de la République française de 1969 jusqu'à sa mort en 1974, il a apporté une grande contribution à la modernisation de la France en favorisant les industries de pointe, l'urbanisation et la création d'universités modernes. Il a également œuvré pour la coopération européenne et internationale, et a renforcé les relations franco-allemandes.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Valéry Giscard d'Estaing", 
-                "description" : "",
+                "description" : "Valery Giscard d'Estaing a été Président de la République française de 1974 à 1981, il a mené des réformes importantes dans de nombreux domaines, tels que la santé, l'éducation et les relations internationales. Il a également travaillé pour renforcer l'intégration européenne, en contribuant notamment à la création du Conseil européen et du système monétaire européen.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "François Mitterrand", 
-                "description" : "",
+                "description" : "François Mitterand a marqué l'histoire française en étant le premier président socialiste de la Ve République, élu en 1981. Il a notamment mis en place des réformes sociales importantes, comme la retraite à 60 ans et les 35 heures. Il a également joué un rôle majeur dans la construction européenne et la réconciliation franco-allemande, symbolisée par la main tendue à Helmut Kohl à Verdun en 1984.",
                 "date" : 1981, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Jacques Chirac", 
-                "description" : "",
+                "description" : "Jacques Chirac a été Président de la République française de 1995 à 2007, il est connu pour son engagement en faveur de l'environnement et pour son opposition à la guerre en Irak en 2003. Il a également contribué à l'amélioration des relations entre la France et l'Allemagne, et à la consolidation de l'Union européenne.",
                 "date" : 1995, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Nicolas Sarkozy", 
-                "description" : "",
+                "description" : "Nicolas Sarkozy, élu en 2007, a voulu incarner une rupture dans la tradition politique française en lançant des réformes économiques libérales. Il a notamment instauré le bouclier fiscal et la réforme des retraites. Sa politique étrangère a été marquée par l'intervention militaire en Libye en 2011 et son rôle dans la gestion de la crise financière de 2008.",
                 "date" : 2007, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "François Hollande", 
-                "description" : "",
+                "description" : "François Hollande a été Président de la République française de 2012 à 2017, Hollande a œuvré pour réduire le chômage et pour renforcer la solidarité entre les citoyens. Il a également contribué à la lutte contre le changement climatique en faisant adopter la loi sur la transition énergétique en 2015.",
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Emmanuel Macron", 
-                "description" : "",
+                "description" : "Emmanuel Macron, élu en 2017, a suscité des espoirs de renouveau politique en France en se présentant comme un candidat \"ni de droite ni de gauche\". Il a lancé des réformes économiques ambitieuses, comme la réforme du Code du travail et la suppression de l'ISF. Sa politique étrangère a été axée sur la défense de l'Europe et la lutte contre le terrorisme. Son mandat a été marqué par de fortes contestations sociales, notamment le mouvement des Gilets jaunes.",
                 "date" : 2017, 
                 "answer" : null
             }
@@ -668,42 +668,42 @@
             {
                 "id" : 0, 
                 "question" : "Clovis Ier", 
-                "description" : "",
+                "description" : "Premier roi de la dynastie mérovingienne, Clovis Ier unifia les Francs sous son règne au Vème siècle et se convertit au christianisme en 496, faisant du catholicisme la religion dominante en France. Sa victoire sur les Wisigoths à Vouillé lui permit d'étendre son territoire, créant ainsi le royaume des Francs. Il est également connu pour sa loi salique, qui a établi le droit coutumier en France.",
                 "date" : 481, 
                 "answer" : null
             },
             {
                 "id" : 1, 
                 "question" : "Clothaire Ier", 
-                "description" : "",
+                "description" : "Fils de Clovis Ier, Clothaire Ier hérita d'un royaume divisé entre ses frères à la mort de son père. Il unifia progressivement le territoire, mais dut faire face à de nombreuses rébellions. Il fut également impliqué dans des luttes de pouvoir avec les rois burgondes et les Lombards. Cependant, il est surtout connu pour avoir promulgué le Code de Gondebaud, qui a servi de base au droit bourguignon.",
                 "date" : 558, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Caribert", 
-                "description" : "",
+                "description" : "Fils de Clovis Ier, Caribert régna sur une partie du royaume franc jusqu'à sa mort en 567. Son court règne est principalement connu pour ses excès, notamment sa vie dissolue et son goût pour les femmes. Malgré cela, il a également pris des mesures pour améliorer la vie de son peuple, comme la suppression de certaines taxes.",
                 "date" : 562, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Chilpéric Ier", 
-                "description" : "",
+                "description" : "Fils de Clothaire Ier, Chilpéric Ier a régné sur le royaume franc de Neustrie pendant près de trente ans. Il est connu pour sa liaison avec Frédégonde, une femme ambitieuse qui a joué un rôle important dans la politique du royaume. Sous son règne, la Neustrie a connu des périodes de paix et de prospérité, mais aussi des guerres intestines et des rébellions.",
                 "date" : 566, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Clothaire II", 
-                "description" : "",
+                "description" : "Fils de Chilpéric Ier, Clothaire II est devenu roi à l'âge de huit ans et a dû faire face à une rébellion dès le début de son règne. Il a finalement réussi à rétablir l'ordre et à unifier les royaumes francs de Neustrie et d'Austrasie. Sous son règne, la paix et la prospérité ont été rétablies et il est connu pour avoir promulgué plusieurs lois visant à protéger les plus faibles.",
                 "date" : 584, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Dagobert Ier", 
-                "description" : "",
+                "description" : "Fils de Clothaire II, Dagobert Ier a régné sur le royaume franc de 623 jusqu'à sa mort en 639. Il est connu pour avoir unifié une fois de plus les royaumes de Neustrie et d'Austrasie, mais aussi pour avoir encouragé les arts et la culture, comme en témoignent les chansons de geste de l'époque. Il est également célèbre pour avoir fondé l'abbaye de Saint-Denis, qui est devenue le lieu de sépulture des rois de France.",
                 "date" : 628, 
                 "answer" : null
             },
@@ -711,35 +711,35 @@
             
                 "id" : 6, 
                 "question" : "Clovis II", 
-                "description" : "",
+                "description" : "Clovis II a été roi des Francs de 639 à 657. Il était le fils de Dagobert Ier et a continué l'œuvre de son père en consolidant l'unité du royaume franc. Il a également étendu son territoire en annexant l'Aquitaine et la Provence. Sous son règne, la monarchie mérovingienne a connu un certain renouveau culturel et artistique.",
                 "date" : 637, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Clothaire III", 
-                "description" : "",
+                "description" : "Clothaire III a régné de 657 à 673 et était le fils de Clovis II. Son règne a été marqué par des luttes internes entre les différents clans de la noblesse francque. Il a également dû faire face à des invasions de Lombards et de Saxons. Clothaire III a réussi à maintenir l'unité du royaume franc, mais son règne a été relativement peu marquant sur le plan politique.",
                 "date" : 655, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Childéric II", 
-                "description" : "",
+                "description" : "Childéric II a été roi des Francs de 673 à 675. Il était le fils de Clovis II et de la reine régente Bathilde. Son règne a été court et tumultueux, marqué par des révoltes de la noblesse et des soulèvements populaires. Il a finalement été assassiné lors d'un coup d'État organisé par le maire du palais, Ebroïn.",
                 "date" : 668, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Thierry III", 
-                "description" : "",
+                "description" : "Thierry III était un roi franc qui a régné brièvement au début du VIIIe siècle. Il a succédé à son frère Childebert III, mais il a été rapidement déposé et emprisonné par son cousin Charles Martel.",
                 "date" : 674, 
                 "answer" : null
             },
             {
                 "id" : 10,
                 "question" : "Clovis IV", 
-                "description" : "",
+                "description" : "Clovis IV était le fils de Thierry III et a été placé sur le trône par Charles Martel après la déposition de son père. Il est mort à l'âge de 14 ans et n'a pas eu beaucoup d'influence sur l'histoire de France.",
                 "date" : 691, 
                 "answer" : null
                 
@@ -747,364 +747,365 @@
             {
                 "id" : 12,
                 "question" : "Childebert IV", 
-                "description" : "",
+                "description" : "Childebert IV était un roi franc mineur qui a régné pendant quelques années au VIIIe siècle. Il a succédé à Clovis IV et a été remplacé par son oncle Charles Martel.",
                 "date" : 695, 
                 "answer" : null
                 
             },
             {
                 "id" : 13,
-                "question" : "Dagobert III", 
+                "question" : "Dagobert III",
+                "description" : "Dagobert III était le petit-fils de Clovis IV et a été placé sur le trône par Charles Martel. Il est mort peu de temps après son couronnement et n'a pas eu d'influence sur l'histoire de France.",
                 "date" : 711, 
                 "answer" : null
             },
             {
                 "id" : 14,
                 "question" : "Chilpéric II", 
-                "description" : "",
+                "description" : "Chilpéric II était un roi mérovingien mineur qui a régné pendant quelques années au VIIIe siècle. Il a été placé sur le trône par Pépin le Bref après la mort de son prédécesseur, Childéric III.",
                 "date" : 716, 
                 "answer" : null
             },
             {
                 "id" : 15,
                 "question" : "Thierry IV de Chelles", 
-                "description" : "",
+                "description" : "Thierry IV de Chelles était un prétendant au trône de France qui a mené une rébellion contre Pépin le Bref au VIIIe siècle. Il a été capturé et décapité.",
                 "date" : 721, 
                 "answer" : null
             },
             {
                 "id" : 16,
                 "question" : "Chidéric III", 
-                "description" : "",
+                "description" : "Childéric III était le dernier roi mérovingien de France avant l'avènement de la dynastie carolingienne. Il a été déposé par Pépin le Bref, qui est devenu le premier roi de la dynastie carolingienne.",
                 "date" : 743, 
                 "answer" : null
             },
             {
                 "id" : 17,
                 "question" : "Pépin le Bref", 
-                "description" : "",
+                "description" : "Pépin le Bref était le fondateur de la dynastie carolingienne et le père de Charlemagne. Il a été couronné roi de France en 751 après avoir déposé Childéric III.",
                 "date" : 751, 
                 "answer" : null
             },
             {
                 "id" : 18,
                 "question" : "Charlemagne", 
-                "description" : "",
+                "description" : "Charlemagne, également connu sous le nom de Charles Ier, était le roi des Francs à partir de 768 et l'empereur du Saint-Empire romain à partir de 800. Il est considéré comme l'un des plus grands souverains de l'histoire européenne pour son expansion territoriale et son rôle dans l'élaboration de la Renaissance carolingienne.",
                 "date" : 768, 
                 "answer" : null
             },
             {
                 "id" : 19,
                 "question" : "Louis Ier le Débonnaire", 
-                "description" : "",
+                "description" : "Louis Ier fut couronné roi des Francs en 816. Il a joué un rôle important dans l'histoire de l'Empire carolingien et a participé activement à la mise en place d'un système d'administration qui a duré plusieurs siècles. ",
                 "date" : 814, 
                 "answer" : null
             },
             {
                 "id" : 21,
                 "question" : "Charles II le Chauve", 
-                "description" : "",
+                "description" : "Charles II, dit le Chauve, est devenu roi de Francie occidentale en 843. Il a pris part au partage de l'Empire carolingien avec ses frères et a également lutté contre les Vikings.",
                 "date" : 840, 
                 "answer" : null
             },
             {
                 "id" : 22,
                 "question" : "Louis II le Bègue", 
-                "description" : "",
+                "description" : " Louis II appelé le Bègue, a succédé à son père Charles II en 877 et a régné jusqu'à sa mort. ",
                 "date" : 877, 
                 "answer" : null
             },
             {
                 "id" : 23,
                 "question" : "Charles II", 
-                "description" : "",
+                "description" : "Charles II, également connu sous le nom de Charles le Chauve, était roi des Francs de l'Ouest de 843 à sa mort en 877. Il a été le premier roi à régner sur le royaume de France après le partage de l'empire carolingien",
                 "date" : 884, 
                 "answer" : null
             },
             {
                 "id" : 24,
                 "question" : "Eudes", 
-                "description" : "",
+                "description" : "Eudes, également appelé Odon, était le premier roi de France élu en 888. Il a dirigé le royaume de France pendant dix ans, repoussant les invasions normandes et s'imposant comme un véritable roi.",
                 "date" : 888, 
                 "answer" : null
             },
             {
                 "id" : 25,
                 "question" : "Charles III", 
-                "description" : "",
+                "description" : "Charles III, également appelé Charles le Simple, a été roi de France de 898 à 922. Il a tenté de restaurer la puissance de la monarchie et de repousser les invasions vikings, mais a finalement été capturé par le chef normand Rollon.",
                 "date" : 898, 
                 "answer" : null
             },
             {
                 "id" : 26,
                 "question" : "Robert Ier", 
-                "description" : "",
+                "description" : "Robert Ier, également appelé Robert le Fort, a été élu roi de France en 922. Il a réussi à repousser les invasions normandes et a travaillé à renforcer la monarchie française.",
                 "date" : 922, 
                 "answer" : null
             },
             {
                 "id" : 27,
                 "question" : "Raoul", 
-                "description" : "",
+                "description" : "Raoul a été roi de France de 923 à 936. Il a également repoussé les invasions normandes et a été le premier roi à nommer des comtes pour administrer les régions du royaume.",
                 "date" : 923, 
                 "answer" : null
             },
             {
                 "id" : 28,
                 "question" : "Louis IV", 
-                "description" : "",
+                "description" : "Louis IV, également appelé Louis d'Outremer, était roi de France de 936 à 954. Il a travaillé à restaurer l'autorité royale et a mené plusieurs campagnes contre les Normands.",
                 "date" : 936, 
                 "answer" : null
             },
             {
                 "id" : 29,
                 "question" : "Lothaire",
-                "description" : "", 
+                "description" : "Lothaire, également appelé Lothaire de France, était roi de France de 954 à 986. Il a continué le travail de Louis IV pour renforcer la monarchie et a également travaillé à améliorer les relations avec les nobles.", 
                 "date" : 954, 
                 "answer" : null
             },
             {
                 "id" : 30,
                 "question" : "Louis V", 
-                "description" : "",
+                "description" : "Louis V, également appelé Louis le Fainéant, a été roi de France de 986 à 987. Il n'a pas été un dirigeant fort et a été renversé par Hugues Capet.",
                 "date" : 986, 
                 "answer" : null
             },
             {
                 "id" : 31,
                 "question" : "Hugues Capet", 
-                "description" : "",
+                "description" : "Hugues Capet a été élu roi de France en 987 et a fondé la dynastie capétienne qui a régné sur la France pendant plus de 800 ans. Il a travaillé à renforcer la monarchie et a réussi à transférer le pouvoir royal de la noblesse aux rois.",
                 "date" : 987, 
                 "answer" : null
             },
             {
                 "id" : 32,
                 "question" : "Robert II", 
-                "description" : "",
+                "description" : "Robert II, également appelé Robert le Pieux, a été roi de France de 996 à 1031. Il a poursuivi le travail de son père Hugues Capet pour renforcer la monarchie et a mené plusieurs campagnes militaires pour repousser les invasions des Vikings et des Hongrois.",
                 "date" : 996, 
                 "answer" : null
             },
             {
                 "id" : 33,
                 "question" : "Henri Ier", 
-                "description" : "",
+                "description" : "Henri Ier était le quatrième fils de Robert II et le premier roi capétien de la France. Il est connu pour avoir consolidé le pouvoir royal, réorganisé l'Église en France et favorisé le développement de la culture française.",
                 "date" : 1031, 
                 "answer" : null
             },
             {
                 "id" : 34,
                 "question" : "Philippe Ier", 
-                "description" : "",
+                "description" : "Philippe Ier a été roi de France de 1060 à 1108. Il est considéré comme un des premiers rois de France à avoir exercé un véritable pouvoir royal. Il a notamment soutenu les abbayes et les églises pour renforcer son autorité et a été le premier roi de France à partir en croisade.",
                 "date" : 1060, 
                 "answer" : null
             },
             {
                 "id" : 35,
                 "question" : "Louis VI",
-                "description" : "", 
+                "description" : "Louis VI fut surnommé \"Le Gros\" pour sa stature imposante. Il fut le premier roi à consolider le pouvoir royal après des siècles de féodalité en France.", 
                 "date" : 1108, 
                 "answer" : null
             },
             {
                 "id" : 36,
                 "question" : "Louis VII", 
-                "description" : "",
+                "description" : "Louis VII a été roi de France de 1137 à 1180. Il est connu pour avoir soutenu les églises et les monastères, et pour avoir encouragé l'éducation et la culture. Il est également connu pour avoir divorcé de sa première femme, Aliénor d'Aquitaine, qui a ensuite épousé le roi d'Angleterre Henri II Plantagenêt.",
                 "date" : 1137, 
                 "answer" : null
             },
             {
                 "id" : 37,
                 "question" : "Philippe II", 
-                "description" : "",
+                "description" : "Philippe II, surnommé Philippe Auguste, a été roi de France de 1180 à 1223. Il a agrandi le domaine royal en annexant des territoires et en remportant la bataille de Bouvines contre les rois d'Angleterre et d'Allemagne. Il a également renforcé l'administration royale et créé une monnaie stable.",
                 "date" : 1180, 
                 "answer" : null
             },
             {
                 "id" : 38,
                 "question" : "Louis VIII", 
-                "description" : "",
+                "description" : "Louis VIII a été roi de France de 1223 à 1226. Il est connu pour avoir poursuivi la politique de son père Philippe Auguste et pour avoir soutenu l'Église en France. Il a également encouragé le commerce et l'artisanat.",
                 "date" : 1223, 
                 "answer" : null
             },
             {
                 "id" : 39,
                 "question" : "Louis IX", 
-                "description" : "",
+                "description" : "Louis IX, surnommé Saint Louis, a été roi de France de 1226 à 1270. Il est connu pour sa piété et sa justice, ainsi que pour son engagement dans les croisades. Il a également réformé la justice en France et encouragé l'éducation et la culture.",
                 "date" : 1226, 
                 "answer" : null
             },
             {
                 "id" : 40,
                 "question" : "Philippe III", 
-                "description" : "",
+                "description" : "Philippe III, surnommé le Hardi, a été roi de France de 1270 à 1285. Il est connu pour avoir poursuivi la politique de son grand-père Louis IX et pour avoir renforcé l'administration royale. Il a également encouragé le développement du commerce et de l'artisanat.",
                 "date" : 1270, 
                 "answer" : null
             },
             {
                 "id" : 41,
                 "question" : "Philippe IV", 
-                "description" : "",
+                "description" : "Philippe IV, surnommé le Bel, a été roi de France de 1285 à 1314. Il est connu pour avoir réformé l'administration et la justice en France, ainsi que pour avoir persécuté les Templiers. Il a également encouragé le développement du commerce et de l'artisanat.",
                 "date" : 1285, 
                 "answer" : null
             },
             {
                 "id" : 42,
                 "question" : "Louis X", 
-                "description" : "",
+                "description" : "Louis X, surnommé le Hutin, a été roi de France de 1314 à 1316. Il est connu pour avoir renforcé l'administration royale et pour avoir promulgué des lois en faveur du peuple. Il est également connu pour avoir autorisé le retour des Juifs en France.",
                 "date" : 1314, 
                 "answer" : null
             },
             {
                 "id" : 43,
                 "question" : "Philippe V", 
-                "description" : "",
+                "description" : "Philippe V succéda à son frère aîné Charles IV et régna brièvement pendant une période troublée marquée par la guerre de Cent Ans. Il était connu pour son administration efficace et sa politique de renforcement de l'autorité royale.",
                 "date" : 1316, 
                 "answer" : null
             },
             {
                 "id" : 44,
                 "question" : "Charles IV", 
-                "description" : "",
+                "description" : "Charles IV, dernier des fils de Philippe le Bel, régna peu de temps. Son règne est principalement connu pour son absence d'héritier mâle, ce qui entraîna la crise dynastique qui aboutit à la guerre de Cent Ans.",
                 "date" : 1322, 
                 "answer" : null
             },
             {
                 "id" : 45,
                 "question" : "Philippe VI",
-                "description" : "", 
+                "description" : "Philippes VI était le premier roi de la dynastie des Valois et régna pendant la guerre de Cent Ans. Il a remporté une grande victoire contre les Anglais à la bataille de Crécy en 1346, mais a connu des revers lors de la chevauchée d'Édouard III en France en 1356.", 
                 "date" : 1328, 
                 "answer" : null
             },
             {
                 "id" : 46,
                 "question" : "Jean II ", 
-                "description" : "",
+                "description" : "Jean II, également connu sous le nom de \"Jean le Bon\", fut capturé par les Anglais à la bataille de Poitiers en 1356 et passa plusieurs années en captivité. Son règne a été marqué par les conflits avec les Anglais pendant la guerre de Cent Ans.",
                 "date" : 1250, 
                 "answer" : null
             },
             {
                 "id" : 47,
                 "question" : "Charles V", 
-                "description" : "",
+                "description" : "Charles V (1338-1380), également connu sous le nom de \"Charles le Sage\", a consolidé les avancées réalisées par son père Jean II en matière d'administration et de fiscalité. Il a également remporté plusieurs victoires contre les Anglais et a renforcé l'alliance avec l'Écosse.",
                 "date" : 1364, 
                 "answer" : null
             },
             {
                 "id" : 48,
                 "question" : "Charles VI", 
-                "description" : "",
+                "description" : "Charles VI (1368-1422), également connu sous le nom de \"Charles le Fol\", a connu une série de crises de folie qui ont affaibli le pouvoir royal et favorisé l'émergence de factions rivales. Son règne a été marqué par la guerre civile entre les Armagnacs et les Bourguignons.",
                 "date" : 1380, 
                 "answer" : null
             },
             {
                 "id" : 49,
                 "question" : "Charles VII", 
-                "description" : "",
+                "description" : "Charles VII (1403-1461) a été couronné à Reims en 1429 grâce à l'intervention de Jeanne d'Arc. Son règne a été marqué par la fin de la guerre de Cent Ans et la reconquête progressive des territoires occupés par les Anglais.",
                 "date" : 1422, 
                 "answer" : null
             },
             {
                 "id" : 50,
                 "question" : "Louis XI",
-                "description" : "",
+                "description" : "Louis XI (1423-1483), également connu sous le nom de \"Louis le Prudent\", a consolidé le pouvoir royal en éliminant les grandes familles nobles qui menaçaient l'autorité royale. Il a également étendu le territoire royal et développé l'économie française.",
                 "date" : 1461, 
                 "answer" : null
             },
             {
                 "id" : 51,
                 "question" : "Charles VIII", 
-                "description" : "",
+                "description" : "Charles VIII (1470-1498) a mené une politique de conquête en Italie, qui s'est soldée par des succès initiaux mais a finalement échoué. Son règne a été marqué par des troubles internes et la mort prématurée du roi.",
                 "date" : 1483, 
                 "answer" : null
             },
             {
                 "id" : 52,
                 "question" : "Louis XII", 
-                "description" : "",
+                "description" : "Louis XII, roi de France de 1498 à 1515, était un souverain éclairé et réformateur qui a entrepris des réformes économiques et judiciaires importantes.",
                 "date" : 1498, 
                 "answer" : null
             },
             {
                 "id" : 53,
                 "question" : "François Ier", 
-                "description" : "",
+                "description" : "François Ier, qui a régné de 1515 à 1547, est surtout connu pour son patronage des arts de la Renaissance et pour avoir introduit la langue française comme langue officielle de la cour.",
                 "date" : 1515, 
                 "answer" : null
             },
             {
                 "id" : 54,
                 "question" : "Henri II", 
-                "description" : "",
+                "description" : "Henri II, qui a gouverné de 1547 à 1559, a continué à encourager les arts et la culture, mais a également mené une politique agressive envers l'Empire et l'Angleterre. ",
                 "date" : 1547, 
                 "answer" : null
             },
             {
                 "id" : 55,
                 "question" : "Francois II", 
-                "description" : "",
+                "description" : "François II, qui a régné de 1559 à 1560, était un souverain faible qui a été renversé par les Guerres de religion.",
                 "date" : 1559, 
                 "answer" : null
             },
             {
                 "id" : 56,
                 "question" : "Charles IX", 
-                "description" : "",
+                "description" : "Charles IX, qui a gouverné de 1560 à 1574, a été impliqué dans les Guerres de religion et est surtout connu pour l'horrible massacre de la Saint-Barthélemy en 1572.",
                 "date" : 1560, 
                 "answer" : null
             },
             {
                 "id" : 57,
                 "question" : "Henri III",
-                "description" : "", 
+                "description" : "Henri III, qui a régné de 1574 à 1589, a tenté de mettre fin aux conflits religieux, mais a été assassiné par un moine fanatique. ", 
                 "date" : 1574, 
                 "answer" : null
             },
             {
                 "id" : 58,
                 "question" : "Henri IV", 
-                "description" : "",
+                "description" : "Henri IV, qui a gouverné de 1589 à 1610, est considéré comme l'un des plus grands rois de France, ayant mis fin aux guerres de religion et lancé des réformes économiques importantes. ",
                 "date" : 1594, 
                 "answer" : null
             },
             {
                 "id" : 59,
                 "question" : "Louis XIII", 
-                "description" : "",
+                "description" : " Louis XIII, qui a régné de 1610 à 1643, a consolidé le pouvoir royal et mené une politique étrangère agressive. Louis XIV, qui a gouverné de 1643 à 1715, est considéré comme l'un des plus grands rois de France, ayant centralisé le pouvoir royal et encouragé les arts et la culture.",
                 "date" : 1617, 
                 "answer" : null
             },
             {
                 "id" : 60,
                 "question" : "Louis XIV", 
-                "description" : "",
+                "description" : "Louis XIV, qui a gouverné de 1643 à 1715, est considéré comme l'un des plus grands rois de France, ayant centralisé le pouvoir royal et encouragé les arts et la culture.",
                 "date" : 1643, 
                 "answer" : null
             },
             {
                 "id" : 61,
                 "question" : "Louis XV", 
-                "description" : "",
+                "description" : "Louis XV, qui a régné de 1715 à 1774, a poursuivi la politique culturelle de son grand-père, mais a été critiqué pour son manque de leadership en temps de crise.",
                 "date" : 1715, 
                 "answer" : null
             },
             {
                 "id" : 62,
                 "question" : "Louis XVI",
-                "description" : "", 
+                "description" : " Louis XVI, qui a gouverné de 1774 à 1792, a été renversé par la Révolution française et exécuté en 1793.", 
                 "date" : 1774, 
                 "answer" : null
             },
             {
                 "id" : 63,
                 "question" : "Louis XVIII", 
-                "description" : "",
+                "description" : "Louis XVIII a été roi de France de 1814 à 1824 à la suite de la Restauration bourbonienne. Pendant son règne, il a cherché à apaiser les tensions politiques en adoptant une politique de conciliation avec les royalistes et les libéraux. Il a également rétabli les institutions monarchiques et a négocié la paix avec les puissances européennes après les guerres napoléoniennes.",
                 "date" : 1814, 
                 "answer" : null
                 },
             {
                 "id" : 64,
                 "question" : "Charles X", 
-                "description" : "",
+                "description" : "Charles X a été roi de France de 1824 à 1830. Il était le frère cadet de Louis XVIII et a poursuivi sa politique conservatrice en soutenant les royalistes et en cherchant à rétablir le pouvoir absolu de la monarchie. Cela a provoqué des tensions avec les libéraux et les républicains, qui ont finalement mené à la Révolution de 1830. Charles X a été contraint d'abdiquer et s'est exilé en Grande-Bretagne, mettant fin à la Restauration bourbonienne et ouvrant la voie à la monarchie de Juillet.",
                 "date" : 1830, 
                 "answer" : null
             }
@@ -1122,132 +1123,133 @@
             {
                 "id" : 0, 
                 "question" : "Premiers outils taillés par l'Homme", 
-                "description" : "",
-                "date" : -2700000, 
+                "description" : "Les premiers outils taillés par l'homme sont apparus il y a environ 2,6 millions d'années, marquant le début de l'histoire de la préhistoire. Ces outils étaient principalement utilisés pour la chasse et la survie quotidienne. Leur fabrication a nécessité une grande habileté et un savoir-faire, ce qui a démontré l'ingéniosité et l'intelligence précoce de l'homme.",
+                "date" : -2600000, 
                 "answer" : null
             },
             {
                 "id" : 1, 
                 "question" : "Maitrise du feu", 
-                "description" : "",
+                "description" : "La maîtrise du feu a eu lieu il y a environ 400.000 ans et a eu un impact significatif sur la vie de l'homme. Elle a permis de cuire les aliments, de se réchauffer et de se protéger des animaux sauvages. Elle a également favorisé l'expansion des colonies humaines en fournissant une source de lumière pour les activités nocturnes.",
                 "date" : -400000, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Premiers hommes de Néandertal", 
-                "description" : "",
+                "description" : "Les premiers hommes de Néandertal ont émergé il y a environ 400 000 ans en Europe et au Moyen-Orient. Ils étaient considérés comme des précurseurs de l'homme moderne, ayant développé une culture complexe et sophistiquée, ainsi qu'une technologie avancée pour la chasse et la survie. Cependant, leur extinction reste un mystère, bien que des hypothèses suggèrent que leur disparition est due à une combinaison de facteurs tels que les changements climatiques et l'arrivée des Homo sapiens.",
                 "date" : -400000, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Développement de la poterie céramique",
-                "description" : "", 
-                "date" : -6000, 
+                "description" : "Le développement de la poterie céramique a commencé il y a environ 10 000 ans, au cours de la période néolithique. La poterie a permis de stocker les aliments, de les cuire et de les transporter plus facilement, améliorant ainsi l'efficacité et l'organisation des sociétés humaines. La poterie est également devenue une forme d'expression artistique, où des motifs et des dessins ont été gravés sur les surfaces.", 
+                "date" : -8000, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Premiers Homo Erectus", 
-                "description" : "",
+                "description" : "Les premiers Homo Erectus ont vécu il y a environ 1,8 million d'années en Afrique. Ils ont été les premiers à se déplacer en dehors de leur habitat naturel, colonisant de nouvelles régions du monde. Ils ont également développé des outils plus sophistiqués, tels que les bifaces, qui ont été utilisés pour la chasse et la survie.",
                 "date" : -1800000, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Premières migrations d'Homo Sapiens en Europe", 
-                "description" : "",
-                "date" : -50000, 
+                "description" : "Les premières migrations d'Homo Sapiens en Europe ont eu lieu il y a environ 40 000 ans, où ils ont remplacé progressivement les Néandertaliens. Les Homo sapiens ont apporté une culture et une technologie avancées, tels que l'art pariétal, la musique et une organisation sociale complexe.",
+                "date" : -40000, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Plus anciennes peintures d’art pariétal", 
-                "description" : "",
+                "description" : "Les plus anciennes peintures d'art pariétal datent d'il y a environ 30 000 ans et ont été trouvées dans des grottes en Europe. Ces peintures ont été créées par des Homo sapiens et représentent principalement des animaux, des symboles et des formes abstraites. L'art pariétal témoigne de l'expression artistique et de la créativité humaine dès le début de l'histoire de l'homme.",
                 "date" : -30000, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Naissance du Christ", 
-                "description" : "",
+                "description" : "Naissance du Christ: La naissance de Jésus-Christ est considérée comme un événement fondateur de l'histoire occidentale. Selon la tradition chrétienne, il est né à Bethléem, en Palestine, vers l'an 4 av. J.-C., sous le règne du roi Hérode le Grand. Son message de paix et d'amour a influencé de manière significative la culture, la morale et la spiritualité de l'humanité.",
                 "date" : -4, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Découverte de l'Amérique par Christophe Colomb", 
-                "description" : "",
+                "description" : "Découverte de l'Amérique par Colomb: Le 12 octobre 1492, le navigateur italien Christophe Colomb atteint les Antilles en croyant avoir découvert un nouveau chemin vers les Indes orientales. Cet événement marque le début de l'exploration et de la colonisation de l'Amérique par les Européens, qui ont eu un impact majeur sur les cultures et les populations autochtones.",
                 "date" : 1492, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Naissance d'Alexandre le Grand", 
-                "description" : "",
+                "description" : "Naissance d'Alexandre le Grand: Alexandre le Grand est né en 356 av. J.-C., à Pella, en Macédoine. Il est devenu roi à l'âge de 20 ans et a entrepris une série de conquêtes militaires qui ont étendu l'empire macédonien jusqu'à l'Asie centrale et l'Inde. Son règne a eu une influence durable sur la culture, la politique et la géopolitique de l'Orient et de l'Occident.",
                 "date" : -356, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Construction de la pyramide de Khéops", 
-                "description" : "",
+                "description" : "Construction de la pyramide de Khéops: La construction de la pyramide de Khéops remonte à environ 2500 av. J.-C. Elle est située à Gizeh, en Égypte, et est considérée comme l'une des plus grandes réalisations architecturales de l'histoire. Elle a été construite pour le pharaon Khéops et a nécessité des milliers d'ouvriers et des décennies de travail.",
                 "date" : -2566, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Apparition de la Civilisation sumérienne en Mésopotamie", 
-                "description" : "",
+                "description" : "Apparition de la civilisation sumérienne en Mésopotamie: La civilisation sumérienne est apparue vers 3500 av. J.-C. dans la région de la Mésopotamie, en Irak. Elle est considérée comme la première civilisation de l'histoire et a développé l'écriture, l'agriculture, l'urbanisme et la religion. Sa culture a influencé les civilisations qui ont suivi, y compris la Babylonie, l'Assyrie et la Perse.",
                 "date" : -3500, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Développement de l'agriculture", 
-                "description" : "",
+                "description" : "Développement de l'agriculture: Le développement de l'agriculture remonte à environ 10 000 ans av. J.-C., lorsque les humains ont commencé à cultiver des plantes et à élever du bétail plutôt que de se nourrir de cueillette et de chasse. Ce développement a permis la sédentarisation des populations, la création de villages et de villes, et a conduit à des changements majeurs dans la société et l'économie humaines.",
                 "date" : -8000, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Développement de l'écriture", 
-                "date" : -4000, 
+                "description" : "Le développement de l'écriture a été l'un des événements les plus marquants de l'histoire de l'humanité. Les premières formes d'écriture ont été créées par les anciennes civilisations de Mésopotamie et d'Égypte il y a plus de 5000 ans, et ont permis une meilleure communication, enregistrer les lois, les histoires et les idées.",
+                "date" : -5000, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Premières migrations humaines hors d'Afrique", 
-                "description" : "",
+                "description" : "Les premières migrations humaines hors d'Afrique ont eu lieu il y a environ 150 000 ans, lorsque des groupes de chasseurs-cueilleurs ont commencé à se déplacer vers d'autres continents, entraînant des adaptations physiques et culturelles pour survivre dans des environnements différents.",
                 "date" : -1500000, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Invention de la pêche", 
-                "description" : "",
+                "description" : "L'invention de la pêche a joué un rôle crucial dans l'histoire de l'humanité. Il y a environ 30 000 ans, les humains ont commencé à pêcher en mer et en eau douce, ce qui leur a permis d'obtenir des sources de nourriture plus variées et de mieux survivre dans les zones côtières.",
                 "date" : -300000, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Fondation de Rome", 
-                "description" : "",
+                "description" : "La fondation de Rome remonte à 753 avant J.-C. selon la légende. Cette ville est devenue la capitale de l'Empire romain et a joué un rôle important dans le développement de la civilisation occidentale, en influençant la langue, la religion, le droit et l'art.",
                 "date" : -753, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Invention de la domestication des animaux", 
-                "description" : "",
+                "description" : "L'invention de la domestication des animaux a été une étape importante dans l'histoire de l'humanité. Il y a environ 10 000 ans, les humains ont commencé à domestiquer les animaux pour leur viande, leur lait et leur force de travail, ce qui leur a permis de s'installer et de développer des communautés agricoles.",
                 "date" : -13000, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Apparition des premières sépultures", 
-                "description" : "",
+                "description" : "L'apparition des premières sépultures remonte à plus de 100 000 ans, lorsque les premiers hominidés ont commencé à enterrer leurs morts avec des rituels funéraires. Cette pratique est devenue de plus en plus complexe au fil du temps, reflétant les croyances religieuses et culturelles de différentes sociétés à travers l'histoire.",
                 "date" : -120000, 
                 "answer" : null
             }
@@ -1265,97 +1267,98 @@
             {
                 "id" : 0, 
                 "question" : "Fin de l’Empire Romain d’Occident", 
-                "description" : "",
+                "description" : "La fin de l'Empire romain d'Occident est généralement datée de 476 après J.C., lorsque le dernier empereur, Romulus Augustule, a été déposé par le chef barbare Odoacre. Cette chute a marqué la fin de la domination romaine sur une grande partie de l'Europe occidentale et a ouvert la voie à l'ère médiévale.",
                 "date" : 476, 
                 "answer" : null
             },
             {
                 "id" : 1, 
                 "question" : "Fin du Moyen-Age", 
-                "description" : "",
+                "description" : "La fin du Moyen Âge est généralement située entre la fin du 14ème siècle et le début du 15ème siècle, marquée par des événements tels que la Guerre de Cent Ans et la peste noire. Elle a été suivie par la Renaissance, qui a apporté des changements significatifs dans la société, la culture et les arts.",
                 "date" : 1492, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Création de l'imprimerie par Gutemberg", 
-                "description" : "",
+                "description" : "La création de l'imprimerie par Johannes Gutenberg en 1440 a été un événement majeur de l'histoire. Cette invention a permis la production en masse de livres et a révolutionné la diffusion de l'information dans le monde entier, contribuant ainsi à l'expansion du savoir et à la naissance de la Renaissance.",
                 "date" : 1440, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Arrivée de la peste noire en Europe", 
-                "description" : "",
+                "description" : "L'arrivée de la peste noire en Europe au milieu du 14ème siècle a été l'une des pandémies les plus dévastatrices de l'histoire. Cette maladie a tué des millions de personnes et a eu des conséquences économiques et sociales dévastatrices, contribuant ainsi à la fin du Moyen Âge.",
                 "date" : 1347, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Clovis Ier, premier roi des Francs", 
-                "description" : "",
+                "description" : "Clovis Ier, le fondateur de la dynastie mérovingienne, est considéré comme le premier roi des Francs. Il a unifié les tribus francs et a établi un royaume puissant, marquant ainsi le début de l'histoire de la France. Sa conversion au christianisme a également eu des implications majeures pour l'histoire de l'Europe occidentale.",
                 "date" : 481, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Clovis se convertit au christianisme", 
-                "description" : "",
+                "description" : "En 496, le roi franc Clovis se convertit au christianisme. Cette décision eut un impact majeur sur l'histoire de l'Europe occidentale, car elle favorisa la propagation du christianisme et permit aux Francs de se faire accepter par les populations gallo-romaines.",
                 "date" : 499, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Mort de Dagobert Ier", 
-                "description" : "",
+                "description" : "Dagobert Ier, roi des Francs de 629 à 639, a été le dernier roi mérovingien à exercer un pouvoir réel. Sa mort marque la fin de l'apogée de la dynastie mérovingienne et le début de son déclin.",
                 "date" : 639, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Charles Martel, maire du palais de Neustrie et Austrasie",
-                "description" : "", 
+                "description" : "Charles Martel (688-741) a été un personnage majeur de l'histoire de la France. En tant que maire du palais de Neustrie et Austrasie, il a repoussé les musulmans à la bataille de Poitiers en 732 et a consolidé le pouvoir des maires du palais.", 
                 "date" : 711, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Avènement de Pépin le Bref", 
-                "description" : "",
+                "description" : "Pépin le Bref (714-768) a été le premier roi carolingien à régner sur les Francs. Il a mis fin à la dynastie mérovingienne en renversant Childéric III en 751 et en se faisant élire roi par l'assemblée des Francs.",
                 "date" : 751, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Bataille de Poitiers", 
+                "description" : "La bataille de Poitiers, en 732, a été une victoire décisive de Charles Martel sur les musulmans, qui avaient envahi la Gaule. Cette bataille a été un événement majeur dans l'histoire de l'Europe, car elle a permis de stopper l'avancée de l'islam en Europe occidentale.",
                 "date" : 732, 
                 "answer" : null
             },
             {
                 "id" : 10,
                 "question" : "Les musulmans s'emparent de la péninsule ibérique", 
-                "description" : "",
+                "description" : " Au début du VIIIe siècle, les musulmans ont conquis la péninsule ibérique et y ont créé un califat. Cette période a été marquée par une grande prospérité culturelle et économique, ainsi que par des conflits avec les royaumes chrétiens du nord.",
                 "date" : 711, 
                 "answer" : null
             },
             {
                 "id" : 12,
                 "question" : "Hugues Capet élu roi des francs", 
-                "description" : "",
+                "description" : "En 987, Hugues Capet est élu roi des Francs par les grands seigneurs du royaume. Cette élection marque le début de la dynastie capétienne, qui a régné sur la France pendant près de 800 ans.",
                 "date" : 987, 
                 "answer" : null
             },
             {
                 "id" : 13,
                 "question" : "Charlemagne, couronné Empereur d'Occident", 
-                "description" : "",
+                "description" : "En l'an 800, le pape Léon III couronne Charlemagne empereur d'Occident à Rome. Cette couronnement marque la renaissance carolingienne et la naissance du Saint-Empire romain germanique.",
                 "date" : 800, 
                 "answer" : null
             },
             {
                 "id" : 14,
                 "question" : "Mort de Charlemagne", 
-                "description" : "",
+                "description" : "Charlemagne, roi des Francs et empereur d'Occident, est mort en 814. Son règne a été marqué par une grande expansion territoriale et une renaissance culturelle, ce qui a contribué à forger l'identité européenne.",
                 "date" : 814, 
                 "answer" : null
             },

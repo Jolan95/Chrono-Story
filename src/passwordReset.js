@@ -33,7 +33,7 @@ export default function PasswordReset() {
 
 
     useEffect(() => {
-        fetch(process.env.REACT_APP_URL_BACK+'api/auth/password-token', {
+        fetch(process.env.REACT_APP_URL_BACK+'password/token', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json'
@@ -59,7 +59,7 @@ export default function PasswordReset() {
         e.preventDefault()
         if (password1 === password2){
             if(password1.length > 7){
-                fetch(process.env.REACT_APP_URL_BACK+'api/auth/password-update', {
+                fetch(process.env.REACT_APP_URL_BACK+'password/update', {
                     method: 'POST',
                     headers: {
                     'Content-Type': 'application/json'
