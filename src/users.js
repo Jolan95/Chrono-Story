@@ -3,8 +3,30 @@ import Header from './components/header';
 import { Link } from 'react-router-dom';
 import LineUser from './components/lineUser';
 
+
+function getMyFollower(userId){
+    // const userId = JSON.parse(localStorage.getItem("user"))._id
+    var myInit = { 
+        method: 'GET',
+        mode: 'cors',
+        headers: { 'Content-Type': 'application/json' },
+    }
+    fetch(process.env.REACT_APP_URL_BACK+"user/"+userId ,myInit)
+    .then(res => res.json())
+    .then(
+      (response) => {
+        console.log("hello")
+        console.log(response.user)
+        //  return response.user.abonnement
+      },
+      (error) => {
+        console.log(error)
+    })
+}
+
 export default function User() {
   const [users, setUsers] = useState()
+
 
   	useEffect(()=> {
 		var myInit = { 
@@ -16,11 +38,12 @@ export default function User() {
 			fetch(process.env.REACT_APP_URL_BACK+"user/all",myInit)
 			.then(res => res.json())
 			.then(
-			  (response) => {
-				  setUsers(response.users)
-			  },
-			  (error) => {
-				console.log(error)
+			  	(response) => {
+					console.log(response.users)
+					setUsers(response.users)
+			  	},
+			  	(error) => {
+					console.log(error)
 		  }
 			)
   	}, [])
@@ -30,9 +53,8 @@ export default function User() {
 			<>
 			<Header></Header>
 			{users.map((user)=> {
-
 				return (
-					<div className='container'>
+					<div key={user._id} className='container'>
 						<LineUser user={user}></LineUser>
 					</div>
 				)

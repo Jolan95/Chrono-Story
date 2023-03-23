@@ -11,6 +11,7 @@ const Signup = () => {
     const [lastname, setLastname]= useState("")
     const [firstname, setFirstname]= useState("")
     const [email, setEmail]= useState("")
+    const [pseudo, setPseudo]= useState("")
     const [password, setPassword] = useState("");
     const [display, setDisplay] = useState("none")
     const [message, setMessage] = useState("");
@@ -19,8 +20,10 @@ const Signup = () => {
     const handleSubmit = (e)=> {
         e.preventDefault()
         if(lastname && firstname && email && password){
-            if(password.length >= 8){
-                return fetch(process.env.REACT_APP_URL_BACK+'auth/signup', {
+            if(pseudo.length >3){
+
+                if(password.length >= 8){
+                    return fetch(process.env.REACT_APP_URL_BACK+'auth/signup', {
                     method: 'POST',
                     headers: {
                     'Content-Type': 'application/json'
@@ -29,7 +32,8 @@ const Signup = () => {
                         email: email,
                         password: password,
                         firstname : firstname, 
-                        lastname : lastname
+                        lastname : lastname,
+                        pseudo : pseudo
                     })
                 })
                 .then(res => res.json())
@@ -48,11 +52,16 @@ const Signup = () => {
                     (error) => {
                         
                     }
-                )
+                    )
+                } else {
+                    setStyle("danger")
+                    setDisplay("block")
+                    setMessage("Votre mot de passe doit contenir au moins 8 caractères")
+                }
             } else {
                 setStyle("danger")
                 setDisplay("block")
-                setMessage("Votre mot de passe doit contenir au moins 8 caractères")
+               setMessage("Votre pseudo doit comporter au moins 4 caractères")
             }
         } else {
             setStyle("danger")
@@ -74,6 +83,7 @@ const Signup = () => {
                     <h2 className='mb-4 text-center'>Créez votre compte</h2>
                     <Alert style={style} display={display} >{message}</Alert>
                     <div className={display && style == "success"?  "d-none": "d-block"}>
+                    <Input type="text" name="pseudo" action={setPseudo} placeholder="Pseudo"></Input>
                     <Input type="text" name="lastname" action={setLastname} placeholder="Name"></Input>
                     <Input type="text" name="firstname" action={setFirstname} placeholder="Prénom"></Input>
                     <Input type="email" name="email" action={setEmail} placeholder="Email"></Input>

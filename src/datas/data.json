@@ -1365,56 +1365,56 @@
             {
                 "id" : 15,
                 "question" : "Première croisade", 
-                "description" : "",
+                "description" : "Lancée par le pape Urbain II en réponse à l'appel de l'empereur byzantin Alexios Ier Comnène pour récupérer la Terre Sainte des mains des musulmans, la première croisade a abouti à la capture de Jérusalem par les croisés. Cette expédition a entraîné des changements majeurs en Europe et au Moyen-Orient, y compris des conflits interconfessionnels durables.",
                 "date" : 1096, 
                 "answer" : null
             },
             {
                 "id" : 16,
                 "question" : "Prise de Jérusalem par les Croisés", 
-                "description" : "",
+                "description" : "Après un siège de cinq semaines, les croisés ont pris Jérusalem le 15 juillet 1099, massacrant la plupart des habitants de la ville, y compris des musulmans et des juifs. Cet événement a eu un impact durable sur les relations entre chrétiens et musulmans et a contribué à déclencher une série de guerres entre les deux communautés.",
                 "date" : 1099, 
                 "answer" : null
             },
             {
                 "id" : 17,
                 "question" : "Fondation de la sorbonne", 
-                "description" : "",
+                "description" : "Fondée par Robert de Sorbon, un chapelain de Louis IX, la Sorbonne était à l'origine une école théologique destinée à former des prêtres. Elle est rapidement devenue l'une des institutions universitaires les plus importantes d'Europe, offrant une formation en théologie, philosophie et droit.",
                 "date" : 1253, 
                 "answer" : null
             },
             {
                 "id" : 18,
                 "question" : "Début du règne de Charles V", 
-                "description" : "",
+                "description" : "Succédant à son père Jean II le Bon, Charles V a été l'un des rois les plus importants de la France médiévale. Son règne a été marqué par une grande stabilité politique, une reprise économique et culturelle, ainsi que par la fin de la guerre de Cent Ans avec l'Angleterre.",
                 "date" : 1364, 
                 "answer" : null
             },
             {
                 "id" : 19,
                 "question" : "Début de la Guerre de Cent Ans", 
-                "description" : "",
+                "description" : "Cette guerre a opposé l'Angleterre et la France pour le contrôle de la France. Elle a été marquée par une série de batailles célèbres, notamment la bataille d'Azincourt, et a eu des conséquences durables sur la société et la culture en France et en Angleterre.",
                 "date" : 1337, 
                 "answer" : null
             },
             {
                 "id" : 21,
                 "question" : "Avènement de Richard Coeur de Lion", 
-                "description" : "",
+                "description" : " Richard Ier d'Angleterre, surnommé Richard Coeur de Lion, a été l'un des rois les plus célèbres de l'histoire anglaise. Il a participé à la troisième croisade, où il a affronté le sultan Saladin. Son règne a été marqué par des conflits avec la France et des tensions avec l'Église.",
                 "date" : 1189, 
                 "answer" : null
             },
             {
                 "id" : 22,
                 "question" : "Bataille d'Azincourt", 
-                "description" : "",
+                "description" : "Cette bataille a opposé les forces anglaises de Henri V à l'armée française pendant la guerre de Cent Ans. Les Anglais, largement inférieurs en nombre, ont remporté une victoire écrasante, grâce notamment à l'utilisation de l'arc long anglais. Cette bataille a eu un impact majeur sur l'histoire de l'Angleterre et de la France.",
                 "date" : 1414, 
                 "answer" : null
             },
             {
                 "id" : 23,
                 "question" : "Début de la construction de Notre-Dame de Paris", 
-                "description" : "",
+                "description" : "Le début de la construction de Notre-Dame de Paris remonte au XIIe siècle, plus précisément en 1163 sous l'impulsion de l'évêque Maurice de Sully. Les travaux ont duré plus de deux siècles, jusqu'en 1345. La cathédrale a été construite dans un style gothique, avec des voûtes en ogive et des arcs-boutants, qui ont permis de soutenir des vitraux immenses. Elle est considérée comme l'un des plus beaux exemples d'architecture gothique et est devenue un symbole de la ville de Paris.",
                 "date" : 1163,
                 "answer" : null
             }
@@ -1432,272 +1432,273 @@
             {
                 "id" : 1, 
                 "question" : "Premier match de l'histoire de la NBA", 
-                "description" : "",
+                "description" : "Le 1er novembre 1946, la Basketball Association of America (BAA) a disputé son premier match de la saison à Toronto, où les Huskies ont battu les Knickerbockers de New York 68-66. Cet événement a marqué le début de la NBA, qui est devenue l'une des ligues sportives les plus populaires et les plus influentes au monde.",
                 "date" : 1946, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Wilt Chamberlain inscrit 100 points", 
-                "description" : "",
+                "description" : "Le 2 mars 1962, Wilt Chamberlain a marqué 100 points lors d'un match contre les New York Knicks, établissant un record inégalé de points marqués en un seul match de la NBA. Cette performance incroyable a solidifié la place de Chamberlain en tant que l'un des plus grands joueurs de l'histoire de la NBA.",
                 "date" : 1962, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "11ème titre de Champion NBA de Bill Russell", 
-                "description" : "",
+                "description" : "Bill Russell a mené les Boston Celtics à leur 11ème titre de champion NBA en 1969, consolidant son statut de légende du basketball. Russell a remporté un total de 11 championnats NBA en tant que joueur, ce qui est un record pour la ligue.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Jerry West est drafté par les Lakers", 
-                "description" : "",
+                "description" : " Jerry West, également connu sous le nom de \"The Logo\", a été drafté par les Los Angeles Lakers en 1960. West est devenu l'un des meilleurs joueurs de l'histoire de la NBA, remportant un championnat NBA en 1972 et recevant le titre de MVP des finales.",
                 "date" : 1960, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "6ème titre de Champion NBA de Michael Jordan", 
-                "description" : "",
+                "description" : " Michael Jordan a mené les Chicago Bulls à leur 6ème titre de champion NBA en 1998, concluant ainsi une décennie de domination pour les Bulls et confirmant Jordan comme l'un des meilleurs joueurs de tous les temps.",
                 "date" : 1998, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Première retraite de Mickeal Jordan", 
-                "description" : "",
+                "description" : "En octobre 1993, Michael Jordan a annoncé sa première retraite de la NBA, après avoir remporté trois championnats NBA consécutifs avec les Chicago Bulls. Jordan a ensuite joué au baseball professionnel avant de revenir à la NBA en 1995 pour continuer sa carrière de joueur.",
                 "date" : 1993, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Shoot de Ray Allen (Game 6 des Finals Miami - Spurs)", 
-                "description" : "",
+                "description" : "Le shoot de Ray Allen est considéré comme l'un des tirs les plus emblématiques de l'histoire de la NBA. En 2013, lors des Finales NBA, Ray Allen a marqué un panier à trois points crucial dans les dernières secondes du match pour forcer une prolongation et finalement remporter le titre pour les Miami Heat.",
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Reggie Miller 8 points en 9 secondes", 
-                "description" : "",
+                "description" : "Reggie Miller a inscrit huit points en neuf secondes lors d'un match de playoffs en 1995 contre les Knicks de New York. Cette performance légendaire a permis aux Pacers d'Indiana de remporter le match et de se qualifier pour la finale de la conférence Est.",
                 "date" : 1995, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Malice at the Palace", 
-                "description" : "",
+                "description" : "Le Malice at the Palace est considéré comme l'un des moments les plus honteux de l'histoire de la NBA. Lors d'un match entre les Pacers d'Indiana et les Pistons de Detroit en 2004, une bagarre entre les joueurs et les supporters a éclaté, entraînant des suspensions et des amendes pour de nombreux joueurs.",
                 "date" : 2004, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Kobe Bryant inscrit 81 points", 
-                "description" : "",
+                "description" : "Kobe Bryant a inscrit 81 points lors d'un match en 2006 contre les Raptors de Toronto. Cette performance incroyable est la deuxième meilleure performance individuelle de tous les temps dans un match NBA, derrière les 100 points de Wilt Chamberlain en 1962.",
                 "date" : 2006, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Décès de Kobe Bryant ",
-                "description" : "", 
+                "description" : "Le décès tragique de Kobe Bryant en 2020 a choqué le monde entier. Bryant, l'un des meilleurs joueurs de l'histoire de la NBA, a été tué dans un accident d'hélicoptère en Californie, laissant derrière lui un héritage inoubliable sur et en dehors du terrain.", 
                 "date" : 2020, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Draft de Michael Jordan", 
-                "description" : "",
+                "description" : "La draft de Michael Jordan en 1984 a marqué le début de la carrière légendaire du joueur de basket-ball. Jordan a remporté six titres de championnat NBA et est considéré comme l'un des meilleurs joueurs de tous les temps.",
                 "date" : 1984, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Draft de Kobe Bryant", 
-                "description" : "",
+                "description" : "La draft de Kobe Bryant en 1996 a également marqué le début d'une carrière légendaire. Bryant a remporté cinq titres de championnat NBA et a été l'un des joueurs les plus emblématiques de la NBA jusqu'à sa retraite en 2016.",
                 "date" : 1996, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Draft de Lebron James", 
-                "description" : "",
+                "description" : "La draft de LeBron James en 2003 a été l'un des événements les plus médiatisés de l'histoire de la NBA. James, lycéen à l'époque, a été choisi en première position par les Cavaliers de Cleveland et est devenu l'un des meilleurs joueurs de la ligue, remportant quatre titres de championnat NBA.",
                 "date" : 2003, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Draft de Luka Doncic", 
-                "description" : "",
+                "description" : " Considéré comme l'un des meilleurs prospects à sortir d'Europe, Doncic a été sélectionné en troisième position par les Atlanta Hawks avant d'être échangé contre le cinquième choix, Trae Young, et un futur choix de premier tour des Dallas Mavericks.",
                 "date" : 2018, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Draft de Kareem Abdul Jabbar", 
-                "description" : "",
+                "description" : " En 1969, Abdul-Jabbar a été sélectionné en première position par les Milwaukee Bucks, une équipe d'expansion. Avec son talent et sa taille impressionnante, Abdul-Jabbar a rapidement établi sa domination sur la ligue, remportant six titres de MVP et deux titres NBA avec les Bucks avant de passer aux Los Angeles Lakers, où il a remporté cinq autres titres.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Draft de Magic Johnson", 
+                "description" : "La draft de Magic Johnson a été un moment clé dans l'histoire des Los Angeles Lakers. En 1979, les Lakers ont sélectionné Johnson en première position, un choix qui a finalement conduit à une dynastie de cinq titres NBA dans les années 1980. Johnson, un meneur de jeu doué avec une vision incroyable du terrain, a été un catalyseur pour les Lakers et a établi sa place dans l'histoire de la NBA en remportant trois titres de MVP et cinq titres NBA.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Draft de Larry Bird", 
-                "description" : "",
+                "description" : "La draft de Larry Bird a été un moment historique pour les Boston Celtics. En 1978, les Celtics ont sélectionné Bird en sixième position, bien qu'il ait choisi de rester à l'université pour sa dernière année. L'année suivante, Bird a remporté le titre de MVP de la NBA en tant que rookie et a rapidement établi sa domination sur la ligue. Au cours de sa carrière, Bird a remporté trois titres NBA, trois titres de MVP et est considéré comme l'un des meilleurs joueurs de l'histoire de la NBA.",
                 "date" : 1978, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Draft de Shaquille O'Neal", 
-                "description" : "",
+                "description" : "haquille O'Neal, considéré comme l'un des meilleurs joueurs de basketball de tous les temps, a été choisi en première position lors de la draft de la NBA par les Orlando Magic. À cette époque, le jeune joueur de 20 ans avait déjà gagné deux titres universitaires avec LSU et avait été nommé meilleur joueur universitaire de l'année en 1991. Sa carrière professionnelle s'est révélée tout aussi impressionnante, avec quatre championnats NBA et une place au Temple de la renommée du basketball.",
                 "date" : 1992, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Draft de Stephen Curry", 
-                "description" : "",
+                "description" : "En 2009, les Golden State Warriors ont choisi Stephen Curry en septième position lors de la draft de la NBA. Bien que certains analystes aient critiqué ce choix, Curry a rapidement prouvé qu'il était l'un des joueurs les plus talentueux de sa génération. Il a remporté trois titres NBA, a été nommé deux fois meilleur joueur de la saison régulière et a établi plusieurs records de tirs à trois points. Aujourd'hui, Curry est considéré comme l'un des meilleurs meneurs de jeu de l'histoire de la NBA.",
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Draft de Tim Duncan", 
-                "description" : "",
+                "description" : "En 1997, les San Antonio Spurs ont choisi Tim Duncan en première position lors de la draft de la NBA. À cette époque, Duncan était déjà considéré comme l'un des meilleurs joueurs universitaires de tous les temps, ayant remporté deux titres avec Wake Forest. Sa carrière professionnelle a été tout aussi impressionnante, avec cinq titres NBA, trois fois nommé meilleur joueur des finales et quinze sélections au All-Star Game. Duncan est également considéré comme l'un des meilleurs joueurs de l'histoire de la NBA, avec une place bien méritée au Temple de la renommée du basketball.",
                 "date" : 1997, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Tony Parker MVP des Finals",
-                "description" : "", 
+                "description" : "Tony Parker MVP des Finals : En 2007, Tony Parker, le meneur de jeu français des Spurs de San Antonio, a été élu MVP des Finals NBA. Il a été le principal artisan de la victoire de son équipe face aux Cleveland Cavaliers avec une moyenne de 24,5 points par match. Cette récompense est une reconnaissance méritée pour l'un des meilleurs joueurs européens de tous les temps.", 
                 "date" : 2007, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Klay Thompson inscrit 37 points en 1 quart-temps", 
-                "description" : "",
+                "description" : "Klay Thompson inscrit 37 points en 1 quart-temps : En janvier 2015, Klay Thompson, le talentueux arrière des Warriors de Golden State, a battu le record de points inscrits en un quart-temps en marquant 37 points contre les Kings de Sacramento. Ce moment historique a permis à Thompson de démontrer sa capacité à être un scoreur incroyablement efficace.",
                 "date" : 2015, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Klay Thompson inscrit 14 shoots a 3 points", 
-                "description" : "",
+                "description" : "Klay Thompson inscrit 14 shoots a 3 points : En octobre 2018, Klay Thompson a établi un nouveau record de tirs à trois points dans un seul match en inscrivant 14 paniers primés face aux Bulls de Chicago. Cet exploit a permis à Thompson de se faire remarquer comme l'un des meilleurs shooteurs de tous les temps.",
                 "date" : 2018, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Arrivée de la ligne à 3 points", 
-                "description" : "",
+                "description" : " L'arrivée de la ligne à 3 points dans le basketball a été un changement majeur dans la façon dont le jeu est joué. Introduite en 1979, la ligne à 3 points a donné aux joueurs une chance de marquer plus de points en lançant le ballon de loin. Cela a permis aux joueurs de devenir plus créatifs dans leur jeu et a conduit à l'émergence d'une nouvelle génération de tireurs d'élite.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "30 passes décisives de Scott Skiles", 
-                "description" : "",
+                "description" : "Scott Skiles, ancien meneur de jeu de la NBA, a établi un record en distribuant 30 passes décisives dans un seul match en 1990. Ce record est toujours en vigueur aujourd'hui. Les passes décisives sont une statistique importante dans le basketball car elles montrent la capacité d'un joueur à créer des opportunités pour ses coéquipiers de marquer des points.",
                 "date" : 1990, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Westbrook 20 points, 20 rebonds, 21 passes décisives", 
-                "description" : "",
+                "description" : "En 2019, Russell Westbrook a réalisé une performance incroyable en marquant 20 points, récupérant 20 rebonds et distribuant 21 passes décisives dans un seul match. Cette performance a été un exemple de l'incroyable polyvalence de Westbrook en tant que joueur de basketball, capable de contribuer dans de nombreux aspects du jeu.",
                 "date" : 2019, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Jordan inscrit 63 points en Playoffs",
-                "description" : "",
+                "description" : "En 1986, Michael Jordan a inscrit un total de 63 points lors d'un match de playoffs contre les Boston Celtics. Bien que les Bulls aient finalement perdu le match, la performance de Jordan est considérée comme l'une des plus grandes performances individuelles de l'histoire de la NBA. Cette performance a également marqué le début de la légende de Jordan, qui est devenu l'un des joueurs les plus emblématiques de la NBA.",
                 "date" : 1986, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "Phil Jackson devient entraîneur des Bulls",
-                "description" : "", 
+                "description" : " En 1989, Phil Jackson est devenu l'entraîneur des Chicago Bulls. Sous sa direction, l'équipe a remporté six championnats de la NBA, avec Michael Jordan et Scottie Pippen en tant que joueurs vedettes. Jackson est également connu pour son utilisation du triangle offensif, une stratégie offensive qui a permis aux Bulls de devenir l'une des équipes les plus dominantes de l'histoire de la NBA", 
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Lebron James devient meilleur marqueur de l'histoire", 
-                "description" : "",
+                "description" : "En 2023, Lebron James est devenu le meilleur marqueur de l'histoire de la NBA en surpassant Kareem Abdul-Jabbar. Cette réalisation est le reflet de la longévité et de la constance de James en tant que joueur d'élite, ayant passé plus de 18 ans dans la ligue et remporté quatre titres de championnat.",
                 "date" : 2023, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Steve Kerr devient entraîneur des Warriors", 
-                "description" : "",
+                "description" : "En 2014, Steve Kerr a été nommé entraîneur des Golden State Warriors, une équipe de basket-ball professionnelle de la NBA basée à San Francisco. Kerr, un ancien joueur de la NBA avec une grande expérience de championnat, a rapidement transformé les Warriors en une équipe de basket-ball de classe mondiale, remportant cinq titres de conférence en six saisons et menant l'équipe à deux titres de championnat de la NBA. Sous la direction de Kerr, les Warriors ont mis en place un style de jeu offensif rapide et axé sur le mouvement de balle, qui est devenu une norme dans la ligue.",
                 "date" : 2014, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Les Warriors finissent la saison régulière avec 73 victoires", 
-                "description" : "",
+                "description" : "En 2016, les Golden State Warriors ont établi un nouveau record de victoires en saison régulière en remportant 73 matchs, surpassant ainsi l'ancien record des Chicago Bulls de 1996 (72 victoires). Les Warriors, dirigés par un groupe de joueurs exceptionnels, dont Stephen Curry, Klay Thompson et Draymond Green, ont dominé la ligue cette saison-là et ont été considérés comme l'une des meilleures équipes de basket-ball de tous les temps. Malheureusement, ils ont perdu en finales de la NBA contre les Cleveland Cavaliers.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "Lebron James gagne le Championnat NBA avec Cleveland", 
-                "description" : "",
+                "description" : "En 2016, LeBron James a mené les Cleveland Cavaliers à leur premier titre de championnat de la NBA. Les Cavaliers ont affronté les Golden State Warriors en finales de la NBA, qui étaient alors les champions en titre et avaient établi un nouveau record de victoires en saison régulière cette année-là. Cependant, grâce aux performances exceptionnelles de LeBron James, qui a remporté le prix de MVP des finales de la NBA, les Cavaliers ont renversé les Warriors et remporté le championnat pour la première fois de leur histoire.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 34, 
                 "question" : "Detroit Pistons 186-184  Denver Nuggets", 
-                "description" : "",
+                "description" : "Le 13 décembre 1983, les Detroit Pistons ont battu les Denver Nuggets lors d'un match de la NBA historique qui s'est terminé par un score de 186-184. Ce match est devenu célèbre pour être le match le plus élevé en termes de points combinés jamais marqués dans l'histoire de la NBA.",
                 "date" : 1983, 
                 "answer" : null
             },
             {
                 "id" : 35, 
                 "question" : "David Robinson réalise un quadruple-double", 
-                "description" : "",
+                "description" : "En 1994, David Robinson des San Antonio Spurs a réalisé un quadruple-double, un exploit rare dans la NBA. Il a marqué 34 points, pris 10 rebonds, effectué 10 passes décisives et réalisé 10 contres. Ce n'est que le deuxième quadruple-double de l'histoire de la NBA, après celui d'Hakeem Olajuwon. L'exploit de Robinson a été salué par les fans de basket-ball et a renforcé sa réputation de l'un des meilleurs joueurs de tous les temps.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 36, 
                 "question" : "Duel Slam Dunk Contest Jordan-Wilkins", 
-                "description" : "",
+                "description" : "Le duel de dunk de 1985 entre Michael Jordan et Dominique Wilkins est considéré comme l'un des meilleurs moments de l'histoire du NBA Slam Dunk Contest. Les deux joueurs ont offert une performance exceptionnelle, avec des dunks acrobatiques spectaculaires qui ont émerveillé la foule. Michael Jordan a finalement remporté le concours, mais le duel épique entre les deux joueurs a laissé une marque indélébile sur les fans de basket-ball du monde entier.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 37, 
                 "question" : "Duel Slam Dunk Contest LaVine-Gordon", 
-                "description" : "",
+                "description" : " Le Slam Dunk Contest de 2016 entre Zach LaVine et Aaron Gordon a été l'un des plus mémorables de l'histoire de la NBA. Les deux joueurs ont offert une performance exceptionnelle soldée par une victoire de Zach LaVine, avec des dunks acrobatiques qui ont ébloui le public.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 38, 
                 "question" : "Steve Nash premier non-américain élu MVP", 
-                "description" : "",
+                "description" : "En 2005 et 2006, Steve Nash a été élu MVP de la NBA, devenant ainsi le premier joueur de basket-ball canadien à remporter ce titre prestigieux. Il a conduit les Phoenix Suns à des performances exceptionnelles pendant ces saisons et a marqué l'histoire de la NBA.",
                 "date" : 2005, 
                 "answer" : null
             },
             {
                 "id" : 39, 
                 "question" : "David Robinson inscrit 71 points", 
-                "description" : "",
+                "description" : " Le 24 avril 1994, David Robinson des San Antonio Spurs a inscrit un total de 71 points contre les Los Angeles Clippers, établissant un record de franchise et de la NBA pour la plus haute performance de points en un seul match. Cela reste l'un des plus grands moments de sa carrière.",
                 "date" : 1994, 
                 "answer" : null
             },
@@ -1711,28 +1712,28 @@
             {
                 "id" : 41, 
                 "question" : "Michael Jordan inscrit 70 points", 
-                "description" : "",
+                "description" : "Le 28 mars 1990, Michael Jordan des Chicago Bulls a inscrit 70 points contre les Cleveland Cavaliers, établissant un nouveau record personnel et de la franchise pour le plus grand nombre de points en un seul match. C'était l'un de ses nombreux moments légendaires en NBA.",
                 "date" : 1990, 
                 "answer" : null
             },
             {
                 "id" : 42, 
-                "question" : "Devin Booker inscrit 69 points", 
-                "description" : "",
+                "question" : "Devin Booker inscrit 70 points", 
+                "description" : "Devin Booker a réalisé une performance incroyable en marquant 70 points lors d'un match de la NBA en 2017. Bien que son équipe ait perdu, Booker a établi un nouveau record de franchise et est devenu le sixième joueur de l'histoire de la NBA à marquer autant de points en un seul match. Sa performance a été saluée par ses coéquipiers, ses adversaires et les fans de la NBA dans le monde entier.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 43, 
                 "question" : "Le dernier match de Kobe Bryant (60 points)", 
-                "description" : "",
+                "description" : "Le dernier match de Kobe Bryant a été une soirée mémorable contre Utah Jazz, alors qu'il a marqué 60 points, sa plus haute performance de la saison et la sixième de sa carrière.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 44, 
                 "question" : "McGrady inscrit 13 points en 33 secondes", 
-                "description" : "",
+                "description" : "Tracy McGrady a marqué 13 points en seulement 33 secondes lors d'un match de NBA, créant un moment incroyable pour les fans de basket-ball du monde entier. Sa performance reste une des plus légendaires de l'histoire de la NBA.",
                 "date" : 2004, 
                 "answer" : null
             }
@@ -1750,49 +1751,49 @@
             {
                 "id" : 1, 
                 "question" : "Jean Michel Aulas reprend le club", 
-                "description" : "",
+                "description" : "En 1987, Jean-Michel Aulas prend les rênes de l'Olympique Lyonnais. Il instaure alors une politique de développement ambitieuse, basée sur la formation et l'acquisition de joueurs talentueux. Cette stratégie s'avérera payante, propulsant l'OL au sommet du football français et européen.",
                 "date" : 1987, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Première participation en ligue des champions", 
-                "description" : "",
+                "description" : "En 1999, l'Olympique Lyonnais participe pour la première fois de son histoire à la Ligue des Champions. Malgré une élimination dès les phases de poules, ce parcours reste marquant pour le club qui continue depuis à briller sur la scène européenne.",
                 "date" : 1999, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Premier titre de Champion de France", 
-                "description" : "",
+                "description" : "En 2002, l'Olympique Lyonnais remporte son premier titre de Champion de France sous l'ère Aulas. Cette victoire marque le début d'une période faste pour le club, qui remportera ensuite 7 titres consécutifs, un record dans l'histoire du championnat de France.",
                 "date" : 2002, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Dernière montée en D1", 
-                "description" : "",
+                "description" : "En 1989, l'Olympique Lyonnais retrouve l'élite du football français après une saison passée en deuxième division. Cette montée sera la dernière pour le club, qui deviendra depuis un habitué des joutes de la Ligue 1.",
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Signature de Juninho", 
-                "description" : "",
+                "description" : "En 2001, l'Olympique Lyonnais recrute le jeune milieu brésilien Juninho, qui deviendra rapidement une légende du club. Véritable meneur de jeu, il sera notamment l'artisan des titres de Champion de France remportés par l'OL dans les années 2000.",
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Signature de Sonny Anderson", 
-                "description" : "",
+                "description" : "En 1999, l'Olympique Lyonnais réalise un gros coup en recrutant l'attaquant brésilien Sonny Anderson. Ce dernier s'imposera rapidement comme un joueur majeur du championnat de France, inscrivant notamment 71 buts en 107 matchs sous les couleurs lyonnaises.",
                 "date" : 1999, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Signature de Cris", 
-                "description" : "",
+                "description" : "En 2004, l'Olympique Lyonnais recrute le défenseur brésilien Cris, qui deviendra rapidement un pilier de la défense lyonnaise. Surnommé le \"Policier\", il participera activement aux succès du club dans les années 2000, remportant notamment 4 titres de Champion de France.",
                 "date" : 2004, 
                 "answer" : null
             
@@ -1800,56 +1801,56 @@
             {
                 "id" : 8, 
                 "question" : "Signature de Lisandro Lopez", 
-                "description" : "",
+                "description" : "En 2009, l'Olympique Lyonnais recrute l'attaquant argentin Lisandro Lopez pour une somme record de 24 millions d'euros. Il devient rapidement le chouchou des supporters grâce à ses performances et son engagement sur le terrain",
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Premier match en pro de Karim Benzema", 
-                "description" : "",
+                "description" : "En janvier 2005, Karim Benzema fait ses débuts en équipe première de l'Olympique Lyonnais lors d'un match de Ligue 1 contre Metz. Il marque son premier but quelques mois plus tard, et deviendra rapidement une des stars du club avant son départ pour le Real Madrid en 2009.",
                 "date" : 2005, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Départ de Lacazette vers Arsenal", 
-                "description" : "",
+                "description" : "En 2017, l'attaquant Alexandre Lacazette quitte l'Olympique Lyonnais pour rejoindre Arsenal en Angleterre pour un montant de 53 millions d'euros. Après plus de 10 ans passés dans le club.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Elimination de Bordeaux en quart de finale de LDC",
-                "description" : "", 
+                "description" : " En 2010, l'Olympique Lyonnais élimine les Girondins de Bordeaux en quart de finale de la Ligue des champions après une double confrontation tendue. Malgré une défaite 1-0 à l'aller, les Lyonnais remportent le match retour 3-1 pour se qualifier en demi-finale.", 
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Demi-finale de LDC lors du Final 4", 
-                "description" : "",
+                "description" : "En 2020, l'Olympique Lyonnais atteint les demi-finales de la Ligue des champions lors du Final 8 organisé à Lisbonne. Après avoir éliminé la Juventus de Cristiano Ronaldo en huitième de finale, ils sont finalement éliminés par le Bayern Munich, futur vainqueur de la compétition.",
                 "date" : 2020, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Lyon 5-5 Marseille", 
-                "description" : "",
+                "description" : "En 2010, l'Olympique Lyonnais et l'Olympique de Marseille offrent un match de folie en Ligue 1 avec un score final de 5-5.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Premier match au Groupama Stadium", 
-                "description" : "",
+                "description" : "L'Olympique Lyonnais a joué son premier match au Groupama Stadium en janvier 2016, devant une foule enthousiaste de plus de 55 000 supporters. Le stade ultramoderne a été construit pour remplacer l'ancien stade de Gerland, offrant une expérience de match améliorée pour les fans et les joueurs.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "John Textor rachète le club", 
-                "description" : "",
+                "description" : "En 2022, l'entrepreneur américain John Textor a racheté l'Olympique Lyonnais, ouvrant ainsi une nouvelle aire après plus de 3 décénnies sous la présidence Aulas.",
                 "date" : 2022, 
                 "answer" : null
             
@@ -1857,28 +1858,28 @@
             {
                 "id" : 16, 
                 "question" : "Signature de Memphis Depay", 
-                "description" : "",
+                "description" : "En 2017, l'Olympique Lyonnais a fait une signature importante en recrutant le talentueux attaquant néerlandais Memphis Depay.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Première Coupe de France", 
-                "description" : "",
+                "description" : "En 1964, l'Olympique Lyonnais a remporté sa première Coupe de France, battant l'équipe de Bordeaux en finale. Cette victoire historique a marqué le début d'une longue tradition de succès pour le club dans les compétitions nationales.",
                 "date" : 1964, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Création du club", 
-                "description" : "",
+                "description" : "L'Olympique Lyonnais est un club de football français fondé en 1950. Depuis sa création, il a remporté de nombreux titres nationaux et internationaux, devenant l'un des clubs les plus titrés en France. Il est également reconnu pour son centre de formation qui a produit de nombreux joueurs talentueux.",
                 "date" : 1950, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "L'équipe féminine remporte sa première Ligue des Champions", 
-                "description" : "",
+                "description" : "En 2011, l'équipe féminine de l'Olympique Lyonnais a remporté sa première Ligue des Champions. Depuis lors, elles ont continué à dominer la compétition en remportant six titres supplémentaires, en 2012, 2016, 2017, 2018, 2019 et 2020. L'OL féminin est considéré comme l'une des meilleures équipes de football féminin au monde, avec de nombreuses joueuses de classe mondiale dans leur effectif.",
                 "date" : 2012, 
                 "answer" : null
             },
@@ -1892,28 +1893,28 @@
             {
                 "id" : 21, 
                 "question" : "Fekir meilleur espoir de Ligue 1", 
-                "description" : "",
+                "description" : "Le jeune prodige de l'Olympique Lyonnais, Nabil Fekir, a été élu meilleur espoir de la Ligue 1 lors de la cérémonie des Trophées UNFP. Cette distinction récompense la brillante saison de l'attaquant qui a marqué 13 buts et délivré 9 passes décisives.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Départ de Benzema au Réal Madrid", 
-                "description" : "",
+                "description" : "Karim Benzema, l'attaquant vedette de l'Olympique Lyonnais, a quitté le club pour rejoindre le Real Madrid en Espagne. Cette perte est un coup dur pour l'OL, qui doit désormais trouver un remplaçant de qualité pour combler ce vide.",
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Lacazette et Tolisso font leur retour", 
-                "description" : "",
+                "description" : "Alexandre Lacazette et Corentin Tolisso, anciens joueurs de l'Olympique Lyonnais, ont effectué leur retour au club lors de la saison 2021-2022.",
                 "date" : 2022, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Signature de Grégory Coupet", 
-                "description" : "",
+                "description" : "En 1999, l'Olympique Lyonnais recrute Grégory Coupet en provenance de Saint-Etienne, qui remportera 7 titres de champions de France en trant que gardien titulaire avec les Gones.",
                 "date" : 1997, 
                 "answer" : null
             },
@@ -1928,56 +1929,56 @@
             {
                 "id" : 26, 
                 "question" : "Bruno Génésio devient l'entraineur", 
-                "description" : "",
+                "description" : "Bruno Génésio a été nommé entraîneur de l'OL en 2015, succédant à Hubert Fournier. Il a mené l'équipe à une demi-finale de Ligue Europa en 2017 et à une troisième place en Ligue 1 en 2018, avant de quitter le club en 2019.",
                 "date" : 2015, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Santini devient l'entraineur", 
-                "description" : "",
+                "description" : "Jacques Santini a été l'entraîneur de l'OL de 2000 à 2002, remportant la Coupe de la Ligue en 2001. Il a également conduit l'équipe à une deuxième place en Ligue 1 lors de sa première saison",
                 "date" : 2000, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Lyon 7-1 Dinamo Zagreb ", 
-                "description" : "",
+                "description" : "L'OL a battu le Dinamo Zagreb 7-1 en phase de groupes de la Ligue des champions en décembre 2011, avec un quadruplé de Bafétimbi Gomis. C'est la plus large victoire de l'OL dans la compétition.",
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "Lyon s'impose 5-0 à Saint-Etienne avec un doublé de Fékir", 
-                "description" : "",
+                "description" : "L'OL a remporté une victoire importante 5-0 sur la pelouse de son rival historique, l'AS Saint-Étienne, en novembre 2017. Nabil Fékir a inscrit deux buts lors de cette rencontre.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Lyon 6-1 Monaco lors de la dernière journée décisive", 
-                "description" : "",
+                "description" : "Lyon a battu Monaco 6-1 lors de la dernière journée de la Ligue 1 notamment grâce à un doublé de Yanga-Mbiwa, terminant ainsi deuxième du classement et se qualifiant pour la Ligue des champions.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Lyon 4-4 PSG", 
-                "description" : "",
+                "description" : "Lyon et PSG ont fait match nul 4-4 lors d'un match épique en Ligue 1, avec une égalisation du PSG dans le temps aditionnel.",
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Défaite en 1/8ème de LDC contre Nicosie", 
-                "description" : "",
+                "description" : "Lyon a subi une défaite surprise en 1/8ème de finale de la Ligue des champions contre Nicosie en s'inclinant en prolongation.",
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "Juninho devient directeur sportif", 
-                "description" : "",
+                "description" : "Juninho, ancien joueur de Lyon et légende du club, est devenu le directeur sportif de l'Olympique Lyonnaise en 2019 avant de démissioner en fin d'année 2021 ",
                 "date" : 2019,
                 "answer" : null
             }
@@ -1995,7 +1996,7 @@
             {
                 "id" : 1, 
                 "question" : "Création du club", 
-                "description" : "",
+                "description" : " L'Olympique de Marseille a été créé en 1899 par René Dufaure de Montmirail et a depuis lors connu une histoire riche et mouvementée. Le club a connu des périodes de gloire ainsi que des périodes plus difficiles, mais il reste un des clubs les plus emblématiques du football français.",
                 "date" : 1899, 
                 "answer" : null
             
@@ -2003,172 +2004,172 @@
             {
                 "id" : 2, 
                 "question" : "L'OM remporte la Ligue des champions", 
-                "description" : "",
+                "description" : "En 1993, l'Olympique de Marseille a réalisé un exploit historique en remportant la ligue des Champions. Cette victoire a marqué l'histoire du club et a permis à Marseille de devenir la première équipe française à remporter la plus prestigieuse des compétitions européennes. Les supporters marseillais ont célébré ce triomphe avec ferveur et la victoire a été un moment inoubliable pour les joueurs, les fans et tout le monde du football français.",
                 "date" : 1993, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Premier titre de Champion de France", 
-                "description" : "",
+                "description" : "En 1937, l'Olympique de Marseille remporte son premier titre de Champion de France. Cette victoire a marqué le début d'une longue série de succès pour le club, qui est devenu l'un des clubs les plus titrés du football français.",
                 "date" : 1937, 
                 "answer" : null
             },
             {
                 "id" : 4, "question" : "Dernier titre de Champion de France", 
-                "description" : "",
+                "description" : "En 2010, l'Olympique de Marseille a remporté son neuvième titre de Champion de France en battant le FC Sochaux-Montbéliard lors de la dernière journée de championnat. Cette victoire a marqué le retour de l'OM au sommet du football français après une période de disette.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 5, "question" : "Premier titre de Trophée des Champions",
-                "description" : "", 
+                "description" : "En 2010, l'Olympique de Marseille a remporté son premier Trophée des Champions. Ce match opposait le champion de France au vainqueur de la Coupe de France. L'OM a battu le Paris Saint-Germain 5-4 aux tirs au but après un match nul 0-0. Cette victoire a été un moment important pour l'OM, qui a ainsi ajouté un nouveau trophée à son palmarès et montré sa supériorité sur son rival parisien.", 
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Premier titre de Coupe de France", 
-                "description" : "",
+                "description" : "En 1924, l'Olympique de Marseille a remporté son premier titre de Coupe de France. Cette victoire a marqué le début d'une longue histoire de succès pour le club. Les Marseillais ont remporté la Coupe de France à dix reprises depuis lors, faisant de l'OM l'une des équipes les plus titrées dans cette compétition. Cette victoire historique a été un moment important pour l'OM et a lancé une tradition de succès qui dure encore aujourd'hui.",
                 "date" : 1935, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Titre de champion de D2", 
-                "description" : "",
+                "description" : "En 1995, l'Olympique de Marseille remporte le championnat de D2 et retrouve l'élite du football français. Ce titre est vécu comme un soulagement par les supporters et les dirigeants qui avaient vu le club relégué administrativement en 1994.",
                 "date" : 1995, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Signature de Didier Drogba", 
-                "description" : "",
+                "description" : "En 2003, l'OM fait signer Didier Drogba, un jeune attaquant ivoirien. Très vite, il devient l'un des joueurs les plus importants du club, marquant de nombreux buts et remportant la Coupe de la Ligue en 2004. Il sera vendu à Chelsea en 2004 pour 38 millions d'euros.",
                 "date" : 2003, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Pape Diouf devient Président", 
-                "description" : "",
+                "description" : "En 2005, Pape Diouf devient le premier président noir de l'OM. Il connaît un mandat difficile, marqué par des tensions avec les supporters et des résultats sportifs en dents de scie. Il démissionne en 2009, après une saison sans titre.",
                 "date" : 2005, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Jacques Henri Eyraud devient président", 
-                "description" : "",
+                "description" : "En 2016, Jacques-Henri Eyraud prend la tête du club. Il initie une profonde transformation de l'OM. Malgré des débuts difficiles, l'OM atteint la finale de la Ligue Europa en 2018.",
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Skoblar inscrit 44 buts en une saison de Ligue 1", 
-                "description" : "",
+                "description" : "En 1971, Josip Skoblar marque 44 buts en une saison de Ligue 1, un record qui tient toujours aujourd'hui. Cet attaquant yougoslave est considéré comme l'un des plus grands joueurs de l'histoire de l'OM.",
                 "date" : 1971, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Affaire du match truqué VA-OM", 
-                "description" : "",
+                "description" : "En 1993, l'OM est impliqué dans une affaire de match truqué lors d'un match contre Valenciennes. Le club est sanctionné d'une relégation en D2 et de la perte de son titre de champion de France 1993. Cette affaire marque un tournant dans l'histoire de l'OM.",
                 "date" : 1993, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Lyon 5-5 Marseille", 
-                "description" : "",
+                "description" : "En 2010, l'Olympique Lyonnais et l'Olympique de Marseille offrent un match de folie en Ligue 1 avec un score final de 5-5.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Dimitri Payet signe son retour", 
-                "description" : "",
+                "description" : " En 2017, Dimitri Payet effectue son retour à l'OM, après deux saisons à West Ham. Cette arrivée est vécue comme un symbole fort par les supporters, qui voient en lui l'incarnation du renouveau du club. Il sera élu meilleur joueur de la Ligue 1 en 2018.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Signature de Chris Waddle", 
-                "description" : "",
+                "description" : "En 1989, l'Olympique de Marseille signe le joueur britannique Chris Waddle. Ce milieu offensif talentueux était alors considéré comme l'une des plus grandes stars du football anglais. Sa créativité et son talent ont permis à l'OM de remporter de nombreux titres, notamment la Ligue des champions en 1993.",
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Signature de jean Pierre Papin", 
-                "description" : "",
+                "description" : "Jean-Pierre Papin rejoint l'Olympique de Marseille en 1986 en provenance du FC Bruges. Il s'impose rapidement comme l'un des meilleurs buteurs de l'histoire de l'OM, marquant 182 buts en 293 matchs. Avec lui, le club remporte notamment le championnat de France en 1989 et la Ligue des champions en 1993.",
                 "date" : 1986, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Descahmps, entraineur, mène l'OM au titre de Champion de France", 
-                "description" : "",
+                "description" : "En 2010, Didier Deschamps prend les rênes de l'Olympique de Marseille. Sous sa direction, le club remporte le championnat de France lors de la saison 2010-2011, mettant fin à une disette de 18 ans sans titre de champion. Deschamps devient ainsi le deuxième entraîneur de l'histoire de l'OM à remporter un titre de champion de France en tant que joueur et entraîneur.",
                 "date" : 2010,
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Finaliste de la Ligue Europa contre l'Atletico Madrid", 
-                "description" : "",
+                "description" : "En 2018, l'Olympique de Marseille se qualifie pour la finale de la Ligue Europa, mais est battu 3-0 par l'Atlético Madrid. Malgré la défaite, l'OM a réalisé une belle campagne européenne, éliminant notamment le RB Salzbourg et l'AS Rome. Cette finale reste un moment important de l'histoire récente de l'Olympique de Marseille.",
                 "date" : 2018, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Bielsa démissionne lors de la première journée de Ligue 1", 
-                "description" : "",
+                "description" : "En août 2015, Marcelo Bielsa, entraîneur argentin très apprécié des supporters, a choqué l'Olympique de Marseille en démissionnant après seulement une journée de championnat. Sa décision a été motivée par des désaccords avec la direction du club et des problèmes de recrutement.",
                 "date" : 2015, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Sampaoli démissionne en cours de préparation", 
-                "description" : "",
+                "description" : "En juillet 2021, Jorge Sampaoli, entraîneur argentin de renom, a démissionné de l'Olympique de Marseille en plein milieu de la préparation de la saison. Sa décision a été motivée par des difficultés financières du club et des désaccords avec la direction.",
                 "date" : 2022, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Phase de groupe de LDC avec 0 point",
-                "description" : "", 
+                "description" : " Lors de la saison 2020-2021, l'Olympique de Marseille a connu un échec retentissant en Ligue des Champions en ne remportant aucun point lors de la phase de groupe. Les Marseillais ont été dominés par Manchester City, Porto et l'Olympiakos, laissant un goût amer aux supporters et au club.", 
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Triste record de 13 défaites de suite en LDC", 
-                "description" : "",
+                "description" : "L'Olympique de Marseille a subi une série de 13 défaites consécutives en Ligue des Champions, établissant ainsi un triste record en 2012. Cette série noire a débuté en 2011 contre l'Olympiakos et s'est terminée en 2013 contre Naples. Ce record illustre la difficulté du club à s'imposer sur la scène européenne.",
                 "date" : 2020, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Finaliste de la Coupe UEFA contre Porto", 
-                "description" : "",
+                "description" : " L'Olympique de Marseille a atteint la finale de la Coupe UEFA en 2004, mais a été battu par le FC Porto sur un score de 3-2. Malgré cette défaite, l'équipe a fait preuve de courage et de détermination tout au long de la compétition.",
                 "date" : 2004, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Finaliste de la Coupe UEFA contre Parme", 
-                "description" : "",
+                "description" : "En 1999, l'Olympique de Marseille a atteint la finale de la Coupe UEFA, mais a été battu par Parme sur un score de 3-0. Cela a été une déception pour l'équipe et les fans, mais ils ont réussi à se qualifier pour la Ligue des champions la saison suivante.",
                 "date" : 1999, 
                 "answer" : null
             },
             {
                 "id" : 25, "question" : "Finaliste de la LDC contre Belgrade ", 
-                "description" : "",
+                "description" : "En 1991, l'Olympique de Marseille a atteint la finale de la Ligue des champions, mais a perdu contre l'Étoile Rouge de Belgrade sur un score de 5-3 aux tirs au but après un match nul 0-0. Malgré cette défaite, l'équipe est restée fière de sa performance tout au long de la compétition.",
                 "date" : 1991, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Pablo Longoria est nommé président", 
-                "description" : "",
+                "description" : "En 2021, l'Olympique de Marseille a nommé Pablo Longoria comme président du club. Longoria, qui a auparavant travaillé pour le Valencia CF et le CF Pachuca, a pris les rênes du club et a travaillé pour améliorer l'équipe et les infrastructures du club. Sa nomination a suscité beaucoup d'espoir parmi les fans de l'OM pour l'avenir du club.",
                 "date" : 2021, 
                 "answer" : null
             }
@@ -2186,237 +2187,238 @@
             {
                 "id" : 1, 
                 "question" : "Création du club", 
-                "description" : "",
+                "description" : "Le Paris Saint-Germain Football Club (PSG) a été créé en 1970 suite à une initiative de la fusion entre le Paris Football Club et le Stade Saint-Germain.",
                 "date" : 1970, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Champion de D2", 
-                "description" : "",
+                "description" : "En 1971, le PSG est devenu champion de deuxième division française, ce qui a marqué le début de l'ascension du club vers les sommets du football français et européen.",
                 "date" : 1971, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Borelli prend la présidence", 
-                "description" : "",
+                "description" : "Francis Borelli a pris la présidence du PSG en 1978 et a été à l'origine de l'arrivée de joueurs tels que Safet Susic, Dominique Rocheteau ou encore Carlos Bianchi, qui ont contribué à la réussite du club.",
                 "date" : 1978, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Début de l'ère Canal+", 
-                "description" : "",
+                "description" : "L'arrivée de Canal+ à la tête du PSG en 1991 a marqué le début d'une nouvelle ère pour le club, avec des investissements importants dans le recrutement de joueurs de renom tels que George Weah, David Ginola et Rai.",
                 "date" : 1991, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Début de l'ère Colony Capital", 
-                "description" : "",
+                "description" : "En 2006, Colony Capital est devenu l'actionnaire majoritaire du PSG, une periode qui concorde avec des années difficiles pour le PSG, notamment avec la saison où le club a frolé la rélégration.",
                 "date" : 2006,
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Début de l'ère QSI", 
-                "description" : "",
+                "description" : "En 2011, le Paris Saint-Germain est racheté par le fonds d'investissement qatarien QSI, marquant le début d'une nouvelle ère pour le club. Ce changement de propriétaire entraîne une série de recrutements ambitieux et des investissements massifs dans le club, avec pour objectif de faire du PSG une puissance européenne.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Signature de Neymar", 
-                "description" : "",
+                "description" : "En 2017, le Paris Saint-Germain bat tous les records en signant l'attaquant brésilien Neymar pour 222 millions d'euros, faisant de lui le transfert le plus cher de l'histoire du football. Cette signature symbolise l'ambition du club de remporter la Ligue des champions et de rivaliser avec les plus grands clubs européens.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Signature de Pastore", 
-                "description" : "",
+                "description" : "En 2011, Javier Pastore, joueur argentin talentueux, signe au PSG pour un montant record à l'époque de 42 millions d'euros. Sa technique et sa créativité en font rapidement un joueur clé de l'équipe, aidant le club à remporter plusieurs titres nationaux.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Signature de Zlatan Ibrahimovic", 
-                "description" : "",
+                "description" : "En 2012, le PSG signe l'attaquant suédois Zlatan Ibrahimovic, l'un des meilleurs buteurs de sa génération. Sa personnalité charismatique et son talent sur le terrain en font rapidement un favori des fans et il devient le meilleur buteur de l'histoire du club.",
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Signature de Léo Messi", 
-                "description" : "",
+                "description" : "En 2021, le Paris Saint-Germain crée la surprise en signant la superstar argentine Lionel Messi, après son départ du FC Barcelone. Cette signature historique marque l'arrivée d'un des meilleurs joueurs de l'histoire du football au PSG, renforçant encore l'ambition du club de remporter la Ligue des champions.",
                 "date" : 2021, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Signature de Ronaldinho", 
-                "description" : "",
+                "description" : "En 2001, le Paris Saint-Germain signe le jeune attaquant brésilien Ronaldinho, dont le talent et la créativité électrisent rapidement les fans. Il devient rapidement un joueur clé de l'équipe et aide le club à remporter la Coupe de France en 2004.",
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Signature de Beckham", 
-                "description" : "",
+                "description" : "En 2013, le Paris Saint-Germain signe la légende anglaise David Beckham, pour un dernier défi avant sa retraite. Bien que son temps de jeu soit limité, son charisme et son expérience aident le club à remporter le titre de champion de France cette année-là.",
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Signature de Kylian Mbappé", 
-                "description" : "",
+                "description" : "En 2017, le Paris Saint-Germain signe le jeune prodige français Kylian Mbappé, qui est rapidement considéré comme l'un des meilleurs joueurs de sa génération. Sa vitesse, sa technique et son instinct de buteur en font rapidement un joueur clé de l'équipe et un favori des fans.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Premier titre de Coupe de France", 
-                "description" : "",
+                "description" : "En 1982, le Paris Saint-Germain a remporté son tout premier titre de Coupe de France en battant l'AS Saint-Etienne en finale, grâce à un but de Dominique Rocheteau. Ce fut un moment historique pour le club, qui avait été fondé seulement dix ans auparavant.",
                 "date" : 1982, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Finaliste de la Ligue des Champions", 
+                "description" : "En 2020, le PSG est parvenu pour la première fois en finale de la Ligue des Champions, mais a finalement perdu contre le Bayern Munich. Malgré cette défaite, l'équipe a réalisé une belle performance en éliminant notamment l'Atalanta et le RB Leipzig en quarts et demi-finales.",
                 "date" : 2020, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Vainqueur de la Coupe des vainqueurs de Coupe (C2)", 
-                "description" : "",
+                "description" : "En 1996, le PSG a remporté la Coupe des vainqueurs de Coupe, l'une des trois compétitions européennes de l'époque. En finale, le club parisien a battu le Rapid Vienne grâce à un but de Bruno N'Gotty.",
                 "date" : 1996, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Première des 9 Coupes de la Ligue", 
-                "description" : "",
+                "description" : "En 1995, le Paris Saint-Germain a remporté la première édition de la Coupe de la Ligue. Le club parisien s'est imposé en finale face aux Girondins de Bordeaux, grâce à un but de George Weah.",
                 "date" : 1995, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Premier titre de Champion de France", 
-                "description" : "",
+                "description" : "En 1986, le PSG a remporté son premier titre de Champion de France. L'équipe entraînée par Gérard Houllier a devancé les Girondins de Bordeaux et l'AS Monaco pour s'offrir cette première couronne nationale.",
                 "date" : 1986, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Défaite 6-1 contre le FC Barcelone en 1/8ème de finale de LDC", 
-                "description" : "",
+                "description" : "En 2017, le PSG a subi une lourde défaite 6-1 contre le FC Barcelone en 1/8ème de finale de la Ligue des Champions, après avoir remporté le match aller 4-0. Ce résultat a été très critiqué et a conduit à la remise en question de l'entraîneur Unai Emery.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Elimination par Manchester United en 1/8ème de finale de LDC", 
-                "description" : "",
-                "date" : 2020, 
+                "description" : "En 2020, le PSG a été éliminé par Manchester United en 1/8ème de finale de la Ligue des Champions, après avoir remporté le match aller 2-0. L'équipe parisienne a été battue 3-1 à domicile lors du match retour, suite à un penalty controversé accordé aux Anglais dans les dernières minutes.",
+                "date" : 2019, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Signature de Pauleta", 
-                "description" : "",
+                "description" : "Pauleta a signé au PSG en 2003 et est rapidement devenu l'un des meilleurs buteurs de l'histoire du club. Il a inscrit plus de 100 buts pour le PSG et a été un joueur clé pour le club pendant plusieurs années.",
                 "date" : 2003, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Thomas Tuchel devient l'entraineur", 
-                "description" : "",
+                "description" : "En 2018, Thomas Tuchel a été nommé entraîneur du PSG. Il a apporté une nouvelle philosophie de jeu et a remporté plusieurs trophées, dont deux titres de champion de France et une Coupe de France.",
                 "date" : 2018, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Luiz Fernandez devient l'entraineur (première fois)", 
-                "description" : "",
+                "description" : "En 1994, Luiz Fernandez a été nommé entraîneur du PSG pour la première fois. Sous sa direction, le club a remporté plusieurs titres, dont la Coupe d'Europe des vainqueurs de coupe en 1996.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Laurent Blanc devient l'entraineur", 
-                "description" : "",
+                "description" : "En 2013, Laurent Blanc a été nommé entraîneur du PSG. Sous sa direction, le club a remporté trois titres de champion de France consécutifs et a atteint les quarts de finale de la Ligue des champions.",
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Plan Leproux", 
-                "description" : "",
+                "description" : "Le Plan Leproux était une initiative du PSG pour lutter contre la violence dans les stades. Il a impliqué la suppression des abonnements des supporters les plus violents et la création d'une nouvelle tribune pour les supporters pacifiques.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Signature de Makélélé", 
-                "description" : "",
+                "description" : "En 2008, Claude Makélélé a signé au PSG. Il a apporté une grande expérience et une influence positive sur l'équipe, aidant le club à atteindre la finale de la Coupe de France cette année-là.",
                 "date" : 2008, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Amara Diané sauve le PSG de la relégation", 
-                "description" : "",
+                "description" : "En 2008, Amara Diané a marqué le but décisif lors du dernier match de la saison pour éviter la relégation du PSG en Ligue 2. Ce but crucial est resté dans les mémoires des supporters du PSG.",
                 "date" : 2008, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "1er titre de champion de l’ère QSI",
-                "description" : "", 
+                "description" : "En 2013, le PSG a remporté son premier titre de champion de France sous l'ère QSI. Cette victoire historique a marqué le début d'une ère de domination pour le club.", 
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "Lyon 4-4 PSG", 
-                "description" : "",
+                "description" : "Le match entre Lyon et PSG en 2012 restera gravé dans les mémoires des supporters de football. Les deux équipes ont livré un combat intense qui s'est soldé par un score de 4-4. Les buts se sont succédé des deux côtés, avec des retournements de situation incroyables. Le PSG a arraché le march nul dans le temps additionel.",
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Signature de Mustapha Dahleb", 
-                "description" : "",
+                "description" : "Mustapha Dahleb est considéré comme l'un des plus grands joueurs de l'histoire du Paris Saint-Germain. Il a passé huit saisons au club, marquant 98 buts en 236 matchs. Il a également remporté la Coupe de France en 1982 avec le PSG.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Signature de Safet Susic", 
-                "description" : "",
+                "description" : "Safet Susic a été l'un des premiers grands joueurs étrangers à signer pour le Paris Saint-Germain. Il a passé cinq saisons au club dans les années 1980, marquant 96 buts en 226 matchs. Il est considéré comme l'un des meilleurs joueurs de l'histoire de la Bosnie-Herzégovine.",
                 "date" : 1982, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Signature de Raí", 
-                "description" : "",
+                "description" : "Rai est l'un des joueurs les plus emblématiques de l'histoire du Paris Saint-Germain. Il a passé huit saisons au club, remportant notamment la Coupe des coupes en 1996. Il est considéré comme l'un des meilleurs joueurs brésiliens de tous les temps.",
                 "date" : 1993, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "Signature de  George Weah", 
-                "description" : "",
+                "description" : "George Weah est l'un des plus grands joueurs africains de tous les temps. Il a signé pour le Paris Saint-Germain en 1992, remportant notamment le Ballon d'Or en 1995. Il a marqué 55 buts en 138 matchs pour le PSG.",
                 "date" : 1992, 
                 "answer" : null
             },
             {
                 "id" : 34, 
                 "question" : "Signature de  Verratti et Thiago Silva", 
-                "description" : "",
+                "description" : "Marco Verratti et Thiago Silva ont tous deux été des joueurs clés du Paris Saint-Germain au cours de la dernière décennie. Verratti, un milieu de terrain italien talentueux, a signé pour le PSG en 2012 et a depuis disputé plus de 300 matchs pour le club. Thiago Silva, un défenseur brésilien solide, a signé pour le PSG en 2012 et a remporté sept titres de champion de France avec le club avant de partir pour Chelsea en 2020.",
                 "date" : 2012, 
                 "answer" : null
             }
@@ -2434,154 +2436,154 @@
             {
                 "id" : 0, 
                 "question" : "Chute de Constantinople", 
-                "description" : "",
+                "description" : "La chute de Constantinople en 1453 marque la fin de l'Empire romain d'Orient et la prise de contrôle de la ville par les Ottomans.",
                 "date" : 1453, 
                 "answer" : null
             },
             {
                 "id" : 1, 
                 "question" : "Découverte de l’Amérique par Christophe Colomb", 
-                "description" : "",
+                "description" : " L'arrivée de Christophe Colomb en Amérique en 1492 marque un tournant dans l'histoire de l'exploration et de la colonisation européenne. L'invention de l'imprimerie par Gutenberg en 1440 a révolutionné la diffusion des connaissances en Europe.",
                 "date" : 1492, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Invention de l’imprimerie par Gutenberg ", 
-                "description" : "",
+                "description" : "L'invention de l'imprimerie par Gutenberg en 1440 a révolutionné la diffusion des connaissances en Europe.",
                 "date" : 1450, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Découverte de l’Inde par Vasco de Gama", 
-                "description" : "",
+                "description" : "La découverte de l'Inde par Vasco de Gama en 1498 a ouvert de nouvelles voies commerciales pour les Européens. ",
                 "date" : 1497, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Découverte du Brésil par Cabral", 
-                "description" : "",
+                "description" : "La découverte du Brésil par Cabral en 1500 a lancé la colonisation portugaise de l'Amérique du Sud. ",
                 "date" : 1500, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Début des guerres de religion", 
-                "description" : "",
+                "description" : "Le début des guerres de religion en France en 1562 a marqué une période de conflit entre catholiques et protestants.",
                 "date" : 1562, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Edit de Nantes", 
-                "description" : "",
+                "description" : ". L'édit de Nantes en 1598 a mis fin à ces guerres période de conflit entre catholiques et protestants en accordant une certaine tolérance aux protestants.",
                 "date" : 1598, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Le début de la Réforme", 
-                "description" : "",
+                "description" : "Le début de la Réforme au XVIe siècle a été un mouvement religieux qui a conduit à la division de l'Église chrétienne et à la création de nouvelles confessions protestantes.",
                 "date" : 1517, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Construction de la basilique Saint-Pierre", 
-                "description" : "",
+                "description" : "La construction de la basilique Saint-Pierre a commencé en 1506 sous la direction de différents architectes et a été achevée plus de 120 ans plus tard. Cette église est considérée comme l'un des chefs-d'œuvre de l'architecture Renaissance.",
                 "date" : 1506, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Début de la guerre de Trente Ans", 
-                "description" : "",
+                "description" : "La guerre de Trente Ans a débuté en 1618 en Europe centrale et a impliqué de nombreux pays et factions religieuses. Cette guerre a été un conflit majeur pour le pouvoir et la religion et a duré jusqu'en 1648, avec un bilan humain et économique dévastateur.",
                 "date" : 1618, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Mort de De Vinci", 
-                "description" : "",
+                "description" : "La mort de De Vinci en 1519 a été un moment clé de la Renaissance italienne. En tant que peintre, scientifique et inventeur, De Vinci a laissé un héritage important pour les générations futures, y compris la célèbre \"Mona Lisa\".",
                 "date" : 1519, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Le Français est devenu la langue officielle du droit et de l’Administration de France",
-                "description" : "", 
+                "description" : "En 1539, le Français est devenu la langue officielle du droit et de l'Administration de France sous le règne de François Ier. Cela a contribué à renforcer l'unification linguistique du pays et a eu des conséquences durables sur la culture et la politique françaises.", 
                 "date" : 1539, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Naissance de Raphaël", 
-                "description" : "",
+                "description" : "La naissance de Raphaël en 1483 a été un moment clé de la Renaissance italienne. Raphaël était un peintre et un architecte de renom qui a laissé une marque indélébile sur l'art de son temps et qui a influencé de nombreux artistes ultérieurs. Ses œuvres comprennent la célèbre \"École d'Athènes\".",
                 "date" : 1483, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Massacre de la Saint-Barthélemy", 
-                "description" : "",
+                "description" : "Le massacre de la Saint-Barthélemy a eu lieu en 1572 en France, lors duquel des milliers de protestants ont été tués. Cet événement a marqué l'histoire de France et a provoqué des tensions religieuses qui ont duré des siècles.",
                 "date" : 1572, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Magellan entame le premier tour du monde", 
-                "description" : "",
+                "description" : "En 1519, le navigateur portugais Fernand de Magellan a entamé le premier tour du monde, un voyage qui a duré trois ans. Cette expédition a ouvert de nouvelles routes commerciales et a contribué à la cartographie de la Terre.",
                 "date" : 1519, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Début de la première guerre d'Italie", 
-                "description" : "",
+                "description" : "La première guerre d'Italie a commencé en 1494 et a impliqué plusieurs puissances européennes se battant pour le contrôle de l'Italie. Cette guerre a été un tournant majeur dans l'histoire de l'Europe et a conduit à l'émergence de l'Empire espagnol.",
                 "date" : 1494, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Début de la première révolution anglaise", 
-                "description" : "",
+                "description" : "La première révolution anglaise a débuté en 1642 et a abouti à l'exécution du roi Charles Ier. Cette révolution a renversé le système monarchique en Angleterre et a conduit à l'émergence d'une république.",
                 "date" : 1642, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Fondation de l'Académie française", 
-                "description" : "",
-                "date" : 1664, 
+                "description" : "Enfin, la fondation de l'Académie française en 1635 a marqué l'histoire de la culture française et a contribué à l'essor de la langue française dans le monde. Cette institution est devenue un symbole de la culture et de l'érudition françaises.",
+                "date" : 1634, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Naissance de William Shakespeare", 
-                "description" : "",
+                "description" : "La naissance de William Shakespeare en 1564 coïncide avec une période de bouleversements en Angleterre, marquée par l'accession d'Elizabeth Ier au trône et l'émergence de la Renaissance anglaise.",
                 "date" : 1564, 
                 "answer" : null}
                 ,
             {
                 "id" : 20, 
                 "question" : "Restauration monarchique en Angleterre", 
-                "description" : "",
+                "description" : "En 1660, la Restauration monarchique en Angleterre a mis fin à une période de république parlementaire et ramené Charles II sur le trône.",
                 "date" : 1660, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Martin Luther publie ses 95 thèses", 
-                "description" : "",
+                "description" : "En 1517, Martin Luther, moine et théologien allemand, publie ses 95 thèses contre les pratiques de vente d'indulgences de l'Église catholique romaine. Cet événement marque le début de la Réforme protestante, qui bouleverse la chrétienté européenne et provoque des conflits religieux et politiques qui durent des siècles. Luther prône la justification par la foi seule et la Bible comme seule source d'autorité, rejetant ainsi la hiérarchie catholique et ses traditions.",
                 "date" : 1517,
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Union de l'Angleterre et de l'Écosse", 
-                "description" : "",
+                "description" : "En 1707, l'Union de l'Angleterre et de l'Écosse a créé le Royaume-Uni de Grande-Bretagne, mettant fin à des siècles de rivalités et de conflits entre les deux nations. Ces événements clés de l'histoire ont profondément influencé la société et la culture anglaises, et ont eu des répercussions à travers l'Europe et le monde.",
                 "date" : 1707, 
                 "answer" : null
             }
@@ -2599,203 +2601,203 @@
             {
                 "id" : 1, 
                 "question" : "Coup de tête de Zinedine Zidane", 
-                "description" : "",
+                "description" : "Lors de la finale de la Coupe du Monde 2006, Zinedine Zidane assène un coup de tête à Marco Materazzi. Ce geste, qualifié d'incompréhensible, a suscité de nombreuses réactions et a mis fin à la carrière internationale de Zidane.",
                 "date" : 2006, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Septembre Noir aux Jeux Olympiques de Munich",
-                "description" : "", 
+                "description" : "En 1972, lors des Jeux Olympiques de Munich, un groupe terroriste palestinien prend en otage et tue 11 membres de l'équipe olympique israélienne. Cet événement a eu un retentissement mondial et a marqué les esprits en raison de sa violence et de sa symbolique.", 
                 "date" : 1972, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Victoire de la Dream Team aux J.O.", 
-                "description" : "",
+                "description" : "En 1992, lors des Jeux Olympiques de Barcelone, l'équipe de basket-ball américaine, surnommée la Dream Team, remporte la médaille d'or de manière éclatante. Cette équipe composée des plus grands joueurs de la NBA a marqué l'histoire du sport par son niveau de jeu exceptionnel.",
                 "date" : 1992, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Michael Jordan est drafté en 3ème position", 
-                "description" : "",
+                "description" : "En 1983, Michael Jordan, alors étudiant en université, est choisi en troisième position lors de la draft de la NBA par les Chicago Bulls, qui ne se doutent pas encore qu'ils viennent de recruter l'un des plus grands joueurs de l'histoire du basketball.",
                 "date" : 1983, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Mercx gagne son premier Tour de France", 
-                "description" : "",
+                "description" : "En 1969, Eddy Merckx remporte son premier Tour de France, confirmant ainsi sa domination sur le cyclisme mondial. Le Belge s'impose avec plus de 17 minutes d'avance sur son plus proche concurrent, et remportera finalement cinq Tours de France au total.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Victoire de Mohamed Ali sur Foreman", 
-                "description" : "",
+                "description" : "En 1974, le boxeur américain Mohamed Ali, alors âgé de 32 ans, livre un combat légendaire face à George Foreman, alors champion en titre. Ali surprend son adversaire en utilisant la technique du \"rope-a-dope\" et finit par remporter le combat par KO, redevenant ainsi champion du monde des poids lourds.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Carl Lewis est quadruple médaillé d'or aux J.O", 
-                "description" : "",
+                "description" : "Aux Jeux Olympiques de Los Angeles en 1984, l'athlète américain Carl Lewis remporte quatre médailles d'or en saut en longueur, 100m, 200m et 4x100m. Il égale ainsi le record de Jesse Owens, qui avait accompli le même exploit dans les années 1930.",
                 "date" : 1984, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Premier titre Français de champion du monde de football", 
-                "description" : "",
+                "description" : "En 1998, l'équipe de France de football remporte la Coupe du Monde en battant le Brésil en finale. Ce sacre historique, le premier pour la France, est marqué par la performance exceptionnelle de joueurs tels que Zinédine Zidane, Didier Deschamps et Lilian Thuram, et reste gravé dans la mémoire collective du pays.",
                 "date" : 1998, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Création du Tour de France", 
-                "description" : "",
+                "description" : "En 1903, Henri Desgrange crée le Tour de France, une course cycliste de renommée mondiale qui se déroule chaque année en juillet. Le Tour de France est devenu l'un des événements sportifs les plus importants et les plus suivis au monde, attirant des millions de spectateurs chaque année.",
                 "date" : 1903, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Premiers Jeux Olympiques modernes", 
-                "description" : "",
+                "description" : "En 1896, les premiers Jeux Olympiques modernes ont lieu à Athènes, en Grèce. L'événement est organisé par le Comité international olympique, fondé en 1894 par Pierre de Coubertin, et marque le début d'une tradition olympique qui perdure encore aujourd'hui, avec des athlètes du monde entier qui se rassemblent tous les quatre ans pour participer à cette compétition mondiale.",
                 "date" : 1896, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Poings levés de Tommie Smith et John Carlos", 
-                "description" : "",
+                "description" : " Lors des Jeux Olympiques de Mexico en 1968, les athlètes américains Tommie Smith et John Carlos lèvent le poing en signe de protestation contre la discrimination raciale aux États-Unis. Cette action symbolique, qui s'inscrit dans le contexte des mouvements pour les droits civiques aux États-Unis, a suscité de nombreuses réactions, à la fois positives et négatives.",
                 "date" : 1968, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Wilt Chamberlain inscrit 100 points (NBA)",
-                "description" : "", 
+                "description" : "En 1962, Wilt Chamberlain a inscrit 100 points lors d'un match de basketball de la NBA, un record qui tient toujours aujourd'hui.", 
                 "date" : 1962, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Match de 11h05 entre Mahut et Isner à Wimbledon", 
-                "description" : "",
+                "description" : "Le match de 11h05 entre Mahut et Isner à Wimbledon en 2010 est le match le plus long de l'histoire du tennis, durant 11 heures et 5 minutes avec une victoire dans le 5ème set de  70 jeux à 68 en faveur de Isner.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Accident mortel d'Ayrton Senna au Grand Prix de Saint-Marin", 
-                "description" : "",
+                "description" : "L'accident mortel d'Ayrton Senna en 1994 au Grand Prix de Saint-Marin a choqué le monde entier, entraînant une réforme majeure de la sécurité en Formule 1.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "But de la main de Maradona", 
-                "description" : "",
+                "description" : "En 1986, Diego Maradona a marqué un but controversé en utilisant sa main, connu sous le nom de \"La Main de Dieu\", lors d'un match de Coupe du Monde contre l'Angleterre. ",
                 "date" : 1986, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Forsbury révolutionne le saut en hauteur", 
-                "description" : "",
+                "description" : "En 1968, Dick Fosbury a révolutionné le saut en hauteur en popularisant la technique de \"Fosbury Flop\", qui consiste à sauter en traversant le dos en premier, au lieu du ventre.",
                 "date" : 1968, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "9.58 au 100m pour Usain Bolt",
-                "description" : "", 
+                "description" : "Usain Bolt a battu le record du monde du 100m en 9,58 secondes lors des Championnats du monde de Berlin en 2009, devenant ainsi l'homme le plus rapide de tous les temps.", 
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Jesse Owens remporte 4 médailles d'or aux J.O. de Munich", 
-                "description" : "",
+                "description" : "Jesse Owens a remporté 4 médailles d'or en athlétisme aux Jeux Olympiques de Munich en 1936, brisant les préjugés racistes d'Adolf Hitler et inspirant des générations d'athlètes.",
                 "date" : 1936, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Le Brésil s'incline 7-1 en Coupe du Monde contre l'Allemagne ", 
-                "description" : "",
+                "description" : "En 2014, le Brésil a subi une défaite humiliante de 7-1 contre l'Allemagne en demi-finale de la Coupe du Monde de football, provoquant une onde de choc dans tout le pays et devenant l'un des plus grands revers de l'histoire du football.",
                 "date" : 2014, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Premier ballon d'or de Lionel Messi", 
-                "description" : "",
+                "description" : "Lionel Messi a remporté son premier Ballon d'Or en 2009, récompensant sa performance exceptionnelle en tant que joueur de football de l'année. Depuis lors, il a remporté de nombreux autres prix et est considéré comme l'un des meilleurs joueurs de l'histoire du football.",
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Première victoire de l'Afrique du Sud à la Coupe du Monde de Rugby", 
-                "description" : "",
+                "description" : "En 1995, l'Afrique du Sud remporte sa première Coupe du Monde de Rugby en battant la Nouvelle-Zélande en finale. Cette victoire historique symbolise la réconciliation nationale dans un pays encore marqué par l'apartheid. Nelson Mandela, alors président sud-africain, assiste à la finale avec le maillot des Springboks et remet le trophée au capitaine de l'équipe, François Pienaar.",
                 "date" : 1995, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Première coupe du monde de Football", 
-                "description" : "",
+                "description" : "La première Coupe du Monde de Football a lieu en 1930 en Uruguay. Treize équipes y participent, principalement des pays d'Amérique latine et d'Europe. L'Uruguay remporte le tournoi en battant l'Argentine en finale. Cette compétition devient rapidement un événement majeur du sport mondial, organisé tous les quatre ans et suivi par des millions de fans à travers le monde.",
                 "date" : 1930, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Pelé remporte sa 3ème Coupe du Monde", 
-                "description" : "",
+                "description" : "En 1970, Pelé remporte sa troisième Coupe du Monde de Football avec l'équipe du Brésil. Considéré comme l'un des plus grands joueurs de l'histoire du football, Pelé est le seul joueur à avoir remporté trois fois le titre de champion du monde. Il a joué un rôle clé dans la victoire du Brésil en marquant quatre buts au cours de la compétition, dont l'un en finale contre l'Italie.",
                 "date" : 1970, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Boycott des J.O. de Moscou", 
-                "description" : "",
+                "description" : "En 1980, les États-Unis et d'autres pays occidentaux boycottent les Jeux Olympiques de Moscou pour protester contre l'invasion soviétique de l'Afghanistan. Plus de 60 pays ont suivi le boycott, qui a eu un impact significatif sur le déroulement des jeux. Cette décision a été controversée et a suscité un débat sur la pertinence du sport comme moyen de pression politique.",
                 "date" : 1980, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "La Grèce est championne d'Europe de football", 
-                "description" : "",
+                "description" : "En 2004, la Grèce remporte le championnat d'Europe de football en battant le Portugal en finale. Cette victoire surprise a été saluée comme un exploit historique pour le football grec, qui n'avait jamais atteint la finale d'une compétition majeure auparavant. L'équipe grecque a surpris les observateurs en battant des équipes plus cotées comme la France et la République tchèque en route vers la finale.",
                 "date" : 2004, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Première édition des J.O. d'hiver à Chamonix", 
-                "description" : "",
+                "description" : "En 1924, Chamonix a accueilli les premiers Jeux Olympiques d'hiver, avec six sports au programme, dont le ski alpin, le patinage artistique et le hockey sur glace. Le succès de cette première édition a posé les bases des Jeux Olympiques d'hiver modernes.",
                 "date" : 1924, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Première édition de la Ryder Cup", 
-                "description" : "",
+                "description" : "La première édition de la Ryder Cup s'est tenue en 1927 au Worcester Country Club aux États-Unis. Cette compétition de golf oppose tous les deux ans les meilleurs joueurs des États-Unis et de l'Europe.",
                 "date" : 1927, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Première édition du Super Bowl", 
-                "description" : "",
+                "description" : "Le Super Bowl est l'événement sportif le plus regardé aux États-Unis. La première édition a eu lieu en 1967 et a opposé les champions de la NFL (National Football League) et de l'AFL (American Football League). Depuis, le Super Bowl est devenu un spectacle grandiose, mêlant sport, musique et publicités.",
                 "date" : 1967, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "L'Afrique du Sud organise la Coupe du Monde de football", 
-                "description" : "",
+                "description" : "L'Afrique du Sud a organisé la Coupe du Monde de football en 2010, avec des matches joués dans 10 stades différents dans tout le pays. C'était la première fois que le tournoi était organisé sur le continent africain, et cela a été considéré comme un événement majeur pour le pays et pour le continent dans son ensemble.",
                 "date" : 2010, 
                 "answer" : null
             }
@@ -2813,321 +2815,322 @@
             {
                 "id" : 0, 
                 "question" : "George Washington", 
-                "description" : "",
+                "description" : "George Washington est le premier président des États-Unis et est connu pour avoir mené les forces américaines à la victoire pendant la guerre d'indépendance. Pendant son mandat présidentiel, il a établi de nombreuses traditions présidentielles, y compris l'adresse annuelle au Congrès et la limitation de son mandat à deux mandats.",
                 "date" : 1789, 
                 "answer" : null
             },
             {
                 "id" : 1, 
                 "question" : "John Adams", 
-                "description" : "",
+                "description" : "John Adams a été le deuxième président des États-Unis. Il a joué un rôle clé dans la lutte pour l'indépendance des États-Unis en tant que l'un des principaux rédacteurs de la Déclaration d'indépendance. En tant que président, il a cherché à maintenir la neutralité des États-Unis dans les conflits européens tout en renforçant l'armée et la marine.",
                 "date" : 1797, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Thomas Jefferson", 
-                "description" : "",
+                "description" : "Thomas Jefferson était un des Pères fondateurs des États-Unis, célèbre pour avoir rédigé la Déclaration d'Indépendance. Pendant sa présidence, il a réalisé l'achat de la Louisiane, doublant ainsi la taille du pays, et a également créé la première université publique du pays.",
                 "date" : 1801, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "James Maddison", 
-                "description" : "",
+                "description" : "James Madison a été l'un des principaux auteurs de la Constitution américaine et a contribué à la ratification de la Déclaration des droits. Il a dirigé le pays pendant la guerre de 1812, où les États-Unis ont affronté la Grande-Bretagne. Madison a également acheté la Louisiane à la France en 1803",
                 "date" : 1809, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "James Monroe", 
-                "description" : "",
+                "description" : "James Monroe est considéré comme l'un des présidents les plus importants de l'histoire américaine. Il a dirigé le pays pendant une période de croissance et d'expansion territoriale, connue sous le nom d'Ère de bonne volonté. Il est célèbre pour avoir formulé la doctrine Monroe, qui a averti l'Europe de ne pas intervenir dans les affaires des pays d'Amérique du Sud nouvellement indépendants.",
                 "date" : 1817, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "John Quincy Adams", 
-                "description" : "",
+                "description" : "John Quincy Adams était un diplomate de renommée mondiale avant de devenir président. Il est connu pour avoir négocié le traité de paix avec la Grande-Bretagne qui a mis fin à la guerre de 1812. Pendant son mandat présidentiel, il a œuvré pour moderniser l'économie américaine et promouvoir l'éducation et les arts.",
                 "date" : 1825, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Andrew Jackson", 
-                "description" : "",
+                "description" : "Andrew Jackson a été élu en 1829 sur la promesse de défendre les intérêts de la classe ouvrière américaine. Son style de gouvernance a été très controversé, en particulier son traitement des Amérindiens et son veto du renouvellement de la charte de la Banque des États-Unis. Cependant, il est également célèbre pour avoir renforcé la présidence en tant qu'institution.",
                 "date" : 1829, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Martin Van Buren",
-                "description" : "", 
-                "date" : 1837, 
+                "description" : "Martin Van Buren a été élu en 1836 après avoir servi comme vice-président sous Jackson. Pendant son mandat, il a dû faire face à une grave crise économique connue sous le nom de panique de 1837", 
+                "date" : 1836, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "William Henry Harrison", 
-                "description" : "",
+                "description" : "William Henry Harrison a été le neuvième président des États-Unis et a servi pendant seulement un mois avant de mourir de pneumonie. Il était un héros militaire de la guerre de 1812 et a été choisi par le Parti Whig pour devenir président en 1840. Sa courte présidence n'a pas laissé beaucoup de marque sur l'histoire américaine.",
                 "date" : 1841, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "John Tyler", 
-                "description" : "",
+                "description" : "John Tyler est devenu le dixième président des États-Unis après la mort de William Henry Harrison en 1841. Il a été critiqué pour avoir trop utilisé son pouvoir de veto et pour sa position en faveur de l'esclavage. En 1861, Tyler a été élu au Congrès des États confédérés d'Amérique, rompant avec l'Union.",
                 "date" : 1841, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "James K. Polke", 
-                "description" : "",
+                "description" : "James K. Polk a été le onzième président des États-Unis de 1845 à 1849. Pendant son mandat, les États-Unis ont annexé le Texas et ont mené la guerre américano-mexicaine pour s'emparer de la Californie et du Nouveau-Mexique. Polk a également supervisé l'expansion du réseau ferroviaire américain et la création de l'US Naval Academy.",
                 "date" : 1845, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Zachary Taylor",
-                "description" : "", 
+                "description" : "Zachary Taylor a été le 12ème président des États-Unis. Avant d'entrer en politique, il était un héros de guerre ayant servi dans l'armée américaine pendant plus de 40 ans. Son court mandat a été marqué par sa mort prématurée en 1850, seulement 16 mois après sa prise de fonction.", 
                 "date" : 1849, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Millard Fillmore", 
-                "description" : "",
+                "description" : "Millard Fillmore a été le 13ème président des États-Unis, succédant à Zachary Taylor après sa mort en 1850. Fillmore était auparavant vice-président, et son mandat a été marqué par des tensions croissantes sur la question de l'esclavage. Il est surtout connu pour avoir signé le compromis de 1850, une série de lois qui ont temporairement apaisé les tensions entre les États esclavagistes et non-esclavagistes.",
                 "date" : 1850, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Franklin Pierce", 
-                "description" : "",
+                "description" : "Franklin Pierce a été le 14ème président des États-Unis. Son mandat a été marqué par des tensions croissantes sur la question de l'esclavage et par la tentative ratée d'annexion de Cuba. Pierce était un partisan de l'expansion territoriale des États-Unis, mais son mandat a été entaché par des scandales et des problèmes de santé.",
                 "date" : 1853, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "James Buchanan", 
-                "description" : "",
+                "description" : "James Buchanan a été le 15ème président des États-Unis. Son mandat a été marqué par des tensions croissantes sur la question de l'esclavage, qui ont finalement abouti à la guerre civile. Buchanan a été critiqué pour son manque d'action face à la crise imminente, et il est considéré comme l'un des présidents les plus inefficaces de l'histoire américaine.",
                 "date" : 1857, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Abraham Lincoln", 
-                "description" : "",
+                "description" : "Abraham Lincoln (1861-1865) a été président pendant la guerre civile américaine. Il est connu pour avoir émis la proclamation d'émancipation, libérant les esclaves dans les États confédérés, et pour avoir préservé l'Union en faisant face à la sécession de plusieurs États",
                 "date" : 1851, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Andrew Johnson", 
-                "description" : "",
+                "description" : "Andrew Johnson est le 17ème président des États-Unis. Il était connu pour son plan de reconstruction, qui a été critiqué par les Républicains pour être trop doux envers les États confédérés. Son impeachment en 1868 est devenu un moment décisif dans l'histoire de la présidence américaine.",
                 "date" : 1865, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Ulysses S. Grant", 
-                "description" : "",
+                "description" : "Ulysses S. Grant, le 18ème président, était un général de l'Union pendant la guerre civile. Sous sa présidence, il a travaillé pour restaurer les droits civiques des Afro-Américains et a lutté contre la corruption au sein de son administration. Sa deuxième mandature a été marquée par des scandales politiques.",
                 "date" : 1869, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Rutherford B. Hayes", 
-                "description" : "",
+                "description" : "Rutherford B. Hayes, le 19e président, est devenu président en 1877 après une élection présidentielle controversée",
                 "date" : 1877, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "James A. Garfield", 
-                "description" : "",
+                "description" : " James A. Garfield a été élu en 1881 et a été assassiné seulement quelques mois plus tard, laissant une présidence brève et tragique.",
                 "date" : 1881, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Chester A. Arthur", 
-                "description" : "",
+                "description" : " Chester A. Arthur est connu pour son soutien à la réforme de la fonction publique et à la modernisation de la marine américaine.",
                 "date" : 1881, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Grover Cleveland", 
-                "description" : "",
+                "description" : "Grover Cleveland a été le premier président à être élu pour deux mandats non consécutifs, servant d'abord de 1885 à 1889, puis de 1893 à 1897.",
                 "date" : 1885, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Benjamin Harrison", 
-                "description" : "",
+                "description" : "Benjamin Harrison a été le 23e président et est surtout connu pour avoir signé le Sherman Antitrust Act en 1890",
                 "date" : 1889, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Grover Cleveland (second mandat)", 
-                "description" : "",
+                "description" : "Grover Cleveland a été le premier président à être élu pour deux mandats non consécutifs, servant d'abord de 1885 à 1889, puis de 1893 à 1897.",
                 "date" : 1893, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "William McKinley", 
-                "description" : "",
+                "description" : "William McKinley a été élu en 1897 et a dirigé les États-Unis pendant la guerre hispano-américaine de 1898.",
                 "date" : 1893, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Theodore Roosevelt", 
-                "description" : "",
+                "description" : "Theodore Roosevelt, le 26e président, a succédé à McKinley après son assassinat en 1901 et est devenu célèbre pour son engagement en faveur de la conservation de l'environnement et pour ses efforts pour renforcer la réglementation gouvernementale des entreprises",
                 "date" : 1901, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "William H. Taft", 
-                "description" : "",
+                "description" : "William H. Taft a été élu président des États-Unis en 1909. Il était connu pour être un conservateur pragmatique, axé sur l'efficacité et la consolidation du pouvoir présidentiel. Pendant son mandat, il a signé des lois importantes telles que la loi Payne-Aldrich sur les tarifs douaniers et la loi Mann-Elkins sur la réglementation des chemins de fer.",
                 "date" : 1909, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Woodrow Wilson",
-                "description" : "", 
+                "description" : "Woodrow Wilson a été élu président en 1913 et a dirigé les États-Unis pendant la Première Guerre mondiale. Il est connu pour avoir joué un rôle important dans la création de la Société des Nations, une organisation internationale visant à prévenir les conflits mondiaux. Wilson a également signé des lois progressistes telles que la loi Clayton Antitrust, qui a renforcé la réglementation des monopoles.", 
                 "date" : 1913, 
                 "answer" : null
             },
             {
                 "id" : 29, 
-                "question" : "Warren G. Harding", 
+                "question" : "Warren G. Harding",
+                "description": "Warren G. Harding était le 29ème président des États-Unis, en fonction de 1921 jusqu'à sa mort en 1923. Il a été élu sur une plate-forme de retour à la normalité après la Première Guerre mondiale et a travaillé pour réduire les taxes et les dépenses gouvernementales. Cependant, son administration a été marquée par plusieurs scandales, notamment le scandale Teapot Dome, qui a impliqué la vente illégale de terres publiques à des entreprises pétrolières.", 
                 "date" : 1921, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Calvin Coolidge", 
-                "description" : "",
+                "description" : "Calvin Coolidge a été président des États-Unis de 1923 à 1929, succédant à Harding après sa mort. Coolidge était connu pour son approche conservatrice en matière de politique fiscale et de réglementation, ainsi que pour son opposition à l'intervention gouvernementale dans l'économie. Sous sa présidence, l'économie américaine a connu une croissance continue, mais cela a également conduit à une augmentation des inégalités économiques.",
                 "date" : 1923, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Herbert Hoover", 
-                "description" : "",
+                "description" : "Herbert Hoover a été élu président des États-Unis en 1928, peu de temps avant le début de la Grande Dépression. Bien que Hoover ait tenté d'intervenir dans l'économie pour stimuler la reprise, ses efforts ont été largement considérés comme inefficaces.",
                 "date" : 1929, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Franklin Delano Roosevelt", 
-                "description" : "",
+                "description" : "Franklin Delano Roosevelt a été le président des États-Unis de 1933 à 1945. Durant son mandat, il a dirigé le pays à travers la Grande Dépression et la Seconde Guerre mondiale. Il a lancé le New Deal, un ensemble de programmes économiques et sociaux destinés à stimuler l'économie et à aider les plus pauvres. Il a également aidé à créer les Nations unies pour promouvoir la coopération internationale et a été le principal architecte de la victoire des Alliés sur les puissances de l'Axe.",
                 "date" : 1933, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "Harry S. Truman", 
-                "description" : "",
+                "description" : "Harry S. Truman a pris ses fonctions après la mort de Roosevelt en 1945. Il a supervisé la fin de la Seconde Guerre mondiale, y compris la décision controversée d'utiliser des armes nucléaires contre le Japon. Il a également lancé le plan Marshall, une initiative de reconstruction économique pour aider l'Europe de l'après-guerre.",
                 "date" : 1945, 
                 "answer" : null
             },
             {
                 "id" : 34, 
                 "question" : "Dwight D. Eisenhower", 
-                "description" : "",
+                "description" : "Dwight D. Eisenhower était un général de l'armée américaine avant de devenir président en 1953. Pendant son mandat, il a mis en place une politique de « coexistence pacifique » avec l'Union soviétique, qui visait à limiter les tensions entre les deux pays. Il a également supervisé la création du système autoroutier inter-États, qui a considérablement amélioré la connectivité des États-Unis.",
                 "date" : 1953, 
                 "answer" : null
             },
             {
                 "id" : 35, 
                 "question" : "John Fitzgerald Kennedy", 
-                "description" : "",
+                "description" : "John Fitzgerald Kennedy a été élu en 1960, devenant ainsi le plus jeune président des États-Unis. Son mandat a été marqué par des événements tels que la crise des missiles cubains et le mouvement des droits civiques. Malheureusement, son mandat a été écourté par son assassinat en 1963.",
                 "date" : 1961, 
                 "answer" : null
             },
             {
                 "id" : 36, 
                 "question" : "Lyndon B. Johnson", 
-                "description" : "",
+                "description" : "Lyndon B. Johnson a été président de 1963 à 1969. Il est surtout connu pour son programme Great Society qui a introduit des réformes sociales importantes, telles que la loi sur les droits civiques de 1964.",
                 "date" : 1963, 
                 "answer" : null
             },
             {
                 "id" : 37, 
                 "question" : "Richard Nixon", 
-                "description" : "",
+                "description" : "Richard Nixon a été président de 1969 à 1974 et est connu pour avoir mis fin à la guerre du Vietnam. Cependant, son mandat a été entaché par le scandale du Watergate, qui a entraîné sa démission en 1974.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 38, 
                 "question" : "Gerald Ford", 
-                "description" : "",
+                "description" : "Gerald Ford, le 38ème président des États-Unis, a pris ses fonctions après la démission de Richard Nixon en 1974. Il a été confronté à des défis économiques et sociaux importants, notamment la stagflation et la crise énergétique. Malgré cela, Ford a réussi à renforcer les relations avec l'Union soviétique et à améliorer les relations entre les États-Unis et la Chine.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 39, 
                 "question" : "Jimmy Carter", 
-                "description" : "",
+                "description" : "Jimmy Carter, le 39ème président des États-Unis, a été élu en 1976 sur la promesse de « l'honnêteté en politique ». Au cours de son mandat, il a travaillé à la promotion des droits de l'homme et de la paix au niveau international, notamment en négociant les accords de paix de Camp David entre Israël et l'Égypte. Cependant, il a été confronté à de nombreux défis intérieurs, tels que la crise de l'otage en Iran et la crise économique.",
                 "date" : 1977, 
                 "answer" : null
             },
             {
                 "id" : 40, 
                 "question" : "Ronald Reagan", 
-                "description" : "",
+                "description" : "Ronald Reagan, le 40ème président des États-Unis, a servi deux mandats de 1981 à 1989. Il est surtout connu pour son programme économique conservateur, connu sous le nom de \"Reaganomics\", qui visait à réduire les impôts et à promouvoir la croissance économique. Il a également joué un rôle important dans la fin de la guerre froide, travaillant en étroite collaboration avec le dirigeant soviétique Mikhaïl Gorbatchev pour réduire les tensions internationales.",
                 "date" : 1981, 
                 "answer" : null
             },
             {
                 "id" : 41, 
                 "question" : "George H. W. Bush (père)",
-                "description" : "", 
+                "description" : "George H. W. Bush (1989-1993) était un vétéran de la Seconde Guerre mondiale qui avait servi en tant que directeur de la CIA et vice-président sous Ronald Reagan. Pendant son mandat, il a supervisé la fin de la guerre froide, mené avec succès une opération militaire pour libérer le Koweït de l'occupation irakienne et a été critiqué pour sa réponse lente à la crise du sida.", 
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 42, 
                 "question" : "Bill Clinton", 
-                "description" : "",
+                "description" : "Bill Clinton a été le deuxième président américain à être mis en accusation par la Chambre des représentants, mais a finalement été acquitté par le Sénat. Durant sa présidence, il a supervisé une période de croissance économique et a signé plusieurs accords commerciaux importants, mais a également été critiqué pour des scandales personnels et politiques.",
                 "date" : 1993, 
                 "answer" : null
             },
             {
                 "id" : 43, 
                 "question" : "George W. Bush (fils)", 
-                "description" : "",
+                "description" : "George W. Bush a été président lors des attaques terroristes du 11 septembre 2001 et a lancé la guerre en Irak en 2003. Sa présidence a également été marquée par une augmentation de la surveillance gouvernementale et des politiques controversées en matière de droits de l'homme.",
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 44, 
                 "question" : "Barack Obama", 
-                "description" : "",
+                "description" : "Barack Obama (2009-2017) est devenu le premier président afro-américain des États-Unis. Durant sa présidence, il a supervisé l'adoption de la réforme du système de santé, la fin de la guerre en Irak et a supervisé l'opération qui a tué Oussama ben Laden. Il a également été critiqué pour sa politique étrangère et son manque de réforme de l'immigration.",
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 45, 
                 "question" : "Donald Trump", 
-                "description" : "",
+                "description" : "Donald Trump a été élu président des États-Unis en 2016. Son mandat a été marqué par une rhétorique polarisante, des politiques anti-immigration controversées, ainsi que des efforts pour renforcer les relations avec la Corée du Nord et réduire les échanges commerciaux avec la Chine. Il a également été le troisième président de l'histoire des États-Unis à être mis en accusation par la Chambre des représentants en décembre 2019.",
                 "date" : 2017, 
                 "answer" : null
             },
             {
                 "id" : 46, 
                 "question" : "Joe Biden", 
-                "description" : "",
+                "description" : "Joe Biden a été élu président des États-Unis en 2020, à la suite d'une campagne axée sur l'unification du pays après quatre années de division politique. Il a servi comme vice-président sous Barack Obama de 2009 à 2017, et a également été sénateur du Delaware pendant plus de 30 ans. Son administration est axée sur la lutte contre la pandémie de COVID-19, la promotion de la justice sociale et la lutte contre le changement climatique. Il a également pris des mesures pour rétablir les relations diplomatiques avec les alliés américains et renforcer les liens transatlantiques.",
                 "date" : 2021, 
                 "answer" : null
             }
@@ -3159,7 +3162,7 @@
             {
                 "id" : 3, 
                 "question" : "Chute du mur de Berlin", 
-                "description" : "",
+                "description" : "La chute du Mur de Berlin le 9 novembre 1989 a marqué la fin de la Guerre Froide et la réunification de l'Allemagne. Depuis la construction du Mur en 1961, il avait symbolisé la division entre l'Est et l'Ouest, et était devenu un emblème de la répression communiste. Cependant, à la fin des années 80, les mouvements de protestation en Europe de l'Est, combinés à des réformes économiques et politiques en Union Soviétique, ont créé un climat de changement. Des manifestations pacifiques ont eu lieu à Berlin-Est, et finalement, le gouvernement a cédé, permettant l'ouverture du Mur et la réunification de l'Allemagne.",
                 "date" : 1989, 
                 "answer" : null
             },

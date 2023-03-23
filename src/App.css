@@ -276,7 +276,9 @@ form a:hover{
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 101;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -288,11 +290,15 @@ form a:hover{
 }
 
 .dropdown-content a, .dropdown-content div {
-  color: black;
+  color: white;
   padding: 12px;
   text-decoration: none;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom : 0.1px solid black;
   cursor: pointer;
+  background-color: #282c34;
 }
 .dropdown-content div{
   background-color: rgb(135, 7, 7);
@@ -303,7 +309,7 @@ form a:hover{
   color : black;
   margin-bottom: 14px;
 }
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {filter: brightness(90%);}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -336,7 +342,8 @@ form a:hover{
     justify-content: center;
   }
   .dropdown-content a {
-    background-color : white
+    background-color: white;
+    color : black
   }
   
 }

@@ -4,6 +4,7 @@ import Header from './components/header';
 
 export default function User(props) {
   const [user, setUser] = useState()
+  const [date, setDate] = useState(null);
   const userId = useParams().userId
   	useEffect(()=> {
 		var myInit = { 
@@ -16,6 +17,8 @@ export default function User(props) {
 			.then(res => res.json())
 			.then(
 			  (response) => {
+                    console.log(response.user)
+                    setDate(new Date(response.user.createdAt))
 				  setUser(response.user)
 			  },
 			  (error) => {
@@ -29,11 +32,9 @@ export default function User(props) {
 			<div>
                 <Header></Header>
                 <div key={user._id}>
-
                 {user.lastname} {user.firstname} 
-                
+                <div>Membre depuis {date.toLocaleString('default', { month: 'long' })} {date.getFullYear()}</div>
                 </div>
-
 		    </div>
 		)
 
