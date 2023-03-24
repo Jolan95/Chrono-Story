@@ -1,12 +1,25 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import ButtonFollow from './buttonFollow'
-
+import { useSelector, useDispatch } from 'react-redux'
+import {store} from '../app/store'
+import { follow, unfollow } from '../store/user'
 
 
 export default function LineUser({user}) {
+    
+     function isFollowed(idFollowed) {
+        const currentUser = store.getState().userStore.user.abonnement
+        if(currentUser.includes(idFollowed)){
+            return true
+        }
+        return false
+    }
 
-    const [isFollow, setIsFollow] = useState(user.abonnement.includes(JSON.parse(localStorage.getItem("user"))._id))
+    // const currentUser = useSelector((state) => state.userStore.user)
+    const dispatch = useDispatch()
+    const [isFollow, setIsFollow] = useState(isFollowed(user._id))
+
     const point = ()=> {
         let point = 0;
         Object.keys(user.highScore).forEach(key => {
@@ -14,9 +27,6 @@ export default function LineUser({user}) {
         });
         return point;
     }
-
-    // getMyFollower()
-
 
     const handleFollow = (idToFollow)=> {
 
@@ -31,6 +41,7 @@ export default function LineUser({user}) {
         .then(res => res.json())
         .then(
           (response) => {
+            dispatch(follow(user._id))
             setIsFollow(true)
           },
           (error) => {
@@ -49,17 +60,16 @@ export default function LineUser({user}) {
         .then(
           (response) => {
             setIsFollow(false)
+            dispatch(unfollow(user._id))
           },
           (error) => {
             console.log(error)
         })
     }
-
-    
   return (
-    <div className='user-wrapper row'>
+    <div className='row wrapper-user'>
         <div className='col-3'>
-            {user.lastname} {user.firstname}  
+            {user.pseudo} 
         </div>
         <div className='col-3'>
             <Link to={`/user/${user._id}`}><button className='btn btn-primary'>Voir Profil</button></Link>

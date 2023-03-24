@@ -12,7 +12,7 @@ export default function Dropdown() {
 //to change
     const handleLogout= ()=> {
         localStorage.clear();
-        window.location.href= "https://chrono-story.netlify.app/"
+        window.location.href= process.env.REACT_APP_URL
     }
 
 

@@ -4,12 +4,15 @@ import Alert from './components/alert';
 import Header from './components/header';
 import Input from './components/input';
 import ButtonSubmit from './components/buttonSubmit';
+import { useDispatch } from 'react-redux'
+import { connexion } from './store/user'
+
 
 async function loginUser(credentials) {
     return fetch(process.env.REACT_APP_URL_BACK+'auth/login', {
         method: 'POST',
         headers: {
-        'Content-Type': 'application/json'
+            'Content-Type': 'application/json'
     },
     body: JSON.stringify(credentials)
 })
@@ -18,14 +21,12 @@ async function loginUser(credentials) {
 
 
 const Login = (props) => {
-
     
-    
+    const dispatch = useDispatch()
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [message, setMessage] = useState("")
     const [display, setDisplay] = useState("none")
-    
     
     const handleSubmit = async e => {
         e.preventDefault();
@@ -36,7 +37,8 @@ const Login = (props) => {
         if(response.token !== undefined){
             localStorage.setItem('token', JSON.stringify(response.token));
             localStorage.setItem('user', JSON.stringify(response.user))
-            window.location.href = process.env.REACT_APP_URL
+            dispatch(connexion(response.user));
+            redirect("/")
             props.setToken(props.getToken())
         } else {
             if(response.needValidation){
@@ -60,6 +62,7 @@ const Login = (props) => {
     if(localStorage.getItem("token") != undefined){
         return <Navigate to='/'  />
     }
+    
     
     return (
         <div>

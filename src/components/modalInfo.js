@@ -23,8 +23,7 @@ import {
                         <MDBBtn className='btn-close' color='none' onClick={props.hideModal}></MDBBtn>
                     </MDBModalHeader>
                     <MDBModalBody>
-                        <div> 
-                            {props.description}
+                        <div dangerouslySetInnerHTML={{__html: props.description}}> 
                         </div>
                     </MDBModalBody>
                 </MDBModalContent>

@@ -1705,7 +1705,7 @@
             {
                 "id" : 40, 
                 "question" : "Donovan Mitchell inscrit 71 points", 
-                "description" : "",
+                "description" : "Le 3 janvier 2023, Donovan Mitchell est entré dans l’histoire par la grande porte en plantant 71 points pour arracher la victoire face aux Bulls (145-134 a.p)",
                 "date" : 2023, 
                 "answer" : null
             },
@@ -1886,7 +1886,7 @@
             {
                 "id" : 20, 
                 "question" : "Signature de Florent Malouda", 
-                "description" : "",
+                "description" : "En 2003, l'Olympique lyonnais recrute Florent Malouda en provenance de Guingamps, il y restera 4 ans, le temps de remporter 4 championnat de France puis de s'envoler pour le club londonien de Chelsea ",
                 "date" : 2003, 
                 "answer" : null
             },
@@ -1921,7 +1921,7 @@
             {
                 "id" : 25, 
                 "question" : "Dernier match de Bernard Lacombe à l'OL", 
-                "description" : "",
+                "description" : " Après avoir passé onze saisons à l'OL, Lacombe a joué son dernier match en 1980 contre Strasbourg. Ce match s'est soldé par une défaite 2-0 pour l'OL, mais cela n'a pas empêché les fans de rendre hommage à Lacombe pour ses nombreuses contributions à l'équipe au fil des ans.",
                 "date" : 1978, 
                 "answer" : null
             
@@ -3148,14 +3148,14 @@
             {
                 "id" : 1, 
                 "question" : "Bataille de Verdun",
-                "description" : "", 
+                "description" : "La Bataille de Verdun a été l'un des événements les plus meurtriers de la Première Guerre mondiale. Elle a eu lieu entre février et décembre 1916 sur le front de l'Ouest, impliquant les armées allemandes et françaises. Les combats ont fait plus de 300 000 morts et ont causé d'importants dommages matériels à la ville de Verdun. Bien que les Français aient finalement repoussé les Allemands, cette bataille a laissé une marque indélébile dans l'histoire de la guerre et a symbolisé l'horreur de la guerre de tranchées.", 
                 "date" : 1916, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Debut de la guerre d'Indochine", 
-                "description" : "",
+                "description" : "La guerre d'Indochine (1946-1954) a été un conflit armé qui s'est déroulé en Asie du Sud-Est, principalement en Indochine française. Le conflit a commencé après la fin de la Seconde Guerre mondiale, lorsque les nationalistes vietnamiens ont commencé à lutter contre le colonialisme français. Les communistes vietnamiens, dirigés par Ho Chi Minh, ont pris le contrôle du nord du pays, tandis que les forces françaises ont défendu le sud. La guerre a également impliqué le Laos et le Cambodge. En 1954, la bataille de Dien Bien Phu a marqué la fin de la guerre et conduit à l'indépendance du Vietnam, du Laos et du Cambodge.",
                 "date" : 1946, 
                 "answer" : null
             },
@@ -3169,196 +3169,196 @@
             {
                 "id" : 4, 
                 "question" : "Bombardement Hiroshima et Nagasaki", 
-                "description" : "",
+                "description" : "Le bombardement atomique d'Hiroshima et Nagasaki a eu lieu en août 1945, pendant la Seconde Guerre mondiale. Les États-Unis ont largué deux bombes atomiques sur les villes japonaises, causant la mort immédiate de plus de 200 000 personnes. Ces bombardements ont été un tournant dans la guerre et ont conduit à la reddition du Japon. Ils ont également marqué le début de la course aux armements nucléaires entre les grandes puissances et ont eu un impact considérable sur la stratégie militaire et la politique internationale de l'après-guerre.",
                 "date" : 1945, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Débarquement en Normandie", 
-                "description" : "",
+                "description" : "Le débarquement en Normandie le 6 juin 1944 a été l'une des plus grandes opérations militaires de la Seconde Guerre mondiale. Il a impliqué les forces alliées, principalement américaines, britanniques et canadiennes, débarquant sur les plages de Normandie pour ouvrir un nouveau front contre les forces allemandes en Europe de l'Ouest. Le débarquement a été précédé d'une vaste campagne de désinformation pour tromper les Allemands quant au lieu et à la date exacte de l'opération. Malgré des pertes importantes, les Alliés ont réussi à établir une tête de pont en Normandie, ce qui a finalement permis la libération de la France et la défaite de l'Allemagne nazie.",
                 "date" : 1944, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Autonomie du Maroc et de la Tunisie", 
-                "description" : "",
+                "description" : "L'Autonomie du Maroc et de la Tunisie a été obtenue après la Seconde Guerre mondiale grâce aux luttes menées par les nationalistes contre la domination coloniale française. Le Maroc a obtenu son indépendance en 1956 après des années de manifestations, tandis que la Tunisie a suivi en 1957. Ces deux pays ont ensuite établi des régimes politiques indépendants, avec la mise en place de nouveaux systèmes gouvernementaux et économiques. L'Autonomie du Maroc et de la Tunisie a été un moment clé dans la décolonisation de l'Afrique du Nord et a ouvert la voie à d'autres mouvements nationalistes dans la région.",
                 "date" : 1955, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Signature du traîté de Maastricht", 
-                "description" : "",
+                "description" : "Le traité de Maastricht a été signé en 1992 à Maastricht, aux Pays-Bas, par les membres de l'Union européenne, dans le but de créer une Union européenne plus intégrée et de renforcer la coopération économique et politique. Le traité a établi l'Union européenne en tant qu'entité juridique distincte et a jeté les bases de l'euro, la monnaie unique européenne. Il a également élargi les compétences de l'UE dans les domaines de la politique étrangère, de la sécurité et de la justice.",
                 "date" : 1992, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Première ligne de TGV", 
-                "description" : "",
+                "description" : "La première ligne à grande vitesse (LGV) du TGV a été inaugurée en 1981, reliant Paris à Lyon. Cette LGV était considérée comme une prouesse technologique à l'époque, avec des vitesses de pointe atteignant jusqu'à 260 km/h. Cette ligne a révolutionné les transports en France, réduisant considérablement le temps de trajet entre les deux villes et permettant de désenclaver les régions de l'est et du sud-est du pays.",
                 "date" : 1981, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Accords d'Evian", 
-                "description" : "",
+                "description" : "Les Accords d'Evian ont été signés en 1962 entre la France et le Front de libération nationale algérien, mettant fin à la guerre d'Algérie qui avait duré plus de 7 ans. Ces accords ont accordé l'indépendance à l'Algérie et ont marqué la fin de la présence française en Algérie. Cependant, les conséquences de cette guerre ont été profondes, tant en France qu'en Algérie, et ont laissé des cicatrices durables.",
                 "date" : 1962, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Loi de séparation de l’église et de l’État en France", 
-                "description" : "",
+                "description" : "La séparation de l'Église et de l'État en France est le résultat d'un long processus qui a commencé au XVIIIe siècle avec les philosophes des Lumières. En 1905, la loi de séparation a été promulguée pour mettre fin à la mainmise de l'Église sur l'État et garantir la liberté de conscience et de culte. Cette loi a supprimé le financement public des cultes et a transféré la propriété des biens ecclésiastiques à l'État.",
                 "date" : 1905, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Construction du mur de Berlin",
-                "description" : "",
+                "description" : "La construction du mur de Berlin a été un événement clé de la guerre froide, marquant la division entre les deux blocs, l'Occident et le bloc soviétique. La construction du mur en 1961 a été précédée de tensions croissantes entre les deux parties, et a été déclenchée par une augmentation du nombre de réfugiés de Berlin-Est vers l'Ouest.",
                 "date" : 1961,
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Assassinat de John F. Kennedy", 
-                "description" : "",
-                "date" : 1962, 
+                "description" : "Le 22 novembre 1963, le président américain John F. Kennedy a été assassiné à Dallas, Texas. Ce meurtre a choqué le monde entier, car Kennedy était considéré comme un leader charismatique et visionnaire. L'enquête officielle a conclu que Lee Harvey Oswald était le seul tireur, mais il y a encore des théories du complot qui circulent aujourd'hui.",
+                "date" : 1963, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Début de la Seconde Guerre mondiale", 
-                "description" : "",
+                "description" : "La Seconde Guerre mondiale a débuté en 1939 lorsque l'Allemagne nazie, dirigée par Adolf Hitler, a envahi la Pologne. La France et le Royaume-Uni ont déclaré la guerre à l'Allemagne en réponse à cette agression. Les années précédant la guerre avaient été marquées par l'expansion territoriale de l'Allemagne, l'annexion de l'Autriche et la crise des Sudètes en Tchécoslovaquie.",
                 "date" : 1939, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Krash boursier de Wall Street", 
-                "description" : "",
+                "description" : "Le krach boursier de Wall Street, également connu sous le nom de 'Jeudi noir', s'est produit le 24 octobre 1929, marquant le début de la Grande Dépression. Les investisseurs ont commencé à vendre en masse leurs actions sur le marché boursier new-yorkais, entraînant une chute spectaculaire des prix des actions et la ruine de nombreux investisseurs.",
                 "date" : 1929, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Premier Choc pétrolier", 
-                "description" : "",
+                "description" : "Le Premier Choc pétrolier a débuté en octobre 1973, lorsque les pays arabes membres de l'OPEP ont décidé d'augmenter le prix du pétrole et de réduire la production en représailles aux pays occidentaux qui soutenaient Israël pendant la guerre du Kippour. Cette crise a eu des conséquences économiques désastreuses dans le monde entier, car les pays importateurs de pétrole ont subi une inflation galopante et une récession économique.",
                 "date" : 1973, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Création de la CEE", 
-                "description" : "",
+                "description" : "La Communauté économique européenne (CEE) a été créée en 1957 par le traité de Rome signé par six pays européens: la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. La CEE visait à créer un marché commun européen en éliminant les barrières douanières et en favorisant la libre circulation des biens, des services, des capitaux et des personnes.",
                 "date" : 1957, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Genocide au Rwanda",
-                "description" : "", 
+                "description" : "Le génocide au Rwanda en 1994 a été un massacre effroyable de la minorité tutsie par les extrémistes hutus. En seulement 100 jours, environ un million de personnes ont été tuées. Cette tragédie a été l'un des pires génocides du XXe siècle.", 
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Révolution Russe", 
-                "description" : "",
+                "description" : "La Révolution Russe a été un événement majeur de l'histoire mondiale, qui a conduit à l'établissement du premier État communiste au monde. Elle a commencé en février 1917 par une série de manifestations et de grèves à Saint-Pétersbourg, qui ont finalement conduit à la chute du régime tsariste. En octobre de la même année, les bolcheviks, dirigés par Lénine, ont pris le pouvoir lors d'un coup d'État et ont établi un État socialiste.",
                 "date" : 1917, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Crise des missiles de Cuba", 
-                "description" : "",
+                "description" : "La crise des missiles de Cuba est survenue en 1962, lorsque l'Union soviétique a placé des missiles nucléaires à Cuba, menaçant la sécurité des États-Unis. Le président américain John F. Kennedy a imposé un blocus naval pour empêcher l'acheminement de missiles soviétiques vers Cuba, et les tensions entre les deux pays ont rapidement augmenté.",
                 "date" : 1962, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Guerre Iran - Irak", 
-                "description" : "",
+                "description" : "La guerre Iran-Irak a eu lieu de 1980 à 1988, opposant l'Iran, dirigé par l'ayatollah Khomeini, à l'Irak, dirigé par Saddam Hussein. La guerre a débuté lorsque l'Irak a envahi l'Iran en septembre 1980, prétendant que l'Iran soutenait les séparatistes dans le sud de l'Irak. Le conflit s'est prolongé pendant huit ans et a coûté la vie à environ un million de personnes. La guerre s'est terminée par une impasse, sans qu'aucun camp ne l'emporte réellement.",
                 "date" : 1980, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Invasion Irakienne au Koweït", 
-                "description" : "",
+                "description" : "En 1990, l'Irak dirigé par Saddam Hussein a envahi le Koweït voisin, alléguant que le Koweït était une province irakienne illégalement détachée par la force. L'invasion a déclenché une guerre qui a duré jusqu'en 1991, lorsque les forces de la coalition internationale dirigée par les États-Unis ont lancé une offensive terrestre pour libérer le Koweït. Cette invasion a provoqué un tollé international et des sanctions économiques ont été imposées à l'Irak. La guerre a eu des conséquences importantes pour la région du Moyen-Orient et les relations internationales.",
                 "date" : 1990, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Hitler devient chancelier", 
-                "description" : "",
+                "description" : "Adolf Hitler est devenu chancelier d'Allemagne en 1933 après avoir mené le Parti national-socialiste des travailleurs allemands (NSDAP) à la victoire électorale. En tant que chancelier, Hitler a commencé à mettre en place des politiques qui ont finalement conduit à la montée du nazisme et à la Seconde Guerre mondiale. Son régime a également perpétré des atrocités contre les Juifs et d'autres groupes marginalisés, connues sous le nom d'Holocauste.",
                 "date" : 1933, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Premiers pas de l'Homme sur la lune",
-                "description" : "", 
+                "description" : "Le 20 juillet 1969, les astronautes Neil Armstrong et Edwin \"Buzz\" Aldrin ont marché sur la surface lunaire lors de la mission Apollo 11, marquant la première fois dans l'histoire que l'homme a marché sur un autre corps céleste. Armstrong est célèbre pour avoir prononcé les mots \"C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité\" lorsqu'il a posé le pied sur la lune.", 
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Nationalisation du Canal de Suez par Nasser", 
-                "description" : "",
+                "description" : "La nationalisation du Canal de Suez par le président égyptien Gamal Abdel Nasser en 1956 a été un événement majeur de l'histoire du Moyen-Orient. Le canal était alors une voie de transport cruciale pour le commerce international, contrôlée par la Grande-Bretagne et la France. La nationalisation a conduit à une intervention militaire conjointe de ces deux pays, soutenue par Israël, mais qui a finalement échoué.",
                 "date" : 1956, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Nelson Mandela est libéré après 27 ans d´emprisonnement",
-                "description" : "", 
+                "description" : "La libération de Nelson Mandela, après 27 ans de détention, a été un moment historique pour l'Afrique du Sud et pour le monde entier. Mandela était devenu un symbole de la lutte contre l'apartheid, le système de ségrégation raciale qui avait été en place en Afrique du Sud depuis 1948. Sa libération en 1990 a été un moment de joie et d'espoir pour les Sud-Africains, et a marqué le début de la fin de l'apartheid.", 
                 "date" : 1990, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Indépendance de l'Algérie", 
-                "description" : "",
+                "description" : "L'Algérie a obtenu son indépendance de la France le 5 juillet 1962, après plus de sept ans de guerre d'indépendance qui a coûté la vie à des centaines de milliers de personnes. Cette indépendance a mis fin à plus d'un siècle de domination coloniale française en Algérie et a marqué l'un des moments les plus importants de l'histoire de l'Afrique du Nord et du monde arabe.",
                 "date" : 1962, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Guerre de Kippour", 
-                "description" : "",
+                "description" : "La guerre de Kippour en 1973 a été un conflit majeur entre Israël et ses voisins arabes, l'Égypte et la Syrie. L'Égypte a lancé une attaque surprise contre Israël pendant le jour de Kippour, une journée sacrée juive. Bien que les forces israéliennes aient finalement repoussé l'attaque, la guerre a été coûteuse en vies humaines et a entraîné des changements dans la politique de la région.",
                 "date" : 1973, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "Abolition de la peine de mort", 
-                "description" : "",
+                "description" : " L'abolition de la peine de mort est une étape importante dans l'histoire des droits de l'homme et de la justice. De nombreux pays ont progressivement éliminé la peine de mort de leur système judiciaire, la considérant comme une violation des droits humains fondamentaux et une mesure inhumaine et inefficace.",
                 "date" : 1981, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Eclatement de la Yougoslavie", 
-                "description" : "",
-                "date" : 1992, 
+                "description" : "L'éclatement de la Yougoslavie a commencé en 1991 et a duré jusqu'en 2008, avec la proclamation de l'indépendance du Kosovo. La dissolution de la Yougoslavie a été le résultat de tensions ethniques et politiques entre les différentes républiques qui la composaient, ainsi que de l'effondrement du bloc soviétique et de la fin de la guerre froide.",
+                "date" : 1991, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Révolution Iranienne", 
-                "description" : "",
+                "description" : "La Révolution Iranienne de 1979 a vu la chute du régime autoritaire du Shah d'Iran et l'instauration d'un gouvernement islamique dirigé par l'Ayatollah Khomeini. Les manifestations populaires ont été soutenues par les partis politiques, les syndicats, les étudiants et les intellectuels, qui cherchaient à renverser la corruption, la pauvreté et l'oppression du régime du Shah soutenu par les États-Unis. La révolution a eu un impact significatif sur la politique régionale et internationale, renversant les alliances et créant des tensions géopolitiques persistantes dans la région du Moyen-Orient.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Discours 'I have a Dream' de Martin Luther King", 
-                "description" : "",
+                "description" : "Le discours \"I have a Dream\" prononcé par Martin Luther King Jr. en 1963 est un moment clé dans l'histoire du mouvement américain des droits civiques. Le discours est devenu emblématique de la lutte pour l'égalité raciale aux États-Unis, appelant à la fin de la ségrégation et de la discrimination raciale. Le discours a été prononcé lors de la Marche sur Washington pour l'emploi et la liberté, un rassemblement pacifique de plus de 200 000 personnes. Le discours a influencé la législation américaine sur les droits civils, menant à l'adoption de la Loi sur les droits civils de 1964 et la Loi sur le droit de vote de 1965.",
                 "date" : 1963, 
                 "answer" : null
             }
@@ -3376,238 +3376,238 @@
             {
                 "id" : 1, 
                 "question" : "Steve Jobs présente le premier Ipod", 
-                "description" : "",
+                "description" : "Steve Jobs présente le premier iPod en 2001, révolutionnant la façon dont nous écoutons et achetons de la musique. L'iPod a ouvert la voie à une révolution numérique de la musique portable et a solidifié la position d'Apple en tant que leader de l'innovation technologique.",
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Attentat sur les tours jumelles du World Trade Center", 
-                "description" : "",
+                "description" : "L'attentat sur les tours jumelles du World Trade Center en 2001 a été un événement tragique et dévastateur qui a bouleversé le monde entier. Les attaques terroristes ont coûté la vie à près de 3000 personnes et ont entraîné des changements majeurs dans la politique étrangère américaine et mondiale.",
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "Début de la guerre en Irak", 
-                "description" : "",
+                "description" : "Le début de la guerre en Irak en 2003 a été un moment décisif dans l'histoire moderne des États-Unis et du monde. Les actions militaires des États-Unis ont entraîné des pertes en vies humaines et ont créé des tensions internationales considérables. Les conséquences de cette guerre continuent d'avoir des répercussions politiques et économiques importantes à l'échelle mondiale.",
                 "date" : 2003, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Séisme de magnitude 9,1 dans l'Océan Indien", 
-                "description" : "",
+                "description" : "Le 26 décembre 2004, un séisme de magnitude 9,1 a frappé l'Océan Indien, provoquant un tsunami dévastateur qui a tué plus de 230 000 personnes dans 14 pays. C'est l'un des séismes les plus puissants jamais enregistrés.",
                 "date" : 2004, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Crise des subprimes", 
-                "description" : "",
+                "description" : "La crise des subprimes est une crise financière mondiale qui a débuté en 2008 avec la faillite de Lehman Brothers. Elle a été causée par la spéculation immobilière aux États-Unis, qui a conduit à des prêts hypothécaires à haut risque. Elle a eu des répercussions économiques majeures dans le monde entier.",
                 "date" : 2007, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Raul Castro succède à Fidel à la tête de Cuba", 
-                "description" : "",
+                "description" : "En 2008, Fidel Castro a démissionné de son poste de dirigeant de Cuba en raison de problèmes de santé. Son frère, Raul Castro, a pris sa place et a mené des réformes économiques importantes, notamment en autorisant davantage de propriété privée et en favorisant l'ouverture du pays aux investissements étrangers.",
                 "date" : 2008, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Barack Obama devient président des USA", 
-                "description" : "",
-                "date" : 2008, 
+                "description" : "En 2009, Barack Obama est devenu le premier président afro-américain des États-Unis. Il a mené des réformes majeures, notamment en matière de soins de santé, d'énergie et de politique étrangère. Il a également remporté le prix Nobel de la paix en 2009 pour ses efforts en faveur du désarmement nucléaire et de la diplomatie internationale.",
+                "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Séisme à Haïti", 
-                "description" : "",
+                "description" : "Le 12 janvier 2010, un séisme de magnitude 7,0 a frappé Haïti, causant la mort de plus de 200 000 personnes et laissant plus de 1,5 million de personnes sans abri. La catastrophe a provoqué une importante mobilisation internationale pour aider le pays à se relever.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Séisme et tsunami provoque l'accident nucléaire à Fukushima",
-                "description" : "", 
+                "description" : " Le 11 mars 2011, un séisme de magnitude 9,0 a frappé la côte nord-est du Japon, provoquant un tsunami qui a causé l'accident nucléaire de Fukushima. La catastrophe a eu des répercussions majeures sur l'industrie nucléaire japonaise et a poussé de nombreux pays à reconsidérer leur politique énergétique.", 
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Début du printemps arabe", 
-                "description" : "",
+                "description" : "Le Printemps arabe était une série de soulèvements populaires contre les gouvernements autoritaires dans les pays arabes en 2010. Les manifestations pacifiques ont conduit à des révolutions en Tunisie, en Égypte, en Libye et au Yémen, tandis que des manifestations violentes ont éclaté en Syrie et au Bahreïn.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Début guerre civile en Syrie", 
-                "description" : "",
+                "description" : "La guerre civile syrienne a commencé en 2011 lorsque des manifestations pacifiques ont été réprimées par le gouvernement. Le conflit s'est intensifié, impliquant des groupes rebelles, des groupes terroristes et des pays étrangers. La guerre a entraîné la mort de plus de 500 000 personnes et le déplacement de millions de personnes.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Mort d'Oussama Ben Laden",
-                "description" : "", 
+                "description" : "Oussama Ben Laden, le chef d'Al-Qaïda, a été tué par les forces spéciales américaines en 2011. Sa mort a été un coup majeur pour l'organisation terroriste et a marqué une victoire importante dans la guerre contre le terrorisme.", 
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Indépendance du Soudan du Sud", 
-                "description" : "",
+                "description" : "Le Soudan du Sud a obtenu son indépendance en 2011 après des décennies de guerre civile avec le Soudan. Le nouvel État a été créé pour mettre fin aux conflits ethniques et politiques dans la région.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Kim Jong-un succède à Kim Jung-il", 
-                "description" : "",
+                "description" : "Kim Jong-un a pris le pouvoir en Corée du Nord après la mort de son père, Kim Jong-il, en 2011. Depuis lors, la Corée du Nord a continué à être un État autoritaire avec des violations des droits de l'homme et un programme nucléaire controversé.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Curiosity est déployé sur Mars", 
-                "description" : "",
+                "description" : "En 2012, le rover Curiosity de la NASA a été déployé sur la planète Mars pour explorer la possibilité de vie sur la planète rouge. La mission a fourni des données précieuses sur l'histoire géologique de Mars et a renforcé l'intérêt pour l'exploration spatiale.",
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Décès de Nelson Mandela", 
-                "description" : "",
+                "description" : "Nelson Mandela, l'ancien président sud-africain et militant anti-apartheid, est décédé en 2013. Il est reconnu dans le monde entier pour son leadership et sa contribution à la lutte pour la justice et l'égalité raciale en Afrique du Sud. Sa mort a été une perte majeure pour le pays et le monde entier",
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "le coronavirus SARS-CoV-2 débute à Wuhan", 
-                "description" : "",
+                "description" : "Le coronavirus SARS-CoV-2, identifié pour la première fois à Wuhan, en Chine, en décembre 2019 qui a conduit à un confinement mondiale et une importnante crise sanitaire.",
                 "date" : 2019, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Le monde entier est confiné à cause du coronavirus SARS-CoV-2",
-                "description" : "", 
+                "description" : "En 2020, le monde entier a été confiné dans une tentative de freiner la propagation du coronavirus SARS-CoV-2.", 
                 "date" : 2020, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "La Russie envahie l'Ukraine", 
-                "description" : "",
+                "description" : "En 2014, la Russie a envahi l'Ukraine et annexé la Crimée, créant une crise politique et militaire majeure en Europe.",
                 "date" : 2022, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Mort en hélicoptère de Kobe Bryant", 
-                "description" : "",
+                "description" : "Le décès tragique de Kobe Bryant en 2020 a choqué le monde entier. Bryant, l'un des meilleurs joueurs de l'histoire de la NBA, a été tué dans un accident d'hélicoptère en Californie, laissant derrière lui un héritage inoubliable sur et en dehors du terrain.",
                 "date" : 2019, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Capture de Sadaam Hussein", 
-                "description" : "",
+                "description" : "En 2003, Saddam Hussein a été capturé par les forces américaines en Irak, mettant fin à une chasse à l'homme de plusieurs mois.",
                 "date" : 2003, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Attentat du train à Madrid", 
-                "description" : "",
+                "description" : "En 2004, un attentat à la bombe a eu lieu dans un train de banlieue de Madrid, faisant 191 morts et plus de 2 000 blessés.",
                 "date" : 2004, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Explosion de quatre bombes dans les transport de Londres", 
-                "description" : "",
+                "description" : "En 2005, quatre bombes ont explosé dans le système de transport public de Londres, faisant 56 morts et plus de 700 blessés.",
                 "date" : 2005, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Coup de boule de Zidane", 
-                "description" : "",
+                "description" : "Lors de la finale de la Coupe du Monde 2006, Zinedine Zidane assène un coup de tête à Marco Materazzi. Ce geste, qualifié d'incompréhensible, a suscité de nombreuses réactions et a mis fin à la carrière internationale de Zidane.",
                 "date" : 2006, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Usain Bolt bat le record du 100m en 9s58",
-                "description" : "", 
+                "description" : "En 2009, Usain Bolt a battu le record du monde du 100 mètres en 9,58 secondes lors des Championnats du monde d'athlétisme à Berlin.", 
                 "date" : 2009, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "33 mineurs chiliens coincés dans une mine pendant 69 jours", 
-                "description" : "",
+                "description" : "En 2010, 33 mineurs chiliens ont été coincés pendant 69 jours dans une mine à plus de 700 mètres sous terre, avant d'être secourus lors d'une opération de sauvetage réussie.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Attentats terroristes d’Anders Breivik en Norvège", 
-                "description" : "",
+                "description" : "En juillet 2011, Anders Breivik a perpétré une série d'attaques terroristes en Norvège, faisant 77 morts et de nombreux blessés. Il a été condamné à une peine de prison de 21 ans, la plus longue possible en Norvège.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Légalisation du mariage gay en France", 
-                "description" : "",
+                "description" : "En mai 2013, la France est devenue le 14ème pays à légaliser le mariage entre personnes du même sexe. Cette décision a été saluée par la communauté LGBTQ+ ainsi que par de nombreux partisans des droits de l'homme.",
                 "date" : 2013, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "Révolution ukrainienne", 
-                "description" : "",
+                "description" : "En 2014,l'Ukraine a été le théâtre d'une révolution qui a renversé le président pro-russe Viktor Ianoukovitch. Cette révolution a conduit à des tensions avec la Russie et à l'annexion de la Crimée par la Russie en mars 2014.",
                 "date" : 2014, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Attaque terroriste contre Charlie Hebdo", 
-                "description" : "",
+                "description" : "En janvier 2015, deux terroristes ont attaqué les locaux du journal satirique français Charlie Hebdo, faisant 12 morts et de nombreux blessés. Cette attaque a suscité une vague d'émotion dans le monde entier et a été suivie par d'autres attaques terroristes en France.",
                 "date" : 2015, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Les Britanniques votent en faveur du Brexit",
-                "description" : "", 
+                "description" : "En juin 2016, les citoyens britanniques ont voté en faveur de la sortie de l'Union européenne, connue sous le nom de Brexit. Cette décision a eu des conséquences économiques et politiques importantes pour le Royaume-Uni et l'Union européenne.", 
                 "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Explosion du port de Beyrouth", 
-                "description" : "",
+                "description" : "En août 2020, une énorme explosion a secoué le port de Beyrouth, faisant plus de 200 morts et des milliers de blessés. Cette explosion a été causée par le stockage négligent de matières explosives.",
                 "date" : 2020, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "Incendie de Notre-Dame de Paris", 
-                "description" : "",
+                "description" : "En avril 2019, un incendie a ravagé la cathédrale Notre-Dame de Paris, l'un des monuments les plus emblématiques de la ville. Bien que l'incendie ait causé des dégâts considérables, la structure de la cathédrale a été préservée et les travaux de rénovation sont en cours",
                 "date" : 2019, 
                 "answer" : null
             },
             {
                 "id" : 34, 
                 "question" : "Lancement de Facebook", 
-                "description" : "",
+                "description" : "En février 2004, Mark Zuckerberg a lancé Facebook, un réseau social qui allait devenir l'un des plus grands réseaux sociaux au monde, avec plus de 2,8 milliards d'utilisateurs actifs mensuels en 2021. Facebook a transformé la façon dont les gens communiquent et interagissent en ligne.",
                 "date" : 2004, 
                 "answer" : null
             }
@@ -3625,801 +3625,552 @@
             {
                 "id" : 1, 
                 "question" : "Le parrain", 
-                "description" : "",
+                "description" : "Réalisateur: Francis Ford Coppola <br> Année de sortie: 1972 <br> Acteurs principaux: Marlon Brando, Al Pacino, James Caan<br> Acteurs principaux: Le patriarche de la famille Corleone, Don Vito Corleone, est impliqué dans le monde de la mafia. Lorsqu'il refuse de participer à une opération de trafic de drogue, il devient la cible d'une tentative d'assassinat. Son fils, Michael, doit alors prendre la relève pour protéger sa famille et leur empire criminel.",
                 "date" : 1972, 
                 "answer" : null
             },
             {
                 "id" : 2, 
                 "question" : "Star Wars : L'Empire contre-attaque",
-                "description" : "", 
+                "description" : "Réalisateur: Irvin Kershner <br> Année de sortie: 1980 <br> Acteurs principaux: Mark Hamill, Harrison Ford, Carrie Fisher <br> Acteurs principaux: Deuxième volet de la trilogie originale de Star Wars, L'Empire contre-attaque suit les aventures de Luke Skywalker, Han Solo et la princesse Leia dans leur lutte contre l'Empire galactique. Luke s'entraîne avec le maître Jedi Yoda pour affronter Dark Vador, tandis que Han et Leia doivent faire face à la traque impériale.", 
                 "date" : 1980, 
                 "answer" : null
             },
             {
                 "id" : 3, 
                 "question" : "The Dark Knight", 
-                "description" : "",
+                "description" : "Réalisateur: Christopher Nolan <br> Année de sortie: 2008 <br> Acteurs principaux: Christian Bale, Heath Ledger, Aaron Eckhart <br> Acteurs principaux: Suite du film Batman Begins, The Dark Knight suit le chevalier noir dans sa lutte contre le Joker, un criminel psychopathe qui cherche à semer le chaos dans Gotham City. Batman doit également faire face au procureur Harvey Dent, qui se transforme en Double-Face après avoir subi de graves brûlures.", 
                 "date" : 2008, 
                 "answer" : null
             },
             {
                 "id" : 4, 
                 "question" : "Les évadés", 
-                "description" : "",
+                "description" : "Réalisateur: Frank Darabont <br> Année de sortie: 1994 <br> Acteurs principaux: Tim Robbins, Morgan Freeman, Bob Gunton <br> Acteurs principaux: Adaptation du roman de Stephen King, Les évadés suit l'histoire de deux prisonniers, Andy et Red, qui se lient d'amitié dans une prison de haute sécurité. Ensemble, ils planifient leur évasion et cherchent à prouver leur innocence.", 
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 5, 
                 "question" : "Pulp Fiction",
-                "description" : "", 
+                "description" : "Réalisateur: Quentin Tarantino <br> Année de sortie: 1994 <br> Acteurs principaux: John Travolta, Samuel L. Jackson, Uma Thurman <br> Acteurs principaux: Pulp Fiction est un film à sketches qui suit plusieurs personnages impliqués dans le monde de la criminalité à Los Angeles. Les différentes histoires sont racontées de manière non linéaire et s'entremêlent pour créer un récit complexe et captivant.", 
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Les Affranchis", 
-                "description" : "",
+                "description" : "Réalisateur: Martin Scorsese <br> Année de sortie: 1990 <br> Acteurs principaux: Robert De Niro, Ray Liotta, Joe Pesci <br> Acteurs principaux: Basé sur l'histoire vraie de Henry Hill, Les affranchis suit un jeune gangster qui gravit les échelons de la mafia new-yorkaise dans les années 1960 et 1970. Le film explore la vie de la pègre, les liens familiaux, les amitiés et les trahisons qui jalonnent le parcours de Hill.",
                 "date" : 1990, 
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Les Aventuriers de l'arche perdue", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1981 <br> Acteurs principaux: Harrison Ford, Karen Allen, Paul Freeman <br> Acteurs principaux: Indiana Jones, archéologue et aventurier, est engagé par le gouvernement américain pour retrouver l'Arche d'Alliance, une relique biblique supposée conférer un pouvoir immense à celui qui la possède. Mais il n'est pas le seul à la rechercher, et il devra affronter de nombreux obstacles pour parvenir à ses fins.",
                 "date" : 1981, 
                 "answer" : null
             },
             {
                 "id" : 8, 
                 "question" : "Les Dents de la mer", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1975 <br> Acteurs principaux: Roy Scheider, Robert Shaw, Richard Dreyfuss <br> Acteurs principaux: Dans une station balnéaire de la côte Est des États-Unis, un grand requin blanc terrorise les baigneurs. Le chef de la police locale, un océanographe et un chasseur de requins se lancent à la poursuite de l'animal pour l'abattre.",
                 "date" : 1975, 
                 "answer" : null
             },
             {
                 "id" : 9, 
                 "question" : "Star Wars : Un nouveau espoir", 
-                "description" : "",
+                "description" : "Réalisateur: George Lucas <br> Année de sortie: 1977 <br> Acteurs principaux: Mark Hamill, Harrison Ford, Carrie Fisher <br> Acteurs principaux: Dans une galaxie lointaine, une guerre fait rage entre l'Empire Galactique et l'Alliance Rebelle. Un jeune fermier nommé Luke Skywalker rejoint la lutte contre l'Empire aux côtés du chevalier Jedi Obi-Wan Kenobi, du contrebandier Han Solo et de la princesse Leia Organa.",
                 "date" : 1977, 
                 "answer" : null
             },
             {
                 "id" : 10, 
                 "question" : "Le Seigneur des anneaux : La Communauté de l'anneau",
-                "description" : "", 
+                "description" : "Réalisateur: Peter Jackson <br> Année de sortie: 2001 <br> Acteurs principaux: Elijah Wood, Ian McKellen, Viggo Mortensen <br> Acteurs principaux: Dans un monde fantastique, un jeune hobbit nommé Frodon est chargé de détruire l'Anneau Unique, une arme surpuissante créée par le Seigneur Sauron pour asservir les peuples libres de la Terre du Milieu. Pour y parvenir, il doit rejoindre une communauté de neuf compagnons, qui devront affronter de nombreux dangers sur leur chemin.", 
                 "date" : 2001, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Retour vers le futur", 
-                "description" : "",
+                "description" : "Réalisateur: Robert Zemeckis <br> Année de sortie: 1985 <br> Acteurs principaux: Michael J. Fox, Christopher Lloyd, Lea Thompson <br> Acteurs principaux: Un adolescent des années 80, Marty McFly, est envoyé accidentellement dans le passé grâce à une machine à remonter le temps construite par son ami scientifique, Doc Brown. Il y rencontre ses parents jeunes, et doit tout faire pour éviter de compromettre leur futur mariage, tout en essayant de retourner dans son époque.",
                 "date" : 1985, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Le Parrain 2", 
-                "description" : "",
+                "description" : "Réalisateur: Francis Ford Coppola <br> Année de sortie: 1974 <br> Acteurs principaux: Al Pacino, Robert De Niro, Robert Duvall <br> Acteurs principaux: Suite du célèbre film Le Parrain, ce deuxième opus suit Michael Corleone dans les années 1950 et 1960, alors qu'il consolide son pouvoir en tant que parrain de la famille Corleone.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Blade Runner", 
-                "description" : "",
+                "description" : "Réalisateur: Ridley Scott <br> Année de sortie: 1982 <br> Acteurs principaux: Harrison Ford, Rutger Hauer, Sean Young <br> Acteurs principaux: Dans un futur dystopique de Los Angeles, un ancien chasseur de robots est rappelé pour traquer des réplicants rebelles, des androïdes de pointe créés pour effectuer des tâches dangereuses sur des colonies extraterrestres.",
                 "date" : 1982, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Alien", 
-                "description" : "",
+                "description" : "Réalisateur: Ridley Scott <br> Année de sortie: 1979 <br> Acteurs principaux: Sigourney Weaver, Tom Skerritt, John Hurt <br> Acteurs principaux: L'équipage d'un vaisseau spatial en route vers la Terre est réveillé de son sommeil cryogénique par une transmission d'un signal de détresse venant d'une planète isolée. Une fois atterris, ils découvrent une forme de vie extraterrestre mortelle qui les chasse un à un.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Aliens", 
-                "description" : "",
+                "description" : "Réalisateur: James Cameron <br> Année de sortie: 1986 <br> Acteurs principaux: Sigourney Weaver, Michael Biehn, Lance Henriksen <br> Acteurs principaux: Dans cette suite du film original, Ellen Ripley est envoyée avec une équipe de Marines sur la planète où l'équipage du vaisseau Nostromo a rencontré les aliens pour enquêter sur la colonie humaine qui y a été établie. Cependant, ils trouvent la colonie déserte et doivent se battre contre une horde d'aliens.",
                 "date" : 1986, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Le Seigneur des anneaux: Le Retour du roi", 
-                "description" : "",
+                "description" : "Réalisateur: Peter Jackson <br> Année de sortie: 2003 <br> Acteurs principaux: Elijah Wood, Viggo Mortensen, Ian McKellen <br> Acteurs principaux: Dans le dernier chapitre de la trilogie, Frodon et Sam doivent terminer leur quête pour détruire l'Anneau unique qui donnerait le contrôle absolu à Sauron. Pendant ce temps, Aragorn, Legolas et Gimli mènent une armée à la bataille pour sauver Minas Tirith.",
                 "date" : 2003, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Fight Club de David Finchern", 
-                "description" : "",
+                "description" : "Réalisateur: David Fincher <br> Année de sortie: 1999 <br> Acteurs principaux: Brad Pitt, Edward Norton, Helena Bonham Carter <br> Acteurs principaux: Un employé de bureau sans nom se lie d'amitié avec un vendeur de savon charismatique et insouciant, Tyler Durden. Ensemble, ils créent un club de combat secret pour libérer leur frustration et leur colère.",
                 "date" : 1999, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "Inception", 
-                "description" : "",
+                "description" : "Réalisateur: Christopher Nolan <br> Année de sortie: 2010 <br> Acteurs principaux: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page <br> Acteurs principaux: Dom Cobb est un voleur expérimenté qui extrait des informations de l'esprit des autres en infiltrant leurs rêves. Il est embauché pour effectuer une opération d'inception - implanter une idée dans l'esprit de quelqu'un - plutôt que de la voler.",
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "Jurrasic Park", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1993 <br> Acteurs principaux: Sam Neill, Laura Dern, Jeff Goldblum <br> Acteurs principaux: Un milliardaire excentrique a créé un parc à thème sur une île éloignée où les animaux clés sont des dinosaures clonés.",
                 "date" : 1993, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Die Hard, Piège de cristal", 
-                "description" : "",
+                "description" : "Réalisateur: John McTiernan <br> Année de sortie: 1988 <br> Acteurs principaux: Bruce Willis, Alan Rickman, Bonnie Bedelia <br> Acteurs principaux: L'officier de police John McClane, qui se rend à Los Angeles pour passer les fêtes de Noël avec sa femme, se retrouve pris au piège dans un immeuble de bureaux pris en otage par un groupe de terroristes. McClane est le seul espoir des otages et doit affronter le chef des terroristes pour les sauver.",
                 "date" : 1988, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "2001: l'Odyssée de l'espace", 
-                "description" : "",
+                "description" : "Réalisateur: Stanley Kubrick <br> Année de sortie: 1968 <br> Acteurs principaux: Keir Dullea, Gary Lockwood, William Sylvester <br> Acteurs principaux: Un groupe d'astronautes est envoyé dans l'espace pour enquêter sur un mystérieux monolithe noir qui semble avoir une influence sur l'évolution de l'humanité. Leur mission se transforme en un voyage existentiel à travers le temps et l'espace.",
                 "date" : 1968, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Apocalypse Now", 
-                "description" : "",
+                "description" : "Réalisateur: Francis Ford Coppola <br> Année de sortie: 1979 <br> Acteurs principaux: Martin Sheen, Marlon Brando, Robert Duvall <br> Acteurs principaux: Pendant la guerre du Vietnam, un capitaine de l'armée américaine est envoyé en mission pour assassiner un colonel devenu fou et qui se cache dans la jungle. Le capitaine est accompagné d'un équipage hétéroclite qui rencontre des dangers imprévus dans leur quête.",
                 "date" : 1979, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Le Seigneur des anneaux",
-                "description" : "", 
+                "description" : "Réalisateur: Peter Jackson <br> Année de sortie: 2001 <br> Acteurs principaux: Elijah Wood, Ian McKellen, Viggo Mortensen <br> Acteurs principaux: Frodon Sacquet, un hobbit, doit porter l'Anneau unique jusqu'à la montagne de la destinée pour le détruire et empêcher le maléfique Sauron de s'emparer de la Terre du Milieu. Il est accompagné d'une communauté d'aventuriers qui rencontrent des obstacles et des ennemis sur leur chemin.", 
                 "date" : 2002, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Matrix",
-                "description" : "", 
+                "description" : "Réalisateur: Lana et Lilly Wachowski <br> Année de sortie: 1999 <br> Acteurs principaux: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss <br> Acteurs principaux: Un programmeur informatique découvre que la réalité qu'il vit est une simulation créée par des machines pour asservir l'humanité. Il rejoint un groupe de rebelles pour combattre les machines et libérer les humains de leur emprise.", 
                 "date" : 1999, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Terminator 2: Le Jugement dernier", 
-                "description" : "",
+                "description" : "Réalisateur: James Cameron <br> Année de sortie: 1991 <br> Acteurs principaux: Arnold Schwarzenegger, Linda Hamilton, Edward Furlong <br> Acteurs principaux: Dans le futur, des machines ont pris le contrôle de la Terre et tentent d'exterminer l'humanité. Un cyborg, envoyé dans le passé pour protéger le futur leader de la résistance humaine, doit combattre un autre cyborg envoyé pour le tuer.",
                 "date" : 1991, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Heat", 
-                "description" : "",
+                "description" : "Réalisateur: Michael Mann <br> Année de sortie: 1995 <br> Acteurs principaux: Al Pacino, Robert De Niro, Val Kilmer <br> Acteurs principaux: Neil McCauley (De Niro) est un professionnel du crime endurci qui planifie un braquage majeur avec son équipe. Vincent Hanna (Pacino) est un détective de la police de Los Angeles qui est déterminé à les arrêter. Alors que les deux hommes se rapprochent de plus en plus, leur confrontation devient de plus en plus violente.",
                 "date" : 1996, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Le Bon, la Brute et le Truand", 
-                "description" : "",
+                "description" : "Réalisateur: Sergio Leone <br> Année de sortie: 1966 <br> Acteurs principaux: Clint Eastwood, Lee Van Cleef, Eli Wallach <br> Acteurs principaux: Dans le contexte de la Guerre de Sécession américaine, trois hommes cherchent un coffre rempli d'or. Le « Bon » (Eastwood), la « Brute » (Van Cleef) et le « Truand » (Wallach) s'entrecroisent dans une série de confrontations violentes alors qu'ils se rapprochent de leur objectif commun.",
                 "date" : 1968, 
                 "answer" : null
             },
             {
                 "id" : 28, 
                 "question" : "Casablanca", 
-                "description" : "",
+                "description" : "Réalisateur: Michael Curtiz <br> Année de sortie: 1942 <br> Acteurs principaux: Humphrey Bogart, Ingrid Bergman, Paul Henreid <br> Acteurs principaux: Dans la ville marocaine de Casablanca pendant la Seconde Guerre mondiale, un propriétaire de café américain Rick Blaine (Bogart) est confronté à son passé lorsque son ancienne amante, Ilsa Lund (Bergman), entre dans son établissement avec son mari résistant.",
                 "date" : 1947, 
                 "answer" : null
             },
             {
                 "id" : 29, 
                 "question" : "The Big Lebowski", 
-                "description" : "",
+                "description" : "Réalisateur: Joel et Ethan Coen <br> Année de sortie: 1998 <br> Acteurs principaux: Jeff Bridges, John Goodman, Julianne Moore <br> Acteurs principaux: Jeffrey « The Dude » Lebowski (Bridges) est un homme paresseux et fainéant qui se retrouve impliqué dans une série de situations bizarres et comiques après qu'un groupe de voyous ont confondu son nom avec celui d'un millionnaire nommé Jeffrey Lebowski.",
                 "date" : 1998, 
                 "answer" : null
             },
             {
                 "id" : 30, 
                 "question" : "Seven", 
-                "description" : "",
+                "description" : "Réalisateur: David Fincher <br> Année de sortie: 1996 <br> Acteurs principaux: Brad Pitt, Morgan Freeman, Gwyneth Paltrow <br> Acteurs principaux: Deux détectives de la police de New York, Mills (Pitt) et Somerset (Freeman), enquêtent sur une série de meurtres brutaux commis selon les sept péchés capitaux. Leur enquête les mène dans une spirale de violence et de désespoir.",
                 "date" : 1996, 
                 "answer" : null
             },
             {
                 "id" : 31, 
                 "question" : "Taxi Driver", 
-                "description" : "",
+                "description" : "Réalisateur: Martin Scorsese <br> Année de sortie: 1976 <br> Acteurs principaux: Robert De Niro, Jodie Foster, Harvey Keitel <br> Acteurs principaux: Travis Bickle (De Niro) est un ancien combattant du Vietnam qui travaille comme chauffeur de taxi à New York. En proie à la solitude et à la désillusion, il tombe amoureux d'une prostituée mineure (Foster) et décide de prendre les choses en main pour la sauver.",
                 "date" : 1976, 
                 "answer" : null
             },
             {
                 "id" : 32, 
                 "question" : "Usual Suspects", 
-                "description" : "",
+                "description" : "Réalisateur: Bryan Singer <br> Année de sortie: 1995 <br> Acteurs principaux: Kevin Spacey, Gabriel Byrne, Chazz Palminteri, Benicio Del Toro, Kevin Pollak <br> Acteurs principaux: Cinq criminels sont réunis pour effectuer un braquage spectaculaire. Mais leur plan ne se déroule pas comme prévu, et ils doivent faire face à un mystérieux criminel surnommé \"Keyser Söze\" qui semble tout savoir sur eux.",
                 "date" : 1995, 
                 "answer" : null
             },
             {
                 "id" : 33, 
                 "question" : "La Liste de Schindler", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1993 <br> Acteurs principaux: Liam Neeson, Ben Kingsley, Ralph Fiennes <br> Acteurs principaux: Pendant la Seconde Guerre mondiale, un homme d'affaires allemand nommé Oskar Schindler décide de sauver la vie de plus de 1 000 juifs en les employant dans sa fabrique de munitions. Le film est basé sur une histoire vraie.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 34, 
                 "question" : "Les Gardiens de la Galaxie", 
-                "description" : "",
+                "description" : "Réalisateur: James Gunn <br> Année de sortie: 2014 <br> Acteurs principaux: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel (voix), Bradley Cooper (voix) <br> Acteurs principaux: Dans l'espace, un groupe de criminels hétéroclites, dont un humain, un raton laveur et un arbre humanoïde, se retrouvent pour sauver la galaxie d'une menace extraterrestre.",
                 "date" : 2014, 
                 "answer" : null
             },
             {
                 "id" : 35, 
                 "question" : "Shining ", 
-                "description" : "",
+                "description" : "Réalisateur: Stanley Kubrick <br> Année de sortie: 1980 <br> Acteurs principaux: Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers <br> Acteurs principaux: Une famille s'installe dans un hôtel isolé pour y passer l'hiver. Mais le père, écrivain en panne d'inspiration, commence à devenir fou et dangereux, tandis que son fils développe des pouvoirs psychiques.",
                 "date" : 1980, 
                 "answer" : null
             },
             {
                 "id" : 36, 
                 "question" : "Les Infiltrés", 
-                "description" : "",
+                "description" : "Réalisateur: Martin Scorsese <br> Année de sortie: 2006 <br> Acteurs principaux: Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg, Martin Sheen <br> Acteurs principaux: Un policier infiltré dans le milieu criminel de Boston doit démasquer un gangster influent, tandis qu'un criminel infiltré dans la police tente de faire la même chose. Les deux hommes se retrouvent pris au piège dans un jeu mortel de tromperie et de trahison.",
                 "date" : 2006, 
                 "answer" : null
             },
             {
                 "id" : 37, 
                 "question" : "The Thing", 
-                "description" : "",
+                "description" : "Réalisateur: John Carpenter <br> Année de sortie: 1982 <br> Acteurs principaux: Kurt Russell, Wilford Brimley, Keith David, Donald Moffat <br> Acteurs principaux: Une équipe de chercheurs en Antarctique est confrontée à une créature extraterrestre qui peut prendre la forme de n'importe quel être vivant. Le groupe doit lutter pour survivre et découvrir qui est encore humain.",
                 "date" : 1982, 
                 "answer" : null
             },
             {
                 "id" : 38, 
                 "question" : "Mad Max: Fury Road", 
-                "description" : "",
+                "description" : "Réalisateur: George Miller <br> Année de sortie: 2015 <br> Acteurs principaux: Tom Hardy, Charlize Theron, Nicholas Hoult, Hugh Keays-Byrne <br> Acteurs principaux: Dans un monde post-apocalyptique, Max, un solitaire hanté par son passé, doit aider une guerrière nommée Furiosa à transporter un groupe de femmes en sécurité à travers un désert infesté de pillards.",
                 "date" : 2015, 
                 "answer" : null
             },
             {
                 "id" : 39, 
                 "question" : "Il faut sauver le soldat Ryan", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1998 <br> Acteurs principaux: Tom Hanks, Matt Damon, Tom Sizemore, Edward Burns, Barry Pepper, Vin Diesel <br> Acteurs principaux: Pendant la Seconde Guerre mondiale, un groupe de soldats américains est envoyé en mission pour retrouver un soldat disparu en France. Leur mission devient de plus en plus dangereuse et difficile à mesure qu'ils se rapprochent de leur objectif.",
                 "date" : 1998, 
                 "answer" : null
             },
             {
                 "id" : 40, 
                 "question" : "12 hommes en colère", 
-                "description" : "",
+                "description" : "Réalisateur: Sidney Lumet <br> Année de sortie: 1957 <br> Acteurs principaux: Henry Fonda, Lee J. Cobb, Martin Balsam, Jack Warden, E.G. Marshall <br> Acteurs principaux: Après le procès d'un jeune homme accusé de meurtre, un jury de 12 hommes doit délibérer pour déterminer sa culpabilité ou son innocence. Alors qu'ils délibèrent, leurs préjugés, leurs expériences personnelles et leur perception des faits sont remises en question.",
                 "date" :1957 , 
                 "answer" : null
             },
             {
                 "id" : 41, 
                 "question" : "Eternal Sunshine of the Spotless Mind", 
-                "description" : "",
+                "description" : "Réalisateur: Michel Gondry <br> Année de sortie: 2004 <br> Acteurs principaux: Jim Carrey, Kate Winslet, Kirsten Dunst, Mark Ruffalo, Elijah Wood <br> Acteurs principaux: Joel et Clementine ont eu une relation tumultueuse qui s'est terminée par une rupture. Lorsque Joel découvre que Clementine a effacé tous ses souvenirs de leur relation de sa mémoire, il décide de faire la même chose. Mais alors qu'il fait le processus, il commence à se souvenir de pourquoi il est tombé amoureux d'elle.",
                 "date" : 2004, 
                 "answer" : null
             },
             {
                 "id" : 42, 
                 "question" : "Vol au-dessus d'un nid de coucou", 
-                "description" : "",
+                "description" : "Réalisateur: Miloš Forman <br> Année de sortie: 1975 <br> Acteurs principaux: Jack Nicholson, Louise Fletcher, William Redfield, Will Sampson, Brad Dourif <br> Acteurs principaux: Randle McMurphy, un prisonnier condamné pour viol, est transféré dans un hôpital psychiatrique pour être évalué. Il essaie de défier l'autorité de l'infirmière en chef, la surnommée Big Nurse, pour aider les autres patients à retrouver leur confiance en eux et leur indépendance.",
                 "date" : 1976, 
                 "answer" : null
             },
             {
                 "id" : 43, 
                 "question" : "Gladiator", 
-                "description" : "",
+                "description" : "Réalisateur: Ridley Scott <br> Année de sortie: 2000 <br> Acteurs principaux: Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed, Derek Jacobi <br> Acteurs principaux: Après que l'empereur romain Marcus Aurelius ait été assassiné, le général romain Maximus est trahi par le fils de l'empereur et envoyé en esclavage. Il doit lutter pour sa vie en tant que gladiateur pour se venger de son ennemi et regagner sa liberté.",
                 "date" : 2000, 
                 "answer" : null
             },
             {
                 "id" : 44, 
                 "question" : "Drive", 
-                "description" : "",
+                "description" : "Réalisateur: Nicolas Winding Refn <br> Année de sortie: 2011 <br> Acteurs principaux: Ryan Gosling, Carey Mulligan, Bryan Cranston, Albert Brooks, Oscar Isaac <br> Acteurs principaux: Un chauffeur de voiture, qui travaille également comme cascadeur de cinéma, offre ses talents de conducteur à des criminels pour leurs vols. Lorsqu'il tombe amoureux de sa voisine, il se retrouve entraîné dans une spirale de violence et doit protéger celle qu'il aime.",
                 "date" : 2011, 
                 "answer" : null
             },
             {
                 "id" : 45, 
                 "question" : "Citizen Kane", 
-                "description" : "",
+                "description" : "Réalisateur : Orson Welles <br> Année de sortie : 1946 <br> Acteurs principaux : Orson Welles, Joseph Cotten, Dorothy Comingore <br> Acteurs principaux : Le film raconte l'histoire de la vie du magnat de la presse Charles Foster Kane, depuis son enfance jusqu'à sa mort, en passant par sa carrière fulgurante et ses nombreuses relations amoureuses. Après sa mort, un reporter enquête sur la signification de son dernier mot mystérieux : `\"Rosebud\".",
                 "date" :1946 , 
                 "answer" : null
             },
             {
                 "id" : 46, 
                 "question" : "Interstellar", 
-                "description" : "",
+                "description" : "Réalisateur : Christopher Nolan <br> Année de sortie : 2014 <br> Acteurs principaux : Matthew McConaughey, Anne Hathaway, Jessica Chastain <br> Acteurs principaux : Dans un futur proche, la Terre est en train de mourir. Un groupe de scientifiques part en mission dans l'espace pour trouver une nouvelle planète habitable pour l'humanité. Mais le voyage est semé d'embûches, notamment à cause de la théorie de la relativité d'Einstein qui rend le temps plus lent dans l'espace.",
                 "date" : 2014, 
                 "answer" : null
             },
             {
                 "id" : 47, 
                 "question" : "Le Silence des Agneaux", 
-                "description" : "",
+                "description" : "Réalisateur : Jonathan Demme <br> Année de sortie : 1991 <br> Acteurs principaux : Jodie Foster, Anthony Hopkins, Scott Glenn <br> Acteurs principaux : Clarice Starling, jeune stagiaire du FBI, est chargée d'interroger le détenu le plus dangereux de la prison de haute sécurité de Baltimore : le Dr Hannibal Lecter, psychiatre cannibale. Elle espère obtenir des informations sur un tueur en série surnommé \"Buffalo Bill\", qui découpe la peau de ses victimes.",
                 "date" :1991 , 
                 "answer" : null
             },
             {
                 "id" : 48, 
                 "question" : "Trainspotting", 
-                "description" : "",
+                "description" : "Réalisateur : Danny Boyle <br> Année de sortie : 1996 <br> Acteurs principaux : Ewan McGregor, Ewen Bremner, Jonny Lee Miller <br> Acteurs principaux : Le film suit la vie d'un groupe de jeunes marginaux de la ville d'Édimbourg, en Écosse, qui sont accros à l'héroïne. Le personnage principal, Mark Renton, décide de se sevrer de la drogue, mais les autres membres du groupe ont du mal à l'accepter.",
                 "date" : 1996, 
                 "answer" : null
             },
             {
                 "id" : 49, 
                 "question" : "Lawrence d'Arabie", 
-                "description" : "",
+                "description" : "Réalisateur : David Lean <br> Année de sortie : 1962 <br> Acteurs principaux : Peter O'Toole, Alec Guinness, Anthony Quinn <br> Acteurs principaux : Le film raconte l'histoire vraie de T.E. Lawrence, un officier britannique qui a joué un rôle clé dans la révolte arabe contre l'Empire ottoman pendant la Première Guerre mondiale. Lawrence est un personnage complexe, à la fois admiré et détesté pour ses actions.",
                 "date" : 1963, 
                 "answer" : null
             },
             {
                 "id" : 50, 
                 "question" : "La vie est belle",
-                "description" : "", 
+                "description" : "Réalisateur: Frank Capra <br> Année de sortie: 1946 <br> Acteurs principaux: James Stewart, Donna Reed, Lionel Barrymore <br> Acteurs principaux: L'histoire d'un homme nommé George Bailey, qui se sent dépassé par les événements de sa vie et envisage de se suicider. Un ange lui montre ce que serait la vie de sa ville natale si jamais il n'était pas né, et George réalise finalement la valeur et l'importance de sa vie.", 
                 "date" : 1948, 
                 "answer" : null
             },
             {
                 "id" : 51, 
                 "question" : "Il était une fois dans l'Ouest", 
-                "description" : "",
+                "description" : "Réalisateur : Sergio Leone <br> Année de sortie : 1968 <br> Acteurs principaux : Henry Fonda, Claudia Cardinale, Jason Robards <br> Acteurs principaux : Quatre étrangers se croisent dans une petite ville de l'Ouest américain alors qu'un magnat du chemin de fer et son gang tentent de s'approprier leurs terres.",
                 "date" : 1969, 
                 "answer" : null
             },
             {
                 "id" : 52, 
                 "question" : "Psychose", 
-                "description" : "",
+                "description" : "Réalisateur : Alfred Hitchcock <br> Année de sortie : 1960 <br> Acteurs principaux : Anthony Perkins, Janet Leigh <br> Acteurs principaux : Une jeune femme vole de l'argent et prend la fuite, s'arrêtant pour se reposer dans un motel isolé où elle rencontre le propriétaire, Norman Bates, qui cache un terrible secret.",
                 "date" : 1960, 
                 "answer" : null
             },
             {
                 "id" : 53, 
                 "question" : "Sueurs Froides", 
-                "description" : "",
+                "description" : "Réalisateur : Alfred Hitchcock <br> Année de sortie : 1958 <br> Acteurs principaux : James Stewart, Kim Novak <br> Acteurs principaux : Un détective privé souffrant de vertige est embauché pour enquêter sur la femme mystérieuse que son ami suspecte d'être possédée par l'esprit de son ancêtre.",
                 "date" : 1958, 
                 "answer" : null
             },
             {
                 "id" : 54, 
                 "question" : "Le Labyrinthe de Pan", 
-                "description" : "",
+                "description" : "Réalisateur : Guillermo del Toro <br> Année de sortie : 2006 <br> Acteurs principaux : Ivana Baquero, Sergi López <br> Acteurs principaux : Au cours de la guerre civile espagnole, une jeune fille solitaire se plonge dans un monde fantastique peuplé de créatures magiques alors qu'elle tente de s'échapper de la cruauté de son beau-père.",
                 "date" : 2006, 
                 "answer" : null
             },
             {
                 "id" : 55, 
                 "question" : "Reservoir Dogs", 
-                "description" : "",
+                "description" : "Réalisateur : Quentin Tarantino <br> Année de sortie : 1992 <br> Acteurs principaux : Harvey Keitel, Tim Roth, Steve Buscemi <br> Acteurs principaux : Après un hold-up qui tourne mal, les membres d'un gang se soupçonnent mutuellement de trahison alors qu'ils tentent de découvrir l'identité de l'informateur de la police.",
                 "date" : 1992, 
                 "answer" : null
             },
             {
                 "id" : 56, 
                 "question" : "Inglourious Basterds ", 
-                "description" : "",
+                "description" : "Réalisateur : Quentin Tarantino <br> Année de sortie : 2009 <br> Acteurs principaux : Brad Pitt, Mélanie Laurent, Christoph Waltz <br> Acteurs principaux : Pendant la Seconde Guerre mondiale, un groupe de soldats juifs américains est envoyé en France pour semer la terreur chez les nazis et un plan est mis en place pour assassiner les dirigeants du Troisième Reich.",
                 "date" :2009 , 
                 "answer" : null
             },
             {
                 "id" : 57, 
                 "question" : "E.T.", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1982 <br> Acteurs principaux: Henry Thomas, Drew Barrymore, Peter Coyote <br> Acteurs principaux: Un extraterrestre est abandonné sur Terre et rencontre un jeune garçon nommé Elliott. Ensemble, ils essaient de trouver un moyen de renvoyer E.T. sur sa planète natale tout en évitant d'être capturés par le gouvernement.",
                 "date" :1982 , 
                 "answer":  null
             },
             {
                 "id" : 58, 
                 "question" : "American Beauty", 
-                "description" : "",
-                "date" : 2000, 
+                "description" : "Réalisateur: Sam Mendes <br> Année de sortie: 1999 <br> Acteurs principaux: Kevin Spacey, Annette Bening, Thora Birch <br> Acteurs principaux: L'histoire d'une famille américaine typique, mais dysfonctionnelle, à travers les yeux de son père, Lester Burnham. Alors que Lester est en pleine crise de la quarantaine, il commence à remettre en question sa vie, sa famille et ses choix, tout en s'attirant les faveurs d'une jeune fille de sa fille.",
+                "date" : 1999, 
                 "answer" : null
             },
             {
                 "id" : 59, 
                 "question" : "Forrest Gump", 
-                "description" : "",
+                "description" : "Réalisateur: Robert Zemeckis <br> Année de sortie: 1994 <br> Acteurs principaux: Tom Hanks, Robin Wright, Gary Sinise <br> Acteurs principaux: L'histoire d'un homme simple d'esprit nommé Forrest Gump, qui traverse l'histoire récente de l'Amérique tout en poursuivant son amour de longue date pour une femme nommée Jenny.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 60, 
                 "question" : "La La Land", 
-                "description" : "",
-                "date" : 2017, 
+                "description" : "Réalisateur: Damien Chazelle <br> Année de sortie: 2016 <br> Acteurs principaux: Ryan Gosling, Emma Stone, John Legend <br> Acteurs principaux: L'histoire d'une actrice en herbe nommée Mia et d'un pianiste de jazz nommé Sebastian, qui tombent amoureux tout en poursuivant leurs rêves à Los Angeles.",
+                "date" : 2016, 
                 "answer" : null
             },
             {
                 "id" : 61, 
                 "question" : "Avengers",
-                "description" : "", 
+                "description" : "Réalisateur: Joss Whedon <br> Année de sortie: 2012 <br> Acteurs principaux: Robert Downey Jr., Chris Evans, Scarlett Johansson <br> Acteurs principaux: Les super-héros de Marvel, dont Iron Man, Captain America et Hulk, sont réunis pour sauver le monde des plans machiavéliques de Loki et de son armée extra-terrestre.", 
                 "date" : 2012, 
                 "answer" : null
             },
             {
                 "id" : 62, 
                 "question" : "Star Wars, épisode VI: Le Retour du Jedi", 
-                "description" : "",
+                "description" : "Réalisateur: Richard Marquand <br> Année de sortie: 1983 <br> Acteurs principaux: Mark Hamill, Harrison Ford, Carrie Fisher <br> Acteurs principaux: L'histoire de Luke Skywalker, de la princesse Leia et de Han Solo qui mènent une bataille épique contre l'Empire Galactique et tentent de libérer la galaxie de son emprise.",
                 "date" : 1983, 
                 "answer" : null
             },
             {
                 "id" : 63, 
                 "question" : "Ghostbusters", 
-                "description" : "",
+                "description" : "Réalisateur: Ivan Reitman <br> Année de sortie: 1984 <br> Acteurs principaux: Bill Murray, Dan Aykroyd, Sigourney Weaver, Harold Ramis <br> Acteurs principaux: Une équipe de scientifiques excentriques forme une entreprise d'élimination des fantômes et se retrouve à sauver New York d'une invasion surnaturelle.",
                 "date" :1984 , 
                 "answer" : null
             },
             {
                 "id" : 64, 
                 "question" : "Le Roi Lion", 
-                "description" : "",
+                "description" : "Réalisateur: Roger Allers et Rob Minkoff <br> Année de sortie: 1994 <br> Acteurs principaux (voix): Matthew Broderick, James Earl Jones, Jeremy Irons, Jonathan Taylor Thomas <br> Acteurs principaux: Un jeune lionceau nommé Simba doit apprendre à devenir le roi des animaux après que son père, le roi Mufasa, ait été tué par son oncle jaloux, Scar.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 65, 
                 "question" : "Donnie Darko", 
-                "description" : "",
-                "date" :2002 , 
+                "description" : "Réalisateur: Richard Kelly <br> Année de sortie: 2001 <br> Acteurs principaux: Jake Gyllenhaal, Jena Malone, Mary McDonnell, Patrick Swayze <br> Acteurs principaux: Un adolescent perturbé commence à avoir des visions d'un lapin géant qui lui prédit la fin du monde, et doit naviguer dans un labyrinthe de réalité alternative pour sauver sa famille et le monde.",
+                "date" :2001, 
                 "answer" : null
             },
             {
                 "id" : 66, 
                 "question" : "Les Sept Samouraïs", 
-                "description" : "",
-                "date" :1955 , 
+                "description" : "Réalisateur: Akira Kurosawa <br> Année de sortie: 1954 <br> Acteurs principaux: Toshiro Mifune, Takashi Shimura <br> Acteurs principaux: Dans le Japon du 16ème siècle, un village est attaqué régulièrement par des bandits. Pour se défendre, les villageois engagent sept samouraïs pour les aider à protéger leur communauté.",
+                "date" :1954 , 
                 "answer" : null
             },
             {
                 "id" : 67, 
                 "question" : "Fargo", 
-                "description" : "",
+                "description" : "Réalisateur: Joel Coen et Ethan Coen <br> Année de sortie: 1996 <br> Acteurs principaux: Frances McDormand, William H. Macy, Steve Buscemi <br> Acteurs principaux: Dans le Minnesota, un vendeur de voitures d'occasion tente de mettre en place un plan pour se faire de l'argent rapidement en faisant enlever sa propre femme. Mais les choses ne se passent pas comme prévu.",
                 "date" : 1996, 
                 "answer" : null
             },
             {
                 "id" : 68, 
                 "question" : "Orange Mécanique", 
-                "description" : "",
-                "date" :1972 , 
+                "description" : "Réalisateur: Stanley Kubrick <br> Année de sortie: 1971 <br> Acteurs principaux: Malcolm McDowell, Patrick Magee <br> Acteurs principaux: Dans un futur dystopique, un jeune homme, Alex, mène une vie de violence et de débauche avec ses amis. Après avoir été capturé par la police, il est soumis à une expérience de conditionnement mental visant à le rendre incapable de toute violence.",
+                "date" :1971 , 
                 "answer" : null
             },
             {
                 "id" : 69, 
                 "question" : "Titanic", 
-                "description" : "",
-                "date" : 1998, 
+                "description" : "Réalisateur: James Cameron <br> Année de sortie: 1997 <br> Acteurs principaux: Leonardo DiCaprio, Kate Winslet <br> Acteurs principaux: En 1912, Rose, une jeune aristocrate, embarque à bord du Titanic pour rejoindre son fiancé. Elle rencontre Jack, un artiste sans le sou, et les deux tombent amoureux alors que le navire rencontre une tragédie.",
+                "date" : 1997, 
                 "answer" : null
             },
             {
                 "id" : 70, 
                 "question" : "Terminator", 
-                "description" : "",
+                "description" : "Réalisateur: James Cameron <br> Année de sortie: 1984 <br> Acteurs principaux: Arnold Schwarzenegger, Michael Biehn, Linda Hamilton <br> Acteurs principaux: Dans un futur post-apocalyptique, une intelligence artificielle appelée Skynet envoie un robot, le Terminator, dans le passé pour tuer Sarah Connor, la mère du futur leader de la résistance humaine. Un soldat du futur, Kyle Reese, est envoyé pour la protéger.",
                 "date" : 1985, 
                 "answer" : null
             },
             {
                 "id" : 71, 
                 "question" : "L'Exorciste", 
-                "description" : "",
+                "description" : "Réalisateur: William Friedkin <br> Année de sortie: 1974 <br> Acteurs principaux: Ellen Burstyn, Linda Blair <br> Acteurs principaux: Une actrice célèbre, Chris, découvre que sa fille Regan est possédée par un démon. Elle fait appel à des prêtres pour exorciser le mal qui habite l'enfant.",
                 "date" : 1974, 
                 "answer" : null
             },
             {
                 "id" : 72, 
                 "question" : "Predator", 
-                "description" : "",
+                "description" : "Réalisateur: John McTiernan <br> Année de sortie: 1987 <br> Acteurs principaux: Arnold Schwarzenegger, Carl Weathers, Bill Duke <br> Acteurs principaux: Une équipe de commandos de l'armée américaine se retrouve traquée dans la jungle sud-américaine par une créature extraterrestre redoutablement dangereuse.",
                 "date" :1987 , 
                 "answer" : null
             },
             {
                 "id" : 73, 
                 "question" : "Indiana Jones et la Dernière Croisade", 
-                "description" : "",
+                "description" : "Réalisateur: Steven Spielberg <br> Année de sortie: 1989 <br> Acteurs principaux: Harrison Ford, Sean Connery, Denholm Elliott <br> Acteurs principaux: Indiana Jones part à la recherche du Graal avec son père, le Dr. Jones Sr., alors que les nazis tentent de mettre la main sur le précieux artefact pour en faire une arme de pouvoir.",
                 "date" : 1989, 
                 "answer" : null
             },
             {
                 "id" : 74, 
                 "question" : "Léon", 
-                "description" : "",
+                "description" : "Réalisateur: Luc Besson <br> Année de sortie: 1994 <br> Acteurs principaux: Jean Reno, Gary Oldman, Natalie Portman <br> Acteurs principaux: Léon est un tueur à gages solitaire et méticuleux qui se lie d'amitié avec une jeune fille nommée Mathilda, dont la famille a été assassinée par des flics corrompus. Léon accepte de l'aider à se venger.",
                 "date" : 1994, 
                 "answer" : null
             },
             {
                 "id" : 75, 
                 "question" : "Rocky",
-                "description" : "", 
+                "description" : "Réalisateur: John G. Avildsen <br> Année de sortie: 1976 <br> Acteurs principaux: Sylvester Stallone, Talia Shire, Burt Young <br> Acteurs principaux: Rocky Balboa est un boxeur inconnu et sans succès qui voit sa vie changer lorsqu'il est choisi pour affronter le champion du monde de boxe. Il va devoir travailler dur pour se préparer à ce combat.", 
                 "date" : 1976, 
                 "answer" : null
             },
             {
                 "id" : 76, 
                 "question" : "The Social Network",
-                "description" : "", 
+                "description" : "Réalisateur: David Fincher <br> Année de sortie: 2010 <br> Acteurs principaux: Jesse Eisenberg, Andrew Garfield, Justin Timberlake <br> Acteurs principaux: Le film raconte l'histoire de la création de Facebook, depuis les débuts de Mark Zuckerberg en tant qu'étudiant de Harvard jusqu'à son ascension fulgurante en tant que milliardaire et le litige juridique qui s'ensuivit.", 
                 "date" : 2010, 
                 "answer" : null
             },
             {
                 "id" : 77, 
                 "question" : "La grande Vadrouille", 
-                "description" : "",
+                "description" : "Réalisateur: Gérard Oury <br> Année de sortie: 1966 <br> Acteurs principaux: Louis de Funès, Bourvil, Claudio Brook <br> Acteurs principaux: Pendant la Seconde Guerre mondiale, deux hommes français aident des aviateurs britanniques à fuir Paris occupé par les nazis et à rejoindre la zone libre en zone sud.",
                 "date" : 1966, 
                 "answer" : null
             },
             {
                 "id" : 78, 
                 "question" : "Avatar", 
-                "description" : "",
+                "description" : "Réalisateur: James Cameron <br> Année de sortie: 2009 <br> Acteurs principaux: Sam Worthington, Zoe Saldana, Sigourney Weaver <br> Acteurs principaux: Dans un avenir lointain, des humains ont découvert une planète peuplée d'aliens et riches en ressources naturelles précieuses. Ils ont envoyé des explorateurs pour étudier les habitants de la planète et pour exploiter ses ressources, mais les deux cultures sont en conflit.",
                 "date" : 2009, 
                 "answer" : null
             }
         ],
         "picked" : {}
     },   
-    {
-        "name" : "21ème siècle",
-        "db" : "centuryXXI",
-        "url" : "/XXIèmeSiecle",
-        "category" : "histoire",
-        "active" : true,
-        "data" : 
-        [ 
-            {
-                "id" : 1, 
-                "question" : "Steve Jobs présente le premier Ipod", 
-                "description" : "",
-                "date" : 2001, 
-                "answer" : null
-            },
-            {
-                "id" : 2, 
-                "question" : "Attentat sur les tours jumelles du World Trade Center", 
-                "description" : "",
-                "date" : 2001, 
-                "answer" : null
-            },
-            {
-                "id" : 3, 
-                "question" : "Début de la guerre en Irak", 
-                "description" : "",
-                "date" : 2003, 
-                "answer" : null
-            },
-            {
-                "id" : 4, 
-                "question" : "Séisme de magnitude 9,1 dans l'Océan Indien",
-                "description" : "", 
-                "date" : 2004, 
-                "answer" : null
-            },
-            {
-                "id" : 5, 
-                "question" : "Crise des subprimes", 
-                "description" : "",
-                "date" : 2007, 
-                "answer" : null
-            },
-            {
-                "id" : 6, 
-                "question" : "Raul Castro succède à Fidel à la tête de Cuba", 
-                "description" : "",
-                "date" : 2008, 
-                "answer" : null
-            },
-            {
-                "id" : 7, 
-                "question" : "Barack Obama devient président des USA", 
-                "description" : "",
-                "date" : 2008, 
-                "answer" : null
-            },
-            {
-                "id" : 8, 
-                "question" : "Séisme à Haïti", 
-                "description" : "",
-                "date" : 2010, 
-                "answer" : null
-            },
-            {
-                "id" : 9, 
-                "question" : "Séisme et tsunami provoque l'accident nucléaire à Fukushima",
-                "description" : "", 
-                "date" : 2011, 
-                "answer" : null
-            },
-            {
-                "id" : 10, 
-                "question" : "Début du printemps arabe", 
-                "description" : "",
-                "date" : 2010, 
-                "answer" : null
-            },
-            {
-                "id" : 11, 
-                "question" : "Début guerre civile en Syrie", 
-                "description" : "",
-                "date" : 2011, 
-                "answer" : null
-            },
-            {
-                "id" : 12, 
-                "question" : "Mort d'Oussama Ben Laden", 
-                "description" : "",
-                "date" : 2011, 
-                "answer" : null
-            },
-            {
-                "id" : 13, 
-                "question" : "Indépendance du Soudan du Sud", 
-                "description" : "",
-                "date" : 2011, 
-                "answer" : null
-            },
-            {
-                "id" : 14, 
-                "question" : "Kim Jong-un succède à Kim Jung-il", 
-                "description" : "",
-                "date" : 2011, 
-                "answer" : null
-            },
-            {
-                "id" : 15, 
-                "question" : "Curiosity est déployé sur Mars", 
-                "description" : "",
-                "date" : 2012, 
-                "answer" : null
-            },
-            {
-                "id" : 16, 
-                "question" : "Décès de Nelson Mandela", 
-                "description" : "",
-                "date" : 2013, 
-                "answer" : null
-            },
-            {
-                "id" : 17, 
-                "question" : "le coronavirus SARS-CoV-2 débute à Wuhan", 
-                "description" : "",
-                "date" : 2019, 
-                "answer" : null
-            },
-            {
-                "id" : 18, 
-                "question" : "Le monde entier est confiné à cause du coronavirus SARS-CoV-2",
-                "description" : "", 
-                "date" : 2020, 
-                "answer" : null
-            },
-            {
-                "id" : 19, 
-                "question" : "La Russie envahie l'Ukraine", 
-                "description" : "",
-                "date" : 2022, 
-                "answer" : null
-            },
-            {
-                "id" : 20, 
-                "question" : "Mort en hélicoptère de Kobe Bryant", 
-                "description" : "",
-                "date" : 2019, 
-                "answer" : null
-            },
-            {
-                "id" : 21, 
-                "question" : "Capture de Sadaam Hussein", 
-                "description" : "",
-                "date" : 2003, 
-                "answer" : null
-            },
-            {
-                "id" : 22, 
-                "question" : "Attentat du train à Madrid",
-                "description" : "", 
-                "date" : 2004, 
-                "answer" : null
-            },
-            {
-                "id" : 23, 
-                "question" : "Explosion de quatre bombes dans les transport de Londres", 
-                "description" : "",
-                "date" : 2005, 
-                "answer" : null
-            },
-            {
-                "id" : 24, 
-                "question" : "Coup de boule de Zidane", 
-                "description" : "",
-                "date" : 2006, 
-                "answer" : null
-            },
-            {
-                "id" : 25, 
-                "question" : "Usain Bolt bat le record du 100m en 9s58", 
-                "description" : "",
-                "date" : 2009, 
-                "answer" : null
-            },
-            {
-                "id" : 26, 
-                "question" : "33 mineurs chiliens coincés dans une mine pendant 69 jours", 
-                "description" : "",
-                "date" : 2010, 
-                "answer" : null
-            },
-            {
-                "id" : 27, 
-                "question" : "Attentats terroristes d’Anders Breivik en Norvège", 
-                "description" : "",
-                "date" : 2011, 
-                "answer" : null
-            },
-            {
-                "id" : 28, 
-                "question" : "Légalisation du mariage gay en France", 
-                "description" : "",
-                "date" : 2013, 
-                "answer" : null
-            },
-            {
-                "id" : 29, 
-                "question" : "Révolution ukrainienne", 
-                "description" : "",
-                "date" : 2014, 
-                "answer" : null
-            },
-            {
-                "id" : 30, 
-                "question" : "Attaque terroriste contre Charlie Hebdo", 
-                "description" : "",
-                "date" : 2015, 
-                "answer" : null
-            },
-            {
-                "id" : 31, 
-                "question" : "Les Britanniques votent en faveur du Brexit",
-                "description" : "", 
-                "date" : 2016, 
-                "answer" : null
-            },
-            {
-                "id" : 32, 
-                "question" : "Explosion du port de Beyrouth", 
-                "description" : "",
-                "date" : 2020, 
-                "answer" : null
-            },
-            {
-                "id" : 33, 
-                "question" : "Incendie de Notre-Dame de Paris", 
-                "description" : "",
-                "date" : 2019, 
-                "answer" : null
-            },
-            {
-                "id" : 34, 
-                "question" : "Lancement de Facebook",
-                "description" : "", 
-                "date" : 2004, 
-                "answer" : null
-            }
-        ],
-        "picked" : {}
-    },  
     {
         "name" : "Informatique",
         "db" : "informatique",
@@ -4431,195 +4182,196 @@
             {
                 "id" : 1, 
                 "question" : "Blaise Pascal invente la machine à calculer mécanique", 
-                "description" : "",
+                "description" : "Blaise Pascal a inventé la machine à calculer mécanique en 1642. Cette invention était une avancée majeure dans le domaine du calcul, car elle permettait de faire des calculs complexes plus rapidement et plus précisément que jamais auparavant. La machine à calculer de Pascal a été utilisée par des scientifiques, des ingénieurs et des comptables pendant des siècles, jusqu'à ce que l'invention de l'ordinateur la rende obsolète.",
                 "date" : 1645,
                 "answer" : null
                 },
             {
                 "id" : 2, 
                 "question" : "Basile Bouchon invente le métier à tisser programmé",
-                "description" : "", 
-                "date" : 1925,
+                "description" : "Basile Bouchon a inventé le métier à tisser programmé en 1725. Ce métier à tisser utilisait des perforations sur des cartes pour programmer les motifs de tissage, ce qui permettait de produire des tissus plus complexes et plus rapidement qu'auparavant. Cette invention a été le précurseur des machines à tisser modernes et a contribué à la révolution industrielle.", 
+                "date" : 1725,
                 "answer" : null
                 },
             {
                 "id" : 3, 
                 "question" : "L'arithmétique binaire par Leibniz", 
-                "description" : "",
-                "date" : 1925,
+                "description" : "L'arithmétique binaire a été développée par Gottfried Wilhelm Leibniz en 1703. Cette forme de calcul utilise seulement deux chiffres, 0 et 1, ce qui permet de représenter l'information sous forme binaire. Cette innovation est à la base de la technologie informatique moderne et a rendu possible la création des ordinateurs.",
+                "date" : 1703,
                 "answer" : null
                 },
             {
                 "id" : 4, 
                 "question" : "Première machine à calculer automatique de Charles Babbage",
-                "description" : "", 
+                "description" : "La première machine à calculer automatique a été conçue par Charles Babbage dans les années 1820. Cette machine, appelée la \"machine analytique\", était capable de réaliser des calculs complexes en utilisant des cartes perforées pour programmer les instructions. Bien que la machine n'ait jamais été construite de manière fonctionnelle de son vivant, elle a été un précurseur important des ordinateurs modernes.", 
                 "date" : 1725,
                 "answer" : null
                 },
             {
                 "id" : 5, 
                 "question" : "Algèbre de Boole", 
-                "description" : "",
+                "description" : "L'algèbre de Boole, inventée par George Boole au XIXe siècle, est un système mathématique permettant de manipuler des propositions logiques à l'aide de variables binaires (0 et 1). Cette théorie a posé les bases des systèmes informatiques modernes.",
                 "date" : 1847,
                 "answer" : null
             },
             {
                 "id" : 6, 
                 "question" : "Piano logique de Jevons", 
-                "description" : "",
-                "date" :1869 ,
+                "description" : "Le piano logique de Jevons, inventé en 1870, était une machine à calculer mécanique qui utilisait des claviers pour entrer des données et effectuer des opérations logiques. Cette machine était capable de résoudre des problèmes mathématiques complexes de manière plus rapide et précise que les méthodes manuelles traditionnelles.",
+                "date" :1870 ,
                 "answer" : null
             },
             {
                 "id" : 7, 
                 "question" : "Analyseur différentiel de James Tomson",
-                "description" : "", 
+                "description" : "L'analyseur différentiel de James Tomson, inventé en 1876, était une machine à calculer mécanique qui permettait de résoudre des équations différentielles. Cette invention a révolutionné la manière dont les scientifiques et ingénieurs résolvent des problèmes complexes impliquant des équations différentielles.", 
                 "date" : 1876,
                 "answer" : null
                 },
             {
                 "id" : 8, 
                 "question" : "Carte perforée de Herman Hollerith", 
-                "description" : "",
+                "description" : "La carte perforée de Herman Hollerith, inventée en 1890, était une méthode de stockage de données utilisée pour le recensement américain. Cette technologie a permis de collecter et de traiter des données à grande échelle de manière plus rapide et plus précise que les méthodes manuelles traditionnelles.",
                 "date" : 1890,
                 "answer" : null
                 },
             {
                 "id" : 9, 
                 "question" : "Algorithme MinMax par Von Neumann", 
+                "description" : "L'algorithme MinMax par Von Neumann, inventé dans les années 1920, est une méthode pour résoudre les jeux à somme nulle (par exemple, le jeu d'échecs) en utilisant un arbre de recherche et une évaluation heuristique pour choisir la meilleure stratégie possible. Cette invention a ouvert la voie à l'intelligence artificielle et au développement de jeux informatiques.",
                 "date" : 1928,
                 "answer" : null
                 },
             {
                 "id" : 10, 
                 "question" : "Le théorème d'incomplétude de Gödel", 
-                "description" : "",
+                "description" : "Le théorème d'incomplétude de Gödel, publié en 1931, est une théorie mathématique qui montre qu'il existe des propositions vraies mais qui ne peuvent pas être prouvées dans un système logique donné. Cette théorie a eu un impact majeur sur la philosophie des mathématiques et la compréhension des limites de la logique formelle.",
                 "date" :1931, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Décryptage de l'Enigma par Alan Turing", 
-                "description" : "",
-                "date" :1942, 
+                "description" : "En 1941, Alan Turing conçoit une machine capable de décrypter les messages chiffrés de l'Enigma, la machine de cryptage utilisée par les Allemands pendant la Seconde Guerre mondiale. Cette découverte a permis de changer le cours de la guerre en donnant aux Alliés un avantage décisif dans la bataille de l'Atlantique.",
+                "date" :1941, 
                 "answer" : null
             },
             {
                 "id" : 11, 
                 "question" : "Microprocesseur de Marcian Hoff ", 
-                "description" : "",
+                "description" : "En 1971, Marcian Hoff crée le premier microprocesseur, une puce électronique capable de traiter les données et de les convertir en informations compréhensibles. Cette invention a ouvert la voie à la création d'ordinateurs de plus en plus petits et puissants, transformant ainsi notre manière de travailler et de communiquer.",
                 "date" :1971, 
                 "answer" : null
             },
             {
                 "id" : 12, 
                 "question" : "Premier CD", 
-                "description" : "",
-                "date" :1980, 
+                "description" : "En 1982, Sony et Philips lancent le premier disque compact (CD), une technologie qui a révolutionné l'industrie de la musique en offrant une qualité sonore supérieure et une durée de vie plus longue que les disques vinyles précédents.",
+                "date" :1982, 
                 "answer" : null
             },
             {
                 "id" : 13, 
                 "question" : "Apple : sortie du Macintosh", 
-                "description" : "",
+                "description" : "En 1984, Apple lance le Macintosh, le premier ordinateur personnel avec une interface graphique utilisateur (GUI) conviviale. Cette innovation a transformé l'informatique grand public en la rendant accessible à tous, et a permis de populariser l'utilisation de la souris et du clavier comme outils de contrôle.",
                 "date" :1984, 
                 "answer" : null
             },
             {
                 "id" : 14, 
                 "question" : "Invention du World Wide Web par Tim Berners-Lee", 
-                "description" : "",
+                "description" : "En 1989, Tim Berners-Lee crée le World Wide Web (WWW), une plateforme permettant de partager des informations sur internet de manière facile et rapide. Cette invention a révolutionné la manière dont nous accédons à l'information et a permis le développement de l'e-commerce, des réseaux sociaux et de nombreuses autres technologies.",
                 "date" :1989, 
                 "answer" : null
             },
             {
                 "id" : 15, 
                 "question" : "Début Internet TCP/IP", 
-                "description" : "",
+                "description" : "En 1983, l'Internet Protocol (IP) est créé, permettant aux ordinateurs de communiquer entre eux en utilisant un système d'adresse numérique. Cette innovation a permis de développer le réseau internet que nous connaissons aujourd'hui, offrant une connectivité mondiale et un échange d'informations rapide et efficace.",
                 "date" :1900, 
                 "answer" : null
             },
             {
                 "id" : 16, 
                 "question" : "Mosaic, le premier navigateur web",
-                "description" : "", 
+                "description" : "en 1993, Marc Andreessen crée Mosaic, le premier navigateur web avec une interface graphique conviviale. Cette innovation a permis de rendre le web accessible à tous en offrant une interface utilisateur simple et intuitive, ouvrant ainsi la voie au développement de nombreuses autres applications en ligne.", 
                 "date" :1993, 
                 "answer" : null
             },
             {
                 "id" : 17, 
                 "question" : "Le DVD", 
-                "description" : "",
+                "description" : "Le DVD (Digital Versatile Disc) est un support de stockage optique numérique permettant de stocker des données informatiques, de la musique, des films, etc. Il a été lancé en 1995 et a remplacé les VHS pour les films enregistrés à domicile.",
                 "date" :1995, 
                 "answer" : null
             },
             {
                 "id" : 18, 
                 "question" : "sortie de l'IMac", 
-                "description" : "",
+                "description" : "L'iMac est un ordinateur tout-en-un développé par Apple en 1998. Il était le premier ordinateur grand public à être livré avec un port USB, et son design futuriste a suscité beaucoup d'intérêt.",
                 "date" :1998, 
                 "answer" : null
             },
             {
                 "id" : 19, 
                 "question" : "création de Google",
-                "description" : "", 
+                "description" : "Google est un moteur de recherche en ligne créé en 1998 par Larry Page et Sergey Brin. Il utilise un algorithme complexe pour fournir des résultats de recherche pertinents et est devenu l'un des sites les plus populaires sur Internet.", 
                 "date" :1998, 
                 "answer" : null
             },
             {
                 "id" : 20, 
                 "question" : "Wikipédia", 
-                "description" : "",
+                "description" : "Wikipedia est une encyclopédie en ligne collaborative et gratuite lancée en 2001. Elle permet à quiconque de créer ou de modifier des articles, ce qui en fait une source d'informations très populaire et utile",
                 "date" :2001, 
                 "answer" : null
             },
             {
                 "id" : 21, 
                 "question" : "Facebook", 
-                "description" : "",
+                "description" : "Facebook est un réseau social en ligne créé en 2004 par Mark Zuckerberg. Il permet aux utilisateurs de se connecter, de partager des informations et de communiquer avec leurs amis et leur famille.",
                 "date" :2004, 
                 "answer" : null
             },
             {
                 "id" : 22, 
                 "question" : "Premier Iphone", 
-                "description" : "",
+                "description" : "Le premier iPhone a été lancé en 2007 par Apple. Il a révolutionné l'industrie des smartphones en intégrant des fonctionnalités telles que l'écran tactile, la connectivité Internet et l'appareil photo dans un seul appareil.",
                 "date" :2007, 
                 "answer" : null
             },
             {
                 "id" : 23, 
                 "question" : "Cloud Computing", 
-                "description" : "",
+                "description" : "Le Cloud Computing est un modèle de fourniture de services informatiques qui permet aux utilisateurs d'accéder à des ressources informatiques via Internet. Il a révolutionné la façon dont les entreprises et les individus gèrent leurs données et leurs applications.",
                 "date" :2010, 
                 "answer" : null
             },
             {
                 "id" : 24, 
                 "question" : "Impression 3D", 
-                "description" : "",
+                "description" : "L'impression 3D est une technologie qui permet de créer des objets en trois dimensions en utilisant une imprimante spéciale. Elle est utilisée dans de nombreux domaines, notamment la fabrication, la médecine et l'architecture.",
                 "date" :2015, 
                 "answer" : null
             },
             {
                 "id" : 25, 
                 "question" : "Clé USB", 
-                "description" : "",
+                "description" : "La clé USB est un petit périphérique de stockage amovible qui permet aux utilisateurs de stocker et de transférer des données numériques. Elle est devenue l'un des moyens les plus populaires pour partager des fichiers entre ordinateurs.",
                 "date" :2001, 
                 "answer" : null
             },
             {
                 "id" : 26, 
                 "question" : "Raspberry Pi", 
-                "description" : "",
+                "description" : "Le Raspberry Pi est un ordinateur de petite taille développé pour l'apprentissage et l'expérimentation. Il est peu coûteux et peut être utilisé pour créer des projets éducatifs ou des solutions informatiques de bricolage.",
                 "date" :2012, 
                 "answer" : null
             },
             {
                 "id" : 27, 
                 "question" : "Chat GPT", 
-                "description" : "",
+                "description" : "ChatGPT est un modèle de langage de grande envergure développé par OpenAI. Il peut répondre à une variété de questions et de sujets grâce à son vaste ensemble de connaissances et à sa capacité à comprendre le contexte.",
                 "date" :2022, 
                 "answer" : null
             }

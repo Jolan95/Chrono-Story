@@ -1,30 +1,31 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  value: 0,
+  user : JSON.parse(localStorage.getItem("user")),
+  isLogged : localStorage.getItem("token")? true : false
 }
 
 export const counterSlice = createSlice({
-  name: 'counter',
+  name: 'userStore',
   initialState,
   reducers: {
-    increment: (state) => {
-      // Redux Toolkit allows us to write "mutating" logic in reducers. It
-      // doesn't actually mutate the state because it uses the Immer library,
-      // which detects changes to a "draft state" and produces a brand new
-      // immutable state based off those changes
-      state.value += 1
+    deconnexion: (state) => {
+      state.user = undefined;
+      state.isLogged = false
     },
-    decrement: (state) => {
-      state.value -= 1
+    connexion: (state,{payload}) => {
+      state.user = payload;
+      state.isLogged = true
     },
-    incrementByAmount: (state, action) => {
-      state.value += action.payload
+    follow : (state, {payload})=> {
+      state.user.abonnement = [...state.user.abonnement , payload]
     },
+    unfollow : (state, {payload})=> {
+      state.user.abonnement = state.user.abonnement.filter(id => id !== payload)
+    }
   },
 })
-
 // Action creators are generated for each case reducer function
-export const { increment, decrement, incrementByAmount } = counterSlice.actions
+export const { deconnexion, connexion, follow, unfollow } = counterSlice.actions
 
 export default counterSlice.reducer

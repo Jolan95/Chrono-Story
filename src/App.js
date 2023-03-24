@@ -14,6 +14,7 @@ import Record from './record';
 import Users from './users';
 import User from './user';
 
+
 function App() {
 	const getToken = () => {
 		const tokenString = localStorage.getItem('token');
@@ -23,7 +24,8 @@ function App() {
 		}
 		return ""
 	};
-	  const [token, setToken] = useState(getToken() || "");
+	const [token, setToken] = useState(getToken() || "");
+
 
 	  
 	return (

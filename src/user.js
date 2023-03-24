@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react'
-import { useParams, Link} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Header from './components/header';
 
+
 export default function User(props) {
+
   const [user, setUser] = useState()
   const [date, setDate] = useState(null);
   const userId = useParams().userId
@@ -11,15 +13,13 @@ export default function User(props) {
 			method: 'Get',
 			mode: 'cors',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify()
 			}
 			fetch(process.env.REACT_APP_URL_BACK+"user/"+userId,myInit)
 			.then(res => res.json())
 			.then(
 			  (response) => {
-                    console.log(response.user)
                     setDate(new Date(response.user.createdAt))
-				  setUser(response.user)
+				    setUser(response.user)
 			  },
 			  (error) => {
 				console.log(error)
@@ -34,6 +34,8 @@ export default function User(props) {
                 <div key={user._id}>
                 {user.lastname} {user.firstname} 
                 <div>Membre depuis {date.toLocaleString('default', { month: 'long' })} {date.getFullYear()}</div>
+                <div>{user.abonnement.length} Abonnements</div>
+                <div>{user.abonnes.length} Abonnés</div>
                 </div>
 		    </div>
 		)
