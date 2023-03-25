@@ -7,6 +7,18 @@ import Header from './components/header';
 import Record from './components/record';
 import Restart from './components/restart';
 
+function badgeToPretend(score, badge){
+	if(score >= badge["gold"]){
+		return "gold"
+	} else if(score >= badge["silver"]){
+		return "silver"
+	} else if (score >= badge["bronze"]){
+		return "bronze"
+	} else {
+		return "none"
+	}
+}
+
 function Games(props) {
 	const [isPlaying, setIsPlaying] = useState(true)
   	const [questionAvailable, setQuestionAvailable] = useState(props.datas)
@@ -17,23 +29,32 @@ function Games(props) {
   	const [firstDate, setFirstDate] = useState(questionAnswered[0].date) 
 	const [basicModal, setBasicModal] = useState(false);
 	const [basicModalWin, setBasicModalWin] = useState(false);
-	const [record, setRecord] = useState("")
+	const [record, setRecord] = useState(0)
 
 	let token = localStorage.getItem("user")
 	useEffect (() =>{
-		if(localStorage.getItem("user") !== null){
+		
+		if(!isPlaying && localStorage.getItem("user") !== null && score > record){
+			let badge = badgeToPretend(score, props.badge)
 			let user = JSON.parse(localStorage.getItem("user"));
 			let id = user._id
 			var myInit = { 
-			method: 'POST',
-			mode: 'cors',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({id : id, score : score,  game : props.name})
-		}
+				method: 'POST',
+				mode: 'cors',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({id : id, score : score,  game : props.name, badge : badge})
+			}
 			fetch(process.env.REACT_APP_URL_BACK+"record/highscore",myInit)
 			.then(res => res.json())
+		} else {
+			console.log({
+				"isfinish" : !isPlaying,
+				"token" : localStorage.getItem("user") !== null,
+				"record" : record,
+				"score" : score
+			})
 		}
-	},[score])
+	},[isPlaying])
 
   	useEffect(()=> {
 		if(questionAvailable.length > 0){
@@ -62,7 +83,7 @@ function Games(props) {
 		  	.then(res => res.json())
 		  	.then(
 				(response) => {
-					setRecord(response.record)
+					setRecord(response.record || 0)
 				},
 				(error) => {
 					setRecord(0)
@@ -72,6 +93,7 @@ function Games(props) {
 	}, [])
 
   	const handleTiret= (e)=> {   
+		console.log(record)
 		let min = e.target.getAttribute("data-min");
   	    let max = e.target.getAttribute("data-max");
 		if(min !== null && max !== null ){

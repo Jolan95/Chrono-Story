@@ -4,6 +4,11 @@
         "db" : "sinceFrenchRevolution",
         "url" : "/from-1789",
         "category" : "histoire",
+        "badge": {
+            "gold" : 21,
+            "silver" : 12,
+            "bronze"  : 6
+        },
         "active" : true,
         "data" : [
             {
@@ -187,6 +192,11 @@
         "db" : "coldWar",
         "url" : "/guerre-froide",
         "category" : "histoire",
+        "badge": {
+            "gold" : 30,
+            "silver" : 20,
+            "bronze"  : 10
+        },
         "active" : true,
         "data" : [
             {
@@ -477,6 +487,11 @@
         "db" : "frenchsPresidents",
         "url" : "/presidents-français",
         "category" : "histoire",
+        "badge": {
+            "gold" : 21,
+            "silver" : 14,
+            "bronze"  : 6
+        },
         "active" : true,
         "data" : [    
             {
@@ -662,6 +677,11 @@
         "db" : "frenchsKings",
         "url" : "/rois-de-france",
         "category" : "histoire",
+        "badge": {
+            "gold" : 45,
+            "silver" : 28,
+            "bronze"  : 17
+        },
         "active" : true,
         "data" : 
         [
@@ -1117,6 +1137,11 @@
         "db" : "humanity",
         "url" : "/humanity",
         "category" : "histoire",
+        "badge": {
+            "gold" : 15,
+            "silver" : 10,
+            "bronze"  : 7
+        },
         "active" : true,
         "data" : 
         [
@@ -1261,6 +1286,11 @@
         "db" : "middleAge",
         "url": "/middle-age",
         "category" : "histoire",
+        "badge": {
+            "gold" : 19,
+            "silver" : 14,
+            "bronze"  : 9
+        },
         "active" : true,
         "data" : 
         [
@@ -1427,6 +1457,11 @@
         "url" : "/nba",
         "active" : true,
         "category" : "sport",
+        "badge": {
+            "gold" : 36,
+            "silver" : 24,
+            "bronze"  : 12
+        },
         "data" : 
         [
             {
@@ -1745,6 +1780,11 @@
         "db" : "ol",
         "url" :  "/ol",
         "category" : "sport",
+        "badge": {
+            "gold" : 25,
+            "silver" : 18,
+            "bronze"  : 12
+        },
         "active" : true,
         "data" : 
         [
@@ -1990,6 +2030,11 @@
         "db" : "om",
         "url" :  "/om",
         "category" : "sport",
+        "badge": {
+            "gold" : 20,
+            "silver" : 14,
+            "bronze"  : 8
+        },
         "active" : true,
         "data" : 
         [
@@ -2181,6 +2226,11 @@
         "db" : "psg",
         "url" :  "/psg",
         "category" : "sport",
+        "badge": {
+            "gold" : 27,
+            "silver" : 19,
+            "bronze"  : 13
+        },
         "active" : true,
         "data" :
         [
@@ -2430,6 +2480,11 @@
         "db" : "renaissance",
         "url" :  "/renaissance",
         "category" : "histoire",
+        "badge": {
+            "gold" : 19,
+            "silver" : 14,
+            "bronze"  : 8
+        },
         "active" : true,
         "data" : 
         [
@@ -2595,6 +2650,11 @@
         "db" : "sport",
         "url" :  "/sport",
         "category" : "sport",
+        "badge": {
+            "gold" : 6,
+            "silver" : 4,
+            "bronze"  : 2
+        },
         "active" : true,
         "data" : 
         [
@@ -2809,6 +2869,11 @@
         "db" : "americansPresidents",
         "url" :  "/presidents-americains",
         "category" : "histoire",
+        "badge": {
+            "gold" :6,
+            "silver" : 4,
+            "bronze"  : 2
+        },
         "active" : true,
         "data" : 
         [
@@ -3142,6 +3207,11 @@
         "db" : "centuryXX",
         "url" : "/XXèmeSiecle",
         "category" : "histoire",
+        "badge": {
+            "gold" : 6,
+            "silver" : 4,
+            "bronze"  : 2
+        },
         "active" : true,
         "data" : 
         [
@@ -3370,6 +3440,11 @@
         "db" : "centuryXXI",
         "url" : "/XXIèmeSiecle",
         "category" : "histoire",
+        "badge": {
+            "gold" : 6,
+            "silver" : 4,
+            "bronze"  : 2
+        },
         "active" : true,
         "data" : 
         [ 
@@ -3619,6 +3694,11 @@
         "db" : "classiquesCinema",
         "url" : "/cinema",
         "category" : "culture",
+        "badge": {
+            "gold" : 60,
+            "silver" : 40,
+            "bronze"  : 20
+        },
         "active" : true,
         "data" : 
         [ 
@@ -4176,6 +4256,11 @@
         "db" : "informatique",
         "url" : "/informatique",
         "category" : "autres",
+        "badge": {
+            "gold" : 23,
+            "silver" : 16,
+            "bronze"  : 9
+        },
         "active" : true,
         "data" : 
         [ 

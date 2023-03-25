@@ -67,18 +67,18 @@ export default function LineUser({user}) {
         })
     }
   return (
-    <div className='row wrapper-user'>
-        <div className='col-3'>
+    <div className='row wrapper-user d-flex align-items-center px-3 py-1 '>
+        <div className='col-3 '>
             {user.pseudo} 
         </div>
-        <div className='col-3'>
+        <div className='col-5'>
+        {point()}
+        </div>
+        <div className='col-2'>
             <Link to={`/user/${user._id}`}><button className='btn btn-primary'>Voir Profil</button></Link>
         </div>
-        <div className='col-2'>
+        <div className='col-2 d-flex justify-content-center'>
         <ButtonFollow follow={()=> {handleFollow(user._id)}} unfollow={()=> {handleUnfollow(user._id)}} isFollow={isFollow}></ButtonFollow>
-        </div>
-        <div className='col-2'>
-        {point()}
         </div>
     </div> 
   )

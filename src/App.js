@@ -13,6 +13,7 @@ import Rules from "./rules"
 import Record from './record';
 import Users from './users';
 import User from './user';
+import Heart from './components/heart';
 
 
 function App() {
@@ -43,7 +44,8 @@ function App() {
 				if(data.active){
 				data.data.sort((a, b) => 0.5 - Math.random());
 				data.picked = data.data.shift()
-				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db}/>}/>
+				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db} badge={data.badge}/>}/>
+				
 				}
 			})}
 			<Route path="/users" element={<Users></Users>}/>

@@ -56,19 +56,20 @@ useSelector((store) => {
 		return (
 			<>
 			<Header></Header>
-			<div className='container'>
-				<div className='row mb-3'>
+			<div className='container '>
+				<div className='row mb-2 px-3'>
 					<div className='col-3'>
             		Pseudo
-        			</div>
-        			<div className='col-3'>
-        			</div>
-        			<div className='col-2'>
         			</div>
         			<div className='col-2'>
 					👑
 					</div>
+        			<div className='col-3'>
+        			</div>
+        			<div className='col-2'>
+        			</div>
         		</div>
+	
 				{users.map((user)=> {
 					return (
 						<div key={user._id} >

@@ -73,10 +73,13 @@ body {
     width : 40px;
   }
 }
+.img-badge{
+height : 70px;
+width : 70px;
+}
 .wrapper-user{
   background-color: bisque;
   border-radius: 4px;
-  padding : 3px 7px;
   margin : 4px 0;
   color : black
 }
