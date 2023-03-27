@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 export default function RecordsDisplay(props) {
 
-    console.log(datas)
     datas.forEach((data) =>{
         if(data.active){
             data.size= data.data.length
@@ -16,7 +15,7 @@ export default function RecordsDisplay(props) {
     datas.sort((a, b) => b.percent - a.percent)
     var recordsDisplaying = datas.map(function(data, index) {
         if(data.active){
-            return <Link to={data.url} key={index} ><LineRecord key={index} score={data.record} name={data.name} limit={data.size - 1}></LineRecord></Link>
+            return <Link className="record-line" to={data.url} key={index} ><LineRecord key={index} score={data.record} name={data.name} limit={data.size - 1}></LineRecord></Link>
         }
     });
     if(props.records === ""){

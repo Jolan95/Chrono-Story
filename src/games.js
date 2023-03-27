@@ -4,7 +4,7 @@ import './App.css';
 import Heart from './components/heart';
 import Modal from './components/modalEndGame';
 import Header from './components/header';
-import Record from './components/record';
+import Record from './components/getRecord.js';
 import Restart from './components/restart';
 
 function badgeToPretend(score, badge){
@@ -30,30 +30,31 @@ function Games(props) {
 	const [basicModal, setBasicModal] = useState(false);
 	const [basicModalWin, setBasicModalWin] = useState(false);
 	const [record, setRecord] = useState(0)
+	const [badgeUnlocked, setBadgeUnlocked] = useState(false)
+	const [isRecord, setIsRecord] = useState(false)
 
 	let token = localStorage.getItem("user")
 	useEffect (() =>{
 		
-		if(!isPlaying && localStorage.getItem("user") !== null && score > record){
-			let badge = badgeToPretend(score, props.badge)
-			let user = JSON.parse(localStorage.getItem("user"));
-			let id = user._id
-			var myInit = { 
-				method: 'POST',
-				mode: 'cors',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({id : id, score : score,  game : props.name, badge : badge})
-			}
-			fetch(process.env.REACT_APP_URL_BACK+"record/highscore",myInit)
-			.then(res => res.json())
-		} else {
-			console.log({
-				"isfinish" : !isPlaying,
-				"token" : localStorage.getItem("user") !== null,
-				"record" : record,
-				"score" : score
-			})
-		}
+		if(!isPlaying && localStorage.getItem("user") !== null){
+			if(score > record){
+				setIsRecord(true)
+				let badge = badgeToPretend(score, props.badge)
+				let user = JSON.parse(localStorage.getItem("user"));
+				let id = user._id
+				var myInit = { 
+					method: 'POST',
+					mode: 'cors',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({id : id, score : score,  game : props.name, badge : badge})
+				}
+				fetch(process.env.REACT_APP_URL_BACK+"record/highscore",myInit)
+				.then(res => res.json())
+				.then((response) =>{
+					setBadgeUnlocked(response.newBadge);
+				})
+			} 
+		} 
 	},[isPlaying])
 
   	useEffect(()=> {
@@ -139,6 +140,8 @@ function Games(props) {
 		setScore(0)
 		setBasicModal(false)
 		setBasicModalWin(false)
+		setBadgeUnlocked(false)
+		setIsRecord(false)
 	}
 
 	const toggleShow = () => setBasicModal(!basicModal);
@@ -172,8 +175,8 @@ function Games(props) {
   	    	 	return <Box animation={isPlaying} datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
   	    	})}
 		</div>
-		<Modal actionReset={reset}  basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Vous n'avez plus de vies !</Modal>
-		<Modal actionReset={reset} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Vous êtes arrivés au bout des questions !</Modal>
+		<Modal actionReset={reset} badge={badgeUnlocked} isRecord={isRecord} name={props.name} basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Vous n'avez plus de vies !</Modal>
+		<Modal actionReset={reset} badge={badgeUnlocked} isRecord={isRecord} name={props.name} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Vous êtes arrivés au bout des questions !</Modal>
 		<div className='footer'>
 			<div className='text-center'>
 			Score : {score}

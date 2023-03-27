@@ -38,7 +38,7 @@ export default function LineRecord(props) {
   return (
    
     <div className="my-1">
-        <div className={`d-flex justify-content-between line-record`}>
+        <div className="d-flex justify-content-between line-record">
             <div>{props.name}</div>
             <div>
                 <div className='d-flex'>

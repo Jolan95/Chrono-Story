@@ -4,6 +4,7 @@ import ButtonFollow from './buttonFollow'
 import { useSelector, useDispatch } from 'react-redux'
 import {store} from '../app/store'
 import { follow, unfollow } from '../store/user'
+import NumberBadges from './NumberBadges'
 
 
 export default function LineUser({user}) {
@@ -67,17 +68,23 @@ export default function LineUser({user}) {
         })
     }
   return (
-    <div className='row wrapper-user d-flex align-items-center px-3 py-1 '>
-        <div className='col-3 '>
+    <div className='row wrapper-user d-flex align-items-center px-3 py-1 h5'>
+        <div className='col-3  d-flex align-items-center '>
+            <img className='img-logo-small' src={`${process.env.REACT_APP_URL}/assets/logos/`+user.logoProfile+`.png`} alt="logo" title="logo"></img>
+            <span className='fs-30'>
             {user.pseudo} 
+            </span>
         </div>
-        <div className='col-5'>
+        <div className='col-1'>
         {point()}
         </div>
         <div className='col-2'>
-            <Link to={`/user/${user._id}`}><button className='btn btn-primary'>Voir Profil</button></Link>
+            <NumberBadges badges={user.badges}></NumberBadges>
         </div>
-        <div className='col-2 d-flex justify-content-center'>
+        <div className='col-2'>
+            <Link to={`/user/${user._id}`}><button className='btn-grad btn-grad-blue'>Profil</button></Link>
+        </div>
+        <div className=' offset-2 col-2 d-flex justify-content-center'>
         <ButtonFollow follow={()=> {handleFollow(user._id)}} unfollow={()=> {handleUnfollow(user._id)}} isFollow={isFollow}></ButtonFollow>
         </div>
     </div> 

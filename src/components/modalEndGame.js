@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import NewRecord from './newRecord';
 
 import {
     MDBBtn,
@@ -13,6 +14,8 @@ import {
   } from 'mdb-react-ui-kit';
   
   function Modal(props) {
+
+
        
     return (
         <>
@@ -25,10 +28,10 @@ import {
                     </MDBModalHeader>
                     <MDBModalBody>
                         <div> 
-                            <div className='text-center'>SCORE : {props.score}</div>
+                            <NewRecord badge={props.badge} score={props.score} name={props.name} isRecord={props.isRecord}></NewRecord>
                             <div className=' d-flex justify-content-between pt-3 '>
-                                <Link to={"/"}><button className='btn btn-danger'>Retour au menu</button></Link>
-                                <button onClick={props.actionReset} className='btn btn-success'>Rejouer</button>
+                                <Link to={"/"}><button className='btn-grad btn-grad-red'>Menu</button></Link>
+                                <button onClick={props.actionReset} className='btn-grad btn-grad-blue'>Rejouer</button>
                             </div>
                         </div>
                     </MDBModalBody>

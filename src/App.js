@@ -1,7 +1,7 @@
 import './App.css';
 import Games from "./games.js"
 import React,{ useState } from 'react';
-import {  BrowserRouter,  Routes,  Route, useParams} from "react-router-dom";
+import {  BrowserRouter,  Routes,  Route } from "react-router-dom";
 import Home from "./home.js"
 import datas from "./datas/data.json"
 import Login from "./login"
@@ -10,11 +10,9 @@ import VerificationEmail from './sendVerificationEmail';
 import PasswordForgot from './passwordForgot';
 import PasswordReset from "./passwordReset"
 import Rules from "./rules"
-import Record from './record';
 import Users from './users';
 import User from './user';
-import Heart from './components/heart';
-
+import Profil from './profil';
 
 function App() {
 	const getToken = () => {
@@ -30,6 +28,7 @@ function App() {
 
 	  
 	return (
+		<>
 		<BrowserRouter>
 		<Routes>
 		  	<Route index element={<Home/>} />
@@ -39,19 +38,19 @@ function App() {
 			<Route path="/passwordForgot" element={<PasswordForgot></PasswordForgot>}/>
 			<Route path="/passwordReset" element={<PasswordReset></PasswordReset>}/>
 			<Route path="/rules" element={<Rules></Rules>}/>
-			<Route path="/records" element={<Record></Record>}/>
+			<Route path="/profil" element={<Profil></Profil>}/>
 		  	{datas.map((data, index)=> {
 				if(data.active){
 				data.data.sort((a, b) => 0.5 - Math.random());
 				data.picked = data.data.shift()
 				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db} badge={data.badge}/>}/>
-				
 				}
 			})}
 			<Route path="/users" element={<Users></Users>}/>
 			<Route path="/user/:userId" element={<User></User>}/>
 		</Routes>
 	  	</BrowserRouter>
+		</>
 		);
 		
 	}
