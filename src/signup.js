@@ -8,65 +8,67 @@ import ButtonSubmit from './components/buttonSubmit';
 
 
 const Signup = () => {
-    const [lastname, setLastname]= useState("")
-    const [firstname, setFirstname]= useState("")
     const [email, setEmail]= useState("")
     const [pseudo, setPseudo]= useState("")
     const [password, setPassword] = useState("");
+    const [passwordConfirm, setPasswordConfirm] = useState("");
     const [display, setDisplay] = useState("none")
     const [message, setMessage] = useState("");
     const [style, setStyle] = useState("");
 
     const handleSubmit = (e)=> {
         e.preventDefault()
-        if(lastname && firstname && email && password){
+        if( email && password){
             if(pseudo.length >3){
-
-                if(password.length >= 8){
-                    return fetch(process.env.REACT_APP_URL_BACK+'auth/signup', {
-                    method: 'POST',
-                    headers: {
-                    'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        email: email,
-                        password: password,
-                        firstname : firstname, 
-                        lastname : lastname,
-                        pseudo : pseudo
-                    })
-                })
-                .then(res => res.json())
-                .then(
-                    (response) => {
-                        setDisplay("block")
-                        setMessage(response.message)
-                        if(response.ok){
-                            const msg = <div>{response.message}<div><Link to="/verificationEmail">Renvoyer l'email de vérification</Link></div></div>
-                            setStyle("success")
-                            setMessage(msg)
-                        } else{
+                if(password === passwordConfirm){
+                    if(password.length >= 8){
+                        return fetch(process.env.REACT_APP_URL_BACK+'auth/signup', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                email: email,
+                                password: password,
+                                pseudo : pseudo
+                            })
+                        })
+                        .then(res => res.json())
+                        .then(
+                            (response) => {
+                                setDisplay("block")
+                                setMessage(response.message)
+                                if(response.ok){
+                                    const msg = <div>{response.message}<div><Link to="/verificationEmail">Renvoyer l'email de vérification</Link></div></div>
+                                    setStyle("success")
+                                    setMessage(msg)
+                                } else{
+                                    setStyle("danger")
+                                }
+                            },
+                            (error) => {
+                                
+                            }
+                            )
+                        }else {
                             setStyle("danger")
+                            setDisplay("block")
+                            setMessage("Votre mot de passe doit contenir au moins 8 caractères.")
                         }
-                    },
-                    (error) => {
-                        
-                    }
-                    )
                 } else {
                     setStyle("danger")
                     setDisplay("block")
-                    setMessage("Votre mot de passe doit contenir au moins 8 caractères")
+                    setMessage("Vos mots de passes doivent être identiques.")
                 }
             } else {
                 setStyle("danger")
                 setDisplay("block")
-               setMessage("Votre pseudo doit comporter au moins 4 caractères")
+               setMessage("Votre pseudo doit comporter au moins 4 caractères.")
             }
         } else {
             setStyle("danger")
             setDisplay("block")
-           setMessage("Veuillez remplir tous les champs")
+           setMessage("Veuillez remplir tous les champs.")
         }
     }
 
@@ -84,10 +86,9 @@ const Signup = () => {
                     <Alert style={style} display={display} >{message}</Alert>
                     <div className={display && style == "success"?  "d-none": "d-block"}>
                     <Input type="text" name="pseudo" action={setPseudo} placeholder="Pseudo"></Input>
-                    <Input type="text" name="lastname" action={setLastname} placeholder="Name"></Input>
-                    <Input type="text" name="firstname" action={setFirstname} placeholder="Prénom"></Input>
                     <Input type="email" name="email" action={setEmail} placeholder="Email"></Input>
                     <Input type="password" name="password" action={setPassword} placeholder="Mot de passe"></Input>
+                    <Input type="password" name="password" action={setPasswordConfirm} placeholder="Confirmation du mot de passe"></Input>
                     <ButtonSubmit>Créer mon compte</ButtonSubmit>   
                     </div>
                     <div className="mt-3">

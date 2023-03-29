@@ -5,6 +5,7 @@ import BadgesRow from './components/badgesRow'
 import RecordsDisplay from './components/recordsDisplay'
 import Data from "./datas/data";
 import ModalLogo from "./components/modalLogo"
+import ErrorBoundary from './catch'
 
 
 export default function Profil() {
@@ -27,19 +28,17 @@ export default function Profil() {
 			  (response) => {
                 setUser(response.user) 
                 setCurrentLogo(response.user.logoProfile)
-			  },
-			  (error) => {
-				error(true)
-		    }
-			)
+			  }
+
+			).catch(err => console.log(err))
+
   	}, [])
-
-
 
     if(user){
         let date = new Date(user.createdAt)
         return (
           <div>
+              <ErrorBoundary message="PROFIL">
                 <Header></Header>
                 <div className='container'>
                     <div className='d-lg-flex justify-content-between'>
@@ -68,9 +67,8 @@ export default function Profil() {
                         <RecordsDisplay records={user.highScore}></RecordsDisplay>
                     </div>
                 </div>
-
-		    <ModalLogo  logoProfile={user.logoProfile}  basicModal={displayModal} setBasicModal={setDisplayModal}  setCurrentLogo={setCurrentLogo} CurrentLogo={CurrentLogo} ></ModalLogo>
-
+		        <ModalLogo  logoProfile={user.logoProfile}  basicModal={displayModal} setBasicModal={setDisplayModal}  setCurrentLogo={setCurrentLogo} CurrentLogo={CurrentLogo} ></ModalLogo>
+            </ErrorBoundary>
             </div>
         )
     }

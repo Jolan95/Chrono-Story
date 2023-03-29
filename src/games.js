@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useRef} from 'react'
 import Box from "./components/box";
 import './App.css';
 import Heart from './components/heart';
@@ -20,6 +20,7 @@ function badgeToPretend(score, badge){
 }
 
 function Games(props) {
+	
 	const [isPlaying, setIsPlaying] = useState(true)
   	const [questionAvailable, setQuestionAvailable] = useState(props.datas)
   	const [life, setLife] = useState(3);
@@ -32,8 +33,9 @@ function Games(props) {
 	const [record, setRecord] = useState(0)
 	const [badgeUnlocked, setBadgeUnlocked] = useState(false)
 	const [isRecord, setIsRecord] = useState(false)
-
 	let token = localStorage.getItem("user")
+
+
 	useEffect (() =>{
 		
 		if(!isPlaying && localStorage.getItem("user") !== null){
@@ -53,16 +55,20 @@ function Games(props) {
 				.then((response) =>{
 					setBadgeUnlocked(response.newBadge);
 				})
+				.catch((err)=> {
+					console.log(err)
+				})
 			} 
 		} 
 	},[isPlaying])
-
-  	useEffect(()=> {
+	
+	useEffect(()=> {
+		console.log(questionAnswered)
 		if(questionAvailable.length > 0){
 			questionAvailable.sort((a, b) => 0.5 - Math.random());
-  	  		let copyQuestionAvailable = [...questionAvailable];
-  	  		let QuestionPicked = copyQuestionAvailable.shift();
-  	  		setPicked(QuestionPicked)
+			let copyQuestionAvailable = [...questionAvailable];
+			let QuestionPicked = copyQuestionAvailable.shift();
+			setPicked(QuestionPicked)
   	  		setQuestionAvailable(copyQuestionAvailable)
   	  		setFirstDate(questionAnswered[0].date)
 		} else {
@@ -88,16 +94,19 @@ function Games(props) {
 				},
 				(error) => {
 					setRecord(0)
-			}
+				}
 		  	)
 	  	}
 	}, [])
 
+
   	const handleTiret= (e)=> {   
-		console.log(record)
+		  
 		let min = e.target.getAttribute("data-min");
-  	    let max = e.target.getAttribute("data-max");
+		let max = e.target.getAttribute("data-max");
+	
 		if(min !== null && max !== null ){
+
 		 	if(life > 0 && !questionAnswered.includes(picked)){
 				if(picked.date >= min && picked.date <= max){
 					picked.answer = "#49944c";
@@ -111,7 +120,10 @@ function Games(props) {
 					setLife(life - 1)
 					picked.answer = "rgb(135, 7, 7)";
 				}
-				let copyQuestionAnswered = [...questionAnswered, picked]
+				let copyQuestionAnswered = [...questionAnswered]
+				copyQuestionAnswered.forEach((question) => question.last = false )
+				picked.last = true;
+				copyQuestionAnswered = [...copyQuestionAnswered, picked]
 				copyQuestionAnswered.sort((a, b) => (a.date > b.date ? 1 : -1))
 				setQuestionAnswered(copyQuestionAnswered)
 			}
@@ -124,6 +136,7 @@ function Games(props) {
   	  	}
 		return rows;
   	}
+
 
 	const reset = () => {
 		let newStateQuestion = [...questionAnswered, ...questionAvailable, picked]
@@ -167,15 +180,15 @@ function Games(props) {
 			</div>	
   	   	 	<div className="text-center box-question" ><h1  style={isPlaying ? { display: `block` } : {display : "none"} } className="text-center question ">{picked.question}</h1></div>
 		</div> 
-  	    <div className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
+  	    <div  className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
 			<div className={isPlaying ? "tiret" : "" } data-min="-30000000" data-max={firstDate} ></div>
   	    </div>
 		<div className='mb-5 mb-lg-0'>
   	    	{questionAnswered.map((data, index)=> {
-  	    	 	return <Box animation={isPlaying} datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
+  	    	 	return <Box  animation={isPlaying} datas={data} key={data.id} handleTiret={handleTiret}  questionAnswered={questionAnswered} index={index} ></Box>
   	    	})}
 		</div>
-		<Modal actionReset={reset} badge={badgeUnlocked} isRecord={isRecord} name={props.name} basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Vous n'avez plus de vies !</Modal>
+		<Modal  actionReset={reset} badge={badgeUnlocked} isRecord={isRecord} name={props.name} basicModal={basicModal} setBasicModal={setBasicModal} toggleShow={toggleShow} score ={score}  >Vous n'avez plus de vies !</Modal>
 		<Modal actionReset={reset} badge={badgeUnlocked} isRecord={isRecord} name={props.name} basicModal={basicModalWin} setBasicModal={setBasicModalWin} toggleShow={toggleShowWin}  score={score} >Vous êtes arrivés au bout des questions !</Modal>
 		<div className='footer'>
 			<div className='text-center'>

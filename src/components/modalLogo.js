@@ -12,7 +12,7 @@ import {
   } from 'mdb-react-ui-kit';
 
   
-  function ModalInfo(props) {
+  function ModalLogo(props) {
     const [currentImage, setCurrentImage] = useState(props.currentLogo)
     const [selected, setSelected] = useState(props.logoProfile)
     const [enableButton, setEnableButton] = useState(false)
@@ -60,13 +60,13 @@ import {
                         <MDBBtn className='btn-close' color='none' onClick={()=>{props.setBasicModal(false)}}></MDBBtn>
                     </MDBModalHeader>
                     <MDBModalBody>
-                        <div class="d-flex flex-wrap">
+                        <div className="d-flex flex-wrap">
 
-                        {logos.map((logoNumber)=>{
+                        {logos.map((logoNumber, index)=>{
                             if(logoNumber === selected ){
-                                return 	<div key={logoNumber} className='border-img-selected'><img className='img-badge' src={`${process.env.REACT_APP_URL}/assets/logos/`+logoNumber+`.png`} alt="logo" title="logo"></img></div>
+                                return 	<div key={index} className='border-img-selected'><img className='img-badge' src={`${process.env.REACT_APP_URL}/assets/logos/`+logoNumber+`.png`} alt="logo" title="logo"></img></div>
                             }
-                            return <div onClick={()=>{handleClick(logoNumber)}} class="m-1 img-unselected"><img className='img-badge' src={`${process.env.REACT_APP_URL}/assets/logos/`+logoNumber+`.png`} alt="logo" title="logo"></img></div>
+                            return <div key={index} onClick={()=>{handleClick(logoNumber)}} className="m-1 img-unselected"><img className='img-badge' src={`${process.env.REACT_APP_URL}/assets/logos/`+logoNumber+`.png`} alt="logo" title="logo"></img></div>
                         })}
                         </div>
                         <div>
@@ -81,4 +81,4 @@ import {
     );
 }
 
-export default ModalInfo;
+export default ModalLogo;

@@ -3,6 +3,7 @@ import Header from './components/header'
 export default function Rules() {
   return (
     <div>
+ 
         <Header></Header>
         <div className="rules container">
             <h2 className='text-center mb-4'>Règles du jeu</h2>

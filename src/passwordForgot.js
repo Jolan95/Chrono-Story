@@ -15,6 +15,8 @@ async function passwordForgot(email) {
     body: JSON.stringify(email)
 })
 .then(data => data.json())
+.catch(err => console.log(err))
+
 }
 
 export default function PasswordForgot() {

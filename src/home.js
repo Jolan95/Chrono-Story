@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BoxQuiz from "./components/box-quiz.js"
 import Separator from './components/separator.js'
 import Header from './components/header.js'
+import ErrorBoundary from './catch.js'
 
 const componentName = (props) => {
 
+
+
     return (
+        <ErrorBoundary message="index">
             <div className='container'>
                 <div className='row'>
                     <Header/>                
@@ -31,7 +35,7 @@ const componentName = (props) => {
                     <BoxQuiz image={"https://www.iclub-informatique.fr/wp-content/uploads/2020/07/iclub-informatique-slider-scaled.jpg"} to={"/informatique"} text={"Les grandes dates de l'informatique"}>Informatique</BoxQuiz>
                 </div>
             </div>
-
+        </ErrorBoundary>
     )
 }
 

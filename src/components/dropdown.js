@@ -5,11 +5,12 @@ import { Navigate } from 'react-router-dom';
 export default function Dropdown() {
 
     const user = JSON.parse(localStorage.getItem("user"));
-    const name = user.firstname+" "+user.lastname
-    let initial =  user.lastname.charAt(0)+"."+user.firstname.charAt(0) ;
-    initial = initial.toUpperCase();
+    const name = user.pseudo
+	const initial = name
 
-//to change
+
+
+     //Needs to be changed
     const handleLogout= ()=> {
         localStorage.clear();
         window.location.href= process.env.REACT_APP_URL

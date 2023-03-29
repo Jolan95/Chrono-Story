@@ -5,6 +5,7 @@ import Data from "./datas/data.json";
 import BadgesRow from './components/badgesRow';
 import Record from './components/records';
 import Profil from './profil';
+import ErrorBoundary from './catch';
 
 
 export default function User(props) {
@@ -25,7 +26,7 @@ export default function User(props) {
 				    setUser(response.user)
 			  },
 			  (error) => {
-				console.log(error)
+
 		  }
 			)
   	}, [])
@@ -37,6 +38,7 @@ export default function User(props) {
 	}  
 	if(user){
 		return (
+			<ErrorBoundary message="USER">
 			<div>
                 <Header></Header>
                 <div>
@@ -53,6 +55,7 @@ export default function User(props) {
                     <Record userId={user._id}></Record>
                 </div>
 		    </div>
+			</ErrorBoundary>
 		)
 	}
 }

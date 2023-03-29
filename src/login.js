@@ -17,6 +17,7 @@ async function loginUser(credentials) {
     body: JSON.stringify(credentials)
 })
 .then(data => data.json())
+.catch(err => console.log(err))
 }
 
 

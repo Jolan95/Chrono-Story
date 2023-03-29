@@ -10,6 +10,6 @@ export default function NumberBadges(props) {
     )
   return (
     
-    <div class="d-flex">{medals}</div>
+    <div className="d-flex">{medals}</div>
   )
 }
