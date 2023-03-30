@@ -22,7 +22,6 @@ async function loginUser(credentials) {
 
 
 const Login = (props) => {
-    
     const dispatch = useDispatch()
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -39,14 +38,13 @@ const Login = (props) => {
             localStorage.setItem('token', JSON.stringify(response.token));
             localStorage.setItem('user', JSON.stringify(response.user))
             dispatch(connexion(response.user));
-            redirect("/")
-            props.setToken(props.getToken())
+            props.setToken(JSON.stringify(response.token))
+ 
         } else {
             if(response.needValidation){
                 const msg = <div>{response.message}<div><Link to="/verificationEmail">Renvoyer l'email de vérification</Link></div></div>
                 setMessage(msg)
                 setDisplay("block")
-                
             }else{
                 setMessage(response.message)
                 setDisplay("block")

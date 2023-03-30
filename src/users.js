@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Header from './components/header';
 import LineUser from './components/lineUser';
-import ErrorBoundary from './catch';
 
 
 export default function User() {
@@ -22,16 +21,61 @@ export default function User() {
 					let newUsers = response.users.filter((user)=>{
 						return user._id !== JSON.parse(localStorage.getItem("user"))._id
  					})
+					 response.users.forEach((user)=> {
+						let point = 0;
+						Object.keys(user.highScore).forEach(key => {
+							point = point + user.highScore[key]
+						});
+						user.points = point
+					})
+					newUsers.sort((a,b) => b.points - a.points)
 					setUsers(newUsers)
 			  	},
 			)
   	}, [])
 
+	const handleChange = (e)=> {
+		let newUsers = [...users]
+		switch (e.target.value) {
+			case 'point':
+				newUsers.forEach((user)=> {
+					let point = 0;
+					Object.keys(user.highScore).forEach(key => {
+						point = point + user.highScore[key]
+					});
+					user.points = point
+				})
+				newUsers.sort((a,b) => b.points - a.points)
+			  break;
+			case 'gold':
+				newUsers.sort((a,b) => b.badges.gold.length - a.badges.gold.length)
+				break;
+			case 'medals':
+				newUsers.forEach((user)=> {
+					let medalsNumber = 0;
+					Object.keys(user.badges).forEach(key => {
+						medalsNumber = medalsNumber + user.badges[key].length
+					});
+					user.medals = medalsNumber
+				})
+				newUsers.sort((a,b) => b.medals - a.medals)
+			  break;
+			default :
+			newUsers.sort((a,b) => b.badges.gold.length - a.badges.gold.length)
+		}
+		setUsers(newUsers)
+	}
 	if(users){
 		return (
 			<>
 			<Header></Header>
+
 			<div className='container '>
+				<select name="order" onChange={(value) => handleChange(value)}>
+				    <option value="point">Points</option>
+				    <option value="gold">Médailles d'or</option>
+				    <option value="medals">Médailles</option>
+				</select>
 				<div className='row mb-2 px-3'>
 					<div className='col-4'>
             		Pseudo
@@ -45,9 +89,9 @@ export default function User() {
         			</div>
         		</div>
 	
-				{users.map((user)=> {
+				{users.map((user, index)=> {
 					return (
-						<div key={user._id} >
+						<div key={index} >
 							<LineUser user={user}></LineUser>
 						</div>
 					)

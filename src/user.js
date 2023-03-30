@@ -49,7 +49,7 @@ export default function User(props) {
 			<div>
                 <Header></Header>
                 <div className='container'>
-					<div class="d-flex justify-content-between">
+					<div className="d-flex justify-content-between">
 						<div className='d-flex align-items-center'>
 							<img className='img-badge' src={`${process.env.REACT_APP_URL}/assets/logos/`+user.logoProfile+`.png`} alt="logo" title="logo"></img>
                     		<h1 className='h1 ml-2'>{user.pseudo}</h1> 
