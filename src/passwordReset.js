@@ -4,6 +4,7 @@ import {Link ,redirect} from "react-router-dom"
 import Header from './components/header'
 import Input from './components/input'
 import ButtonSubmit from './components/buttonSubmit'
+import LoaderRing from './components/loaderRing'
 
 
 async function updatePassword(credentials) {
@@ -93,12 +94,10 @@ export default function PasswordReset() {
     if (error) {
         return <div>Erreur: {error.message}</div>;
       } else if (!isLoaded) {
-        return <div>
+        return <>
             <Header></Header>
-            <div className="d-flex justify-content-center">
-            <div className="lds-dual-ring"></div>
-            </div>
-        </div>;
+            <LoaderRing></LoaderRing>
+        </>;
       } else {
           return (
           <div>

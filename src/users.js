@@ -7,8 +7,6 @@ import ErrorBoundary from './catch';
 export default function User() {
   const [users, setUsers] = useState()
 
-
-
   	useEffect(()=> {
 		var myInit = { 
 			method: 'POST',
@@ -20,14 +18,18 @@ export default function User() {
 			.then(res => res.json())
 			.then(
 			  	(response) => {
-					setUsers(response.users)
+					console.log(response.users)
+					let newUsers = response.users.filter((user)=>{
+						return user._id !== JSON.parse(localStorage.getItem("user"))._id
+ 					})
+					setUsers(newUsers)
 			  	},
 			)
   	}, [])
 
 	if(users){
 		return (
-			<ErrorBoundary message="USERS">
+			<>
 			<Header></Header>
 			<div className='container '>
 				<div className='row mb-2 px-3'>
@@ -51,9 +53,7 @@ export default function User() {
 					)
 				})}
 			</div>
-			</ErrorBoundary>
-		  
+			</>	  
 		)
-
 	}
 }

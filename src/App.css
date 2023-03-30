@@ -4,7 +4,12 @@ body {
   height : 100%;
   color: white;
 }
-
+.bg-white{
+  background-color: white;
+}
+.text-black{
+  color : black
+}
 .full-center{
   display : flex;
   justify-content: center;
@@ -88,9 +93,17 @@ body {
     width : 40px;
   }
 }
+.img-badge-big{
+  height : 130px;
+  width : auto
+}
 .img-badge{
   height : 70px;
   width : 70px;
+}
+.img-badge-small{
+  height : 30px;
+  width : 30px;
 }
 .img-medal{
   height : 25px;
@@ -98,10 +111,6 @@ body {
 }
 .img-medal-md{
   height : 30px;
-  width : auto
-}
-.img-badge-big{
-  height : 130px;
   width : auto
 }
 .score-final{
@@ -272,10 +281,9 @@ scale: 1.1;
   border-radius : 10px;
   color : white;
   min-width : 260px;
-  max-width : 400px;
-  width : 100vw;
+  width : 100%;
   padding: 10px;
-  background-color: rgb(25, 27, 28);
+  background-color: #282c34;
 }
 .percent-area{
   width : 50px;
@@ -415,7 +423,6 @@ form a:hover{
     background-color: white;
     color : black
   }
-  
 }
 
   /* loading */

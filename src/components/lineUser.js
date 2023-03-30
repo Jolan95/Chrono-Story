@@ -17,7 +17,6 @@ export default function LineUser({user}) {
         return false
     }
 
-    // const currentUser = useSelector((state) => state.userStore.user)
     const dispatch = useDispatch()
     const [isFollow, setIsFollow] = useState(isFollowed(user._id))
 

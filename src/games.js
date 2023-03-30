@@ -61,9 +61,8 @@ function Games(props) {
 			} 
 		} 
 	},[isPlaying])
-	
 	useEffect(()=> {
-		console.log(questionAnswered)
+
 		if(questionAvailable.length > 0){
 			questionAvailable.sort((a, b) => 0.5 - Math.random());
 			let copyQuestionAvailable = [...questionAvailable];

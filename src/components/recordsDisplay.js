@@ -9,7 +9,7 @@ export default function RecordsDisplay(props) {
         if(data.active){
             data.size= data.data.length
             data.record = props.records[data.db] || 0;
-            data.percent = (data.record /(data.size -1) )
+            data.percent = (data.record /(data.size) )
         }
     })
     datas.sort((a, b) => b.percent - a.percent)
@@ -20,7 +20,7 @@ export default function RecordsDisplay(props) {
     });
     if(props.records === ""){
         return (        
-            <div className="lds-dual-ring"></div>
+            <div className='alert-danger'>Impossible de charger vos records pour le moment</div>
         )
     } else {
         return(

@@ -1,6 +1,6 @@
 import './App.css';
 import Games from "./games.js"
-import React,{ useState } from 'react';
+import React,{ useEffect, useState } from 'react';
 import {  BrowserRouter,  Routes,  Route } from "react-router-dom";
 import Home from "./home.js"
 import datas from "./datas/data.json"
@@ -13,32 +13,33 @@ import Rules from "./rules"
 import Users from './users';
 import User from './user';
 import Profil from './profil';
+import RequireAuth from './components/requireAuth';
+import RequireNoAuth from './components/requireNoAuth';
+import {store} from './app/store'
+import { useDispatch } from 'react-redux';
+import { deconnexion } from './store/user'
 
 function App() {
-	const getToken = () => {
-		const tokenString = localStorage.getItem('token');
-		if(tokenString !== undefined){
-			const userToken = JSON.parse(tokenString);
-			return userToken?.token
+	const dispatch = useDispatch()
+	const [token, setToken] = useState(JSON.parse(localStorage.getItem("token")));
+	useEffect(()=> {
+		if((localStorage.getItem('token') !== null && store.getState().userStore.user === null) || (localStorage.getItem('token') === null && store.getState().userStore.user != null)){
+			dispatch(deconnexion());
 		}
-		return ""
-	};
-	const [token, setToken] = useState(getToken() || "");
+	}, [])
 
-
-	  
 	return (
 		<>
 		<BrowserRouter>
 		<Routes>
 		  	<Route index element={<Home/>} />
-			<Route path="/login" element={<Login setToken={setToken} token={token} getToken={getToken}/>}/>
-			<Route path="/verificationEmail" element={<VerificationEmail></VerificationEmail>}/>
-			<Route path="/signup" element={<Signup></Signup>}/>
-			<Route path="/passwordForgot" element={<PasswordForgot></PasswordForgot>}/>
-			<Route path="/passwordReset" element={<PasswordReset></PasswordReset>}/>
+			<Route path="/login" element={<RequireNoAuth token={token}><Login setToken={setToken} token={token}/></RequireNoAuth>}/>
+			<Route path="/verificationEmail" element={<RequireNoAuth ><VerificationEmail></VerificationEmail></RequireNoAuth>}/>
+			<Route path="/signup" element={<RequireNoAuth token={token}><Signup></Signup></RequireNoAuth>}/>
+			<Route path="/passwordForgot" element={<RequireNoAuth token={token}><PasswordForgot></PasswordForgot></RequireNoAuth>}/>
+			<Route path="/passwordReset" element={<RequireNoAuth token={token}><PasswordReset></PasswordReset></RequireNoAuth>}/>
 			<Route path="/rules" element={<Rules></Rules>}/>
-			<Route path="/profil" element={<Profil></Profil>}/>
+			<Route path="/profil" element={<RequireAuth token={token}><Profil></Profil></RequireAuth>}/>
 		  	{datas.map((data, index)=> {
 				if(data.active){
 				data.data.sort((a, b) => 0.5 - Math.random());
@@ -46,8 +47,8 @@ function App() {
 				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db} badge={data.badge}/>}/>
 				}
 			})}
-			<Route path="/users" element={<Users></Users>}/>
-			<Route path="/user/:userId" element={<User></User>}/>
+			<Route path="/users" element={<RequireAuth token={token}><Users></Users></RequireAuth>}/>
+			<Route path="/user/:userId" element={<RequireAuth token={token}><User></User></RequireAuth>}/>
 		</Routes>
 	  	</BrowserRouter>
 		</>

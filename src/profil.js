@@ -5,7 +5,7 @@ import BadgesRow from './components/badgesRow'
 import RecordsDisplay from './components/recordsDisplay'
 import Data from "./datas/data";
 import ModalLogo from "./components/modalLogo"
-import ErrorBoundary from './catch'
+
 
 
 export default function Profil() {
@@ -14,6 +14,14 @@ export default function Profil() {
     const [CurrentLogo, setCurrentLogo] = useState()
     const [user, setUser] = useState(false)
     let token = localStorage.getItem("token")
+
+    const points = ()=> {
+        let point = 0;
+        Object.keys(user.highScore).forEach(key => {
+            point = point + user.highScore[key]
+        });
+        return point;
+    }
 
     useEffect(()=> {
 		var myInit = { 
@@ -38,12 +46,11 @@ export default function Profil() {
         let date = new Date(user.createdAt)
         return (
           <div>
-              <ErrorBoundary message="PROFIL">
                 <Header></Header>
                 <div className='container'>
-                    <div className='d-lg-flex justify-content-between'>
+                    <div className='d-lg-flex justify-content-between mb-3'>
                         <div>
-                            <div className='h1 d-flex align-items-center'>
+                            <div className='h1 d-flex align-items-center mb-2'>
                                 <div className="m-0 border-img">
 					            <img className='img-badge' src={`${process.env.REACT_APP_URL}/assets/logos/`+CurrentLogo+`.png`} alt="logo" title="logo"></img>
                                 </div>
@@ -55,20 +62,23 @@ export default function Profil() {
                                 <span className='fs-50'>{user.pseudo} </span>
                             </div>
                             <div>Membre depuis {date.toLocaleString('default', { month: 'long' })} {date.getFullYear()}</div>
+                            <div>{points()} points</div>
                         </div>
                         <div>
                             <Follow follows={user.abonnement} followers={user.abonnes} ></Follow>
                         </div>
                     </div>    
-                    <div>
-                        <BadgesRow user={user} data={Data}></BadgesRow>
-                    </div>            
-                    <div className='d-flex justify-content-center'>
+                </div> 
+                <div className='bg-white '>
+                    <div className='container py-3'>
+                    <h2 className="text-black font-weight-bold h3">Records :</h2>
                         <RecordsDisplay records={user.highScore}></RecordsDisplay>
                     </div>
+                </div>   
+                <div className='container mt-3'>
+                    <BadgesRow user={user} data={Data}></BadgesRow>
                 </div>
 		        <ModalLogo  logoProfile={user.logoProfile}  basicModal={displayModal} setBasicModal={setDisplayModal}  setCurrentLogo={setCurrentLogo} CurrentLogo={CurrentLogo} ></ModalLogo>
-            </ErrorBoundary>
             </div>
         )
     }
