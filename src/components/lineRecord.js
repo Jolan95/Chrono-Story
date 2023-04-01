@@ -42,10 +42,10 @@ export default function LineRecord(props) {
             <div>{props.name}</div>
             <div>
                 <div className='d-flex'>
-                    <div className='pr-4'>
+                    <div className='pr-sm-4'>
                         {props.score} / {props.limit}
                     </div>
-                    <div className={`${color} percent-area d-flex justify-content-center align-items-center`}>
+                    <div className={`${color} percent-area d-none d-sm-flex justify-content-center align-items-center `}>
                         {calculerPourcentage(props.score, props.limit)} %
                     </div>
                 </div>

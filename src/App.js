@@ -42,9 +42,7 @@ function App() {
 			<Route path="/profil" element={<RequireAuth token={token}><Profil></Profil></RequireAuth>}/>
 		  	{datas.map((data, index)=> {
 				if(data.active){
-				data.data.sort((a, b) => 0.5 - Math.random());
-				data.picked = data.data.shift()
-				return <Route key={index} path={data.url} element={<Games datas={data.data} picked={data.picked} name={data.db} badge={data.badge}/>}/>
+				return <Route key={index} path={data.url} element={<Games datas={data.data} name={data.db} title={data.name} badge={data.badge}/>}/>
 				}
 			})}
 			<Route path="/users" element={<RequireAuth token={token}><Users></Users></RequireAuth>}/>

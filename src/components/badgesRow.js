@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function BadgesRow({user, data}) {
 
     let badges= []
@@ -26,7 +25,7 @@ export default function BadgesRow({user, data}) {
         }
     })
     return <div className='mb-3'>
-    <h2 className='h3'>Badges :</h2>
+    <h3 className='h3'>Badges :</h3>
         {badges}
     </div>
     

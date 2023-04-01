@@ -66,6 +66,7 @@ const Login = (props) => {
     return (
         <div>
             <Header></Header>
+            <h1 className='d-none'>Connexion</h1>
             <div className='content-center '>
                 <div className="wrapper-form">
                     <form onSubmit={handleSubmit}>

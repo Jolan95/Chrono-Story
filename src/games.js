@@ -6,6 +6,7 @@ import Modal from './components/modalEndGame';
 import Header from './components/header';
 import Record from './components/getRecord.js';
 import Restart from './components/restart';
+import LoaderRing from './components/loaderRing';
 
 function badgeToPretend(score, badge){
 	if(score >= badge["gold"]){
@@ -22,11 +23,11 @@ function badgeToPretend(score, badge){
 function Games(props) {
 	
 	const [isPlaying, setIsPlaying] = useState(true)
+	const [picked, setPicked] = useState(props.datas.shift())
   	const [questionAvailable, setQuestionAvailable] = useState(props.datas)
   	const [life, setLife] = useState(3);
   	const [score, setScore] = useState(0);
-  	const [picked, setPicked] = useState({id : 1000, question : "", date : null, answer : null})
-  	const [questionAnswered, setQuestionAnswered] = useState([props.picked])
+  	const [questionAnswered, setQuestionAnswered] = useState([picked])
   	const [firstDate, setFirstDate] = useState(questionAnswered[0].date) 
 	const [basicModal, setBasicModal] = useState(false);
 	const [basicModalWin, setBasicModalWin] = useState(false);
@@ -76,6 +77,8 @@ function Games(props) {
 	}, [setQuestionAnswered, questionAnswered])
 
 	useEffect(() => {
+		// data.data.sort((a, b) => 0.5 - Math.random());
+		// setPicked(question.shift()) 
 		if(token !== null){
 		  	let user = JSON.parse(localStorage.getItem("user"));
 		  	let id = user._id
@@ -159,9 +162,13 @@ function Games(props) {
 	const toggleShow = () => setBasicModal(!basicModal);
 	const toggleShowWin = () => setBasicModalWin(!basicModalWin);
 
+	if(picked === null){
+		return(<LoaderRing></LoaderRing>)
+	}
   	return (
 	<div>
 		<Header></Header>
+		<h1 className='d-none'>{props.title}</h1>
 		<div className='sticky'>
 			<div className='px-2 mb-2 d-flex justify-content-between align-items-center d-lg-none'>
 				<Record record={record} token={token}></Record>
@@ -177,7 +184,7 @@ function Games(props) {
 				</div>
 				 <Restart isDisplay={!isPlaying ? true : false} action={reset}></Restart> 
 			</div>	
-  	   	 	<div className="text-center box-question" ><h1  style={isPlaying ? { display: `block` } : {display : "none"} } className="text-center question ">{picked.question}</h1></div>
+  	   	 	<div className="text-center box-question" ><h2  style={isPlaying ? { display: `block` } : {display : "none"} } className="text-center question ">{picked.question}</h2></div>
 		</div> 
   	    <div  className="area-answer" data-min="-30000000" data-max={firstDate} onClick={handleTiret}>
 			<div className={isPlaying ? "tiret" : "" } data-min="-30000000" data-max={firstDate} ></div>

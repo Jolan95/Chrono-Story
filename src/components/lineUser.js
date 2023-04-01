@@ -62,20 +62,20 @@ export default function LineUser({user}) {
           })
     }
   return (
-    <div className='row wrapper-user d-flex align-items-center px-3 py-1 h5'>
-        <div className='col-4  d-flex align-items-center '>
+    <div className='row wrapper-user d-flex align-items-center px-sm-2 py-1 h5'>
+        <div className='col-4 d-flex align-items-center '>
             <img className='img-logo-small' src={`${process.env.REACT_APP_URL}/assets/logos/`+user.logoProfile+`.png`} alt="logo" title="logo"></img>
-            <span className='fs-30'>
+            <h2 className='fs-30'>
             {user.pseudo} 
-            </span>
+            </h2>
         </div>
         <div className='col-1'>
         {point()}
         </div>
-        <div className=' col-2'>
+        <div className='offset-sm-0 col-sm-2 col-3 '>
             <NumberBadges badges={user.badges}></NumberBadges>
         </div>
-        <div className='offset-1 col-2'>
+        <div className='offset-1 col-3 col-sm-2'>
             <Link to={`/user/${user._id}`}>
               <button className='btn-grad btn-grad-blue'>
                 <span className='d-none d-md-flex'>Profil</span>
@@ -85,7 +85,7 @@ export default function LineUser({user}) {
               </button>
             </Link>
         </div>
-        <div className='  col-2 d-flex justify-content-center'>
+        <div className='d-none d-sm-flex  col-2  justify-content-center'>
         <ButtonFollow follow={()=> {handleFollow(user._id)}} unfollow={()=> {handleUnfollow(user._id)}} isFollow={isFollow}></ButtonFollow>
         </div>
     </div> 

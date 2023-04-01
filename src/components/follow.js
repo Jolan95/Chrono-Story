@@ -1,20 +1,22 @@
 import React from 'react'
 
-export default function Follow({follows, followers}) {
+export default function Follow(props) {
+
+    
 
   return (
-    <div className='d-flex '>
-        <div className="wrapper-follow mr-3">
+    <div className='d-flex mt-2 mt-lg-0'>
+        <div onClick={()=> {if(props.followers.length > 0){props.actionFollower(true)}}} className="wrapper-follow mr-3 pointer">
             <div className='text-center'>
-                {followers.length}
+                {props.followers.length}
             </div>
             <div className='text-center'>
                 Abonnés
             </div>
         </div>
-        <div className="wrapper-follow">
+        <div onClick={()=> {if(props.follows.length >0){props.actionFollow(true)}}} className="wrapper-follow pointer">
             <div className='text-center'>
-                {follows.length}
+                {props.follows.length}
             </div>
             <div className='text-center'>
                 Abonnements

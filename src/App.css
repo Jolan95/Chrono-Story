@@ -129,6 +129,7 @@ body {
   display : flex;
   align-items:center;
   justify-content: center;
+  cursor : pointer
 }
 .area-answer:hover .tiret{
   background-color : rgb(68, 158, 163)
@@ -203,6 +204,10 @@ h1{
   background-color: blanchedalmond;
   padding : 10px 6px;
   
+}
+.img-error{
+  height : 200px;
+  width : auto
 }
 .svg-restart{
   /* margin-right : 10px; */
@@ -494,7 +499,6 @@ text-shadow: 0 0 0 #282c34a7,
 .0975em .0975em 0 #282c34a7,
 .1em .1em 0 #282c34a7
 	}
-         
   .btn-grad-blue {
     background-image: linear-gradient(to right, #517fa4 0%, #243949  51%, #517fa4  100%);
   }
@@ -539,7 +543,18 @@ text-shadow: 0 0 0 #282c34a7,
 .fs-50{
   font-size: 50px;
 }
-
- 
- 
-   
+@media all and (max-width : 576px){
+  .fs-30{
+    font-size : 20px;
+  }
+  .fs-50{
+    font-size : 30px;
+  }
+  .img-medal-md{
+    height : 21px;
+    width : auto
+  }
+}
+.pointer {
+  cursor: pointer;
+}

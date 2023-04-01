@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Header from './components/header';
 import LineUser from './components/lineUser';
+import LoaderRing from './components/loaderRing'; 
 
 
 export default function User() {
@@ -17,7 +18,6 @@ export default function User() {
 			.then(res => res.json())
 			.then(
 			  	(response) => {
-					console.log(response.users)
 					let newUsers = response.users.filter((user)=>{
 						return user._id !== JSON.parse(localStorage.getItem("user"))._id
  					})
@@ -71,22 +71,19 @@ export default function User() {
 			<Header></Header>
 
 			<div className='container '>
-				<select name="order" onChange={(value) => handleChange(value)}>
+				<span>Trier par : </span>
+				<select className='order-select' name="order" onChange={(value) => handleChange(value)}>
 				    <option value="point">Points</option>
 				    <option value="gold">Médailles d'or</option>
 				    <option value="medals">Médailles</option>
 				</select>
-				<div className='row mb-2 px-3'>
+				<div className='row my-2 px-3'>
 					<div className='col-4'>
             		Pseudo
         			</div>
-        			<div className='col-2 '>
-					👑
+        			<div className='col-1 '>
+					Points
 					</div>
-        			<div className='col-3'>
-        			</div>
-        			<div className='col-2'>
-        			</div>
         		</div>
 	
 				{users.map((user, index)=> {
@@ -99,5 +96,10 @@ export default function User() {
 			</div>
 			</>	  
 		)
+	}else {	
+		return <>
+		<Header></Header>
+		<LoaderRing></LoaderRing>
+		</>
 	}
 }
